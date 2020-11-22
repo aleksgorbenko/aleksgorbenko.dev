@@ -2,6 +2,7 @@
 title: "Screw 'Follow Your Passion' Advice And What To Do Instead?"
 date: "2016-10-09"
 coverImage: "match.jpg"
+description: "Allegedly it's the worst advice of 21st century."
 ---
 
 We have all heard this advice. "Follow your passion".

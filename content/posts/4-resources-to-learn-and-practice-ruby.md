@@ -2,6 +2,7 @@
 title: "4 Resources to Learn and Practice Ruby"
 date: "2016-03-30"
 coverImage: "ruby.jpg"
+description: "I am new to programming. Here is where I learn Ruby."
 ---
 
 I am new to programming.

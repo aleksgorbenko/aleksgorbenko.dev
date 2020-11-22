@@ -2,6 +2,7 @@
 title: "[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 2"
 date: "2016-03-08"
 coverImage: "UX-banner-blog.jpg"
+description: "Continuing the teardown."
 ---
 
 [Tearing Down and Mocking UP Facebook: UX & Design Part 1](http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/)

@@ -1,6 +1,7 @@
 ---
 title: "Firehose Project Week 2"
 date: "2016-05-09"
+description: "Application building foundations"
 ---
 
 This week passed even faster than the previous one. I studied pretty much every day and learn new concept as well. The very basics of the application building were laid in the first week, now it was time to practice them and build upon more foundation.

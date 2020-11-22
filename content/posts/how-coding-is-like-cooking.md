@@ -2,6 +2,8 @@
 title: "How Coding is Like Cooking"
 date: "2016-03-20"
 coverImage: "man-pan-and-code.jpg"
+description: "And how to \"spice things up\" in your code."
+toc: false
 ---
 
 I am sure if you have ever been interested in learning how to program, you came across the metaphor about the algorithm, which is a core element of programming.

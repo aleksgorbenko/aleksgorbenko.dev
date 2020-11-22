@@ -1,6 +1,7 @@
 ---
 title: "Firehose Project Week 9"
 date: "2016-06-27"
+description: "More JavaScript and my first todo app."
 ---
 
 This week my single attention was devoted to JavaScript. I have managed to do quite a few things and can definitely say that I am feeling more confident. Firstly I have built another app - [ToDo](https://todo-aleks-gorbenko.herokuapp.com/) with Rails and jQuery. Many things were not exactly clear to me while I was writing code, so I decided to start over and found some additional sources to learn JS.

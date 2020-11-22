@@ -2,6 +2,7 @@
 title: "The Blessing In Disguise of Being Lost In Life"
 date: "2016-04-15"
 coverImage: "i-am-lost.jpg"
+description: "I have been there, it's not great, but it can be turned into an advantage."
 ---
 
 Have you ever been lost? I mean lost mentally and emotionally? Lost direction in your life, your purpose?

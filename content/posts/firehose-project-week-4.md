@@ -3,6 +3,7 @@ title: "Firehose Project Week 4"
 date: "2016-05-23"
 tags: ["test"]
 categories: ["cat"]
+description: "Lo and Behold - JavaScript."
 ---
 
 This week I got the first taste of JavaScript language and pretty much the whole week was spent in it. I barely touched Ruby or Rails. While I have worked with JS before a little as I watching Lynda.com's Programming Fundamentals course, it was not until now that I have tried to solve challenges with it and not following the tutorials.

@@ -1,0 +1,14 @@
+.tag-li {
+	display:inline !important;
+}
+
+.header .avatar img {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 10%;
+}
+
+.recent-posts .posts .post {
+	margin-bottom: 20px;
+}
