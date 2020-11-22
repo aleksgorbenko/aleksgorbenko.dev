@@ -36,3 +36,7 @@ p > code {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
 	max-width: 90%;
 }
+
+.header nav li {
+	margin: 0 20px 0 0;
+}

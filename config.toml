@@ -1,6 +1,6 @@
 baseURL = "https://aleksgorbenko.dev/"
 languageCode = "en-us"
-title = "aleks Gorbenko"
+title = "{a_G}"
 theme = "hugo-ink"
 
 copyright = "© {a_G}"
@@ -14,7 +14,7 @@ enableRobotsTXT = true
 # disqusShortname = "test"
 
 [params]
-subtitle = "{a_G} | Meditations on Strategy and Tech."
+subtitle = "aleks_Gorbenko | Meditations on Strategy and Tech"
 
 # Optional 64x64 avatar image.
 avatar = "images/aleks_gorbenko_memoji.png"
