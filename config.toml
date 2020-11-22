@@ -1,6 +1,6 @@
 baseURL = "https://aleksgorbenko.dev/"
 languageCode = "en-us"
-title = "{a_G}"
+title = "aleks Gorbenko"
 theme = "hugo-ink"
 
 copyright = "© {a_G}"
@@ -14,10 +14,11 @@ enableRobotsTXT = true
 # disqusShortname = "test"
 
 [params]
-subtitle = "aleks_Gorbenko | Meditations on Strategy and Tech"
+subtitle = "{a_G} | Meditations on Strategy and Tech"
 
 # Optional 64x64 avatar image.
 avatar = "images/aleks_gorbenko_memoji.png"
+favicon = "images/favicon.ico"
 
 # Content types to disable Disqus on.
 disableDisqusTypes = ["page"]
