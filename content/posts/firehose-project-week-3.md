@@ -47,7 +47,7 @@ Each cell in any table of the database should have **ONLY ONE** value. In my cas
 
 Each Place in the Places table would have it's unique ID, which is a ****PRIMARY KEY**** in this case. In my example, each Place has many Photos, so that creates a **"one-to-many" relationship**. So the "Place ID" in the Photos table is a **FOREIGN KEY**  refers to the **PRIMARY KEY** in Places table. Hence, each photo is associated with the correct place. Here is a simple illustration of how Primary Key and Foreign Key look like in the database:
 
-![primary key and foreign key examples](/images/primary-key-and-foreign-key-examples-1024x661.png)
+![primary key and foreign key examples](/images/primary-key-and-foreign-key-examples.png)
 
 Even when I completed the photo uploading feature I did not quite understand why I had to create the new table. And only after watching [Foundations of Programming: Databases](http://www.lynda.com/Access-tutorials/Foundations-Programming-Databases/412845-2.html) I have finally realised why it had to be set up in such as way (screenshot above is taken from that course). As a side note - I highly recommend [Foundations of Programming series on Lynda.com](http://lynda.com). The courses helped me a lot to cement the programming concepts such as Databases, Data Structures, Big-O Notation and others.
 

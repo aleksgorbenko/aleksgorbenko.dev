@@ -17,6 +17,18 @@
 	background-color: #290b29 !important;
 }
 
+.highlight {
+	background-color: #290b29 !important;
+}
+
 .header nav {
 	text-align: center;
+}
+
+p > code {
+	background-color: rgb(94, 30, 117);
+	/* color: #ca2a45; */
+	color: rgb(46, 226, 145);
+	padding: 2px 4px;
+	border-radius: 4px;
 }

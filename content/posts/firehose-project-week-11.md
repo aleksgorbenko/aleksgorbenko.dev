@@ -30,30 +30,28 @@ The result that we get is that every Child Model will have all the data that is 
 
 ```ruby
 Class Child < Parent
-
   #class body
-
 end
 ```
 
 A perfect example which can illustrate STI in action is a Chess game. If you have never played chess - have a look at Wikipedia article, but don't stop there - I urge you to play it. It is known as "the game of the Kings" and rightfully so as the game board is similar to the battlefield with two generals fighting each other. Highly strategic game which will make you think really hard.
 
-Now that you are familiar with the Chess, it has lots of Pieces, but they are all different, right? You have a King, Queen, Rooks, Bishops, Knights, and Pawns. Each of them has their own rules on how they can move and in which directions. Yet they all share properties of this Parent Model "Piece". Here is code from our `schema.`rb file for the Piece Model:
+Now that you are familiar with the Chess, it has lots of Pieces, but they are all different, right? You have a King, Queen, Rooks, Bishops, Knights, and Pawns. Each of them has their own rules on how they can move and in which directions. Yet they all share properties of this Parent Model "Piece". Here is code from our `schema.rb` file for the Piece Model:
 
 ```ruby
-  create_table "pieces", force: :cascade do |t|
-    t.string   "color"
-    t.string   "type"
-    t.integer  "x_position"
-    t.integer  "y_position"
-    t.integer  "game_id"
-    t.integer  "player_id"
-    t.boolean  "captured",   default: false
-    t.boolean  "checkmate",  default: false
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.boolean  "moved",      default: false
-  end
+create_table "pieces", force: :cascade do |t|
+  t.string   "color"
+  t.string   "type"
+  t.integer  "x_position"
+  t.integer  "y_position"
+  t.integer  "game_id"
+  t.integer  "player_id"
+  t.boolean  "captured",   default: false
+  t.boolean  "checkmate",  default: false
+  t.datetime "created_at"
+  t.datetime "updated_at"
+  t.boolean  "moved",      default: false
+end
 ```
 
 As I mentioned, all these properties will be shared between all types of pieces.
@@ -68,19 +66,19 @@ To start with I have built the whole thing in pure HTML using `<table>`, `<tr>`'
 
 ```javascript
 $(function() {
-    for (var y = 0; y <= 7; y++) {
-        $("#chess-board").append(
-          "<tr>" +
-            "<td data-x='0' data-y='" + y + "'></td>" +
-            "<td data-x='1' data-y='" + y + "'></td>" +
-            "<td data-x='2' data-y='" + y + "'></td>" +
-            "<td data-x='3' data-y='" + y + "'></td>" +
-            "<td data-x='4' data-y='" + y + "'></td>" +
-            "<td data-x='5' data-y='" + y + "'></td>" +
-            "<td data-x='6' data-y='" + y + "'></td>" +
-            "<td data-x='7' data-y='" + y + "'></td>" +
-          "</tr>");
-    });
+  for (var y = 0; y <= 7; y++) {
+      $("#chess-board").append(
+        "<tr>" +
+          "<td data-x='0' data-y='" + y + "'></td>" +
+          "<td data-x='1' data-y='" + y + "'></td>" +
+          "<td data-x='2' data-y='" + y + "'></td>" +
+          "<td data-x='3' data-y='" + y + "'></td>" +
+          "<td data-x='4' data-y='" + y + "'></td>" +
+          "<td data-x='5' data-y='" + y + "'></td>" +
+          "<td data-x='6' data-y='" + y + "'></td>" +
+          "<td data-x='7' data-y='" + y + "'></td>" +
+        "</tr>");
+  });
 ```
 
 You might have noticed the `data-x` and `data-y` values (they have been added at a later stage). I will explain in the next post why they are there. At this moment they are out o the scope of this post.
@@ -134,7 +132,7 @@ The rest of the CSS:
 
 Looks quite neat and short and here is the result:
 
-![chess-board](/images/chess-board-1024x819.png)
+![chess-board](/images/chess-board.png)
 
 ## Little Time Savers
 

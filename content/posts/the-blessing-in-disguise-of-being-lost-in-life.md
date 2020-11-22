@@ -58,7 +58,7 @@ The moment when you are consciously aware of your lost state is critical, as you
 
 You can give up, and continue the self-destructive process of drowning in depression - that's the easy way out...OR, you can stand up, look in the mirror and say "IT'S ENOUGH!". Say to yourself out loud: "I am not going to bend! I am not going to break! I can handle this! I will find the way out! I will redefine myself! I will write my own story!" You should feel like this guy a moment after:
 
-![King Leonidas](/images/leonidas-1024x547.jpg)
+![King Leonidas](/images/leonidas.jpg)
 
 ## That's what happened to me once…
 

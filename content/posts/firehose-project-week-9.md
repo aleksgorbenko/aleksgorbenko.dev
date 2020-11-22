@@ -46,7 +46,7 @@ These books will probably make more sense to me in the future when I will have 
 
 After the book I started with the online video courses - this week I have finished 3 JavaScript intro lessons on PluralSight. The majority of the things I knew already so I skipped quite a lot, but nonetheless, it was a good watch. And actually, the only reason I did them is simply due to my test result on the [JS path page on PluralSlight](https://app.pluralsight.com/paths/skills/javascript):
 
-![pluralsight-javascript-test](/images/pluralsight-javascript-test-1024x549.png)
+![pluralsight-javascript-test](/images/pluralsight-javascript-test.png)
 
 Next week I aim to go for some jQuery and get my head around the Prototypical Inheritance as well as `this` keyword.
 

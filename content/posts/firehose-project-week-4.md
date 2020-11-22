@@ -102,7 +102,7 @@ The differences are minimal, so either of them will be a great standard to stick
 
 Sometimes Heroku gives you this error:
 
-![heroku-error](/images/heroku-error-1024x220.png)
+![heroku-error](/images/heroku-error.png)
 
 Right...helpful...let's see the error log...
 
@@ -139,11 +139,11 @@ Hm...where is the "name" method called on a `NilClass`? There is none, ok but we
 
 So I will share a useful way that my mentor showed me this week on how to get some more info to nail down the bug if you have these weird error messages that either don't make sense or just not giving you enough info. First - you open your app on Heroku server and navigate to the page 1 step before this vague error occurs. Open Chrome Dev Tools (Cmd+Option+I on a Mac), go to the Network tab and check the box "Preserve log":
 
-![google-chrome-developer-tools-network](/images/google-chrome-developer-tools-network-1024x411.png)
+![google-chrome-developer-tools-network](/images/google-chrome-developer-tools-network.png)
 
 Refresh the page - you will get a long list of all files that are being loaded on the page. Scroll to the very top and open up the first file - it is normally the HTML header that is being loaded. There you could make sure that the server is getting the right HTTP type of request. in our case, it should be **DELETE**.
 
-![http-header](/images/http-header-1024x789.png)
+![http-header](/images/http-header.png)
 
 So we have the right method...but it still doesn't work (Yes, I know that in the top part of the header I have a POST method - I have the same when I run a server on my local machine and it works like a charm). At this point - not me, neither my mentor were sure how to proceed. I have also got a feedback that the error is most likely due to some Gem incompatibility error or Heroku as the code itself is all correct. Sorry to disappoint if you expected a solution (damn, me too actually!), but my main point here was to show an additional way how to analyse errors when you are stuck and I hope you will find it handy when weird errors pop on your screen.
 

@@ -21,7 +21,7 @@ I guess this is the feeling when you build something and it actually works (I kn
 
 Here is the look:
 
-![google-homepage](/images/google-homepage-1024x503.png)
+![google-homepage](/images/google-homepage.png)
 
 Author:
 
@@ -33,7 +33,7 @@ This task was a bit more challenging. I had to work more with floats and positio
 
 This page also took me a day to complete. By the end of it, I definitely felt more confident in my skills. Here is the result:
 
-![viking-axe-shop](/images/viking-axe-shop-1024x959.png)
+![viking-axe-shop](/images/viking-axe-shop.png)
 
 [The look in the browser.](https://rawgit.com/kucher12/viking_prep_work-VikingShop/master/index.html)
 
@@ -43,19 +43,19 @@ By far that was the most challenging task. Two full days spent on these. There w
 
 ### Homepage
 
-![facebook-mockup-homepage](/images/facebook-homepage-1024x469.png)
+![facebook-mockup-homepage](/images/facebook-homepage.png)
 
 ### Newsfeed
 
-![facebook-neasfeed](/images/facebook-neasfeed-1024x679.png)
+![facebook-neasfeed](/images/facebook-neasfeed.png)
 
 ### About
 
-![facebook-about](/images/facebook-about-1024x667.png)
+![facebook-about](/images/facebook-about.png)
 
 ### Friends
 
-![facebook-friends](/images/facebook-friends-1024x647.png)
+![facebook-friends](/images/facebook-friends.png)
 
 Browser look of [Homepage](https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/index.html), [Newsfeed](https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/newsfeed.html), [About](https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/about.html) and [Friends](https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/friends.html).
 

@@ -1,7 +1,7 @@
 ---
 title: "[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 1"
 date: "2016-03-05"
-coverImage: "code-1076536_1920.jpg"
+coverImage: "screen_with_html_code.jpg"
 description: "Wearing designer had for the first time."
 ---
 

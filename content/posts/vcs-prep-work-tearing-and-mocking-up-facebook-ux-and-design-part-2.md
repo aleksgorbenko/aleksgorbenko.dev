@@ -25,11 +25,11 @@ I will insert the mock-ups in this post for each individual page.
 
 If you want to get PDF / PNG / BMPR (Balsamiq file format) files - [they are available in a repo on GitHub.](https://github.com/kucher12/viking_prep_work) If you are new to GitHub, the easiest way would be to download the ZIP file:
 
-![download the repo files via the "zip download" fucntion](/images/github-download-zip-1024x436.png)
+![download the repo files via the "zip download" fucntion](/images/github-download-zip.png)
 
 ## Facebook Home Page
 
-![facebook homepage mockup](/images/facebook-homepage-1024x658.png)
+![facebook homepage mockup](/images/facebook-homepage.png)
 
 1. Who is the most likely user of this page?
 
@@ -71,7 +71,7 @@ At this point I wouldn't change anything, apart perhaps keeping the font Helveti
 
 ## Facebook News Feed Page
 
-![facebook newsfeed page mockup](/images/facebook-newsfeedpage-1024x769.png)
+![facebook newsfeed page mockup](/images/facebook-newsfeedpage.png)
 
 1. Who is the most likely user of this page?
 
@@ -113,7 +113,7 @@ Another thing - I would increase the width of the News Feed by 1 more GRID colum
 
 ## Facebook Profile Page
 
-![facebook profile page mockup](/images/facebook-profilepage-1024x769.png)
+![facebook profile page mockup](/images/facebook-profilepage.png)
 
 1. Who is the most likely user of this page?
 
@@ -131,11 +131,11 @@ Clearly, yes. There is a cover photo, that is basically taking the top section o
 
 The first thing that I have noticed are the gutter sizes - they are different! See examples below:
 
-![gutter 2](/images/gutter-2-1024x341.png)
+![gutter 2](/images/gutter-2.png)
 
 and
 
-![gutter 1](/images/gutter-1-1024x198.png)
+![gutter 1](/images/gutter-1.png)
 
 I think it really helps to separate various visual elements on this page better.
 
@@ -159,7 +159,7 @@ Reverse the gutter size between the News Feed page and Profile page. I don't thi
 
 ## Facebook About Page
 
-![facebook about page mockup](/images/facebook-aboutpage-1024x769.png)
+![facebook about page mockup](/images/facebook-aboutpage.png)
 
 1. Who is the most likely user of this page?
 
@@ -195,7 +195,7 @@ Nothing. So far it the cleanest and non-distractive page of all that achieves th
 
 ## Facebook Photos Page
 
-![facebook photos page mockup](/images/facebook-photospage-1024x680.png)
+![facebook photos page mockup](/images/facebook-photospage.png)
 
 1. Who is the most likely user of this page?
 
@@ -233,7 +233,7 @@ Not much can be improved here, except for one thing. I would add the Year Timeli
 
 In case I sounded a bit confusing, this is the Year Timeline I referred to:
 
-![facebook timeline](/images/timeline-163x300.png)
+![facebook timeline](/images/facebook_timeline.png)
 
 P.S Just realised that it is now absent from the User Profiles and visible on the "Pages" (such as company pages).
 

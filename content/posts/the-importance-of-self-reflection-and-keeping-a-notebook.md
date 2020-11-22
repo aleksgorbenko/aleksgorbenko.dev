@@ -26,7 +26,7 @@ Start small with one action. Just make notes. You need 2 things for that. The fi
 1. **Mind** - it all starts from the realisation that past needs to be reflected upon. In this case, present thoughts, emotions, the environment needs to be observed and recorded. There is no other way to progress and develop apart from looking deep in the past and extracting the valuable lessons it has to offer for each of us individually. Those who fail to do that are doomed to repeat the same mistakes.
 2. **Pen and paper** - should be your best friends from now on. Since about 2 years ago they are with me wherever I go. I started with simple [Moleskine notebooks](http://www.amazon.com/dp/8862930976/ref=Bks_Cahier_CRed_Plain_PktSft) at first. Firstly they are great quality, secondly the size is small enough to keep them in any pocket. In case you are wondering why red:
 
-![moriarty-red-notebook](/images/moriarty-red-notebook-1024x475.png)
+![moriarty-red-notebook](/images/moriarty-red-notebook.png)
 
 Yes, that's Professor Moriarty. Yes, red because of that. Shut up.
 
