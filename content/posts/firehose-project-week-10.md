@@ -22,7 +22,7 @@ If you are writing software using the TDD approach, you write a lot of tests as 
 
 There a few options existing on the market for CI/CD solutions, the most popular are [CodeShip](https://codeship.com) and [TravisCI](https://travis-ci.com/). I went with CodeShip as a mentor suggested it. It is pretty straightforward to set it up. I followed [this tutorial](http://code.tutsplus.com/tutorials/codeship-continuous-integration-and-delivery-made-simple--cms-23517) and it worked almost immediately after I created the project and hooked it up with the GH repo. Here is a screenshot of the our setup on CodeShip:
 
-![codeship-test-settings](/images/codeship-test-settings-1024x613.png)Author:
+![codeship-test-settings](/images/codeship-test-settings-1024x613.png)
 
 So now, every time one of the team members pushes code to the GitHub - the following happens:
 

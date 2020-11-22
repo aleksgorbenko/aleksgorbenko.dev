@@ -7,7 +7,7 @@ This is [now page](https://nownownow.com/about). Consider adding your own too!
 
 ## Automation
 
-One of the big goals for 2020 for me was to automate a lot of things in life. The project is still onoging.
+One of the big goals for 2020 for me was to automate a lot of things in life. The project is still ongoing.
 
 ## Knowledge Base Migration
 

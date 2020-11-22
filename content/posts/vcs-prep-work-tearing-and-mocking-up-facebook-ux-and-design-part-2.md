@@ -25,7 +25,7 @@ I will insert the mock-ups in this post for each individual page.
 
 If you want to get PDF / PNG / BMPR (Balsamiq file format) files - [they are available in a repo on GitHub.](https://github.com/kucher12/viking_prep_work) If you are new to GitHub, the easiest way would be to download the ZIP file:
 
-![download the repo files via the "zip download" fucntion](/images/github-download-zip-1024x436.png)Author:
+![download the repo files via the "zip download" fucntion](/images/github-download-zip-1024x436.png)
 
 ## Facebook Home Page
 

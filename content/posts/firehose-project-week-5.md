@@ -22,7 +22,7 @@ Same goes for programming - and I am making this process part of my routine: re-
 
 For applications, I just list one by one the new things that I have learned, writing them in short paragraphs most of the time. If the concept is a bit complex - I write example code. So once in a while, I skim through the notes and refresh my memory. Here is an example of how it looks:
 
-![one-note](/images/one-note-1024x1010.png)Author:
+![one-note](/images/one-note-1024x1010.png)
 
 On top of that, I also have a shared Google Doc with my mentor, which is already 28 pages long! Full of code samples, algorithm solutions, and explanations of various programming concepts! Both OneNoe and G-Doc are invaluable resources for my consistent learning.
 

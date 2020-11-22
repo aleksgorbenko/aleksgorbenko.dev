@@ -12,3 +12,11 @@
 .recent-posts .posts .post {
 	margin-bottom: 20px;
 }
+
+.highlight pre {
+	background-color: #290b29 !important;
+}
+
+.header nav {
+	text-align: center;
+}
