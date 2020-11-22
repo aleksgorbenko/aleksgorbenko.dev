@@ -8,7 +8,7 @@ This week passed even faster than the previous one. I studied pretty much every 
 
 I started off this week with building the 2nd application called Nomster - a review site. As students of Firehose Project, we are free to choose which type of places we want to review. It had to be a physical place as part fo the project is to use Google Maps API. As I am based in London and I am Russian, born in Latvia - I decided to make a review site Russian and Eastern European restaurants and food shops in London.
 
-The app is much bigger than the first one that [I have built in my first week](http://localhost/firehose-project-week-1/). It has more features, such as registration, authentication, pagination, commenting, photo upload and email notifications. On top of that, there are now "Self-Directed" sections which I am supposed to figure out on my own and which were the best learning experiences this week. So far I have managed to finish the foundation of the app, play more with Bootstrap 3 and implement 4 features on top of the basic one which is to create a place:
+The app is much bigger than the first one that [I have built in my first week](/posts/firehose-project-week-1/). It has more features, such as registration, authentication, pagination, commenting, photo upload and email notifications. On top of that, there are now "Self-Directed" sections which I am supposed to figure out on my own and which were the best learning experiences this week. So far I have managed to finish the foundation of the app, play more with Bootstrap 3 and implement 4 features on top of the basic one which is to create a place:
 
 1. Pagination with the help of the "will-paginate" gem
 2. Commenting
@@ -95,4 +95,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 15.38%
 
-[<< Week 1](http://localhost/firehose-project-week-1/) === [Week 3 >>](http://localhost/firehose-project-week-3/)
+[<< Week 1](/posts/firehose-project-week-1/) === [Week 3 >>](/posts/firehose-project-week-3/)

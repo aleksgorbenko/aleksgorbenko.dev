@@ -4,7 +4,7 @@ date: "2016-05-16"
 description: "First major project finished!"
 ---
 
-This week I have finished the [Nomster](https://nomster-aleks-gorbenko.herokuapp.com) application that [I have started the previous week](http://localhost/firehose-project-week-2/), but before I go into that I will cover the most significant lesson that I have learned in the past week...
+This week I have finished the [Nomster](https://nomster-aleks-gorbenko.herokuapp.com) application that [I have started the previous week](/posts/firehose-project-week-2/), but before I go into that I will cover the most significant lesson that I have learned in the past week...
 
 ## Don't Overload Yourself
 
@@ -22,7 +22,7 @@ Studying for more than 8 hours a day (in total) is not beneficial simply because
 
 ### To Recover, I Just Did "Nothing"
 
-Science Fiction is the world that I like to escape sometimes when I get a chance, so that's exactly what I was mainly doing for these 3 days. I have read ["1984" by George Orwel](http://www.amazon.com/Animal-Farm-1984-George-Orwell/dp/0151010269?ie=UTF8&keywords=1984&qid=1463660868&ref_=sr_1_2&sr=8-2)l and started to re-watch Episodes I - VI of Star Wars. That was my mode: lots of strong black tea with honey and lemon, Star Wars and 1984, good regular food and of course, lots of sleep. It helped, the pain just naturally faded away after time and I am not repeating the same mistake again.
+Science Fiction is the world that I like to escape sometimes when I get a chance, so that's exactly what I was mainly doing for these 3 days. I have read ["1984" by George Orwell](http://www.amazon.com/Animal-Farm-1984-George-Orwell/dp/0151010269?ie=UTF8&keywords=1984&qid=1463660868&ref_=sr_1_2&sr=8-2)l and started to re-watch Episodes I - VI of Star Wars. That was my mode: lots of strong black tea with honey and lemon, Star Wars and 1984, good regular food and of course, lots of sleep. It helped, the pain just naturally faded away after time and I am not repeating the same mistake again.
 
 ### Moving Forward
 
@@ -89,4 +89,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 23.08
 
-[<< Week 2](http://localhost/firehose-project-week-2/) === [Week 4 >>](http://localhost/firehose-project-week-4/)
+[<< Week 2](/firehose-project-week-2) === [Week 4 >>](/firehose-project-week-4)

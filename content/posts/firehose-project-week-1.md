@@ -94,4 +94,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 7.69%
 
-[Week 2 >>](http://localhost/firehose-project-week-2)
+[Week 2 >>](/posts/firehose-project-week-2)

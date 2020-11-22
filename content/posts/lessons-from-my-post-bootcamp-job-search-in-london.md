@@ -226,6 +226,6 @@ Finally, the number in your contract should not be the reason for the choice of
 
 Finally, I hope you will find this post useful and if you are in a similar position I was myself, you won't make the mistakes I did.
 
-If you are at the start of the bootcamp journey or considering attending one, feel free to check my 13-week journey at The Firehose Project, [starting at week 1](http://localhost/firehose-project-week-1).
+If you are at the start of the bootcamp journey or considering attending one, feel free to check my 13-week journey at The Firehose Project, [starting at week 1](/posts/firehose-project-week-1).
 
 If you have anything to add - I am happy to hear! Leave the comments below!

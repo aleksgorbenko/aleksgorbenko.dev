@@ -7,7 +7,7 @@ description: "Or losing my virginity."
 
 As a part of the Viking Code School prep work I had to analyse Facebook pages from the UX standpoint and create several mockups with Balsamiq. Here are the links to both posts:
 
-[Tearing Down and Mocking UP Facebook: UX & Design Part 1](http://localhost/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/) and [Part 2](http://localhost/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/).
+[Tearing Down and Mocking UP Facebook: UX & Design Part 1](/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/) and [Part 2](/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/).
 
 This time around the task is to actually build a number of pages including the Facebook ones that are covered in the above posts. The other 2 were: Google Homepage and eCommerce shop page that sells axes for Vikings. These exercises were literally my first attempts at building something from the ground up with HTML and CSS.
 

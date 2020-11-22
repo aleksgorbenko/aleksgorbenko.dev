@@ -8,7 +8,7 @@ tags: ["hello"]
 
 ## An Accidental Email
 
-The last couple of weeks I have spent researching the boot camps without actually planning to do so. While I have done that already before and had my eyes on Viking Code School for several months now (as you can probably guess from [some](http://localhost/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/) of my [previous posts](http://localhost/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/))
+The last couple of weeks I have spent researching the boot camps without actually planning to do so. While I have done that already before and had my eyes on Viking Code School for several months now (as you can probably guess from [some](/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/) of my [previous posts](/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/))
 
 I wasn't even looking around until I came across the blog [LearnCodeWith.Me](http://learntocodewith.me/) targeted at the beginner programmers. I signed up for it and had a quick email conversation with Laurence (founder of the blog).
 

@@ -70,7 +70,7 @@ Shortly after I have finished the book...
 
 Sunday, January 12, 2014 at 13.50 PM. I opened the Word document and started with "ENOUGH!". I have written about 2000 words in one go, almost non-stop. Whatever was in my head I let the digital ink capture it. I have written about my past, about my past aims and ambitions and how all of them became meaningless. I re-read that text probably five times after. And finally… I felt liberated, a rock has fallen off my shoulders. I could breathe easily again. I relaxed. I have admitted to myself that the life I was living is not my life, it's just not me…
 
-I have written in my previous post [how important it is to self-reflect and keep noting down your thoughts](http://localhost/the-importance-of-self-reflection-and-keeping-a-notebook/). This stuff is valuable. (I still have this file I mentioned above - besides of learning from it, it's also super fun to re-read it a few years later.
+I have written in my previous post [how important it is to self-reflect and keep noting down your thoughts](/posts/the-importance-of-self-reflection-and-keeping-a-notebook/). This stuff is valuable. (I still have this file I mentioned above - besides of learning from it, it's also super fun to re-read it a few years later.
 
 That day I became aware that I am lost…but that made me frustrated even more. I didn't know how it feels to be lost up until then.
 

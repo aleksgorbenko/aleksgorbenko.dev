@@ -161,6 +161,6 @@ Happy Coding!
 
 My Journey at Firehose Project: 30.78%
 
-[<< Week 3](http://localhost/firehose-project-week-3) === [Week 5 >>](http://localhost/firehose-project-week-5)
+[<< Week 3](/posts/firehose-project-week-3) === [Week 5 >>](/posts/firehose-project-week-5)
 
 P.S my weekly articles are getting longer because there are more things to write about as the course progresses, and this one probably contained 60% of things that I wanted to write about. Initially, I decided to keep articles at around 1000 words, this one just to its 1800th. In future, I will aim to cut down and keep the volume within 1200 words. Parts that won't be covered could subjects for separate posts in the future.

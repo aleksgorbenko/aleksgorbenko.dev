@@ -125,4 +125,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 46.15%
 
-[<< Week 5](http://localhost/firehose-project-week-5) === [Week 7 >>](http://localhost/firehose-project-week-7)
+[<< Week 5](/posts/firehose-project-week-5) === [Week 7 >>](/posts/firehose-project-week-7)
