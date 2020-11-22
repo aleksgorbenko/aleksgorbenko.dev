@@ -2,6 +2,7 @@
 title: "Firehose Project Week 8"
 date: "2016-06-20"
 description: "4th project and dipping toes in Test Driven Development"
+tags: ["coding_bootcamp", "tdd"]
 ---
 
 The 4rth app that was developed using TDD - [Grammable](https://grammable-aleks-gorbenko.herokuapp.com/). It is quite simple (the app, not the process), yet it is much more professional (in the back-end) than other apps that I have built in a sense that it employs industry best practices (as any app should, as it turns out).

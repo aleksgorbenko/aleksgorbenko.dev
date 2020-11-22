@@ -2,6 +2,7 @@
 title: "Firehose Project Week 1"
 date: "2016-05-02"
 description: "Ready. Set. Go."
+tags: ["coding_bootcamp"]
 ---
 
 The first week of the boot camp is completed and so far it has been nothing but great.

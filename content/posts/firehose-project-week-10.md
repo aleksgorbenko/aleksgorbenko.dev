@@ -2,6 +2,7 @@
 title: "Firehose Project Week 10"
 date: "2016-07-04"
 description: "Why, why, JavaScript?"
+tags: ["coding_bootcamp", "javascript"]
 ---
 
 As planned, this week I spent learning more of the JavaScript (nope, I still don't like it that much).  I have also watched some Plularsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.

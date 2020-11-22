@@ -3,7 +3,7 @@ title: "Choosing The Right Online Coding Bootcamp"
 date: "2016-04-24"
 coverImage: "Interactive-Coding-Bootcamp.jpg"
 description: "And what pitfalls to avoid."
-tags: ["hello"]
+tags: ["coding_bootcamp", "self_study"]
 ---
 
 ## An Accidental Email

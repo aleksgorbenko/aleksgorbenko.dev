@@ -3,6 +3,7 @@ title: "Finding The Index of a Single Even or Odd Number in An Array"
 date: "2016-04-22"
 coverImage: "karate.jpg"
 description: "Solving Katas."
+tags: ["kata", "ruby"]
 ---
 
 [CodeWars](http://www.codewars.com/) is a really great place to practice your coding skills by solving different problems of increasing complexity. I just recently started to play around there and find it really challenging, but at the same time, you get to learn a lot.

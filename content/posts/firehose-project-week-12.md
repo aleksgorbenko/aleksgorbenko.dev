@@ -2,6 +2,7 @@
 title: "Firehose Project Week 12"
 date: "2016-07-18"
 description: "Looking beyond the coding bootcamp: job search."
+tags: ["coding_bootcamp", "job_search"]
 ---
 
 As mentioned the previous week, I am getting closer to the point where I will have to start the job search so I have started to work on my portfolio website.

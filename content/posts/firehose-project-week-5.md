@@ -2,6 +2,7 @@
 title: "Firehose Project Week 5"
 date: "2016-05-30"
 description: "JavaScript is hard, dude."
+tags: ["coding_bootcamp", "javascript"]
 ---
 
 This week I kept my main focus on JavaScript, although I did start the third application on the Firehose course - Flixter. It is not live yet and I will aim to complete it within the 2 - 2.5 weeks from now.

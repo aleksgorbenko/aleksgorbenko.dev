@@ -3,6 +3,7 @@ title: "[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 1
 date: "2016-03-05"
 coverImage: "screen_with_html_code.jpg"
 description: "Wearing designer had for the first time."
+tags: ["design", "mock_up"]
 ---
 
 I am currently going through the Prep Work of the Viking Code School (VCS). I thought it would be a good idea to document the assignments online.

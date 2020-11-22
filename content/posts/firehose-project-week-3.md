@@ -2,6 +2,7 @@
 title: "Firehose Project Week 3"
 date: "2016-05-16"
 description: "First major project finished!"
+tags: ["coding_bootcamp"]
 ---
 
 This week I have finished the [Nomster](https://nomster-aleks-gorbenko.herokuapp.com) application that [I have started the previous week](/posts/firehose-project-week-2/), but before I go into that I will cover the most significant lesson that I have learned in the past week...

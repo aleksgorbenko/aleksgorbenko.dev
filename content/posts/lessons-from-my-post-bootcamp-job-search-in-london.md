@@ -3,7 +3,7 @@ title: "What I Learned While Looking For a Job After a Coding Bootcamp"
 date: "2016-11-26"
 coverImage: "looking-for-job.jpg"
 description: "Coding bootcamps are not easy. Finding the job after one is often even harder."
-tags: ["bootcamp", "job_search"]
+tags: ["coding_bootcamp", "job_search"]
 ---
 
 Coding bootcamps are not easy. Finding the job after one is often even harder. I spent a total of 3 months looking for a position since I have finished mine. [There is a similar post written recently](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.xo8qlsw5f) and I have been meaning to write about my experiences as well after I get the job. I got one so I want to share my angle and what I have learned in the process.

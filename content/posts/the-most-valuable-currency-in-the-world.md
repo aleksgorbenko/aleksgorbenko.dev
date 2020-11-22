@@ -3,6 +3,7 @@ title: "The Most Valuable Currency In the World"
 date: "2016-04-01"
 coverImage: "time-on-a-hand.jpg"
 description: "You remember that movie \"In Time\" with Justin Timberlake running around the block?"
+tags: ["life_lesson"]
 ---
 
 You remember that movie "In Time" with Justin Timberlake running around the block? It wasn't a great movie at all, but there was one good line:

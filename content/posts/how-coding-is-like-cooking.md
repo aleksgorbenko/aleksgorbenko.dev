@@ -3,6 +3,7 @@ title: "How Coding is Like Cooking"
 date: "2016-03-20"
 coverImage: "man-pan-and-code.jpg"
 description: "And how to \"spice things up\" in your code."
+tags: ["coding"]
 toc: false
 ---
 

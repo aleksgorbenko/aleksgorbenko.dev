@@ -3,6 +3,7 @@ title: "The Importance of Self-Reflection and Keeping a Notebook"
 date: "2016-04-06"
 coverImage: "self-reflection.jpg"
 description: "Unexamined life is not worth living."
+tags: ["note_taking", "reflection"]
 ---
 
 I will let the ancient one set the stage for this post:

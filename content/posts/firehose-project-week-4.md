@@ -1,7 +1,7 @@
 ---
 title: "Firehose Project Week 4"
 date: "2016-05-23"
-tags: ["test"]
+tags: ["coding_bootcamp"]
 categories: ["cat"]
 description: "Lo and Behold - JavaScript."
 ---

@@ -2,6 +2,7 @@
 title: "Firehose Project Week 11"
 date: "2016-07-11"
 description: "I understand jQuery! Or, hang on... what... how does this even work?"
+tags: ["coding_bootcamp", "jquery"]
 ---
 
 Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. [One on Pluralsight](https://www.pluralsight.com/courses/jquery-fundamentals) and another one [here](http://jqexercise.droppages.com) _(update: it is offline now, so try [this instead](http://try.jquery.com/))_. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.

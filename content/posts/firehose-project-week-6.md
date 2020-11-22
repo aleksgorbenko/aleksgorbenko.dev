@@ -2,6 +2,7 @@
 title: "Firehose Project Week 6"
 date: "2016-06-06"
 description: "More work on the third project."
+tags: ["coding_bootcamp"]
 ---
 
 I made some more progress with the 3rd project - [Flixter](http://flixter-aleks-gorbenko.herokuapp.com/) app _(Update 09.06.16: it is now finished)._ I deviated a bit from the original design just to experiment a bit more with Bootstrap and practice design skills in general, so I spent longer time playing with these things this week. Apart from that following the tradition I made a ton of mistakes and spent lots of time for solving them :)

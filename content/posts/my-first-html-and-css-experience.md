@@ -3,6 +3,7 @@ title: "My First HTML and CSS Experience"
 date: "2016-03-18"
 coverImage: "google-homepage-code.png"
 description: "Or losing my virginity."
+tags: ["html", "css"]
 ---
 
 As a part of the Viking Code School prep work I had to analyse Facebook pages from the UX standpoint and create several mockups with Balsamiq. Here are the links to both posts:
