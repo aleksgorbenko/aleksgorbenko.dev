@@ -67,11 +67,6 @@ icon = "linkedin"
 url = "https://www.linkedin.com/in/aleks-gorbenko-software-engineer/"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/aleksgbko"
-
-[[params.social]]
 name = "Instagram"
 icon = "instagram"
 url = "https://instagram.com/aleksgbko"
