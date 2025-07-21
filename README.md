@@ -1,10 +1,11 @@
-## My Blog files
+# aleksgorbenko.dev
+
+The site is build using [Hugo](https://gohugo.io) and [Hugo Bear](https://github.com/janraasch/hugo-bearblog) theme.
 
 To learn more about me:
 
-- 👤 [Who am I and my past work experiences](https://github.com/aleksgorbenko/whoami)
-
-- 👨🏻‍💻 [How I work](https://github.com/aleksgorbenko/howiwork)
+- 👤 [Who am I and My Professional Path](https://github.com/aleksgorbenko/whoami)
+- 👨🏻‍💻 [How I Work](https://github.com/aleksgorbenko/howiwork)
 
 ### _links
 - 🧰 [LinkedIn](https://www.linkedin.com/in/aleks-gorbenko-software-engineer/)
