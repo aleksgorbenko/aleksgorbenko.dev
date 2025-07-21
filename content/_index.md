@@ -8,9 +8,9 @@ weight = 1
 
 I am a Software Engineer from Riga, Latvia.
 
-- 👤 [Who am I and my past work experiences](https://github.com/aleksgorbenko/whoami)
+- 👤 [Who am I and My Professional Path](https://github.com/aleksgorbenko/whoami)
 
-- 👨🏻‍💻 [How I work](https://github.com/aleksgorbenko/howiwork)
+- 👨🏻‍💻 [How I Work](https://github.com/aleksgorbenko/howiwork)
 
 ---
 
