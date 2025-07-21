@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Css on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/css/</link>
+    <description>Recent content in Css on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Fri, 18 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First HTML and CSS Experience</title>
+      <link>http://localhost:1313/my-first-html-and-css-experience/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-first-html-and-css-experience/</guid>
+      <description>&lt;p&gt;As a part of the Viking Code School prep work I had to analyse Facebook pages from the UX standpoint and create several mockups with Balsamiq. Here are the links to both posts:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;Tearing Down and Mocking UP Facebook: UX &amp;amp; Design Part 1&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/&#34;&gt;Part 2&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This time around the task is to actually build a number of pages including the Facebook ones that are covered in the above posts. The other 2 were: Google Homepage and eCommerce shop page that sells axes for Vikings. These exercises were literally my first attempts at building something from the ground up with HTML and CSS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Job_search on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/job_search/</link>
+    <description>Recent content in Job_search on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Sat, 26 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/job_search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What I Learned While Looking For a Job After a Coding Bootcamp</title>
+      <link>http://localhost:1313/what-i-learned-while-looking-for-a-job-after-a-coding-bootcamp/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-i-learned-while-looking-for-a-job-after-a-coding-bootcamp/</guid>
+      <description>&lt;p&gt;Coding bootcamps are not easy. Finding the job after one is often even harder. I spent a total of 3 months looking for a position since I have finished mine. &lt;a href=&#34;https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.xo8qlsw5f&#34;&gt;There is a similar post written recently&lt;/a&gt; and I have been meaning to write about my experiences as well after I get the job. I got one so I want to share my angle and what I have learned in the process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 12</title>
+      <link>http://localhost:1313/firehose-project-week-12/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-12/</guid>
+      <description>&lt;p&gt;As mentioned the previous week, I am getting closer to the point where I will have to start the job search so I have started to work on my portfolio website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enter-jekyll&#34;&gt;Enter Jekyll&lt;/h2&gt;&#xA;&lt;p&gt;I have chosen to use Jekyll to build it and host it on GitHub Pages. Firstly, deployment is as simple as just making a git commit and pushing the code to GitHub. You just have to make sure that the repo is named correctly: &amp;lsquo;&lt;code&gt;marcusaurelius.github.io&lt;/code&gt;&amp;rsquo;. Secondly, it is totally free. Jekyll was developed by GitHub team, so the only thing that you have to learn is the Jekyll itself, the rest will be taken by GH.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

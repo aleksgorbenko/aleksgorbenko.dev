@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cat on Aleks Gorbenko</title>
+    <link>http://localhost:1313/categories/cat/</link>
+    <description>Recent content in Cat on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Mon, 23 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/cat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firehose Project Week 4</title>
+      <link>http://localhost:1313/firehose-project-week-4/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-4/</guid>
+      <description>&lt;p&gt;This week I got the first taste of JavaScript language and pretty much the whole week was spent in it. I barely touched Ruby or Rails. While I have worked with JS before a little as I watching Lynda.com&amp;rsquo;s Programming Fundamentals course, it was not until now that I have tried to solve challenges with it and not following the tutorials.&lt;/p&gt;&#xA;&lt;p&gt;This week I mainly was jumping around between three learning resources for JS: Firehose JS Deep Dive, FreeCodeCamp and an app - &lt;a href=&#34;http://www.sololearn.com/&#34;&gt;SoloLearn&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

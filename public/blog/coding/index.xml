@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/coding/</link>
+    <description>Recent content in Coding on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Sun, 20 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How Coding is Like Cooking</title>
+      <link>http://localhost:1313/how-coding-is-like-cooking/</link>
+      <pubDate>Sun, 20 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-coding-is-like-cooking/</guid>
+      <description>&lt;p&gt;I am sure if you have ever been interested in learning how to program, you came across the metaphor about the algorithm, which is a core element of programming.&lt;/p&gt;&#xA;&lt;p&gt;Author: Algorithm is similar to a recipe of a dish. It is a sequence of instructions you have to fulfill to get the desired result.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t disagree with it, on the contrary -  I just want to take this metaphor one step further&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

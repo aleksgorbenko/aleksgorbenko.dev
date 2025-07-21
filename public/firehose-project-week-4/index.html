@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 4 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 4" />
+<meta name="description" content="Lo and Behold - JavaScript." />
+<meta name="keywords" content="bootcamp," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-4/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 4">
+  <meta property="og:description" content="Lo and Behold - JavaScript.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-05-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-05-23T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 4">
+  <meta name="twitter:description" content="Lo and Behold - JavaScript.">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 4">
+  <meta itemprop="description" content="Lo and Behold - JavaScript.">
+  <meta itemprop="datePublished" content="2016-05-23T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-05-23T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1843">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 4</h1>
+<p>
+  <i>
+    <time datetime='2016-05-23'>
+      23 May, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>This week I got the first taste of JavaScript language and pretty much the whole week was spent in it. I barely touched Ruby or Rails. While I have worked with JS before a little as I watching Lynda.com&rsquo;s Programming Fundamentals course, it was not until now that I have tried to solve challenges with it and not following the tutorials.</p>
+<p>This week I mainly was jumping around between three learning resources for JS: Firehose JS Deep Dive, FreeCodeCamp and an app - <a href="http://www.sololearn.com/">SoloLearn</a>.</p>
+<h2 id="enter-the-javascript">Enter The JavaScript</h2>
+<p>FFC is based mostly on JavsScript in general so I thought it would be a great start to go through everything that is there. They have a track which is said to take about 10 hours, but actually, you can complete it in half of that time. I then went on to complete the Firehose JS Deep Dive. I did not go through it all this week. There are a few more lessons left that are covering AJAX requests and how to make these. Luckily FFC also has a special section on it so I will complete them side by side later. Finally, SoloLearn - it&rsquo;s an app for iOS and Android, it has short intro courses on quite a few languages such as Python, Swift, PHP and&hellip;JS of course. I think it provided a useful exercise while I was commuting this week, but not more. Actually, it made some of the things a bit confusing. For instance, it teaches you that a Method and a Function are two different things in JS. Yes, while there is a slight difference between then, programmers are using these terms interchangeably, but the app explicitly explains it:</p>
+<p>&ldquo;A Javascript function is a block of code designed to perform a particular task&rdquo;. Ok here it is - a function that just pops an alert in the browser:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">function</span> hello(name) {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  alert(<span style="color:#4070a0">&#34;May the Force be with you &#34;</span> <span style="color:#666">+</span> name <span style="color:#4070a0">&#34;!&#34;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>hello(<span style="color:#4070a0">&#34;Aleks&#34;</span>);  <span style="color:#60a0b0;font-style:italic">//alerts &#34;May th Force be with you Aleks!&#34;
+</span></span></span></code></pre></div><p>Pretty straightforward, right?</p>
+<p>What about the method? The app has a &ldquo;little&rdquo; more complicated definition (bear in mind - this app is for complete beginners).</p>
+<p>&ldquo;A function is a standalone unit of statements; a method is attached to an object and can be referenced using <code>this</code> keyword. Within a function, <code>this</code> is used to access object methods, as well as the properties of the object that invokes the method&rdquo;. If you understand it - great! If you found this bit confusing &ldquo;a method is attached to an object and can be referenced using <code>this</code> keyword. Within a function, <code>this</code> is used to access object methods&rdquo; I found a simpler explanation. It is best to show with an example.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">function</span> Dog(name, breed) {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#007020;font-weight:bold">this</span>.name <span style="color:#666">=</span> name;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>  <span style="color:#007020;font-weight:bold">this</span>.breed <span style="color:#666">=</span> breed;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span><span style="color:#007020;font-weight:bold">var</span> myDog <span style="color:#666">=</span> <span style="color:#007020;font-weight:bold">new</span> Dog(<span style="color:#4070a0">&#34;Leo&#34;</span>, <span style="color:#4070a0">&#34;Puddle&#34;</span>); <span style="color:#60a0b0;font-style:italic">// creates an object &#34;Leo&#34; and assignes it to variable
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#60a0b0;font-style:italic"></span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>myDog.name; <span style="color:#60a0b0;font-style:italic">// returns &#34;Leo&#34;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9</span><span><span style="color:#60a0b0;font-style:italic">// .name is a method to access the property &#34;name&#34; of the object
+</span></span></span></code></pre></div><p><code>function Dog(name, breed)</code> - is called constructor function, which is used to create a template for an object. You can think of it as sort of a class in JS (strictly speaking it isn&rsquo;t and shouldn&rsquo;t be treated as one, but it makes it easier to understand to start with).</p>
+<p><code>.name</code> and <code>.breed</code> - are both methods of the object. There is no function in this code (as in the function like in the first example).</p>
+<p>If you really want to go deeper - here is a page that explains all these subtle <a href="http://programmers.stackexchange.com/questions/20909/method-vs-function-vs-procedure">differences between functions, methods, subroutines and procedures</a>.</p>
+<p>Ok, this is just a definition fight you might say, but I think it does get people confused. I asked what&rsquo;s the difference between method and function during the weekly office hours, and even the mentor&rsquo;s response was &ldquo;well there is none really&rdquo;, he was surprised that I said that this app says otherwise too.</p>
+<p>That being said JS is a powerful language it seems, but it does have the bad parts as there got to be a reason, why there is a book called <a href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">JavaScript: The Good Parts</a> exists&hellip;</p>
+<h2 id="database-merge">Database Merge</h2>
+<p>Another cool thing I discovered this week is a DB merge method. It is native to Rails though and works through ActiveRecord and I am not sure how it works in other frameworks, but the idea is very simple. Here is a controller from an application:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">CommentsController</span> <span style="color:#666">&lt;</span> <span style="color:#60add5">ApplicationController</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  before_action <span style="color:#517918">:authenticate_user!</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">create</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>    <span style="color:#bb60d5">@place</span> <span style="color:#666">=</span> <span style="color:#60add5">Place</span><span style="color:#666">.</span>find(params<span style="color:#666">[</span><span style="color:#517918">:place_id</span><span style="color:#666">]</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>    <span style="color:#bb60d5">@place</span><span style="color:#666">.</span>comments<span style="color:#666">.</span>create(comment_params<span style="color:#666">.</span>merge(<span style="color:#517918">user</span>: current_user)) <span style="color:#60a0b0;font-style:italic">### This Line!</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>    redirect_to place_path(<span style="color:#bb60d5">@place</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  <span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  <span style="color:#007020">private</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">comment_params</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>    params<span style="color:#666">.</span>require(<span style="color:#517918">:comment</span>)<span style="color:#666">.</span>permit(<span style="color:#517918">:message</span>, <span style="color:#517918">:rating</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>  <span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><p>I marked a line that has the merge command with <code>###</code>. Here is how it works. We are going to create an object <code>Comment</code> and store it in the database. Before creating it we need to validate it - comment_params method. It makes sure that the two values of Message and Rating parameters are not empty. These values will be the ones to be saved in the database. But before saving them we need to attach a <code>current_user</code> to it so we know who left the comment. This is where the merge command comes in. Effectively, it pushes one more parameter into the <code>comment_params</code>.</p>
+<p>If we would send the command to the database without the merge, it would look like this:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#bb60d5">@place</span><span style="color:#666">.</span>comments<span style="color:#666">.</span>create(comment_params)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#60a0b0;font-style:italic"># would call a command Comment.create(message: &#39;some message&#39;, rating: &#39;some rating&#39;)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#60add5">After</span> <span style="color:#517918">merge</span>:
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span><span style="color:#bb60d5">@place</span><span style="color:#666">.</span>comments<span style="color:#666">.</span>create(comment_params<span style="color:#666">.</span>merge(<span style="color:#517918">user</span>: current_user))
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span><span style="color:#60a0b0;font-style:italic"># calls Comment.create(message: &#39;some message&#39;, rating: &#39;some rating&#39;, user: &lt;User1#&gt;)</span>
+</span></span></code></pre></div><h2 id="style-guides">Style Guides</h2>
+<p>I was wondering before how companies that have teams of developers make sure that the code style is consistent? Simple things as indentation, using tabs vs spaces etc. Turns out the answer is very simple - Style Guide. I guess most of the tech companies have them, those who don&rsquo;t might be using guides made by other companies, and I hope there are no companies that DON&rsquo;T use these. It is very easy to appreciate them because if all teams follow the same set of styling rules, the code will look like it was written by a single entity. Here are a couple of examples of style guides.</p>
+<p><a href="https://github.com/airbnb/ruby">AirBnB Ruby Style Guide</a></p>
+<p><a href="https://github.com/styleguide/ruby">GitHub Ruby Guide</a></p>
+<p>The differences are minimal, so either of them will be a great standard to stick with. I went with AirBnB as was advised by my mentor.</p>
+<h2 id="chrome-dev-tools-trick">Chrome Dev Tools Trick</h2>
+<p>Sometimes Heroku gives you this error:</p>
+<p><img src="/images/heroku-error.png" alt="heroku-error"></p>
+<p>Right&hellip;helpful&hellip;let&rsquo;s see the error log&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>Started DELETE <span style="color:#4070a0">&#34;/places/11&#34;</span> <span style="color:#007020;font-weight:bold">for</span> 90.200.44.195 at 2016-05-15 15:18:57 +0000
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>Started DELETE <span style="color:#4070a0">&#34;/places/11&#34;</span> <span style="color:#007020;font-weight:bold">for</span> 90.200.44.195 at 2016-05-15 15:18:57 +0000
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>Processing by PlacesController#destroy as HTML
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>Processing by PlacesController#destroy as HTML
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  Parameters: <span style="color:#666">{</span><span style="color:#4070a0">&#34;authenticity_token&#34;</span><span style="color:#666">=</span>&gt;<span style="color:#4070a0">&#34;kXGXYbArNAbptPH/NQwlAmBnx5JUsqB+1SIpzU9SSeY=&#34;</span>, <span style="color:#4070a0">&#34;id&#34;</span><span style="color:#666">=</span>&gt;<span style="color:#4070a0">&#34;11&#34;</span><span style="color:#666">}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>  Parameters: <span style="color:#666">{</span><span style="color:#4070a0">&#34;authenticity_token&#34;</span><span style="color:#666">=</span>&gt;<span style="color:#4070a0">&#34;kXGXYbArNAbptPH/NQwlAmBnx5JUsqB+1SIpzU9SSeY=&#34;</span>, <span style="color:#4070a0">&#34;id&#34;</span><span style="color:#666">=</span>&gt;<span style="color:#4070a0">&#34;11&#34;</span><span style="color:#666">}</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>Completed <span style="color:#40a070">500</span> Internal Server Error in 40ms
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>Completed <span style="color:#40a070">500</span> Internal Server Error in 40ms
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>NoMethodError <span style="color:#666">(</span>undefined method <span style="color:#4070a0">`</span>name<span style="color:#4070a0">&#39; for nil:NilClass):
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#4070a0">  app/controllers/places_controller.rb:66:in `destroy&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>NoMethodError <span style="color:#666">(</span>undefined method <span style="color:#4070a0">`</span>name<span style="color:#4070a0">&#39; for nil:NilClass):
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span><span style="color:#4070a0">  app/controllers/places_controller.rb:66:in `destroy&#39;</span>
+</span></span></code></pre></div><p>So we know the mistake is on line 66 in &ldquo;destroy&rdquo; method, and there is an undefined method &ldquo;name&rdquo; that is being called on a NilClass. Sounds very helpful, let&rsquo;s have a look at our method:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">destroy</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>    <span style="color:#bb60d5">@place</span> <span style="color:#666">=</span> <span style="color:#60add5">Place</span><span style="color:#666">.</span>find(params<span style="color:#666">[</span><span style="color:#517918">:id</span><span style="color:#666">]</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>      <span style="color:#007020;font-weight:bold">if</span> <span style="color:#bb60d5">@place</span><span style="color:#666">.</span>user <span style="color:#666">!=</span> current_user
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>        <span style="color:#007020;font-weight:bold">return</span> render <span style="color:#517918">text</span>: <span style="color:#4070a0">&#34;Not Allowed&#34;</span>, <span style="color:#517918">status</span>: <span style="color:#517918">:forbidden</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>      <span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span>    <span style="color:#bb60d5">@place</span><span style="color:#666">.</span>destroy <span style="color:#60a0b0;font-style:italic"># line 66</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>    redirect_to root_path
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><p>Hm&hellip;where is the &ldquo;name&rdquo; method called on a <code>NilClass</code>? There is none, ok but we know that somehow the whole &ldquo;destroy&rdquo; method failed to execute.</p>
+<p>So I will share a useful way that my mentor showed me this week on how to get some more info to nail down the bug if you have these weird error messages that either don&rsquo;t make sense or just not giving you enough info. First - you open your app on Heroku server and navigate to the page 1 step before this vague error occurs. Open Chrome Dev Tools (Cmd+Option+I on a Mac), go to the Network tab and check the box &ldquo;Preserve log&rdquo;:</p>
+<p><img src="/images/google-chrome-developer-tools-network.png" alt="google-chrome-developer-tools-network"></p>
+<p>Refresh the page - you will get a long list of all files that are being loaded on the page. Scroll to the very top and open up the first file - it is normally the HTML header that is being loaded. There you could make sure that the server is getting the right HTTP type of request. in our case, it should be <strong>DELETE</strong>.</p>
+<p><img src="/images/http-header.png" alt="http-header"></p>
+<p>So we have the right method&hellip;but it still doesn&rsquo;t work (Yes, I know that in the top part of the header I have a POST method - I have the same when I run a server on my local machine and it works like a charm). At this point - not me, neither my mentor were sure how to proceed. I have also got a feedback that the error is most likely due to some Gem incompatibility error or Heroku as the code itself is all correct. Sorry to disappoint if you expected a solution (damn, me too actually!), but my main point here was to show an additional way how to analyse errors when you are stuck and I hope you will find it handy when weird errors pop on your screen.</p>
+<h2 id="summary">Summary</h2>
+<p>They say 80% of the impression is made within the first 3 seconds. Perhaps it is true to say of a language - a couple of hours will get you a first impression. My first impression of JavaScript - I don&rsquo;t like it. Coming from a language like Ruby - many things don&rsquo;t really make sense. But once again - it is just a start and I hope soon enough I will know enough to appreciate the language more.</p>
+<p>I keep learning new things about databases and I start thinking that actually knowing how to work with it properly and effectively (sending as few requests as possible while getting all the data you need) is a very powerful skill. Moreover, if you think about it -  applications without the data, or without the correct data are worthless. Corrupted data is worthless. Therefore taking a separate course on database management could prove very useful in the future. This is just an idea at this stage, but I will definitely revisit it once I am done with the Firehose Project.</p>
+<p>Keep your code consistent at all times - style guides are there well, to guide you.</p>
+<p>Knowing how to analyse errors is one of the most valuable skills a programmer can have - learn as many tactics of approaching error as you can.</p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 30.78%</p>
+<p><a href="/posts/firehose-project-week-3">&laquo; Week 3</a> === <a href="/posts/firehose-project-week-5">Week 5 &raquo;</a></p>
+<p>P.S my weekly articles are getting longer because there are more things to write about as the course progresses, and this one probably contained 60% of things that I wanted to write about. Initially, I decided to keep articles at around 1000 words, this one just to its 1800th. In future, I will aim to cut down and keep the volume within 1200 words. Parts that won&rsquo;t be covered could subjects for separate posts in the future.</p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

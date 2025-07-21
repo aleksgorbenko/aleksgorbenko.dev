@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>My First HTML and CSS Experience | Aleks Gorbenko</title>
+<meta name="title" content="My First HTML and CSS Experience" />
+<meta name="description" content="Or losing my virginity." />
+<meta name="keywords" content="html,css," />
+
+
+<meta property="og:url" content="http://localhost:1313/my-first-html-and-css-experience/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="My First HTML and CSS Experience">
+  <meta property="og:description" content="Or losing my virginity.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-03-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-03-18T00:00:00+00:00">
+    <meta property="article:tag" content="Html">
+    <meta property="article:tag" content="Css">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="My First HTML and CSS Experience">
+  <meta name="twitter:description" content="Or losing my virginity.">
+
+
+
+
+  <meta itemprop="name" content="My First HTML and CSS Experience">
+  <meta itemprop="description" content="Or losing my virginity.">
+  <meta itemprop="datePublished" content="2016-03-18T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-03-18T00:00:00+00:00">
+  <meta itemprop="wordCount" content="786">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Html,Css">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>My First HTML and CSS Experience</h1>
+<p>
+  <i>
+    <time datetime='2016-03-18'>
+      18 Mar, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>As a part of the Viking Code School prep work I had to analyse Facebook pages from the UX standpoint and create several mockups with Balsamiq. Here are the links to both posts:</p>
+<p><a href="/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/">Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1</a> and <a href="/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/">Part 2</a>.</p>
+<p>This time around the task is to actually build a number of pages including the Facebook ones that are covered in the above posts. The other 2 were: Google Homepage and eCommerce shop page that sells axes for Vikings. These exercises were literally my first attempts at building something from the ground up with HTML and CSS.</p>
+<h2 id="1-google-homepage">1. Google Homepage</h2>
+<p>I remember reading somewhere (can&rsquo;t find it now) that in development there is a rule of thumb that states something along these lines: the time expected to be spent on a project is usually 5 times longer than the original expectation. I think that was the first thing I have learned when I first started with Google Homepage. My thought was - ok I can do it in 3, max 4 hours. Well, it took me a full day to complete it. By midnight, it was still not ready.One part of me was sleepy and wanted to postpone the completion until tomorrow, the second part really wanted to finish it ASAP. The latter one had won - by 3.30 AM the page was done. Only then I realised that, firstly - it&rsquo;s freaking 3.30 AM already, secondly - I didn&rsquo;t stand up a single time since midnight. I was tired, hungry and looked like shit. The best part was that none of that mattered to me. I have built my first page. My. First. Page.</p>
+<p>One part of me was sleepy and wanted to postpone the completion until tomorrow, the second part really wanted to finish it ASAP. The latter one had won - by 3.30 AM the page was done. Only then I realised that, firstly - it&rsquo;s freaking 3.30 AM already, secondly - I didn&rsquo;t stand up a single time since midnight. I was tired, hungry and looked like shit. The best part was that none of that mattered to me. I have built my first page. My. First. Page.</p>
+<p>I guess this is the feeling when you build something and it actually works (I know the code might look messy, well it&rsquo;s the first step at the end of the day, right?)</p>
+<p>Here is the look:</p>
+<p><img src="/images/google-homepage.png" alt="google-homepage"></p>
+<p>Author:</p>
+<p>And here is how the <a href="https://rawgit.com/kucher12/viking_prep_work-GoogleHomepage/master/google.html">page looks in the browser.</a></p>
+<h2 id="2-viking-axe-ecommerce-shop-page">2. Viking Axe eCommerce Shop Page</h2>
+<p>This task was a bit more challenging. I had to work more with floats and positioning. My first attempt at this looked entirely broken and I couldn&rsquo;t figure out what was the reason, so I started from the very beginning.This page also took me a day to complete, and by the end of it, I definitely felt more confident in my skills. Here is the result:</p>
+<p>This page also took me a day to complete. By the end of it, I definitely felt more confident in my skills. Here is the result:</p>
+<p><img src="/images/viking-axe-shop.png" alt="viking-axe-shop"></p>
+<p><a href="https://rawgit.com/kucher12/viking_prep_work-VikingShop/master/index.html">The look in the browser.</a></p>
+<h2 id="3-four-facebook-pages">3. Four Facebook Pages</h2>
+<p>By far that was the most challenging task. Two full days spent on these. There were many more elements to be made here: forms, tables, buttons. It was a great stretch indeed. Also, to avoid any confusion, I did not use my own mockups to design these pages, instead, I used the ones from <a href="http://www.vikingcodeschool.com/web-markup-and-coding/let-s-build-facebook">here</a>.</p>
+<h3 id="homepage">Homepage</h3>
+<p><img src="/images/facebook-homepage.png" alt="facebook-mockup-homepage"></p>
+<h3 id="newsfeed">Newsfeed</h3>
+<p><img src="/images/facebook-neasfeed.png" alt="facebook-neasfeed"></p>
+<h3 id="about">About</h3>
+<p><img src="/images/facebook-about.png" alt="facebook-about"></p>
+<h3 id="friends">Friends</h3>
+<p><img src="/images/facebook-friends.png" alt="facebook-friends"></p>
+<p>Browser look of <a href="https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/index.html">Homepage</a>, <a href="https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/newsfeed.html">Newsfeed</a>, <a href="https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/about.html">About</a> and <a href="https://cdn.rawgit.com/kucher12/prep_facebook_pages/master/friends.html">Friends</a>.</p>
+<p>From aside, one might think that there is nothing to be proud of the pages above. Let&rsquo;s be objective - they look bad&hellip;real bad. I am an SEO for the last 1.5 years and I completely agree that these pages are horrendous! (Actually, Google page is not that bad!) Regardless - it&rsquo;s the first step, the next one - will be better, the following - even better. Besides, look at Facebook in 2005:</p>
+<p><img src="/images/facebook-in-2005.png" alt="facebook-in-2005"></p>
+<p>Once again, if you find yourself also following the Prep Work of VCS - feel free to use the materials, I hope you can find them helpful.</p>
+<p>GitHub repo links to all 3 projects:</p>
+<p><a href="https://github.com/kucher12/viking_prep_work-GoogleHomepage">Google Homepage</a> <a href="https://github.com/kucher12/viking_prep_work-VikingShop">Viking Axe eCommerce Shop</a> <a href="https://github.com/kucher12/prep_facebook_pages">Facebook Pages</a></p>
+<p>In hindsight, this is what I have learned from the exercise (apart from the actual coding part):</p>
+<ol>
+<li>More than half of errors in design are committed during the design phase.</li>
+<li>Your project completion estimate should be about 5 times of your original expectation.</li>
+<li>Don&rsquo;t code till 3:30 AM, actually&hellip;scratch that - code till whenever you want if you love it!</li>
+</ol>
+<p>Now that the HTML and CSS part of the Prep Work is completed, it&rsquo;s time to get hands on Ruby!</p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/html/">#html</a>
+  
+  <a href="http://localhost:1313/blog/css/">#css</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

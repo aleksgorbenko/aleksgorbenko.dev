@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 6 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 6" />
+<meta name="description" content="More work on the third project." />
+<meta name="keywords" content="bootcamp," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-6/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 6">
+  <meta property="og:description" content="More work on the third project.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-06-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-06-06T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 6">
+  <meta name="twitter:description" content="More work on the third project.">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 6">
+  <meta itemprop="description" content="More work on the third project.">
+  <meta itemprop="datePublished" content="2016-06-06T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-06-06T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1452">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 6</h1>
+<p>
+  <i>
+    <time datetime='2016-06-06'>
+      06 Jun, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I made some more progress with the 3rd project - <a href="http://flixter-aleks-gorbenko.herokuapp.com/">Flixter</a> app <em>(Update 09.06.16: it is now finished).</em> I deviated a bit from the original design just to experiment a bit more with Bootstrap and practice design skills in general, so I spent longer time playing with these things this week. Apart from that following the tradition I made a ton of mistakes and spent lots of time for solving them :)</p>
+<h2 id="short-intro-to-sass">Short Intro to SASS</h2>
+<p>This week I have also touched upon SASS for the first time. SASS stands for Synthetically Awesome Style Sheets and it is a Pre-compiler of CSS. When it is installed in your app (as a gem if you are using Rails), it will compile the <code>.scss</code> file (that&rsquo;s the SASS file extension) into <code>.css</code> and then serve it to the browser, which in turn will render it on the page. Browsers cannot interpret .scss files. SASS really makes it easier to write your CSS and expands the functionality. So far I just used one of its functions - variables. Works pretty straightforward - you name the variable in your file starting with the <code>$</code> and then assign a value to that. Now you can use this variable anywhere in your file. For instance, let&rsquo;s set a couple variable:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">$</span><span style="color:#062873;font-weight:bold">navbar-height</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">150px</span><span style="color:#666">;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#666">$</span><span style="color:#062873;font-weight:bold">mobile-navbar-height</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">250px</span><span style="color:#666">;</span>
+</span></span></code></pre></div><p>Then we could use them in media queries:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>.<span style="color:#0e84b5;font-weight:bold">navbar</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#007020;font-weight:bold">height</span>: <span style="">$</span>navbar-height;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>@<span style="color:#007020;font-weight:bold">media</span> <span style="color:#666">(</span><span style="color:#062873;font-weight:bold">max-width</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">750px</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6</span><span>  .<span style="color:#0e84b5;font-weight:bold">navbar</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7</span><span>    <span style="color:#007020;font-weight:bold">height</span>: <span style="">$</span>mobile-navbar-height;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8</span><span>  }
+</span></span></code></pre></div><p>So to call the variables you also write them with the <code>$</code> sign. This is the only feature I have used, but one could immediately appreciate how much it could simplify writing the style sheets. With variables, you can set the value once and if you ever need to change it - there is only one place you need to do that. That makes your code DRY as well as maintainable. I will study SASS in more depth in the future - seems like <a href="https://www.codecademy.com/learn/learn-sass">CodeCademy got a new course on it</a>. Overall it seems that people are moving away from other popular pre-compiler LESS in favor of SASS. <a href="http://www.hongkiat.com/blog/sass-vs-less/">Here</a> and <a href="http://www.zingdesign.com/less-vs-sass-its-time-to-switch-to-sass/">here</a> are two comparisons which both conclude that SASS is generally better. Moreover, Bootstrap 4 is officially <a href="http://blog.getbootstrap.com/2015/08/19/bootstrap-4-alpha/">moving from to LESS to SASS too</a>, though it is still in Alpha. Anyway, just that makes learning SASS now even more valuable.</p>
+<h2 id="a-few-good-mistakes-i-have-learned-from-this-week">A Few Good Mistakes I Have Learned From This Week</h2>
+<h3 id="the-sequence-of-gem-installation-matters-a-case-of-devise-and-simple_form">The Sequence of Gem Installation Matters: a Case of devise and simple_form</h3>
+<p>Some gems integrate with one another, some are dependent on one another. While that sounds logical on its own, whether they <strong>WILL</strong> integrate with one another depends if you install them in a right sequence. While building Flixter I installed devise gem before the <code>simple_form</code>. <code>Devise</code> is responsible for user registration and logins, it creates lots of files during installation, sets the routes for you in the <code>routes.</code>rb file and&hellip;yes - creates the forms. <strong>BUT</strong> if it sees that the simple_form is absent, it will just fallback on default form styles. Even if you install simple_form <strong>AFTER</strong> - it won&rsquo;t work, the forms still will be broken. The solution is very simple, though - re-run the <code>devise</code> installation <strong>AFTER</strong> you have installed the <code>simple_form</code>. Just run:</p>
+<p><code>$ rails generate devise:views</code></p>
+<p><em>Note: run the command without <code>$</code>. The <code>$</code></em> symbol <em>just indicates a command line prompt that is ready for the input.</em></p>
+<p>If asked about the file conflicts - press <code>Y</code> and agree to overwrite them. That&rsquo;s all. If you run into more issues, check this <a href="https://github.com/plataformatec/simple_form/wiki/Simple-Form-with-Devise">official simple_form post on GitHub</a>.</p>
+<h3 id="be-careful-with-authentications-in-applicationcontroller">Be Careful With Authentications in ApplicationController</h3>
+<p>Devise gem by default gives you a method - <code>before_action :authenticate_user!</code>. It is very handy in controllers - if you are in a controller that is responsible for the actions of users who are logged in - just stick this line at the top and that&rsquo;s it. But don&rsquo;t do what I did by mistake - put it the <code>ApplicationController</code>, it is the main controller from which all other controllers inherit. If you put this authentication there users would have to be signed in to perform ANY action or click. So yeah - you can imagine me clicking on &ldquo;Sign Up&rdquo; button and seeing an error &ldquo;You have to be signed in to perform this action&rdquo; :) Speaking of devise - they have a handy default notifications that yo can use out of the box - Alert and Notice, best used with Bootstrap:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>  <span style="color:#666">&lt;</span><span style="color:#c65d09">% if </span> notice<span style="color:#666">.</span>present? <span style="color:#4070a0">%&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#4070a0">    &lt;p class=&#34;alert alert-info text-center&#34;&gt;</span><span style="color:#666">&lt;</span><span style="color:#4070a0">%= notice %&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#4070a0">      &lt;button class=</span><span style="color:#4070a0">&#34;close&#34;</span> data<span style="color:#666">-</span>dismiss<span style="color:#666">=</span><span style="color:#4070a0">&#34;alert&#34;</span><span style="color:#666">&gt;</span><span style="">×</span><span style="color:#666">&lt;</span><span style="color:#235388">/button&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span><span style="color:#235388">    &lt;/</span><span style="color:#007020">p</span><span style="color:#666">&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  <span style="color:#666">&lt;</span><span style="color:#c65d09">% end </span> <span style="color:#4070a0">%&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span><span style="color:#4070a0">
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span><span style="color:#4070a0">  &lt;% if alert.present? %&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>    <span style="color:#666">&lt;</span><span style="color:#007020">p</span> class<span style="color:#666">=</span><span style="color:#4070a0">&#34;alert alert-danger text-center&#34;</span><span style="color:#666">&gt;&lt;</span><span style="color:#4070a0">%= alert %&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span><span style="color:#4070a0">      &lt;button class=</span><span style="color:#4070a0">&#34;close&#34;</span> data<span style="color:#666">-</span>dismiss<span style="color:#666">=</span><span style="color:#4070a0">&#34;alert&#34;</span><span style="color:#666">&gt;</span><span style="">×</span><span style="color:#666">&lt;</span><span style="color:#235388">/button&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#235388">    &lt;/</span><span style="color:#007020">p</span><span style="color:#666">&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>  <span style="color:#666">&lt;</span><span style="color:#c65d09">% end </span> <span style="color:#666">%&gt;</span>
+</span></span></code></pre></div><p>And of course you can add your custom <code>flash</code> notices the same way:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>  <span style="color:#666">&lt;</span><span style="color:#c65d09">% if </span> flash<span style="color:#666">[</span><span style="color:#517918">:success</span><span style="color:#666">]</span> <span style="color:#4070a0">%&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#4070a0">    &lt;p class=&#34;alert alert-success text-center&#34;&gt;</span><span style="color:#666">&lt;</span><span style="color:#4070a0">%= flash[:success] %&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#4070a0">      &lt;button class=</span><span style="color:#4070a0">&#34;close&#34;</span> data<span style="color:#666">-</span>dismiss<span style="color:#666">=</span><span style="color:#4070a0">&#34;alert&#34;</span><span style="color:#666">&gt;</span><span style="">×</span><span style="color:#666">&lt;</span><span style="color:#235388">/button&gt;
+</span></span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#235388">    &lt;/</span><span style="color:#007020">p</span><span style="color:#666">&gt;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>  <span style="color:#666">&lt;</span><span style="color:#c65d09">% end </span> <span style="color:#666">%&gt;</span>
+</span></span></code></pre></div><h3 id="correcting-data-type-of-the-values-in-database">Correcting data type of the values in database</h3>
+<p>Ok, I am used by now that I make mistakes in a place which takes the most time to fix afterward - databases. Ironically, it brings me really good learning material&hellip; I will start with advice - if you use PostGres as your database adapter - make sure you create fields with the correct data type. I know it sounds silly, but I created fields with <code>string</code> type instead of the <code>integer</code>. You might say that ActiveRecord command <code>change_column</code> <code>:table_name``,</code> <code>:column``,</code> <code>:data_type</code> in the migration file should do it, but because of the PostGres - it won&rsquo;t. For the following reason:</p>
+<p>Author: PostGres Documentation v9.5when there is no implicit or assignment cast from old to new type, <code>SET DATA TYPE</code> might fail to convert the default even though a <code>USING</code> clause is supplied. In such cases, drop the default with <code>DROP DEFAULT</code>, perform the <code>ALTER TYPE</code>, and then use SET <code>DEFAULT</code> to add a suitable new default.</p>
+<p>This means that in order to change the data type of the field we need to explicitly execute SQL command in the migration file. Here is what I have used and it worked pretty well:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#007020;font-weight:bold">class</span> <span style="color:#0e84b5;font-weight:bold">ChangeDataTypeMigrationName</span> <span style="color:#666">&lt;</span> <span style="color:#60add5">ActiveRecord</span><span style="color:#666">::</span><span style="color:#60add5">Migration</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">up</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>    execute <span style="color:#4070a0">&#39;ALTER TABLE table_name ALTER COLUMN column_1 TYPE integer USING (course_id::integer)&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>    execute <span style="color:#4070a0">&#39;ALTER TABLE table_name ALTER COLUMN column_2 TYPE integer USING (user_id::integer)&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  <span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">down</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>    execute <span style="color:#4070a0">&#39;ALTER TABLE table_name ALTER COLUMN column_1 TYPE string USING (course_id::string)&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>    execute <span style="color:#4070a0">&#39;ALTER TABLE table_name ALTER COLUMN column_2 TYPE string USING (user_id::string)&#39;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  <span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><h2 id="using-helper_methods-and-memoization-in-controllers">Using helper_methods and Memoization in Controllers</h2>
+<p>Helper methods - are quite simple and incredibly useful. In your controller you declare <code>helper_methods :method_name</code>. By convention, you should declare that either right before writing the actual method or right after. I guess it depends on the style standard each company follows. I find it easier if they are before. After the declaration, this method becomes available for you to use directly in your view files.</p>
+<p>Helper methods often work in tandem with something called Memoization. It is a way to optimise the query requests to your database by sending just one request and storing the resulting value instead of many requests querying the same value. As <a href="http://stackoverflow.com/questions/1988804/what-is-memoization-and-how-can-i-use-it-in-python">this SOF post</a> mentions - &ldquo;think of it as a cache for the method results&rdquo;. Consider the following:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>  helper_method <span style="color:#517918">:current_user</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">current_user</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>      <span style="color:#bb60d5">@current_user</span> <span style="color:#666">||=</span> <span style="color:#60add5">User</span><span style="color:#666">.</span>find(params<span style="color:#666">[</span><span style="color:#517918">:user_id</span><span style="color:#666">]</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>  <span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><p>In the example above we have a conditional assignment - <code>||=</code>. This means that if the @current_user variable has a value the new value WILL NOT be assigned, but if the variable is not assigned - the new value will be assigned. Hence, if we receive the request that should get us the same User multiple times, the query won&rsquo;t be executed as the instance variable already has the value. And as it is a helper_method - we can call it directly in our view. For instance:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#666">&lt;</span><span style="color:#007020">p</span> class<span style="color:#666">=</span><span style="color:#4070a0">&#34;text-center&#34;</span><span style="color:#666">&gt;</span><span style="color:#60add5">Hello</span> <span style="color:#666">&lt;%=</span> current_user<span style="color:#666">.</span>first_name <span style="color:#4070a0">%&gt;! Welcome back!&lt;/p&gt;</span>
+</span></span></code></pre></div><p><em>Note: <code>helper_methods</code> will be available in your views even if they are listed below <code>private</code> keyword in your controller.</em></p>
+<h2 id="summary">Summary</h2>
+<p>Make mistakes, but don&rsquo;t make mistakes with database migrations :)</p>
+<p>Secure your app and authenticate user actions, but make sure you authenticate them in the right places so you are not blocking some essential action that prevents your user to do anything else in your app.</p>
+<p>Check ruby gems for the compatibility and also if they have any issues integrating with each other if installed in a particular sequence. The best way to check that is to scan through the &ldquo;Issues&rdquo; section of the GitHub page of the gem.</p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 46.15%</p>
+<p><a href="/posts/firehose-project-week-5">&laquo; Week 5</a> === <a href="/posts/firehose-project-week-7">Week 7 &raquo;</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

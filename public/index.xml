@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Aleks Gorbenko</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Sat, 26 Nov 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now</title>
+      <link>http://localhost:1313/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/now/</guid>
+      <description>&lt;h1 id=&#34;now&#34;&gt;Now&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;🏗️ Preparing for &lt;a href=&#34;https://itpec.org&#34;&gt;ITPEC FE Exam&lt;/a&gt; with the goal to move to Japan 🇯🇵&lt;/li&gt;&#xA;&lt;li&gt;💬 Learning Japanese with &lt;a href=&#34;https://www.wanikani.com&#34;&gt;WaniKani&lt;/a&gt;, &lt;a href=&#34;https://bunpro.jp&#34;&gt;BunPro&lt;/a&gt; and ChatGPT&lt;/li&gt;&#xA;&lt;li&gt;📖 Reading &lt;a href=&#34;https://www.oreilly.com/library/view/designing-data-intensive-applications/9781491903063/&#34;&gt;Designing Data-Intensive Applications&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;Rebuilding this blog&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>What I Learned While Looking For a Job After a Coding Bootcamp</title>
+      <link>http://localhost:1313/what-i-learned-while-looking-for-a-job-after-a-coding-bootcamp/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/what-i-learned-while-looking-for-a-job-after-a-coding-bootcamp/</guid>
+      <description>&lt;p&gt;Coding bootcamps are not easy. Finding the job after one is often even harder. I spent a total of 3 months looking for a position since I have finished mine. &lt;a href=&#34;https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.xo8qlsw5f&#34;&gt;There is a similar post written recently&lt;/a&gt; and I have been meaning to write about my experiences as well after I get the job. I got one so I want to share my angle and what I have learned in the process.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Screw &#39;Follow Your Passion&#39; Advice And What To Do Instead?</title>
+      <link>http://localhost:1313/screw-follow-your-passion-advice-and-what-to-do-instead/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/screw-follow-your-passion-advice-and-what-to-do-instead/</guid>
+      <description>&lt;p&gt;We have all heard this advice. &amp;ldquo;Follow your passion&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Probably a few years ago I would totally support such advice and be an advocate of the &amp;ldquo;find your passion&amp;rdquo; movement. Not until I have actually lost the direction of where I was going and all my plans basically went to dust. Passion was lost without a sign.&lt;/p&gt;&#xA;&lt;p&gt;So I thought &amp;ldquo;ok, I just need to find it again&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;That was the moment when I realised I have no idea how to do it or where to even start.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 12</title>
+      <link>http://localhost:1313/firehose-project-week-12/</link>
+      <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-12/</guid>
+      <description>&lt;p&gt;As mentioned the previous week, I am getting closer to the point where I will have to start the job search so I have started to work on my portfolio website.&lt;/p&gt;&#xA;&lt;h2 id=&#34;enter-jekyll&#34;&gt;Enter Jekyll&lt;/h2&gt;&#xA;&lt;p&gt;I have chosen to use Jekyll to build it and host it on GitHub Pages. Firstly, deployment is as simple as just making a git commit and pushing the code to GitHub. You just have to make sure that the repo is named correctly: &amp;lsquo;&lt;code&gt;marcusaurelius.github.io&lt;/code&gt;&amp;rsquo;. Secondly, it is totally free. Jekyll was developed by GitHub team, so the only thing that you have to learn is the Jekyll itself, the rest will be taken by GH.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 11</title>
+      <link>http://localhost:1313/firehose-project-week-11/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-11/</guid>
+      <description>&lt;p&gt;Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. &lt;a href=&#34;https://www.pluralsight.com/courses/jquery-fundamentals&#34;&gt;One on Pluralsight&lt;/a&gt; and another one &lt;a href=&#34;http://jqexercise.droppages.com&#34;&gt;here&lt;/a&gt; &lt;em&gt;(update: it is offline now, so try &lt;a href=&#34;http://try.jquery.com/&#34;&gt;this instead&lt;/a&gt;)&lt;/em&gt;. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 10</title>
+      <link>http://localhost:1313/firehose-project-week-10/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-10/</guid>
+      <description>&lt;p&gt;As planned, this week I spent learning more of the JavaScript (nope, I still don&amp;rsquo;t like it that much).  I have also watched some Plularsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.&lt;/p&gt;&#xA;&lt;p&gt;Two main areas I tried to concentrate on this week was the this keyword and the Prototypical Inheritance in JS. I know you can write class-like code in ES6 (which is a relief actually), but in any case to really understand how objects are created in JS and how they inherit methods and properties from each other one has to go through PI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 9</title>
+      <link>http://localhost:1313/firehose-project-week-9/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-9/</guid>
+      <description>&lt;p&gt;This week my single attention was devoted to JavaScript. I have managed to do quite a few things and can definitely say that I am feeling more confident. Firstly I have built another app - &lt;a href=&#34;https://todo-aleks-gorbenko.herokuapp.com/&#34;&gt;ToDo&lt;/a&gt; with Rails and jQuery. Many things were not exactly clear to me while I was writing code, so I decided to start over and found some additional sources to learn JS.&lt;/p&gt;&#xA;&lt;p&gt;I came across &lt;a href=&#34;https://watchandcode.com/&#34;&gt;WatchAndCode.com&lt;/a&gt;, made by Gordon Zhu, ex-Googler. The course is totally free and it is not yet finished, he is releasing modules every week. Funny enough the app that you build as you go along is the&amp;hellip;Todo app :) The only difference is that he uses only JS, no other frameworks or languages. The first 40% I could easily skip, but everything that came after I found incredibly useful. Moreover, I started getting jQuery concepts that were eluding me before. I understood finally the difference between the Event Listeners and Event Handlers. I have learned what is a Callback and Higher Order Function. Gordon has a very rare skill of explaining things simply so if you think you are &amp;ldquo;not getting&amp;rdquo; - try &lt;a href=&#34;https://watchandcode.com/&#34;&gt;his course&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 8</title>
+      <link>http://localhost:1313/firehose-project-week-8/</link>
+      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-8/</guid>
+      <description>&lt;p&gt;The 4rth app that was developed using TDD - &lt;a href=&#34;https://grammable-aleks-gorbenko.herokuapp.com/&#34;&gt;Grammable&lt;/a&gt;. It is quite simple (the app, not the process), yet it is much more professional (in the back-end) than other apps that I have built in a sense that it employs industry best practices (as any app should, as it turns out).&lt;/p&gt;&#xA;&lt;p&gt;I have also mentioned a couple of weeks ago that I have quite a lot of algorithm tasks to solve and I really felt that it was the area that I needed to work on as I kind of neglected it a bit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 6</title>
+      <link>http://localhost:1313/firehose-project-week-6/</link>
+      <pubDate>Mon, 06 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-6/</guid>
+      <description>&lt;p&gt;I made some more progress with the 3rd project - &lt;a href=&#34;http://flixter-aleks-gorbenko.herokuapp.com/&#34;&gt;Flixter&lt;/a&gt; app &lt;em&gt;(Update 09.06.16: it is now finished).&lt;/em&gt; I deviated a bit from the original design just to experiment a bit more with Bootstrap and practice design skills in general, so I spent longer time playing with these things this week. Apart from that following the tradition I made a ton of mistakes and spent lots of time for solving them :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 5</title>
+      <link>http://localhost:1313/firehose-project-week-5/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-5/</guid>
+      <description>&lt;p&gt;This week I kept my main focus on JavaScript, although I did start the third application on the Firehose course - Flixter. It is not live yet and I will aim to complete it within the 2 - 2.5 weeks from now.&lt;/p&gt;&#xA;&lt;p&gt;I went through a course of some new GitHub techniques like branching, stashing and merging as well as resolving the merge conflicts. At this stage while I am not in a dev team I don&amp;rsquo;t really use them, but I am sure as my apps become more sophisticated, but most likely I will experience that when I start working on the team project after few more weeks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 4</title>
+      <link>http://localhost:1313/firehose-project-week-4/</link>
+      <pubDate>Mon, 23 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-4/</guid>
+      <description>&lt;p&gt;This week I got the first taste of JavaScript language and pretty much the whole week was spent in it. I barely touched Ruby or Rails. While I have worked with JS before a little as I watching Lynda.com&amp;rsquo;s Programming Fundamentals course, it was not until now that I have tried to solve challenges with it and not following the tutorials.&lt;/p&gt;&#xA;&lt;p&gt;This week I mainly was jumping around between three learning resources for JS: Firehose JS Deep Dive, FreeCodeCamp and an app - &lt;a href=&#34;http://www.sololearn.com/&#34;&gt;SoloLearn&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 3</title>
+      <link>http://localhost:1313/firehose-project-week-3/</link>
+      <pubDate>Mon, 16 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-3/</guid>
+      <description>&lt;p&gt;This week I have finished the &lt;a href=&#34;https://nomster-aleks-gorbenko.herokuapp.com&#34;&gt;Nomster&lt;/a&gt; application that &lt;a href=&#34;http://localhost:1313/posts/firehose-project-week-2/&#34;&gt;I have started the previous week&lt;/a&gt;, but before I go into that I will cover the most significant lesson that I have learned in the past week&amp;hellip;&lt;/p&gt;&#xA;&lt;h2 id=&#34;dont-overload-yourself&#34;&gt;Don&amp;rsquo;t Overload Yourself&lt;/h2&gt;&#xA;&lt;p&gt;Lots of boot camps have a crazy schedule where you are studying for 10-12 hours a day 5-6 days a week. I thought that this is the way to succeed so I have tried to recreate the same atmosphere for myself at home while studying online. I don&amp;rsquo;t have the peer pressure as well as I don&amp;rsquo;t have others to rely upon in case I am really stuck (of course, there is the Slack channel, but it&amp;rsquo;s a different sort of help from the one that you can get from another student who sits right next to you at the desk), so I was aware that I will have to push myself a lot. So I did. It worked out at the start, but this week I had to pay for it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 2</title>
+      <link>http://localhost:1313/firehose-project-week-2/</link>
+      <pubDate>Mon, 09 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-2/</guid>
+      <description>&lt;p&gt;This week passed even faster than the previous one. I studied pretty much every day and learn new concept as well. The very basics of the application building were laid in the first week, now it was time to practice them and build upon more foundation.&lt;/p&gt;&#xA;&lt;p&gt;I started off this week with building the 2nd application called Nomster - a review site. As students of Firehose Project, we are free to choose which type of places we want to review. It had to be a physical place as part fo the project is to use Google Maps API. As I am based in London and I am Russian, born in Latvia - I decided to make a review site Russian and Eastern European restaurants and food shops in London.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 1</title>
+      <link>http://localhost:1313/firehose-project-week-1/</link>
+      <pubDate>Mon, 02 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-1/</guid>
+      <description>&lt;p&gt;The first week of the boot camp is completed and so far it has been nothing but great.&lt;/p&gt;&#xA;&lt;p&gt;One of the highlights of the week is the fact that I have built my first application and deployed it to Heroku. It is live and available here:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://splurty-aleks-gorbenko.herokuapp.com/&#34;&gt;http://splurty-aleks-gorbenko.herokuapp.com/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;It is a simple quote generator where you can submit your quote, and it would spit out a random quote to the homepage every time someone visits or refreshes it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Choosing The Right Online Coding Bootcamp</title>
+      <link>http://localhost:1313/choosing-the-right-online-coding-bootcamp/</link>
+      <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/choosing-the-right-online-coding-bootcamp/</guid>
+      <description>&lt;h2 id=&#34;an-accidental-email&#34;&gt;An Accidental Email&lt;/h2&gt;&#xA;&lt;p&gt;The last couple of weeks I have spent researching the boot camps without actually planning to do so. While I have done that already before and had my eyes on Viking Code School for several months now (as you can probably guess from &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;some&lt;/a&gt; of my &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/&#34;&gt;previous posts&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;I wasn&amp;rsquo;t even looking around until I came across the blog &lt;a href=&#34;http://learntocodewith.me/&#34;&gt;LearnCodeWith.Me&lt;/a&gt; targeted at the beginner programmers. I signed up for it and had a quick email conversation with Laurence (founder of the blog).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Finding The Index of a Single Even or Odd Number in An Array</title>
+      <link>http://localhost:1313/finding-the-index-of-a-single-even-or-odd-number-in-an-array/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/finding-the-index-of-a-single-even-or-odd-number-in-an-array/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.codewars.com/&#34;&gt;CodeWars&lt;/a&gt; is a really great place to practice your coding skills by solving different problems of increasing complexity. I just recently started to play around there and find it really challenging, but at the same time, you get to learn a lot.&lt;/p&gt;&#xA;&lt;p&gt;So before we carry on, a quick reference to what is Kata:&lt;/p&gt;&#xA;&lt;p&gt;Author: WikipediaKata (型 or 形 literally: &amp;ldquo;form&amp;rdquo;?), a Japanese word, are detailed choreographed patterns of movements practised either solo or in pairs. The term form is used for the corresponding concept in non-Japanese martial arts in general.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Blessing In Disguise of Being Lost In Life</title>
+      <link>http://localhost:1313/the-blessing-in-disguise-of-being-lost-in-life/</link>
+      <pubDate>Fri, 15 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-blessing-in-disguise-of-being-lost-in-life/</guid>
+      <description>&lt;p&gt;Have you ever been lost? I mean lost mentally and emotionally? Lost direction in your life, your purpose?&lt;/p&gt;&#xA;&lt;p&gt;Did it occur to you when you wake up one day in the morning and you wonder: &amp;ldquo;What the hell is going on?&amp;rdquo; &amp;ldquo;What the hell I was doing for the last 6 months, a year, 5 years?&amp;rdquo;, &amp;ldquo;Why I was doing it?&amp;rdquo; And you don&amp;rsquo;t know the answer for any of these questions. There is nothing wrong with your memory, you remember it all, but it all seems not right anymore, not familiar to you. You start losing the grip of who you are and what you do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Importance of Self-Reflection and Keeping a Notebook</title>
+      <link>http://localhost:1313/the-importance-of-self-reflection-and-keeping-a-notebook/</link>
+      <pubDate>Wed, 06 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-importance-of-self-reflection-and-keeping-a-notebook/</guid>
+      <description>&lt;p&gt;I will let the ancient one set the stage for this post:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Unexamined life is not worth living.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;- Socrates&lt;/p&gt;&#xA;&lt;p&gt;The wisdom of ancient Greece teaches us that going blindly about our lives equals to having an unworthy life.  Well, I bet he had his own reasons to say that, but in short non-self-reflection = stagnation. Stagnation = death. I didn’t say that, he did:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;What is the difference between a living thing and a dead thing? In the medical world, a clinical definition of death is a body that does not change. Change is life. Stagnation is death. If you don&amp;rsquo;t change, you die. It&amp;rsquo;s that simple. It&amp;rsquo;s that scary.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Most Valuable Currency In the World</title>
+      <link>http://localhost:1313/the-most-valuable-currency-in-the-world/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/the-most-valuable-currency-in-the-world/</guid>
+      <description>&lt;p&gt;You remember that movie &amp;ldquo;In Time&amp;rdquo; with Justin Timberlake running around the block? It wasn&amp;rsquo;t a great movie at all, but there was one good line:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Time is now the currency.&#xA;- Will Salas (played by Justin)&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;He is wrong. It has been always the one and single currency. We as humans have invented the concept of time and gave it a subjective measurement. From then on we use time as currency even if we are not aware of it. Think about it. For every day of life we &amp;ldquo;pay&amp;rdquo; 24h of our time. And funny enough, the wealth of time comes to us by the default on day 1, when we are born. Unlike the monetary wealth which most of us spend most of our time chasing.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4 Resources to Learn and Practice Ruby</title>
+      <link>http://localhost:1313/4-resources-to-learn-and-practice-ruby/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/4-resources-to-learn-and-practice-ruby/</guid>
+      <description>&lt;p&gt;I am new to programming.&lt;/p&gt;&#xA;&lt;p&gt;Ruby is the first language I am learning.&lt;/p&gt;&#xA;&lt;p&gt;To get grips on it I have used several sources so far and as a complete beginner, one  inevitably tends to compare them. How the material is presented, how the tasks are organised to practice the skills that you have just covered. You definitely notice the different teaching styles. All the sources are good in some ways, although each has some drawbacks.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Coding is Like Cooking</title>
+      <link>http://localhost:1313/how-coding-is-like-cooking/</link>
+      <pubDate>Sun, 20 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/how-coding-is-like-cooking/</guid>
+      <description>&lt;p&gt;I am sure if you have ever been interested in learning how to program, you came across the metaphor about the algorithm, which is a core element of programming.&lt;/p&gt;&#xA;&lt;p&gt;Author: Algorithm is similar to a recipe of a dish. It is a sequence of instructions you have to fulfill to get the desired result.&lt;/p&gt;&#xA;&lt;p&gt;I don&amp;rsquo;t disagree with it, on the contrary -  I just want to take this metaphor one step further&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First HTML and CSS Experience</title>
+      <link>http://localhost:1313/my-first-html-and-css-experience/</link>
+      <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/my-first-html-and-css-experience/</guid>
+      <description>&lt;p&gt;As a part of the Viking Code School prep work I had to analyse Facebook pages from the UX standpoint and create several mockups with Balsamiq. Here are the links to both posts:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;Tearing Down and Mocking UP Facebook: UX &amp;amp; Design Part 1&lt;/a&gt; and &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/&#34;&gt;Part 2&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This time around the task is to actually build a number of pages including the Facebook ones that are covered in the above posts. The other 2 were: Google Homepage and eCommerce shop page that sells axes for Vikings. These exercises were literally my first attempts at building something from the ground up with HTML and CSS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 2</title>
+      <link>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;Tearing Down and Mocking UP Facebook: UX &amp;amp; Design Part 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The 2nd part involves analysing 5 different Facebook pages against a set of 8 questions. In case you want to read about the task in a bit more details - &lt;a href=&#34;http://www.vikingcodeschool.com/web-design-basics/tearing-down-and-mocking-up-facebook&#34;&gt;check the assignment page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This task is quite a similar to the one covered in Part 1, but a bit more granular. Let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;p&gt;These are our 5 patients for the assignment:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1</title>
+      <link>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/</link>
+      <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/</guid>
+      <description>&lt;p&gt;I am currently going through the Prep Work of the Viking Code School (VCS). I thought it would be a good idea to document the assignments online.&lt;/p&gt;&#xA;&lt;p&gt;This assignment is a part of the Design mini-course. It is the first part out of the 3 tasks. Below is the part 1 which consists of 8 high-level questions. Part 2 involves a deeper analysis of 5 Facebook pages and building their mockups.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kata on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/kata/</link>
+    <description>Recent content in Kata on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Fri, 22 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/kata/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding The Index of a Single Even or Odd Number in An Array</title>
+      <link>http://localhost:1313/finding-the-index-of-a-single-even-or-odd-number-in-an-array/</link>
+      <pubDate>Fri, 22 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/finding-the-index-of-a-single-even-or-odd-number-in-an-array/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.codewars.com/&#34;&gt;CodeWars&lt;/a&gt; is a really great place to practice your coding skills by solving different problems of increasing complexity. I just recently started to play around there and find it really challenging, but at the same time, you get to learn a lot.&lt;/p&gt;&#xA;&lt;p&gt;So before we carry on, a quick reference to what is Kata:&lt;/p&gt;&#xA;&lt;p&gt;Author: WikipediaKata (型 or 形 literally: &amp;ldquo;form&amp;rdquo;?), a Japanese word, are detailed choreographed patterns of movements practised either solo or in pairs. The term form is used for the corresponding concept in non-Japanese martial arts in general.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

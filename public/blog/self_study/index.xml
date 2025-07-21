@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self_study on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/self_study/</link>
+    <description>Recent content in Self_study on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Sun, 24 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/self_study/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Choosing The Right Online Coding Bootcamp</title>
+      <link>http://localhost:1313/choosing-the-right-online-coding-bootcamp/</link>
+      <pubDate>Sun, 24 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/choosing-the-right-online-coding-bootcamp/</guid>
+      <description>&lt;h2 id=&#34;an-accidental-email&#34;&gt;An Accidental Email&lt;/h2&gt;&#xA;&lt;p&gt;The last couple of weeks I have spent researching the boot camps without actually planning to do so. While I have done that already before and had my eyes on Viking Code School for several months now (as you can probably guess from &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;some&lt;/a&gt; of my &lt;a href=&#34;http://localhost:1313/posts/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2/&#34;&gt;previous posts&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;I wasn&amp;rsquo;t even looking around until I came across the blog &lt;a href=&#34;http://learntocodewith.me/&#34;&gt;LearnCodeWith.Me&lt;/a&gt; targeted at the beginner programmers. I signed up for it and had a quick email conversation with Laurence (founder of the blog).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>4 Resources to Learn and Practice Ruby</title>
+      <link>http://localhost:1313/4-resources-to-learn-and-practice-ruby/</link>
+      <pubDate>Wed, 30 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/4-resources-to-learn-and-practice-ruby/</guid>
+      <description>&lt;p&gt;I am new to programming.&lt;/p&gt;&#xA;&lt;p&gt;Ruby is the first language I am learning.&lt;/p&gt;&#xA;&lt;p&gt;To get grips on it I have used several sources so far and as a complete beginner, one  inevitably tends to compare them. How the material is presented, how the tasks are organised to practice the skills that you have just covered. You definitely notice the different teaching styles. All the sources are good in some ways, although each has some drawbacks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

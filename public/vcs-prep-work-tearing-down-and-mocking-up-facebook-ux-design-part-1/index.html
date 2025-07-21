@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1 | Aleks Gorbenko</title>
+<meta name="title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1" />
+<meta name="description" content="Wearing designer had for the first time." />
+<meta name="keywords" content="design," />
+
+
+<meta property="og:url" content="http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 1">
+  <meta property="og:description" content="Wearing designer had for the first time.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-03-05T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-03-05T00:00:00+00:00">
+    <meta property="article:tag" content="Design">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 1">
+  <meta name="twitter:description" content="Wearing designer had for the first time.">
+
+
+
+
+  <meta itemprop="name" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 1">
+  <meta itemprop="description" content="Wearing designer had for the first time.">
+  <meta itemprop="datePublished" content="2016-03-05T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-03-05T00:00:00+00:00">
+  <meta itemprop="wordCount" content="985">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Design">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1</h1>
+<p>
+  <i>
+    <time datetime='2016-03-05'>
+      05 Mar, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I am currently going through the Prep Work of the Viking Code School (VCS). I thought it would be a good idea to document the assignments online.</p>
+<p>This assignment is a part of the Design mini-course. It is the first part out of the 3 tasks. Below is the part 1 which consists of 8 high-level questions. Part 2 involves a deeper analysis of 5 Facebook pages and building their mockups.</p>
+<h2 id="who-is-the-main-user-of-facebook">Who is the main user of Facebook</h2>
+<p>A female or male person, in the age group from 25 - 54 years old.</p>
+<p>The estimate <a href="http://www.techinsider.io/update-a-breakdown-of-the-demographics-for-each-of-the-different-social-networks-2015-6">is based on this Tech Insider data</a>. Most of the users are aged 25-34 (22% of all users), followed by the age group 35-44 (19%) Data is for US only. Aged 45-54 - 18%. <a href="http://www.entrepreneur.com/article/246777">Millennials do use Facebook too</a>, but, it&rsquo;s safe to assume that the &ldquo;main user&rdquo; is aged between 25 and 54 years old.</p>
+<h2 id="what-are-the-top-3-critical-goals-for-that-user">What are the top 3 critical goals for that user</h2>
+<p><strong>1st</strong> - see the newsworthy updates of friends in a form of visual information (pictures, videos) or text.</p>
+<p><strong>2nd</strong> - share the news with friends in various media format - text, picture, video, etc</p>
+<p><strong>3rd</strong> - communicate via other users via chat tool</p>
+<h2 id="what-is-the-sites-approximate-information-architecture">What is the site&rsquo;s approximate information architecture</h2>
+<p>Homepage &ndash;&gt; sign up/sign in &ndash;&gt; Timeline, User Profiles &amp; Posts, Search Box, Chat, User Groups/Events/Apps.</p>
+<h2 id="for-your-top-user-goal-what-is-likely-to-make-the-users-experience-particularly-satisfying">For your top user goal, what is likely to make the user&rsquo;s experience particularly satisfying</h2>
+<p>The ability to see and absorb the newsworthy information about other users quickly and easy.</p>
+<h2 id="to-accomplish-this-goal-how-does-the-user-flow-through-the-sites-architecture">To accomplish this goal, how does the user flow through the site&rsquo;s architecture</h2>
+<p>If the user doesn’t have the account - he has to create one, which he can do easily on the homepage with a straightforward form completion. After logging into the user account, user is presented with the News Feed featuring the information that other users have posted. At this stage main user interactions would be:</p>
+<ul>
+<li>Scrolling the news feed and reading/looking at pictures</li>
+<li>Interacting with the posts in the following ways:
+<ul>
+<li>&ldquo;Liking&rdquo; the post/picture</li>
+<li>Commenting the post/picture</li>
+<li>Sharing the post/picture in the user&rsquo;s own News Feed or friends&rsquo; News Feed</li>
+<li>Users can also click on the post itself to either open a link in a new window, open a picture in a soft-box (with more visible comments)</li>
+<li>Visiting other user&rsquo;s profiles by clicking on the usernames that are attached to posts</li>
+</ul>
+</li>
+<li>Updating user status (can be called posting) featuring picture/text/link</li>
+<li>Start a chat with another user</li>
+<li>Use a search  box to search for a user/event/person/page</li>
+<li>Visit the users own private News Feed</li>
+</ul>
+<p>It seems that the main <a href="http://webdesignfromscratch.com/website-architecture/ia-models/">architecture information model is in &ldquo;Hub-and-spoke&rdquo; or &ldquo;daisy&rdquo; pattern</a>.</p>
+<p>The News Feed is the central page and serves as a default return &ldquo;homepage&rdquo; for a user who is logged in (the fact that in the top NavBar this page is called &ldquo;Home&rdquo; also supports that)</p>
+<h2 id="what-styles-of-navigation-isare-used-do-they-answer-the-key-questions">What style(s) of navigation is/are used? Do they answer the key questions</h2>
+<p>One of the main navigation styles is the top NavBar, containing the search box, User Profile, Account Settings, Notifications of messages and other user activities.</p>
+<p>Next navigation style is the actual News Feed. As we have established that one of the most prominent AI elements is the News Feed - users are highly likely to start scrolling it after logging in. The scrolling is continuous and loads asynchronously (AJAX) - hence, it can be considered as a separate navigation style.</p>
+<p>There are two secondary navigation styles:</p>
+<p><strong>1st</strong> - the chat window to initiate the chat with other users</p>
+<p><strong>2nd</strong> - the left vertical NavBar - it is clearly de-emphasised from the rest of the page by being in the grey background, whereas other page elements are on a white background (Personally, I barely use it. I am not sure what is the engagement rate with this NavBar, but I wouldn&rsquo;t be surprised that it is not high)</p>
+<h2 id="what-does-facebook-do-well-to-allow-the-user-to-accomplish-the-top-goal-effectively-efficiently-and-with-good-satisfaction">What does Facebook do well to allow the user to accomplish the top goal effectively, efficiently and with good satisfaction</h2>
+<p>To recap, we have identified that the top goal is:</p>
+<p>&ldquo;to see the newsworthy updates of friends in a form of visual information (pictures, videos) or text.&rdquo;</p>
+<p>Effectively? - Yes, in most cases. After logging in the user is presented with the News Feed that is a mash of the posts generated by user&rsquo;s friends, pages that the user is following and…sponsored ads. <a href="https://www.facebook.com/business/news/update-to-facebook-news-feed">It got improved since the end of the of 2014</a>, but still I find quite often the ads being irrelevant and obtrusive.</p>
+<p>It is still easy though to meet the main goal - seeing more content - as easy as just scrolling down, while the page keeps loading more posts below.</p>
+<p>Efficiently? - In short: Yes. I think Facebook is quite robust and  the loading speed of the site is quite good from the UX point of view (once again this is a personal opinion). From a technical point of view <a href="https://gtmetrix.com/reports/facebook.com/24UoQ8SB">it scores pretty darn well it speed tests too!</a></p>
+<p>Satisfaction? For the most part - yes. As the main goal is met quite easily - the overall experience is satisfactory.</p>
+<h2 id="what-does-facebook-do-poorly-when-allowing-the-user-to-accomplish-the-top-goal-effectively-efficiently-and-with-good-satisfaction">What does Facebook do poorly when allowing the user to accomplish the top goal effectively, efficiently and with good satisfaction</h2>
+<p>The sponsored ads are probably one of the most visible obstacles on a user&rsquo;s way to accomplish her top goal as often they can become quite obtrusive (especially if they are irrelevant).</p>
+<p>Secondly, (I find it a little overwhelming sometimes) the amount of events that your friends are &ldquo;interested in&rdquo; or &ldquo;attending&rdquo;, which tend to appear quite often in the news feed. I think they could do a better job at matching user&rsquo;s personal interests with the nature of the events and display these type of posts if they are relevant to that particular user only.</p>
+<p>This completes the first part of the Design assignment. <a href="http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2">On to the 2nd part!</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/design/">#design</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

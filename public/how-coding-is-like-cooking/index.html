@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>How Coding is Like Cooking | Aleks Gorbenko</title>
+<meta name="title" content="How Coding is Like Cooking" />
+<meta name="description" content="And how to &#34;spice things up&#34; in your code." />
+<meta name="keywords" content="" />
+
+
+<meta property="og:url" content="http://localhost:1313/how-coding-is-like-cooking/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="How Coding is Like Cooking">
+  <meta property="og:description" content="And how to &#34;spice things up&#34; in your code.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-03-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-03-20T00:00:00+00:00">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="How Coding is Like Cooking">
+  <meta name="twitter:description" content="And how to &#34;spice things up&#34; in your code.">
+
+
+
+
+  <meta itemprop="name" content="How Coding is Like Cooking">
+  <meta itemprop="description" content="And how to &#34;spice things up&#34; in your code.">
+  <meta itemprop="datePublished" content="2016-03-20T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-03-20T00:00:00+00:00">
+  <meta itemprop="wordCount" content="921">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>How Coding is Like Cooking</h1>
+<p>
+  <i>
+    <time datetime='2016-03-20'>
+      20 Mar, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>I am sure if you have ever been interested in learning how to program, you came across the metaphor about the algorithm, which is a core element of programming.</p>
+<p>Author: Algorithm is similar to a recipe of a dish. It is a sequence of instructions you have to fulfill to get the desired result.</p>
+<p>I don&rsquo;t disagree with it, on the contrary -  I just want to take this metaphor one step further&hellip;</p>
+<h2 id="you-see-i-used-to-cook">You see&hellip; I used to cook</h2>
+<p>Professionally, I mean. My educational background is hospitality management and by nature of the business, we had to learn the basics of cooking on the first course. I did learn how to chop properly there (yes, just like <a href="https://youtu.be/zGQltxIipFg?t=3m40s">Jamie Oliver does in this video</a>). I was also lucky enough to be offered a full scholarship for the culinary course after my first year, which I obviously accepted (who wouldn&rsquo;t?).</p>
+<p>At a time my&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>aleks_cooking_skill <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span></code></pre></div><p>and it just happened that there were 6 of us on the course. Everybody were older by 5-10 years than me. Moreover, I knew that a couple of them were already great cooks. I will have to put more effort than the rest to learn the theory and the techniques.</p>
+<p>Fast-forward 6 months. The course is done, the practical exam is passed (we had to cook 4-meal course for 4 people anonymously). I came 3rd. Was I satisfied? No. Did I feel like I am a good cook now? No, not really. I was just a small kid who knew how to make some <a href="https://en.wikipedia.org/wiki/Category:Mother_sauces">Mother Sauces</a> and have learnt the names of the cooking <em>methods</em>.</p>
+<p>One thing that annoyed me was that I knew theoretically how to cook something, moreover - I knew practically how to cook various things, but I still didn&rsquo;t have this skill to put everything together on a plate! Or make the presentation look beautiful. Creating on my own a great combination of flavours, colors, aromas on a plate was a very very hard task for me. At some point, I thought &ldquo;Is this creative flair absent in me or what?!&rdquo;</p>
+<p>But well&hellip;I kept working, I had one internship, second, where I was exposed to a Michelin Star cuisine. I was good at following and replicating things that other chefs showed me, and I noticed that my&hellip;</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#007020;font-weight:bold">def</span> <span style="color:#06287e">skill_up</span>(n)
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span> n <span style="color:#666">=</span> n <span style="color:#666">+</span> <span style="color:#40a070">1</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>skill_up(aleks_cooking_skill)
+</span></span></code></pre></div><p>I could feel that I am getting somewhere. At home, I can produce better-looking and better-tasting dishes. I think less hard about &ldquo;how I am going to cut and cook products&rdquo;, instead - I just do it.</p>
+<h2 id="so-why-i-am-telling-you-all-this">So why I am telling you all this</h2>
+<p>I wanted to build up a bit of context for you to show where I am going with all this.</p>
+<p>Having remembered all my time spent in the kitchen I have related my experience of learning how to cook to how I learn to program now with Ruby.</p>
+<p>Various programming languages are like different cuisines. You got Ruby, Python, C, C#, just like you got French, Italian, Cantonese, Lebanese cuisines.</p>
+<p>In each language, you might have some frameworks: Node.js, Angular.js, Ruby on Rails, Flask, etc. It can be compared to regional cuisines - Cuisine Lyonnaise in France, Napoli Cuisine in Italy, Sichuan Cuisine in China. The list can go on&hellip;</p>
+<p>What is more or less common in between all of the cuisines? The equipment that you use. Pans, pots, spatulas, whisks, you name it. Some large, some are smaller. Same in programming, isn&rsquo;t it? We have very similar/same language constructs in languages: Modules, Classes, Methods and others.</p>
+<p>To sum up the parallels, here is quick comparison:</p>
+<h3 id="coding">Coding</h3>
+<p>Languages: C#, Python
+Frameworks: Node.js, Ruby on Rails
+Data Structure: Classes, Methods
+Special constructs: Procs (Ruby)</p>
+<h3 id="cooking">Cooking</h3>
+<p>National Cuisines: Russian, French
+Regional Cuisines: Sichuan(China), Napoli
+Equipment: Pans, Pots
+Local Specialty Products: Harissa</p>
+<p>Getting back to cooking&hellip;  I did work in the kitchen as a chef for a bit less than 2 years in total (and I include my 5-6 months on the culinary course here). I was still working for 2 more years in the hospitality industry after my kitchen endeavors and was exposed to 3* Michelin Star restaurants, which definitely helped to develop further the food creativity. It helped. I got there. I <code>skill_up</code>&lsquo;ed my cooking skills quite nicely.</p>
+<p>Am I great cook today? Probably not. A <em>good</em> one - I think so. And so does most of my friends or whoever tried something that I have cooked. Am I able to produce something that looks nice and tastes great without really thinking about it? Something nice out of &ldquo;whatever is in the fridge&rdquo;?  Yes - for both. And I know that now. But I wouldn&rsquo;t believe that when I started that one day it would be as effortlessly as it is today.</p>
+<p>It will be the same with programming. I might be clumsy with code now, but with time and practice, I will be able to code as habitually and creatively as I can cook today. My code will be modular, it will be clean, it will reflect SOLID principles, it will be well-commented, the loops won&rsquo;t be infinite, I will not miss this darn <code>end</code> at the end of the code block. I will not&hellip;well I still can burn an omelette sometimes&hellip; so I <em>will</em> make mistakes in code. I know that too.</p>
+<p>But I will remember:</p>
+<p>Author: Practice makes perfect habit.</p>
+<p>OK, now:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>aleks_coding_skill <span style="color:#666">=</span> <span style="color:#40a070">0</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>skill_up(aleks_coding_skill)
+</span></span></code></pre></div><p>P.S Not a fan perfectionism. I might explain why later.</p>
+
+</content>
+<p>
+  
+</p>
+
+  </main>
+  <footer><p>Say <a href="mailto:aleks.gbko@gmail.com">hello!</a></p>
+<small>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo Bear</a></small>
+</footer>
+
+  
+</body>
+
+</html>

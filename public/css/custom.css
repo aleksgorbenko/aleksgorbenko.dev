@@ -1,0 +1,42 @@
+.tag-li {
+	display:inline !important;
+}
+
+.header .avatar img {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 10%;
+}
+e
+.recent-posts .posts .post {
+	margin-bottom: 20px;
+}
+
+.highlight pre {
+	background-color: #290b29 !important;
+}
+
+.highlight {
+	background-color: #290b29 !important;
+}
+
+.header nav {
+	text-align: center;
+}
+
+p > code {
+	background-color: rgb(94, 30, 117);
+	color: rgb(46, 226, 145);
+	padding: 2px 4px;
+	border-radius: 4px;
+}
+
+.post img {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+	max-width: 90%;
+}
+
+.header nav li {
+	margin: 0 20px 0 0;
+}

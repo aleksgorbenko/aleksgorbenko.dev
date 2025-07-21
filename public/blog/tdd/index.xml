@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tdd on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/tdd/</link>
+    <description>Recent content in Tdd on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Mon, 20 Jun 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/tdd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firehose Project Week 8</title>
+      <link>http://localhost:1313/firehose-project-week-8/</link>
+      <pubDate>Mon, 20 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-8/</guid>
+      <description>&lt;p&gt;The 4rth app that was developed using TDD - &lt;a href=&#34;https://grammable-aleks-gorbenko.herokuapp.com/&#34;&gt;Grammable&lt;/a&gt;. It is quite simple (the app, not the process), yet it is much more professional (in the back-end) than other apps that I have built in a sense that it employs industry best practices (as any app should, as it turns out).&lt;/p&gt;&#xA;&lt;p&gt;I have also mentioned a couple of weeks ago that I have quite a lot of algorithm tasks to solve and I really felt that it was the area that I needed to work on as I kind of neglected it a bit.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 1 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 1" />
+<meta name="description" content="Ready. Set. Go." />
+<meta name="keywords" content="bootcamp," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-1/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 1">
+  <meta property="og:description" content="Ready. Set. Go.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-05-02T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-05-02T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 1">
+  <meta name="twitter:description" content="Ready. Set. Go.">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 1">
+  <meta itemprop="description" content="Ready. Set. Go.">
+  <meta itemprop="datePublished" content="2016-05-02T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-05-02T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1192">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 1</h1>
+<p>
+  <i>
+    <time datetime='2016-05-02'>
+      02 May, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>The first week of the boot camp is completed and so far it has been nothing but great.</p>
+<p>One of the highlights of the week is the fact that I have built my first application and deployed it to Heroku. It is live and available here:</p>
+<p><a href="http://splurty-aleks-gorbenko.herokuapp.com/">http://splurty-aleks-gorbenko.herokuapp.com/</a></p>
+<p>It is a simple quote generator where you can submit your quote, and it would spit out a random quote to the homepage every time someone visits or refreshes it.</p>
+<h2 id="questions-questions-questions">Questions, questions, questions</h2>
+<p>Right after I built it - I still had dozens of questions and many things unclear - what exactly is the database, what is a database migration and others. Through the first app you are getting a lot of hand-holding at every step and some things are not explained till later, so it&rsquo;s natural that these questions occur.</p>
+<p>The most of the learning came after I have finished the first app actually. Firstly, further lessons got automatically unlocked as soon as I have submitted the code for the review. The two key sections that got unlocked were covering how to does Web Application works and the basic concepts of Object Oriented Programming.</p>
+<p>In web applications part I finally understood what is MVC and how it works. Reading before about it only made me more confused, but after the videos at Firehose it started to make sense. I also recommend checking <a href="http://betterexplained.com/articles/intermediate-rails-understanding-models-views-and-controllers/">this</a> and <a href="https://medium.freecodecamp.com/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053#.mx85om31c">this</a> article if you want to get your head around of MVC concept. Understanding of it is one of the most important concepts when working with Rails as MVC architecture is the fundament that any web app on Rails is built.</p>
+<p>Another curious thing was the types of the HTTP requests. Now, I knew from back in my SEO days that there is a GET request, and frankly I thought that it&rsquo;s the only one there is, but I couldn’t be more wrong. In total there are 8 of them:</p>
+<ol>
+<li>GET</li>
+<li>HEAD</li>
+<li>UPDATE/PATCH</li>
+<li>POST</li>
+<li>DELETE</li>
+<li>PUT</li>
+<li>CONNECT</li>
+<li>TRACE</li>
+</ol>
+<p>But mainly we will only use half of them while building applications. And these four correspond to the next concept that I also learned this week - CRUD applications. CRUD is an acronym and it stands for Create, Read, Update and Destroy and each of these you can relate to the four main HTTP requests listed above.</p>
+<ul>
+<li><strong>GET = READ</strong> - request a page from the server</li>
+<li><strong>POST = CREATE</strong> - post some content, fill in the form and send it to the server</li>
+<li><strong>DELETE = DESTROY</strong> - self-explanatory</li>
+<li><strong>PATCH = UPDATE</strong> - update the existing record and send it to the server. Eg: changing your username in the profile settings. Effectively you are changing the data in the database on the server.</li>
+</ul>
+<p><a href="http://www.tutorialspoint.com/http/http_requests.htm">Learn more about HTTP request types here.</a></p>
+<h2 id="wearing-a-designers-hat">Wearing a &ldquo;Designers Hat&rdquo;</h2>
+<p>In development, you will often hear people referring to &ldquo;wearing different hats&rdquo;.  Each hat is just a representation of the work that you are currently performing on the project. There are two hats mostly &ldquo;developers hat&rdquo; and &ldquo;designers hat&rdquo;. Don&rsquo;t confuse these with White, Black or Grey hats - these are entirely different and are not the subject of this post.</p>
+<p>In this part I discovered the <a href="http://getbootstrap.com/">Bootstrap 3</a>. I have encountered it once before and I remember well how I visited the documentation page…thinking &ldquo;How the heck one can learn all of this?!&rdquo; I think I closed it after a couple of minutes of reading and not understanding anything. Now I think I will be able to get most of the concepts. And it is actually pretty easy after you become familiar with CSS basics, such as selectors, pseudo-classes and properties. <a href="https://www.codecademy.com/learn/web">HTML &amp; CSS track on Codecademy c</a>an get you started on these.</p>
+<p>Bootstrap 3 is a CSS framework, and yes, Rails is a framework too, but I think Bootstrap is really the technology that taught me to appreciate the power of frameworks.  It made me also remember the words that Simon Allardice said in <a href="http://www.lynda.com">Lynda.com</a> course on <a href="http://www.lynda.com/Developer-Programming-Foundations-tutorials/Welcome/83603/90426-4.html">Programming Fundamentals</a>: &ldquo;It&rsquo;s all about the frameworks. That is where the power of the language is really being manifested&rdquo;. I think I understand what he meant now. Frameworks are huge libraries of a pre-written code that you can use out of the box.</p>
+<p>I also got to use media queries for the first time, which are the basic building blocks of the responsive design.  The idea is very simple actually and much less complicated that I imagined at first. You specify how an element gets displayed depending on the screen size of the device. Screens vary a lot, hence, resolutions could be quite different too, so to work around it, you can set <em>min</em> and <em>max</em> values in pixels within the media query. Here is a quick example from my first app:</p>
+<p>Here is the set CSS for the .footer-blurb class, notice the text alignment property.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>.<span style="color:#0e84b5;font-weight:bold">footer-blurb</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#007020;font-weight:bold">font-style</span>: <span style="color:#007020;font-weight:bold">italic</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>  <span style="color:#007020;font-weight:bold">text-align</span>: <span style="color:#007020;font-weight:bold">right</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">12</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>}
+</span></span></code></pre></div><p>The code below translates: <strong>IF</strong> the width of the browser window is wider than <code>750px</code>, the HTML element with the class of .footer-blurb should be aligned to the left, otherwise - to the right as per the code above.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>@<span style="color:#007020;font-weight:bold">media</span> <span style="color:#666">(</span><span style="color:#062873;font-weight:bold">max-width</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">750px</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  .<span style="color:#0e84b5;font-weight:bold">footer-blurb</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span>    <span style="color:#007020;font-weight:bold">text-align</span>: <span style="color:#007020;font-weight:bold">left</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span>  }
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span>}
+</span></span></code></pre></div><h2 id="optimising-the-dev-environment">Optimising The Dev Environment</h2>
+<p>Finally, I got my head around how the SSH keys work and the fact that you have to have a separate key for each of your development environments. Firehose works with Vagrant that you setup at the start of the course.</p>
+<p>Vagrant is a template of the environment that boots on a virtual machine which you boot on your local machine. This means that it has its own contained environment and will not have any of settings you may have on your local environment. You shell prompt will be basic, there will be no aliases that you have set in your <code>.bash_profile</code> or <code>.bashrc</code> files. There are a couple of workarounds, though:</p>
+<ol>
+<li>You can manually open the <code>.bash_profile</code> from within the vagrant shell with the command <code>vim ~/.bash_profile</code>.</li>
+<li>Press <code>I</code> to go into insert mode then navigate with arrows to the empty line and type in all your alias commands. Yes, you can use copy/paste into vim, but this solution didn&rsquo;t seem to work on my machine.</li>
+<li>Here are a couple of examples from my alias list:
+<ul>
+<li><code>alias rs=&quot;rails server&quot;</code></li>
+<li><code>alias rc=&quot;rails console&quot;</code></li>
+<li><code>alias gst=&quot;git status&quot;</code></li>
+<li><code>alias gpom=&quot;git push origin master&quot;</code></li>
+</ul>
+</li>
+<li>Press ESC, then type <code>:qw</code>, <code>:</code> will make Vim wait for the next instructions you are to give, <code>w</code> will write the file and <code>q</code> will quit from vim. Press enter.</li>
+<li>Restart vagrant, done.</li>
+</ol>
+<p>There is also <a href="https://coderwall.com/p/oooszg/vagrant-tweaks-to-make-it-more-like-your-local-command-line-app">another way of doing it which is much faster</a>. The reason I didn&rsquo;t do it is just because I was recommended against it due to how Vagrant is setup with Firehose. I will be sure to experiment when I am done with the course.</p>
+<p>Moving into the second week I will be building another Rails application, starting with <a href="http://rubykoans.com/">RubyKoans.com</a> to get a better understanding of the Ruby syntax and studying basic <a href="http://www.lynda.com/Access-tutorials/Foundations-Programming-Databases/412845-2.html">Database concepts in more details.</a></p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 7.69%</p>
+<p><a href="/posts/firehose-project-week-2">Week 2 &raquo;</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+</p>
+
+  </main>
+  <footer><p>Say <a href="mailto:aleks.gbko@gmail.com">hello!</a></p>
+<small>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo Bear</a></small>
+</footer>
+
+  
+</body>
+
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 11 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 11" />
+<meta name="description" content="I understand jQuery! Or, hang on... what... how does this even work?" />
+<meta name="keywords" content="bootcamp,javascript," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-11/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 11">
+  <meta property="og:description" content="I understand jQuery! Or, hang on... what... how does this even work?">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-07-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-07-11T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="article:tag" content="Javascript">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 11">
+  <meta name="twitter:description" content="I understand jQuery! Or, hang on... what... how does this even work?">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 11">
+  <meta itemprop="description" content="I understand jQuery! Or, hang on... what... how does this even work?">
+  <meta itemprop="datePublished" content="2016-07-11T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-07-11T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1566">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp,Javascript">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 11</h1>
+<p>
+  <i>
+    <time datetime='2016-07-11'>
+      11 Jul, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. <a href="https://www.pluralsight.com/courses/jquery-fundamentals">One on Pluralsight</a> and another one <a href="http://jqexercise.droppages.com">here</a> <em>(update: it is offline now, so try <a href="http://try.jquery.com/">this instead</a>)</em>. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.</p>
+<h2 id="the-end-is-close">The End is Close</h2>
+<p>As I am getting quite close to the completion of the Firehose Project, I started the  Job Preparation section already. It has lots of new algorithm challenges and useful tips on how to write the CV, which questions to ask on the interview and which ones to be ready to answer.</p>
+<p>Also, it has lots of useful theory topics on data structures which are highly likely to be brought up during the interview. My mentor also said that Juniors get asked these questions a lot. For instance, &ldquo;What is a Linked List and why is it useful?&rdquo;.</p>
+<p>At this stage, I am mainly reading up on theory and starting making a checklist of things that I will have to have ready before applying for jobs. Generally speaking, <a href="http://www.tutorialspoint.com/">Tutorials Point</a> is my go-to website whenI need to read up or get familiar with any particular language or framework.</p>
+<h2 id="single-table-inheritance-and-chess">Single Table Inheritance and Chess</h2>
+<p>The group project is of course on the go, so it takes up quite a lot of time as well. There are no tutorials to follow so we as a team are pretty much on our own. Of course, we are having a spec for our Chess application and some supplemental materials are getting sent to us every week as we have to tackle new areas of our app.</p>
+<p>This week it was paramount for all of us to understand the Single Table Inheritance (STI) and how to implement it. It is quite a big concept and single blog post is not enough to go through all the details. Moreover, there have been a <a href="https://samurails.com/tutorial/single-table-inheritance-with-rails-4-part-1/">series of blog posts</a> written already and there is a useful <a href="https://www.youtube.com/watch?v=t8I4_8HcMPo">RailsCasts video</a> on the subject. I would highly recommend going through them if you are interested in the details. I will cover here just the high-level concept.</p>
+<p>As the name suggest inheritance is the central idea here. If you are not sure what Inheritance is - check this blog post before continuing.</p>
+<p>Single Table refers to the database table. Effectively, we have a single Model that is the &ldquo;parent&rdquo; model for other models that inherit from it, but will be different from each other.</p>
+<p>We also need the way to connect our &ldquo;parent&rdquo; table to its child models. So we will need to have a &ldquo;type&rdquo; column in our table that will just store the name of the child Model.</p>
+<p>The result that we get is that every Child Model will have all the data that is declared in the Parent Table and no specific table of its own. The same goes for all the methods that will be written in the body of the Model - each Child Model will inherit all of them from Parent. Of course to make it work you will have to specify it in each Child Model manually, by adding:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#60add5">Class</span> <span style="color:#60add5">Child</span> <span style="color:#666">&lt;</span> <span style="color:#60add5">Parent</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>  <span style="color:#60a0b0;font-style:italic">#class body</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><p>A perfect example which can illustrate STI in action is a Chess game. If you have never played chess - have a look at Wikipedia article, but don&rsquo;t stop there - I urge you to play it. It is known as &ldquo;the game of the Kings&rdquo; and rightfully so as the game board is similar to the battlefield with two generals fighting each other. Highly strategic game which will make you think really hard.</p>
+<p>Now that you are familiar with the Chess, it has lots of Pieces, but they are all different, right? You have a King, Queen, Rooks, Bishops, Knights, and Pawns. Each of them has their own rules on how they can move and in which directions. Yet they all share properties of this Parent Model &ldquo;Piece&rdquo;. Here is code from our <code>schema.rb</code> file for the Piece Model:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>create_table <span style="color:#4070a0">&#34;pieces&#34;</span>, <span style="color:#517918">force</span>: <span style="color:#517918">:cascade</span> <span style="color:#007020;font-weight:bold">do</span> <span style="color:#666">|</span>t<span style="color:#666">|</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  t<span style="color:#666">.</span>string   <span style="color:#4070a0">&#34;color&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>  t<span style="color:#666">.</span>string   <span style="color:#4070a0">&#34;type&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  t<span style="color:#666">.</span>integer  <span style="color:#4070a0">&#34;x_position&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>  t<span style="color:#666">.</span>integer  <span style="color:#4070a0">&#34;y_position&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>  t<span style="color:#666">.</span>integer  <span style="color:#4070a0">&#34;game_id&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>  t<span style="color:#666">.</span>integer  <span style="color:#4070a0">&#34;player_id&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  t<span style="color:#666">.</span>boolean  <span style="color:#4070a0">&#34;captured&#34;</span>,   <span style="color:#517918">default</span>: <span style="color:#007020">false</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>  t<span style="color:#666">.</span>boolean  <span style="color:#4070a0">&#34;checkmate&#34;</span>,  <span style="color:#517918">default</span>: <span style="color:#007020">false</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  t<span style="color:#666">.</span>datetime <span style="color:#4070a0">&#34;created_at&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>  t<span style="color:#666">.</span>datetime <span style="color:#4070a0">&#34;updated_at&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>  t<span style="color:#666">.</span>boolean  <span style="color:#4070a0">&#34;moved&#34;</span>,      <span style="color:#517918">default</span>: <span style="color:#007020">false</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span><span style="color:#007020;font-weight:bold">end</span>
+</span></span></code></pre></div><p>As I mentioned, all these properties will be shared between all types of pieces.</p>
+<p><strong>Back to The Front-End</strong></p>
+<p>As in any team, we have tasks that are back-end and front-end. The aim of this group project is to get the taste of everything as much as you can. To start with I took some tickets on the front end and will carry on working on them for the next couple of weeks, moving to the back-end afterwards.</p>
+<p>This week I have built the chessboard I drew all the pieces on it. We are using the Bootstrap framework so it has the chess <a href="http://getbootstrap.com/components/#glyphicons">Glyphicons</a> are included as part of the package.</p>
+<p>To start with I have built the whole thing in pure HTML using <code>&lt;table&gt;</code>, <code>&lt;tr&gt;</code>&rsquo;s and <code>&lt;td&gt;</code>&rsquo;s. It ended up looking like a lengthy file, so I had to refactor. jQuery proved to be helpful here, I have just used a loop and appended eight <code>&lt;td&gt;</code>&rsquo;s to each row in the table. Here is the final code:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>$(<span style="color:#007020;font-weight:bold">function</span>() {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  <span style="color:#007020;font-weight:bold">for</span> (<span style="color:#007020;font-weight:bold">var</span> y <span style="color:#666">=</span> <span style="color:#40a070">0</span>; y <span style="color:#666">&lt;=</span> <span style="color:#40a070">7</span>; y<span style="color:#666">++</span>) {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>      $(<span style="color:#4070a0">&#34;#chess-board&#34;</span>).append(
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>        <span style="color:#4070a0">&#34;&lt;tr&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;0&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;1&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;2&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;3&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;4&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;5&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;6&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>          <span style="color:#4070a0">&#34;&lt;td data-x=&#39;7&#39; data-y=&#39;&#34;</span> <span style="color:#666">+</span> y <span style="color:#666">+</span> <span style="color:#4070a0">&#34;&#39;&gt;&lt;/td&gt;&#34;</span> <span style="color:#666">+</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>        <span style="color:#4070a0">&#34;&lt;/tr&gt;&#34;</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>  });
+</span></span></code></pre></div><p>You might have noticed the <code>data-x</code> and <code>data-y</code> values (they have been added at a later stage). I will explain in the next post why they are there. At this moment they are out o the scope of this post.</p>
+<p>Now that we are finally done with the HTML skeleton, it&rsquo;s time for some CSS!</p>
+<p>As much as it looks simple, it took some time to make the CSS code as short as possible. I thought how could I use SASS here and get more practice with it along the way. The mixins seemed like a reasonable choice combined with the CSS pseudo-classes :odd and :even (black and white cell logic). This is what I have ended up with:</p>
+<p>Mixins for box shadow and gradient fill:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>@<span style="color:#007020;font-weight:bold">mixin</span> <span style="color:#062873;font-weight:bold">shadow-box</span><span style="color:#666">($</span><span style="color:#062873;font-weight:bold">amount</span><span style="color:#666">,</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">color</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  <span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">box-shadow</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">inset</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">amount</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">color</span><span style="color:#666">;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>  <span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">-moz-box-shadow</span><span style="color:#666">:</span> <span style="color:#062873;font-weight:bold">inset</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">amount</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">color</span><span style="color:#666">;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  <span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">-webkit-box-shadow</span>:<span style="color:#555;font-weight:bold">inset</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">amount</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">color</span><span style="color:#666">;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>@<span style="color:#007020;font-weight:bold">mixin</span> <span style="color:#062873;font-weight:bold">cell-gradient</span><span style="color:#666">($</span><span style="color:#062873;font-weight:bold">from</span><span style="color:#666">,</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">to</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span><span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">background</span><span style="color:#666">:</span>#<span style="color:#0e84b5;font-weight:bold">cecece</span><span style="color:#666">;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span><span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">background</span>:<span style="color:#555;font-weight:bold">-moz-linear-gradient</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">top</span><span style="color:#666">,</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">from</span><span style="color:#666">,</span> <span style="color:#666">$</span><span style="color:#062873;font-weight:bold">to</span><span style="color:#666">);</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#666">&amp;</span><span style="color:#062873;font-weight:bold">nbsp</span><span style="color:#666">;</span> <span style="color:#062873;font-weight:bold">background</span>:<span style="color:#555;font-weight:bold">-webkit-gradient</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">linear</span><span style="color:#666">,</span><span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">0</span><span style="color:#666">,</span> <span style="color:#062873;font-weight:bold">0</span> <span style="color:#062873;font-weight:bold">100</span><span style="color:#666">%,</span> <span style="color:#062873;font-weight:bold">from</span><span style="color:#666">($</span><span style="color:#062873;font-weight:bold">from</span><span style="color:#666">),</span> <span style="color:#062873;font-weight:bold">to</span><span style="color:#666">($</span><span style="color:#062873;font-weight:bold">to</span><span style="color:#666">));</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>}
+</span></span></code></pre></div><p>The rest of the CSS:</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f0f0f0;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>#<span style="color:#0e84b5;font-weight:bold">chess-board</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>  <span style="color:#007020;font-weight:bold">border</span>: <span style="color:#40a070">7</span><span style="color:#902000">px</span> <span style="color:#007020;font-weight:bold">solid</span> <span style="color:#40a070">#000</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>  <span style="color:#007020;font-weight:bold">border-collapse</span>: <span style="color:#007020;font-weight:bold">separate</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>  <span style="color:#007020;font-weight:bold">padding</span>: <span style="color:#40a070">1</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>#<span style="color:#0e84b5;font-weight:bold">chess-board</span> <span style="color:#062873;font-weight:bold">td</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>  <span style="color:#007020;font-weight:bold">width</span>: <span style="color:#40a070">70</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>  <span style="color:#007020;font-weight:bold">height</span>: <span style="color:#40a070">70</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>  <span style="">@include</span> <span style="">cell-gradient(#fff,</span> <span style="">#eee)</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>  <span style="">@include</span> <span style="">shadow-box(1px,</span> <span style="">#fff)</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>  <span style="color:#007020;font-weight:bold">font-size</span>: <span style="color:#40a070">47</span><span style="color:#902000">px</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>  <span style="">@extend</span> <span style="">.text-center</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span>}
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span>#<span style="color:#0e84b5;font-weight:bold">chess-board</span> <span style="color:#062873;font-weight:bold">tr</span>:<span style="color:#555;font-weight:bold">nth-child</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">odd</span><span style="color:#666">)</span> <span style="color:#062873;font-weight:bold">td</span>:<span style="color:#555;font-weight:bold">nth-child</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">even</span><span style="color:#666">),</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17</span><span>#<span style="color:#0e84b5;font-weight:bold">chess-board</span> <span style="color:#062873;font-weight:bold">tr</span>:<span style="color:#555;font-weight:bold">nth-child</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">even</span><span style="color:#666">)</span> <span style="color:#062873;font-weight:bold">td</span>:<span style="color:#555;font-weight:bold">nth-child</span><span style="color:#666">(</span><span style="color:#062873;font-weight:bold">odd</span><span style="color:#666">)</span> {
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18</span><span>  <span style="color:#007020;font-weight:bold">box-shadow</span>:<span style="color:#007020;font-weight:bold">inset</span> <span style="color:#40a070">0</span> <span style="color:#40a070">0</span> <span style="color:#40a070">10</span><span style="color:#902000">px</span> <span style="color:#007020">rgba</span>(<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">.4</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19</span><span>  <span style="color:#007020">-moz-</span><span style="color:#007020;font-weight:bold">box-shadow</span>:<span style="color:#007020;font-weight:bold">inset</span> <span style="color:#40a070">0</span> <span style="color:#40a070">0</span> <span style="color:#40a070">10</span><span style="color:#902000">px</span> <span style="color:#007020">rgba</span>(<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">.4</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20</span><span>  <span style="color:#007020">-webkit-</span><span style="color:#007020;font-weight:bold">box-shadow</span>:<span style="color:#007020;font-weight:bold">inset</span> <span style="color:#40a070">0</span> <span style="color:#40a070">0</span> <span style="color:#40a070">10</span><span style="color:#902000">px</span> <span style="color:#007020">rgba</span>(<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">0</span>,<span style="color:#40a070">.4</span>);
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21</span><span>  <span style="">@include</span> <span style="">cell-gradient(#ccc,</span> <span style="">#eee)</span>;
+</span></span><span style="display:flex;"><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22</span><span>}
+</span></span></code></pre></div><p>Looks quite neat and short and here is the result:</p>
+<p><img src="/images/chess-board.png" alt="chess-board"></p>
+<h2 id="little-time-savers">Little Time Savers</h2>
+<p>A little trick that I have discovered this week and which (OMG) actually saves so much time is the ability to run a program right in Sublime Text. Just execute the Cmd+B on a Mac when you are in the file and a small terminal window will appear at the bottom of Sublime. It will be always useful in a situation where you have just one method to test. For instance, when I am solving some challenges on Project Euler. I am constantly using it or when I try to make an isolated test of a specific method in my app. Before I used to copy the method in a new file, save it and then run it via Terminal. Now, I just open up the new file and start playing with the code.</p>
+<h2 id="summary">Summary</h2>
+<p>It is still early days of the group project, but I can see the value already in it. Firstly, all of us have separate tasks to do that in one way or another intertwine with each other. We learn how to avoid that. Secondly, we are all pushing our code to GitHub, create the Pull Request and wait for the code reviews. Discussion starts, code gets refactored, before it is getting &ldquo;thumbs up&rdquo; and merged into the master branch.</p>
+<p>The collaborative aspect of the team development and necessary git knowledge is already starting to feel more natural. Only that will be (I hope) a huge bonus when looking for our first position in real world.</p>
+<p>Plus you get to work with cool people who are around the same coding level as you are, so it&rsquo;s pretty fun!</p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 84.62%</p>
+<p><a href="/posts/firehose-project-week-10">&laquo; Week 10</a> === <a href="/posts/firehose-project-week-12">Week 12 &raquo;</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+  <a href="http://localhost:1313/blog/javascript/">#javascript</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

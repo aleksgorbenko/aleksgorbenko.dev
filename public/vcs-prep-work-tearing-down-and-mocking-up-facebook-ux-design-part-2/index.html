@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 2 | Aleks Gorbenko</title>
+<meta name="title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 2" />
+<meta name="description" content="Continuing the teardown." />
+<meta name="keywords" content="design," />
+
+
+<meta property="og:url" content="http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 2">
+  <meta property="og:description" content="Continuing the teardown.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-03-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-03-08T00:00:00+00:00">
+    <meta property="article:tag" content="Design">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 2">
+  <meta name="twitter:description" content="Continuing the teardown.">
+
+
+
+
+  <meta itemprop="name" content="[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 2">
+  <meta itemprop="description" content="Continuing the teardown.">
+  <meta itemprop="datePublished" content="2016-03-08T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-03-08T00:00:00+00:00">
+  <meta itemprop="wordCount" content="2420">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Design">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 2</h1>
+<p>
+  <i>
+    <time datetime='2016-03-08'>
+      08 Mar, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p><a href="http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/">Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1</a></p>
+<p>The 2nd part involves analysing 5 different Facebook pages against a set of 8 questions. In case you want to read about the task in a bit more details - <a href="http://www.vikingcodeschool.com/web-design-basics/tearing-down-and-mocking-up-facebook">check the assignment page</a>.</p>
+<p>This task is quite a similar to the one covered in Part 1, but a bit more granular. Let&rsquo;s get started!</p>
+<p>These are our 5 patients for the assignment:</p>
+<ul>
+<li><strong>Facebook Home Page</strong></li>
+<li><strong>Facebook News Feed Page</strong></li>
+<li><strong>Facebook Profile Page</strong></li>
+<li><strong>Facebook About Page</strong></li>
+<li><strong>Facebook Photos Page</strong></li>
+</ul>
+<p>Part of this assignment was also to develop the mock-ups of these 5 pages using <a href="https://balsamiq.com/">Balsamiq Wireframing tool</a>.</p>
+<p>I will insert the mock-ups in this post for each individual page.</p>
+<p>If you want to get PDF / PNG / BMPR (Balsamiq file format) files - <a href="https://github.com/kucher12/viking_prep_work">they are available in a repo on GitHub.</a> If you are new to GitHub, the easiest way would be to download the ZIP file:</p>
+<p><img src="/images/github-download-zip.png" alt="download the repo files via the &ldquo;zip download&rdquo; fucntion"></p>
+<h2 id="facebook-home-page">Facebook Home Page</h2>
+<p><img src="/images/facebook-homepage.png" alt="facebook homepage mockup"></p>
+<ol>
+<li>Who is the most likely user of this page?</li>
+</ol>
+<p>A person who came to the website for the first time. A person who has an account on the website but is using other browser or machine to access the website. A person who emptied the cookies in their browser and are trying to access the site.</p>
+<ol>
+<li>What is that user&rsquo;s critical goal on that page?</li>
+</ol>
+<p>There will be only 2 main goals here: Sign In and Sign Up.</p>
+<ol>
+<li>Does the visual hierarchy you sketched lead to that goal?</li>
+</ol>
+<p>Yes, it does for both goals. To sign in there are 2 fields in the top NavBar which are immediately visible on the blue background. The cursor also starts automatically blinking in the &ldquo;Username&rdquo; field so this movement attracts the eye.</p>
+<p>There is a huge green button &ldquo;Create Account&rdquo; that is probably the most prominent element on the page, users who are new to Facebook most certainly will look at it first. It will then indicate that the have to fill in the fields above to access the site.</p>
+<ol>
+<li>Do the relationships between the elements lead you to that goal?</li>
+</ol>
+<p>Contrast - yes, as described above the contrast between light bluish gradient, blue NavBar and green CTA button.</p>
+<p>Page elements that are used to meet both goals on this page are aligned between themselves but not to each other (the sign in elements are not aligned with sign up elements). This makes them look unrelated - which gives more clarity to the user.</p>
+<p>Sign up elements are close to each other as are the sign in elements, the proximity is there and ANALYSE AGAIN</p>
+<ol>
+<li>What font families are most prominent on the page?</li>
+</ol>
+<p>Across the whole page &ldquo;Helvetica&rdquo; is used apart from one CTA button &ldquo;Create Account&rdquo; - it has &ldquo;Freight Sans Bold&rdquo; font. The idea behind having a different font just on this one element is not clear to me at this point.</p>
+<ol>
+<li>How do these font families contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>As it is one consistent Sans-family font (almost) - experience is pleasant to the eye, the text reads well and clear.</p>
+<ol>
+<li>How do the line spacings, sizes and weights contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>It seems to me that spacings, sizes and weights are very balanced across the page, they don&rsquo;t take anything away, but only contribute to clarity of each word.</p>
+<ol>
+<li>What would you improve to achieve a better hierarchy or flow?</li>
+</ol>
+<p>At this point I wouldn&rsquo;t change anything, apart perhaps keeping the font Helvetica also on the CTA button. The fact that this button has different font is visible with the naked eye, but it doesn&rsquo;t add anything else. CTA button is green anyway as it emphasised enough, so I would just keep one font across the whole page.</p>
+<h2 id="facebook-news-feed-page">Facebook News Feed Page</h2>
+<p><img src="/images/facebook-newsfeedpage.png" alt="facebook newsfeed page mockup"></p>
+<ol>
+<li>Who is the most likely user of this page?</li>
+</ol>
+<p>A person who just sign in their account or just sign up and logged in for the first time.</p>
+<ol>
+<li>What is that user&rsquo;s critical goal on that page?</li>
+</ol>
+<p>Seeing the newsworthy information that the user is connected with easily and effortlessly. The second goal would be to post information to the News Feed.</p>
+<ol>
+<li>Does the visual hierarchy you sketched lead to that goal?</li>
+</ol>
+<p>Yes, it does. News Feed is featured in the central part of the screen and posts are clearly visible on the white background. The continuity of the feed below the fold invites user to keep scrolling and keep achieving the main goal of seeing the news that their friends have posted.</p>
+<p>CTA button &ldquo;Post&rdquo; is coloured blue and makes it easy for the user to see where the text or photo should be inserted to make a post.</p>
+<ol>
+<li>Do the relationships between the elements lead you to that goal?</li>
+</ol>
+<p>Yes, the top box to create a post has a different in contrast to the rest of the News Feed, it has the CTA button &ldquo;Post&rdquo; and CTA text &ldquo;What&rsquo;s on your mind?&rdquo; - as to show where exactly you should input the text.</p>
+<p>The News Feed is pretty clear too, it has the gutters between each post and the same size gutters are on the both sides of the Feed to visually separate it from the other page elements on the right and left.</p>
+<ol>
+<li>What font families are most prominent on the page?</li>
+</ol>
+<p>&ldquo;Helvetica&rdquo; across the whole page.</p>
+<ol>
+<li>How do these font families contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>I am inclined to repeat the answer from the previous page - experience is pleasant to the eye, the text reads well and clear. It seems to be that this font will be used everywhere and it is clear that FB developers put a great amount of time into optimising the font. From my perspective they did a really great job on the &ldquo;font side of things&rdquo;.</p>
+<ol>
+<li>How do the line spacings, sizes and weights contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>The CTA buttons have slightly higher line-height (22px) from the rest of the elements on the page (user names and event names = 19px) (comments and lighter text = 16px). The CTA buttons and user names are also bolded which. The fact that usernames are bolded - immediately gives the context to the content in the Feed.</p>
+<ol>
+<li>What would you improve to achieve a better hierarchy or flow?</li>
+</ol>
+<p>Perhaps it&rsquo;s my resolution (MB Pro retina), but the feed overall looks a bit shrunk. I think FB could have done a better job at a designing bigger, wider solution to the higher-resolution displays. (I do admit that the idea behind making the news feed narrow could be to keep the UX more or less consistent throughout all classes of devices (mobile, tablet desktop), without having on overly wide interfaces on desktop that would be looking very different from the mobiles and tablets. This is just an assumption though).</p>
+<p>Another thing - I would increase the width of the News Feed by 1 more GRID column. That would make visual content even more prominent and sometimes perhaps you wouldn&rsquo;t to open the photo in full size to see all its details.</p>
+<h2 id="facebook-profile-page">Facebook Profile Page</h2>
+<p><img src="/images/facebook-profilepage.png" alt="facebook profile page mockup"></p>
+<ol>
+<li>Who is the most likely user of this page?</li>
+</ol>
+<p>A user who has an account and is looking at her own account or account of another user.</p>
+<ol>
+<li>What is that user&rsquo;s critical goal on that page?</li>
+</ol>
+<p>Seeing the basic information about a particular user. Pictures seem to take the most of the space on the page, and text info (such as education and work) is de-emphasised (coloured in light grey), which makes me conclude that the main aim here would be to look at the pictures of another user.</p>
+<ol>
+<li>Does the visual hierarchy you sketched lead to that goal?</li>
+</ol>
+<p>Clearly, yes. There is a cover photo, that is basically taking the top section of the page, the profile picture of the user in the white frame. Photo tiles on the left lower part of the page. The second element in the hierarchy is the Timeline of the user and her most recent posts. As mentioned before, the text on this page is mostly is de-emphasised.</p>
+<ol>
+<li>Do the relationships between the elements lead you to that goal?</li>
+</ol>
+<p>The first thing that I have noticed are the gutter sizes - they are different! See examples below:</p>
+<p><img src="/images/gutter-2.png" alt="gutter 2"></p>
+<p>and</p>
+<p><img src="/images/gutter-1.png" alt="gutter 1"></p>
+<p>I think it really helps to separate various visual elements on this page better.</p>
+<p>Photos location is clearly visible from the start so they are literally the first thing that captures the sight.</p>
+<ol>
+<li>What font families are most prominent on the page?</li>
+</ol>
+<p>&ldquo;Helvetica&rdquo; across the whole page.</p>
+<ol>
+<li>How do these font families contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>If the goal was to learn more informational about another user but to look at her photos, then font in the category tabs (About, Friends, Photos, etc) is emphasised, it is bigger (19px). The line-height is also much bigger - 43px, it&rsquo;s also bold. So that puts it apart from the other text elements and makes the journey of the user easier to continue.</p>
+<ol>
+<li>How do the line spacings, sizes and weights contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>See my observations in the previous question.</p>
+<ol>
+<li>What would you improve to achieve a better hierarchy or flow?</li>
+</ol>
+<p>Reverse the gutter size between the News Feed page and Profile page. I don&rsquo;t think such huge gutter is necessary on the Profile page because it has a very specific context (another user) and all information is within this context - photos, intro, posts, friends. Unlike on the homepage where the gutter separates elements that are in different in context - left NavBar (groups, events, apps, favourites), News Feed, and right Column with Ads and Trends.</p>
+<h2 id="facebook-about-page">Facebook About Page</h2>
+<p><img src="/images/facebook-aboutpage.png" alt="facebook about page mockup"></p>
+<ol>
+<li>Who is the most likely user of this page?</li>
+</ol>
+<p>A user who has an account and is looking at her own account or account of another user, specifically About page.</p>
+<ol>
+<li>What is that user&rsquo;s critical goal on that page?</li>
+</ol>
+<p>Learning more about the background information of another user, such as Education, Past Work, Contact Details, Places of Living, Family Status.</p>
+<ol>
+<li>Does the visual hierarchy you sketched lead to that goal?</li>
+</ol>
+<p>It is very clear indeed. On the left, there is a list of information categories, while in the middle you get the actual information from that particular category. This info is in the middle of the screen and there is a lot of breathing space within the text, which makes it really easy to absorb it.</p>
+<ol>
+<li>Do the relationships between the elements lead you to that goal?</li>
+</ol>
+<p>About section is essentially in the &ldquo;box&rdquo;, separated by a thick gutter from the top Cover and Profile photo and from the Friends box under it. Once again the goal is met easily by having this clear separation.</p>
+<ol>
+<li>What font families are most prominent on the page?</li>
+</ol>
+<p>&ldquo;Helvetica&rdquo; across the whole page.</p>
+<ol>
+<li>How do these font families contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>Please refer to the observations in the analysis of the previous page.</p>
+<ol>
+<li>How do the line spacings, sizes and weights contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>Please see questions 3 and 4.</p>
+<ol>
+<li>What would you improve to achieve a better hierarchy or flow?</li>
+</ol>
+<p>Nothing. So far it the cleanest and non-distractive page of all that achieves the goal really good.</p>
+<h2 id="facebook-photos-page">Facebook Photos Page</h2>
+<p><img src="/images/facebook-photospage.png" alt="facebook photos page mockup"></p>
+<ol>
+<li>Who is the most likely user of this page?</li>
+</ol>
+<p>A user who has an account and is looking at her own account or account of another user.</p>
+<ol>
+<li>What is that user&rsquo;s critical goal on that page?</li>
+</ol>
+<p>Seeing albums of pictures from a particular user.</p>
+<ol>
+<li>Does the visual hierarchy you sketched lead to that goal?</li>
+</ol>
+<p>There are only 2 elements in the hierarchy here: photos and top navigational elements (back to Timelines, About, etc). The goal is clear here - watch the darn photos :)</p>
+<ol>
+<li>Do the relationships between the elements lead you to that goal?</li>
+</ol>
+<p>Absolutely. There is not much relationship here, though, the page is predominantly filled with photos and very little text.</p>
+<ol>
+<li>What font families are most prominent on the page?</li>
+</ol>
+<p>&ldquo;Helvetica&rdquo; across the whole page.</p>
+<ol>
+<li>How do these font families contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>Please see my observations of the previous pages.</p>
+<ol>
+<li>How do the line spacings, sizes and weights contribute to or take away from the site&rsquo;s flow?</li>
+</ol>
+<p>Please see my observations from the previous section.</p>
+<ol>
+<li>What would you improve to achieve a better hierarchy or flow?</li>
+</ol>
+<p>It seems this page was also made as simple as possible, there is literally only 1 main action a user can make - click on any one photo and keep browsing through with the left and right arrow controls.</p>
+<p>Not much can be improved here, except for one thing. I would add the Year Timeline on the right-hand side of the photos so as it give the time context to the photos of when they were uploaded, without the need to open each photo. Years in this timeline should be clickable too if a user wants to jump to the past posts and see photos (e.g.) from the last year.</p>
+<p>In case I sounded a bit confusing, this is the Year Timeline I referred to:</p>
+<p><img src="/images/facebook_timeline.png" alt="facebook timeline"></p>
+<p>P.S Just realised that it is now absent from the User Profiles and visible on the &ldquo;Pages&rdquo; (such as company pages).</p>
+<h2 id="summary">Summary</h2>
+<p>Alright, so that wraps up the assignment. I think it was a really good exercise - it makes you think a bit more critical of what you see. I have noticed that during analysis it really helps to think from a perspective of a non-technical person, a very limited user in terms of computer literacy (dummy). Likely my flatmate is just like that, so I know where to go if I ever need to test my designs in the future :)</p>
+<p>Having such approach helps to raise the right questions on various elements on the page and actually can give insight on what could be done better to make things easier for an average user.</p>
+<p>And having said that - I would rate the Facebook UX  on these particular 5 cases at around 8/10. This is a subjective mark of an aspiring developer who had just covered the UX fundamentals.</p>
+<p>If you read till this far - first of all thank you for sticking around! It wasn&rsquo;t the shortest post of all. Hopefully you have learned from this exercise as much as I did, if not more!</p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/design/">#design</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

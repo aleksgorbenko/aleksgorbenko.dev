@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mock_up on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/mock_up/</link>
+    <description>Recent content in Mock_up on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Tue, 08 Mar 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/mock_up/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 2</title>
+      <link>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/</link>
+      <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/&#34;&gt;Tearing Down and Mocking UP Facebook: UX &amp;amp; Design Part 1&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The 2nd part involves analysing 5 different Facebook pages against a set of 8 questions. In case you want to read about the task in a bit more details - &lt;a href=&#34;http://www.vikingcodeschool.com/web-design-basics/tearing-down-and-mocking-up-facebook&#34;&gt;check the assignment page&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This task is quite a similar to the one covered in Part 1, but a bit more granular. Let&amp;rsquo;s get started!&lt;/p&gt;&#xA;&lt;p&gt;These are our 5 patients for the assignment:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX &amp; Design Part 1</title>
+      <link>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/</link>
+      <pubDate>Sat, 05 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/</guid>
+      <description>&lt;p&gt;I am currently going through the Prep Work of the Viking Code School (VCS). I thought it would be a good idea to document the assignments online.&lt;/p&gt;&#xA;&lt;p&gt;This assignment is a part of the Design mini-course. It is the first part out of the 3 tasks. Below is the part 1 which consists of 8 high-level questions. Part 2 involves a deeper analysis of 5 Facebook pages and building their mockups.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

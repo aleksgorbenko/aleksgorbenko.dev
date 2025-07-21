@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nows on Aleks Gorbenko</title>
+    <link>http://localhost:1313/now/</link>
+    <description>Recent content in Nows on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <atom:link href="http://localhost:1313/now/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Now</title>
+      <link>http://localhost:1313/now/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/now/now/</guid>
+      <description>&lt;h2 id=&#34;automation&#34;&gt;Automation&lt;/h2&gt;&#xA;&lt;p&gt;One of the big goals for 2020 for me was to automate a lot of things in life. The project is still ongoing.&lt;/p&gt;&#xA;&lt;h2 id=&#34;knowledge-base-migration&#34;&gt;Knowledge Base Migration&lt;/h2&gt;&#xA;&lt;p&gt;Over the years I got to keep notes in Evernote, OneNote, Apple Notes, Notion. This year I have discovered a system for note-keeping called Zettlekasten. I am currently migrating ALL the notes I made on a myriad of different things to Obsidian (a markdown editor that has nifty features which makes Zettlekasten implementation easier)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 8 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 8" />
+<meta name="description" content="4th project and dipping toes in Test Driven Development" />
+<meta name="keywords" content="bootcamp,tdd," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-8/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 8">
+  <meta property="og:description" content="4th project and dipping toes in Test Driven Development">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-06-20T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-06-20T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="article:tag" content="Tdd">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 8">
+  <meta name="twitter:description" content="4th project and dipping toes in Test Driven Development">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 8">
+  <meta itemprop="description" content="4th project and dipping toes in Test Driven Development">
+  <meta itemprop="datePublished" content="2016-06-20T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-06-20T00:00:00+00:00">
+  <meta itemprop="wordCount" content="638">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp,Tdd">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 8</h1>
+<p>
+  <i>
+    <time datetime='2016-06-20'>
+      20 Jun, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>The 4rth app that was developed using TDD - <a href="https://grammable-aleks-gorbenko.herokuapp.com/">Grammable</a>. It is quite simple (the app, not the process), yet it is much more professional (in the back-end) than other apps that I have built in a sense that it employs industry best practices (as any app should, as it turns out).</p>
+<p>I have also mentioned a couple of weeks ago that I have quite a lot of algorithm tasks to solve and I really felt that it was the area that I needed to work on as I kind of neglected it a bit.</p>
+<h2 id="knowing-algorithms-is-bloody-important">Knowing Algorithms is Bloody Important</h2>
+<p>I did not solve as many of them as I used to in the first weeks of the bootcamp, so this week it was my main focus to fix that. One of the things that Firehose Project founders Ken and Marco stress is the knowledge of Data Structures and Algorithms, so the course is packed with pretty challenging tasks. Each is exposing you to a new DS and a new way of thinking about the problem. For instance, I had 2 algorithms to solve that involved <a href="https://en.wikipedia.org/wiki/Linked_list">Linked Lists</a> and a <a href="https://en.wikipedia.org/wiki/Stack_(abstract_data_type)">Stack</a>. Ruby as a language doesn&rsquo;t even have these types of data built-in, but it is relatively easy to implement them manually&hellip; But hell! How hard it was to reverse a Linked List, first with the use of the Stack and then without - my mind melted probably 3 times before I got it. :)</p>
+<p>By the way, one of the Firehosers (student) wrote an article on LLs <a href="https://medium.com/@charlie.b.ohara/what-is-a-linked-list-44a10d63cbae#.cjt4wu2z5">to demystify the concept.</a></p>
+<p>Their complexity was far more advanced than the ones that I used to solve on my 3rd and 4th weeks and each took several hours to solve. It was discouraging really, it felt like if I get one on a coding interview, I would just fail it.</p>
+<p>On my mentor session, to my surprise&hellip;my solutions did quite well. That is not to say that I have solved ALL challenges with ease (actually, one wasn&rsquo;t solved but I was very close to getting it right). I shared my concerns with my mentor and his response was (in my own words):</p>
+<blockquote>
+<p>Don&rsquo;t get discouraged that it takes you a long time to solve these algorithms - that are made to make you think hard and are usually above your knowledge. Having skills to solve them is important, yes, but it is ok to fail too, even on the interviews. When you are given a puzzle to solve on the interview, it is not just about solving it. It has more to do with how you think, how you deconstruct the problem and what approaches you use in your attempts solving them.</p></blockquote>
+<p>- My Mentor :)</p>
+<p>You shouldn&rsquo;t be afraid to ask your interviewer questions if they are relevant most of them will give you a hint. You can also say something along the lines &ldquo;here is my code and this is how it works. I wasn&rsquo;t able to solve the problem entirely and I know there is a method in <em>insert you programming language</em> that would make my solution work. I would have to look into the documentation to double-check it.</p>
+<p>This was the best piece of advice I got this week.</p>
+<p>As a follow-up, he also sent me <a href="https://blog.devmastery.com/how-to-win-the-coding-interview-71ae7102d685#.lic4zf77z">How to Win the Coding Interview</a> article, which pretty much confirmed everything he said to me during our session. My mentor is a pretty awesome mentor actually :)</p>
+<p>That would be the wrap-up of this week&hellip;</p>
+<p>As I had to do some part-time work this week, apart from algorithms and Grammable, I did not do much else. Well, ok - I read the <a href="https://www.amazon.com/Brave-New-World-Aldous-Huxley/dp/0375712364/ref=mt_hardcover?_encoding=UTF8&amp;me=">Brave New World</a> by Aldous Huxley, and I bloody loved it!</p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 61.54</p>
+<p><a href="/posts/firehose-project-week-7">&laquo; Week 7</a> === <a href="/posts/firehose-project-week-9">Week 9 &raquo;</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+  <a href="http://localhost:1313/blog/tdd/">#tdd</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

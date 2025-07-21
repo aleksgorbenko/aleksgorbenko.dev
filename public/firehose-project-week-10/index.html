@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>Firehose Project Week 10 | Aleks Gorbenko</title>
+<meta name="title" content="Firehose Project Week 10" />
+<meta name="description" content="Why, why, JavaScript?" />
+<meta name="keywords" content="bootcamp,javascript," />
+
+
+<meta property="og:url" content="http://localhost:1313/firehose-project-week-10/">
+  <meta property="og:site_name" content="Aleks Gorbenko">
+  <meta property="og:title" content="Firehose Project Week 10">
+  <meta property="og:description" content="Why, why, JavaScript?">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2016-07-04T00:00:00+00:00">
+    <meta property="article:modified_time" content="2016-07-04T00:00:00+00:00">
+    <meta property="article:tag" content="Bootcamp">
+    <meta property="article:tag" content="Javascript">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="Firehose Project Week 10">
+  <meta name="twitter:description" content="Why, why, JavaScript?">
+
+
+
+
+  <meta itemprop="name" content="Firehose Project Week 10">
+  <meta itemprop="description" content="Why, why, JavaScript?">
+  <meta itemprop="datePublished" content="2016-07-04T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2016-07-04T00:00:00+00:00">
+  <meta itemprop="wordCount" content="1125">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="Bootcamp,Javascript">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  :root {
+    --width: 720px;
+    --font-main: Verdana, sans-serif;
+    --font-secondary: Verdana, sans-serif;
+    --font-scale: 1em;
+    --background-color: #fff;
+    --heading-color: #222;
+    --text-color: #444;
+    --link-color: #3273dc;
+    --visited-color: #8b6fcb;
+    --code-background-color: #f2f2f2;
+    --code-color: #222;
+    --blockquote-color: #222;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background-color: #01242e;
+      --heading-color: #eee;
+      --text-color: #ddd;
+      --link-color: #8cc2dd;
+      --visited-color: #8b6fcb;
+      --code-background-color: #000;
+      --code-color: #ddd;
+      --blockquote-color: #ccc;
+    }
+  }
+
+  body {
+    font-family: var(--font-secondary);
+    font-size: var(--font-scale);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width);
+    text-align: left;
+    background-color: var(--background-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-main);
+    color: var(--heading-color);
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  strong,
+  b {
+    color: var(--heading-color);
+  }
+
+  button {
+    margin: 0;
+    cursor: pointer;
+  }
+
+  time {
+    font-family: monospace;
+    font-style: normal;
+    font-size: 15px;
+  }
+
+  main {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    font-family: monospace;
+    padding: 2px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: var(--code-color);
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title h1 {
+    font-size: 1.5em;
+  }
+
+  .inline {
+    width: auto !important;
+  }
+
+  .highlight,
+  .code {
+    padding: 1px 15px;
+    background-color: var(--code-background-color);
+    color: var(--code-color);
+    border-radius: 3px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    overflow-x: auto;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--visited-color);
+  }
+
+</style>
+
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Aleks Gorbenko</h2>
+</a>
+<nav>
+<a href="/">Home</a>
+
+<a href="/blog/">Blog</a>
+
+<a href="/now/">Now</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Firehose Project Week 10</h1>
+<p>
+  <i>
+    <time datetime='2016-07-04'>
+      04 Jul, 2016
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>As planned, this week I spent learning more of the JavaScript (nope, I still don&rsquo;t like it that much).  I have also watched some Plularsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.</p>
+<p>Two main areas I tried to concentrate on this week was the this keyword and the Prototypical Inheritance in JS. I know you can write class-like code in ES6 (which is a relief actually), but in any case to really understand how objects are created in JS and how they inherit methods and properties from each other one has to go through PI.</p>
+<p>So far the best article I have found on Prototypes - <a href="http://sporto.github.io/blog/2013/02/22/a-plain-english-guide-to-javascript-prototypes/">A Plain English Guide To JavaScript Prototypes</a>. I did watch as well <a href="https://app.pluralsight.com/library/courses/javascript-objects-prototypes/table-of-contents">this short course on JS objects and prototypes</a>, which helped me to solidify the understanding with some more examples (that&rsquo;s not to say that I get it all :) ). On top of that I recapped the difference between the Object Literals and Constructor Functions ways to create an object.</p>
+<p>I am not going to lie&hellip; I am still not clear about the this keyword&hellip;but probably the best explanation I have found so far is in <a href="https://rainsoft.io/gentle-explanation-of-this-in-javascript/">this article</a>. Dmitri (author) has also other useful posts on JavaScript, so be sure to check out his other articles on <a href="https://rainsoft.io/must-know-details-about-es2016-features/">details of the upcoming ES2016</a>  and others.</p>
+<h2 id="getting-to-know-continuous-integration-andcontinuous-delivery">Getting to Know Continuous Integration and Continuous Delivery</h2>
+<p>Continuous Integration and Continuous Delivery were totally unfamiliar terms to me before the start of this week. Setting up both was one of the tasks for the agile team project I am currently in, so I volunteered to fulfil it. Turned out the whole concept of CI and CD is pretty damn cool. Here is the short version of what it is:</p>
+<p>If you are writing software using the TDD approach, you write a lot of tests as you move along the project. You run these tests, you see them pass. You <code>git commit</code> and push the code to the repo and then deploy it. CI can make almost all these actions automated if setup correctly.</p>
+<h3 id="continuous-integration">Continuous Integration</h3>
+<p>There a few options existing on the market for CI/CD solutions, the most popular are <a href="https://codeship.com">CodeShip</a> and <a href="https://travis-ci.com/">TravisCI</a>. I went with CodeShip as a mentor suggested it. It is pretty straightforward to set it up. I followed <a href="http://code.tutsplus.com/tutorials/codeship-continuous-integration-and-delivery-made-simple--cms-23517">this tutorial</a> and it worked almost immediately after I created the project and hooked it up with the GH repo. Here is a screenshot of the our setup on CodeShip:</p>
+<p><img src="/images/codeship-test-settings.png" alt="codeship-test-settings"></p>
+<p>So now, every time one of the team members pushes code to the GitHub - the following happens:</p>
+<ol>
+<li>The whole repo is cloned to the CodeShip server.</li>
+<li>Specified commands are being run (like bundle install and which version of Ruby should be installed - everything should match your development environment).</li>
+<li>All tests are run (it depends what you use, we are using RSpec)</li>
+<li>If all tests pass the build is marked Green and the Merge button on GH becomes active.</li>
+<li>If test/s fail - you get the error message on GH, notification via email, Slack, etc.</li>
+<li>The Build is getting deleted from CodeShip servers, that&rsquo;s right, they don&rsquo;t store any of your actual data, just the test results of each build.</li>
+</ol>
+<h3 id="continuous-delivery">Continuous Delivery</h3>
+<p>CD comes into play when all tests are passed and you press Merge on GH. CodeShip then takes the code and deploys it wherever you specify.</p>
+<p>Straight after setting them up you see the value of these services. It saves SO much time. But the main benefit is the fact that the whole team is on the same page in terms of which test are passing which tests are failing and what needs to be fixed. If all tests are green, deployment is also taken care of and you have  less commands to run from your CLI.</p>
+<h2 id="a-note-on-wireframing">A Note on Wireframing</h2>
+<p>I also took some part in designing the wireframes for our group project and this was probably the first time when I literally had to start from 0. At first it was just sitting in front of the black Balsamiq canvas, but after about 10-15 minutes of some inspiration web browsing and brainstorming I had an idea and actually it was really easy to build. I spent probably 25 minutes doing the mockup.</p>
+<p>The main thing though is realisation of how useful are the mockups. Before I used Balsamiq mostly to replicate existing websites to get some practice using the tool - now it was totally creative exercise. Moving forward, the whole team including myself will always refer to these drawings and will be on the same page in terms of visual part of what we are building.</p>
+<p>As I am going t build my portfolio website soon as well - I will be sure to create mockups as a first step. Technically, I know that I will be doing mockups first for every project.</p>
+<h2 id="collaboration-in-git">Collaboration in Git</h2>
+<p>Only after you join the team of Devs you realise that sometimes working with Git will be painful. Within the first week of the project, we probably had more merge conflicts than commits altogether. Step by step we all learned to manage git repo in a more stable way. Another reason why we had so many conflicts is due to the fact that our environments are different and we had to many conflicts in our Gemfile and Gemfile.lock files. To avoid conflicts I have created a checklist for myself and frankly after running through it a few times the whole process becomes a habit.</p>
+<p>Here it is:</p>
+<ol>
+<li><strong>Pull latest master branch</strong></li>
+<li><strong>Create branch</strong></li>
+<li><strong>Do coding</strong></li>
+<li><strong>Pull again the master branch</strong></li>
+<li><strong>Push new branch to GitHub to a separate branch</strong></li>
+<li><strong>Send pull request(PR) and make sure CI test are all good.</strong></li>
+<li><strong>Wait for code review OR fix the PR so it can be merged.</strong></li>
+<li><strong>After the branch has been merged into the master - you can delete the branch locally.</strong></li>
+</ol>
+<p>I spoke to my mentor about it and he said while the list is overall correct, most companies have their own standard processes that should be followed. To learn about git I have used <a href="https://www.atlassian.com/git/tutorials/what-is-version-control">Atlassian Git tutorial</a> - it has clear diagrams and good explanations as well as a <a href="https://www.atlassian.com/git/glossary/">glossary</a> for future reference. GitHub also has a <a href="https://guides.github.com/introduction/flow/">guide page on the workflow</a> that I recommend checking out.</p>
+<p>Finally, I kept on feeding my Sci-Fi addiction with two more novels. This week, I went back to classics of Polish and Russian Sci-Fi: <a href="http://amzn.to/29I8jz3">Solaris</a> by Stanislaw Lem and <a href="http://amzn.to/29zkxGl">Roadside Picnic</a> by Arkady and Boris Strugatsky.</p>
+<p>Happy Coding!</p>
+<p>My Journey at Firehose Project: 76.92%</p>
+<p><a href="/posts/firehose-project-week-9">&laquo; Week 9</a> === <a href="/posts/firehose-project-week-11">Week 11 &raquo;</a></p>
+
+</content>
+<p>
+  
+  <a href="http://localhost:1313/blog/bootcamp/">#bootcamp</a>
+  
+  <a href="http://localhost:1313/blog/javascript/">#javascript</a>
+  
+</p>
+
+  </main>
+  <footer>Made with <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+</footer>
+
+  
+</body>
+
+</html>

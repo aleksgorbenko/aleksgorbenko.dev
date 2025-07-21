@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on Aleks Gorbenko</title>
+    <link>http://localhost:1313/blog/javascript/</link>
+    <description>Recent content in Javascript on Aleks Gorbenko</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2025, Aleks Gorbenko</copyright>
+    <lastBuildDate>Mon, 11 Jul 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Firehose Project Week 11</title>
+      <link>http://localhost:1313/firehose-project-week-11/</link>
+      <pubDate>Mon, 11 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-11/</guid>
+      <description>&lt;p&gt;Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. &lt;a href=&#34;https://www.pluralsight.com/courses/jquery-fundamentals&#34;&gt;One on Pluralsight&lt;/a&gt; and another one &lt;a href=&#34;http://jqexercise.droppages.com&#34;&gt;here&lt;/a&gt; &lt;em&gt;(update: it is offline now, so try &lt;a href=&#34;http://try.jquery.com/&#34;&gt;this instead&lt;/a&gt;)&lt;/em&gt;. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 10</title>
+      <link>http://localhost:1313/firehose-project-week-10/</link>
+      <pubDate>Mon, 04 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-10/</guid>
+      <description>&lt;p&gt;As planned, this week I spent learning more of the JavaScript (nope, I still don&amp;rsquo;t like it that much).  I have also watched some Plularsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.&lt;/p&gt;&#xA;&lt;p&gt;Two main areas I tried to concentrate on this week was the this keyword and the Prototypical Inheritance in JS. I know you can write class-like code in ES6 (which is a relief actually), but in any case to really understand how objects are created in JS and how they inherit methods and properties from each other one has to go through PI.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 9</title>
+      <link>http://localhost:1313/firehose-project-week-9/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-9/</guid>
+      <description>&lt;p&gt;This week my single attention was devoted to JavaScript. I have managed to do quite a few things and can definitely say that I am feeling more confident. Firstly I have built another app - &lt;a href=&#34;https://todo-aleks-gorbenko.herokuapp.com/&#34;&gt;ToDo&lt;/a&gt; with Rails and jQuery. Many things were not exactly clear to me while I was writing code, so I decided to start over and found some additional sources to learn JS.&lt;/p&gt;&#xA;&lt;p&gt;I came across &lt;a href=&#34;https://watchandcode.com/&#34;&gt;WatchAndCode.com&lt;/a&gt;, made by Gordon Zhu, ex-Googler. The course is totally free and it is not yet finished, he is releasing modules every week. Funny enough the app that you build as you go along is the&amp;hellip;Todo app :) The only difference is that he uses only JS, no other frameworks or languages. The first 40% I could easily skip, but everything that came after I found incredibly useful. Moreover, I started getting jQuery concepts that were eluding me before. I understood finally the difference between the Event Listeners and Event Handlers. I have learned what is a Callback and Higher Order Function. Gordon has a very rare skill of explaining things simply so if you think you are &amp;ldquo;not getting&amp;rdquo; - try &lt;a href=&#34;https://watchandcode.com/&#34;&gt;his course&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Firehose Project Week 5</title>
+      <link>http://localhost:1313/firehose-project-week-5/</link>
+      <pubDate>Mon, 30 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/firehose-project-week-5/</guid>
+      <description>&lt;p&gt;This week I kept my main focus on JavaScript, although I did start the third application on the Firehose course - Flixter. It is not live yet and I will aim to complete it within the 2 - 2.5 weeks from now.&lt;/p&gt;&#xA;&lt;p&gt;I went through a course of some new GitHub techniques like branching, stashing and merging as well as resolving the merge conflicts. At this stage while I am not in a dev team I don&amp;rsquo;t really use them, but I am sure as my apps become more sophisticated, but most likely I will experience that when I start working on the team project after few more weeks.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
