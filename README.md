@@ -1,4 +1,4 @@
-# aleksgorbenko.dev
+# My Blog - [aleksgorbenko.dev](https://aleksgorbenko.dev)
 
 The site is build using [Hugo](https://gohugo.io) and [Hugo Bear](https://github.com/janraasch/hugo-bearblog) theme.
 
