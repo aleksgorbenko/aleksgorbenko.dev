@@ -1,7 +1,7 @@
 ---
 title: "Zettelkasten in 1500 Words or Less"
 description: "Short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it."
-date: "{date}"
+date: "2026-06-05"
 tags:
   - "note-taking"
 ---
