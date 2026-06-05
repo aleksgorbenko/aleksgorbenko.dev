@@ -62,7 +62,7 @@ Date: {{date}} // (links to my journal)
 - 
 ```
 
-With time you will create as many as you need (I have 20+ now, but it took me years to reach it).
+With time you will create as many as you need (I have 20+ now, but it took me years to reach this number).
 
 ### Adding templates
 1. Create `_template` folder in your vault
@@ -79,27 +79,41 @@ Next, create `[[My Interests]]` and link to it from `[[me]]` note.
 
 Now, dump as much as comes to your mind about your interests and things you care about. Do not create more notes at this stage, just keep writing in whatever format the writing flows.
 
-Take as much time as needed, days if necessary. After you dumped enough. Start looking for patterns:
+Take as much time as needed, days if necessary.
+
+After you dumped enough, start looking for patterns:
+
 1. What subjects did you write more about than the others?
 2. What subjects would you like to learn more about?
 
-Use base template to create one or more notes based on what you uncovered. Link them to `[[My Interests]]` and vice versa.
+Use `Base Note` template to create one or more notes based on what you uncovered. Link them to `[[My Interests]]` and vice versa.
 
-Vault at this stage:
+Your new Vault could look like this at this stage:
 
 ```shell
 .
 me.md
 My Interests.md
 Cooking.md
-Interest2.md
-Interest3.md
+AI.md
+Cyberpunk Music.md
 ```
 
-At some point, you will notice that you capture similar types of ideas. E.g cooking recipes, meeting notes, tasting notes, travelogues, podcast notes. This is how your collection of templates grow.
+At some point, you will notice that you capture similar types of ideas. E.g cooking recipes, meeting notes, tasting notes, travelogues, podcast notes. This is how your collection of templates will grow.
+
+Here are some of my `_templates`:
+
+```markdown
+new_museum_visit.md // I now know a lot about my taste in Art
+new_trip.md
+new_project.md
+new_quote.md
+new_weekly_review.md
+new_book.md // highlights from a book/pdf
+```
 
 ## How to Capture
-A useful starting point - a note called `Inbox` (similar idea to GDT). Here, you dump whatever you happen to capture in the moment. Decide on a lightweight format how you will capture things. E.g
+A useful starting point - a note called `Inbox` (similar idea to GDT). Here, dump whatever you happen to capture in the moment. Decide on a lightweight format how you will capture things to distinguish them easily. E.g:
 
 ```markdown
 links: [[My Interests]]
@@ -122,7 +136,7 @@ You need to keep this note clean, and review this weekly to extract the informat
 
 If you are a software engineer, optionally, create an `Engineering Daybook` note, which is essentially an `Inbox` type scoped to a single topic. I have used it for years and it has been invaluable in learning new things and keeping my work organised.
 
-Vault at this stage:
+Vault has potentially grown to:
 
 ```shell
 .
@@ -131,14 +145,19 @@ My Interests.md
 Cooking.md
 Inbox.md
 Engineering Daybook.md # optional
-Interest2.md
-Interest3.md
+AI.md
+Cyberpunk Music.md
 ```
 
 ## How to Link
-There are two ways - either you already know what to link to and you can do it manually, or you can have a look at Backlinks that the current note has and link to it.
+There are two ways
+
+1. You already know what to link to and you do it manually. Just type `[[Note Name|you can also use aliases]]` (think of alias as a `<a href="URL">alias</a>` tag in HTML)
+2. Have a look at `Unlinked Mentions` section of the current note in Obsidian (typically at the bottom) that the current note has and press `Link`
 
 Link lavishly, don't worry if you link too much. The more interconnected your web of knowledge becomes the more easier it is to traverse and see patterns.
+
+Yes, for the nerds out there - you are building an undirected graph.
 
 #### Optional Daily Notes
 Obsidian has a native `Daily Notes` functionality which is a good starting point for journaling/thinking in writing. **Writing *is* thinking**.
@@ -157,11 +176,13 @@ Use `Inbox` to see WHAT you capture in one place.
 
 Use `Daily Notes` to see WHY you capture notes you capture. E.g
 
-```
+```markdown
 Today I added a new note [[Astophysics]], I have always been into it since high school...hm... I keep watching these Frank Green videos which are really fun, but I can never remember stuff he talks about...maybe I can create a note for capturing YouTube summaries?
 ```
 
 Link your `Daily Notes` to notes that you create and vice versa.
+
+Your Vault after some journaling:
 
 ```shell
 .
@@ -170,9 +191,9 @@ My Interests.md
 Astophysics.md
 Cooking.md
 Inbox.md
-Engineering Daybook.md # optional
-Interest2.md
-Interest3.md
+Engineering Daybook.md
+AI.md
+Cyberpunk Music.md
 2026-06-05.md # Daily Note
 ```
 
@@ -187,23 +208,24 @@ Interest3.md
 ## Next Steps
 Do this type of note taking for some weeks, don't go crazy with dozens of templates on a first day. 
 
-Get used to the process. 
+**Get used to the process.** 
 
-Focus on:
-1. using 1-2 templates (`Base Note` and `Daily Note`) and linking all of them
-2. make it frictionless and fast. If you need to do too many things manually, like typing dates every time - you will eventually stop. Learn Obsidian shortcuts
+#### Focus on
+1. Using 1-2 templates (`Base Note` and `Daily Note`) and linking all of them
+2. Making the whole process frictionless and fast. If you need to do too many things manually, like typing dates every time - you will eventually stop. Learn and customise `Settings -> Hokeys` to make note management seamless.
 
-Build habit. 
+**Build habit.**
 
-Experiment.
+**Experiment.**
 
 Later, when you feel ready to build more structure into your knowledge base, here are more things to explore in Zettelkasten:
-- MOCs (map of content) - index notes that act as a way to link many notes of the same subjects
+- MOC (map of content) - index notes that act as a way to link many notes of the same subjects
 - Types of notes: Evergreen Notes, Fleeting Notes, Literature Notes
 	- You don't have to follow this! I tried, it didn't work for me, but I found my own way that works for me :)
 - **Dewey Index System** - some people like to structure their interests following it. I just kept a few category of names
 - **Obsidian Web Clipper** - saving articles/highlights
 - Advanced Templating - Use other tools to make it even easier and frictionless to capture thing you care about: **Apple Shortcuts** (great on iOS), **Keyboard Maestro**, **Alfred** (I use all)
+- Explore the idea of *appending to a file*. E.g instead of creating notes, you can quickly append smaller information chunks. I used to capture new entries in `[[My Questions]]` or `[[My Theories]]`
 - Plugins...well if you insist :)
 	- `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
 
