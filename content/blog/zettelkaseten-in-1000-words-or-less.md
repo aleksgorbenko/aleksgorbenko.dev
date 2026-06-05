@@ -13,9 +13,9 @@ Around 2020 I migrated to Zettelkasten (from Notion to Obsidian). I never looked
 This is short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it.
 
 ## Why People Still Struggle with Zettelkasten
-1. Too much upfront terminology. Evergreen Notes, Fleeting Notes, Literature Notes - all can be ignored in the beginning
+1. Too much upfront terminology - most of it can be ignored in the beginning
 2. No idea where to start and what to capture
-3. Not using templates form the start
+3. Not using templates from the start
 4. Friction - no quick and easy way to add new notes/capture ideas
 
 ## Before We Begin...
@@ -47,7 +47,7 @@ At the start you only need **ONE** template (let's call it `Base Note`), which w
 
 E.g this is how mine looks:
 
-```
+```markdown
 links: [[My Interests]] // breadcrumb style navigation
 
 ---
@@ -87,8 +87,8 @@ Use base template to create one or more notes based on what you uncovered. Link 
 
 Vault at this stage:
 
-```
-..
+```shell
+.
 me.md
 My Interests.md
 Cooking.md
@@ -101,7 +101,7 @@ At some point, you will notice that you capture similar types of ideas. E.g cook
 ## How to Capture
 A useful starting point - a note called `Inbox` (similar idea to GDT). Here, you dump whatever you happen to capture in the moment. Decide on a lightweight format how you will capture things. E.g
 
-```
+```markdown
 links: [[My Interests]]
 
 ---
@@ -124,13 +124,13 @@ If you are a software engineer, optionally, create an `Engineering Daybook` note
 
 Vault at this stage:
 
-```
-..
+```shell
+.
 me.md
 My Interests.md
 Cooking.md
 Inbox.md
-Engineering Daybook.md // optional
+Engineering Daybook.md # optional
 Interest2.md
 Interest3.md
 ```
@@ -161,19 +161,19 @@ Use `Daily Notes` to see WHY you capture notes you capture. E.g
 Today I added a new note [[Astophysics]], I have always been into it since high school...hm... I keep watching these Frank Green videos which are really fun, but I can never remember stuff he talks about...maybe I can create a note for capturing YouTube summaries?
 ```
 
-Link your Daily Notes to Notes and vice versa.
+Link your `Daily Notes` to notes that you create and vice versa.
 
-```
-..
+```shell
+.
 me.md
 My Interests.md
 Astophysics.md
 Cooking.md
 Inbox.md
-Engineering Daybook.md // optional
+Engineering Daybook.md # optional
 Interest2.md
 Interest3.md
-2026-06-05.md // Daily Note
+2026-06-05.md # Daily Note
 ```
 
 ## Things to be Aware of
@@ -187,19 +187,24 @@ Interest3.md
 ## Next Steps
 Do this type of note taking for some weeks, don't go crazy with dozens of templates on a first day. 
 
-Get used to the process. Focus on using 1-2 templates (`Base Note` and ±) and make sure it is frictionless and fast. If you need to do too many things manually, you will eventually stop. Keep that in mind.
+Get used to the process. 
+
+Focus on:
+1. using 1-2 templates (`Base Note` and `Daily Note`) and linking all of them
+2. make it frictionless and fast. If you need to do too many things manually, like typing dates every time - you will eventually stop. Learn Obsidian shortcuts
 
 Build habit. 
 
 Experiment.
 
-Happy note taking.
-
-Later, when ready, here are more things to explore in Zettelkasten:
+Later, when you feel ready to build more structure into your knowledge base, here are more things to explore in Zettelkasten:
 - MOCs (map of content) - index notes that act as a way to link many notes of the same subjects
 - Types of notes: Evergreen Notes, Fleeting Notes, Literature Notes
 	- You don't have to follow this! I tried, it didn't work for me, but I found my own way that works for me :)
-- Dewey Index System - some people like to structure their interests following it. I just kept a few category of names
-- Obsidian Web Clipper - saving articles/highlights
-- Advanced Templating - Use other tools to make it even easier and frictionless to capture thing you care about: Apple Shortcuts (great on iOS), Keyboard Maestro, Alfred (I use all)
+- **Dewey Index System** - some people like to structure their interests following it. I just kept a few category of names
+- **Obsidian Web Clipper** - saving articles/highlights
+- Advanced Templating - Use other tools to make it even easier and frictionless to capture thing you care about: **Apple Shortcuts** (great on iOS), **Keyboard Maestro**, **Alfred** (I use all)
 - Plugins...well if you insist :)
+	- `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
+
+Happy ~~note taking~~ *thinking*! 🙌
