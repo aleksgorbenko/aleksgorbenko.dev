@@ -29,7 +29,7 @@ I will be using Obsidian as an example, which I highly recommend you do too for 
 - Everything is a standard Markdown file
 - Works offline
 
-This guide is structured
+Structure of this guide:
 1. Main Ideas of Zettelkasten
 2. Notes and Templates
 3. Where to Start
@@ -38,9 +38,9 @@ This guide is structured
 6. Next Steps
 
 ## Bottoms Up and Backlinks
-The system has Two Main Ideas:
-1. Bottoms Up approach - you are not meant to "architect" your knowledge base from the start, instead begin by writing/capturing everything and anything that might interest you and then build connections with...
-2. Backlinks - every note is connected to some other note. The result is an ever-growing and ever-changing web or a graph that you can traverse and explore topics in. Ideally the moment when you create and fill a note, you also connect it to some other existing notes
+The Zettelkasten system has two main ideas:
+1. **Bottoms Up approach** - you are not meant to "architect" your knowledge base from the start, instead begin by writing/capturing everything and anything that might interest you and then build connections using...
+2. **Backlinks** - every note is connected to some other note. The result is an ever-growing and ever-changing web or a graph that you can traverse and explore topics in. Ideally the moment when you create and fill a note, you also connect it to some other existing notes
 
 ## Note Template and Structure
 At the start you only need **ONE** template (let's call it `Base Note`), which will be literally a template for every new note you create.
@@ -210,7 +210,7 @@ Do this type of note taking for some weeks, don't go crazy with dozens of templa
 
 **Get used to the process.** 
 
-#### Focus on
+### Focus on
 1. Using 1-2 templates (`Base Note` and `Daily Note`) and linking all of them
 2. Making the whole process frictionless and fast. If you need to do too many things manually, like typing dates every time - you will eventually stop. Learn and customise `Settings -> Hokeys` to make note management seamless.
 
@@ -225,7 +225,7 @@ Later, when you feel ready to build more structure into your knowledge base, her
 - **Dewey Index System** - some people like to structure their interests following it. I just kept a few category of names
 - **Obsidian Web Clipper** - saving articles/highlights
 - Advanced Templating - Use other tools to make it even easier and frictionless to capture thing you care about: **Apple Shortcuts** (great on iOS), **Keyboard Maestro**, **Alfred** (I use all)
-- Explore the idea of *appending to a file*. E.g instead of creating notes, you can quickly append smaller information chunks. I used to capture new entries in `[[My Questions]]` or `[[My Theories]]`
+- Explore the idea of *appending to a file*. E.g instead of creating notes, you can quickly append smaller information chunks. I use it to capture new entries in `[[My Questions]]` or `[[My Theories]]` and a bunch of others
 - Plugins...well if you insist :)
 	- `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
 
