@@ -6,7 +6,7 @@ tags:
   - "note-taking"
 ---
 
-# Zettelkasten in 1500 Words or Less
+# Zettelkasten in 2000 Words or Less
 
 Around 2020 I migrated to Zettelkasten (from Notion to Obsidian). I never looked back. 
 
@@ -30,7 +30,7 @@ I will be using Obsidian as an example, which I highly recommend you do too for 
 - Works offline
 
 Structure of this guide:
-1. Main Ideas of Zettelkasten
+1. Core Ideas of Zettelkasten
 2. Notes and Templates
 3. Where to Start
 4. How to Capture and Link Notes
@@ -38,9 +38,13 @@ Structure of this guide:
 6. Next Steps
 
 ## Bottoms Up and Backlinks
-The Zettelkasten system has two main ideas:
+The Zettelkasten system has two core ideas:
 1. **Bottoms Up approach** - you are not meant to "architect" your knowledge base from the start, instead begin by writing/capturing everything and anything that might interest you and then build connections using...
 2. **Backlinks** - every note is connected to some other note. The result is an ever-growing and ever-changing web or a graph that you can traverse and explore topics in. Ideally the moment when you create and fill a note, you also connect it to some other existing notes
+
+Some call Zettelkasten a "Second Brain". I think the "brain" bit is a pretty accurate metaphor since the 2 core ideas above also roughly describe our brain a high-level: a bunch of thoughts/ideas (*notes*), all connected with each other by associative thinking (*backlinks*).
+
+To me, this is also the reason why different people's knowledge systems end up looking very differently. After all your Second Brain should ideally be easy to use and navigate for *your* brain.
 
 ## Note Template and Structure
 At the start you only need **ONE** template (let's call it `Base Note`), which will be literally a template for every new note you create.
@@ -132,7 +136,7 @@ Topic: [[Personal Knowledge Management]]
 Vlad wanted to learn more about it, so i decided to write a small guide with examples
 ```
 
-You need to keep this note clean, and review this weekly to extract the information into separate notes or remove it. This process will allow you to see in one place the types of things you capture and notice *patterns*. When that happens, it is a good idea to consider creating a new template.
+You need to **keep this note clean, and review this weekly** to extract the information into separate notes or remove it. This process will allow you to see in one place the types of things you capture and notice *repeating patterns*. When that happens, it is a good idea to consider creating a new template.
 
 If you are a software engineer, optionally, create an `Engineering Daybook` note, which is essentially an `Inbox` type scoped to a single topic. I have used it for years and it has been invaluable in learning new things and keeping my work organised.
 
@@ -162,22 +166,41 @@ Yes, for the nerds out there - you are building an undirected graph.
 #### Optional Daily Notes
 Obsidian has a native `Daily Notes` functionality which is a good starting point for journaling/thinking in writing. **Writing *is* thinking**.
 
+Journaling doesn't have to be formal, it can be:
+- An overview of main events for the day
+- Perhaps a new thing you learned at work
+- An interaction with another person
+
+It also doesn't have to be every day. Do when you feel like it or skip this entirely if this it not your cup of tea. The point of Zettelkasten is to organise your knowledge, yes, but also to have fun exploring and expanding it over time. 
+
+Let's configure it in Obsidian.
+
 Go to `Settings -> Core Plugins -> Daily Notes`, enabled it.
 
 Configure how the note is named, it's template and where is placed.
 Or leave defaults:
 - format: `2020-05-25.md`
 - location: root of your vault
-- template: I would suggest adding something simple
+- template: I would suggest adding something minimal (see example below)
 
-Configure a shortcut to trigger creation of a Daily Note.
+Configure a shortcut to trigger creation of a `Daily Note`.
 
 Use `Inbox` to see WHAT you capture in one place.
 
 Use `Daily Notes` to see WHY you capture notes you capture. E.g
 
 ```markdown
-Today I added a new note [[Astophysics]], I have always been into it since high school...hm... I keep watching these Frank Green videos which are really fun, but I can never remember stuff he talks about...maybe I can create a note for capturing YouTube summaries?
+# 6 Jun 2026
+---
+Saturday // day of the week - adds context to the log
+Sai Gon, Vietnam // location - also adds context to the log
+
+### 🙂 Thoughts?
+Today I added a new note [[Astophysics]], I have always been into it since high school...hm...
+
+I keep watching these Frank Green videos which are really fun, but I can never remember stuff he talks about...
+
+Maybe I can create a note for capturing YouTube summaries?
 ```
 
 Link your `Daily Notes` to notes that you create and vice versa.
