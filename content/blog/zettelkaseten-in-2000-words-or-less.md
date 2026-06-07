@@ -1,13 +1,10 @@
 ---
-title: "Zettelkasten in 1500 Words or Less"
+title: "Zettelkasten in 2000 Words or Less"
 description: "Short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it."
 date: "2026-06-05"
 tags:
   - "note-taking"
 ---
-
-# Zettelkasten in 2000 Words or Less
-
 Around 2020 I migrated to Zettelkasten (from Notion to Obsidian). I never looked back. 
 
 This is short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it.
