@@ -1,3 +1,10 @@
-content/_ideas/**
-content/_template/**
+_ideas/**
+_template/**
+
+# post management
 .obsidian/
+
+# hugo
+
+resources/
+.hugo_build.lock
