@@ -11,6 +11,10 @@ locale = "en-US"
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
+# Don't auto-title-case auto-generated titles (e.g. tag/taxonomy terms),
+# so lowercase tags in front matter render lowercase everywhere.
+titleCaseStyle = "none"
+
 # Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
 disableKinds = ["taxonomy"]
 ignoreErrors = ["error-disable-taxonomy"]
