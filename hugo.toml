@@ -61,6 +61,12 @@ lineNos = true
 lineNumbersInTable = false
 codeFences = true
 
+# Main navigation. The "Blog" entry comes from content/blog/_index.md (weight 2).
+[[menu.main]]
+name = "RSS"
+url = "/blog/index.xml"
+weight = 3
+
 # The name of this wonderful theme ;-).
 [module]
 [[module.imports]]
