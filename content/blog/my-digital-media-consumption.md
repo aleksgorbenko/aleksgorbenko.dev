@@ -4,7 +4,6 @@ description: "It is pretty tranquil here, under a rock"
 date: "13 Jun 2026"
 tags: ["consumption"]
 ---
-# I Reviewed My Digital Media Consumption and Dropped Most of It
 
 May 2026 was an interesting month for me. One moment I abruptly realised that I need to drop everything and re-evaluate what the hell I am doing and where am I going. 
 

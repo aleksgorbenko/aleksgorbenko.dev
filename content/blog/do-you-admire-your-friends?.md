@@ -4,7 +4,6 @@ description: "How often do you tell them that?"
 date: "10 Jun 2026"
 tags: ["friendship"]
 ---
-# Do You Admire Your Friends?
 
 When was the last time you said a truly thoughtful complement to your friend?
 
@@ -40,4 +39,5 @@ To all my friends, wherever you are. I admire you (more than I know myself appar
 
 Thank you for being you.
 
+### Notes
 [^1]: *Family too ofc, but hey, this post is about friends! :)*
