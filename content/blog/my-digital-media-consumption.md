@@ -93,4 +93,4 @@ I will keep listening to silence (under a rock) 🤫.
 ### Notes
 [^1]: This refers to a quote by Bill Hicks 'Hey, don't worry. Don't be afraid, ever, because this is just a ride.' from his show in London in 1993.
 
-[^2]: A blog post I wrote not long ago - [[do-you-admire-your-friends?]]
+[^2]: A blog post I wrote not long ago - [do-you-admire-your-friends?]({{< relref "my-other-post" >}})
