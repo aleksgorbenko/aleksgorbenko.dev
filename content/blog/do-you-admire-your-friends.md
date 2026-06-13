@@ -15,7 +15,7 @@ Then.
 
 An idea came to write down things I admire about my friend, big or small, no matter. Things I value in his character, things I wish I had more of myself in me.
 
-I seem to remember Marcus Aurelius did something similar in his Meditations.
+I seem to remember Marcus Aurelius did something similar in his *Meditations*.
 
 This time it was easy. I started to list one item after another, smiling and laughing along the way reminiscent of the good shared memories we had together.
 
@@ -35,9 +35,11 @@ And this is just one person. I have a few people like that in my life[^1], and I
 
 We should cherish our friends more. Hell, we, *I* should cherish our *friendships* more and remind *ourselves* and *them* of this blissful, lucky happenstance that we have met, connected and as the time moves on - we got each other's backs.
 
-To all my friends, wherever you are. I admire you (more than I know myself apparently!) 🫂.
+To all my friends, wherever you are. I admire you (more than I know myself apparently!).
 
 Thank you for being you.
+
+🫂
 
 ### Notes
 

@@ -96,7 +96,9 @@ Perhaps one day I will do exactly that.
 
 But until then...
 
-I will keep listening to silence (under a rock) 🤫.
+I will keep listening to silence (under a rock).
+
+🤫
 
 ### Notes
 

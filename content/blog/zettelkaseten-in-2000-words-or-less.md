@@ -249,4 +249,6 @@ Later, when you feel ready to build more structure into your knowledge base, her
 - Plugins...well if you insist :)
 	- `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
 
-Happy ~~note taking~~ *thinking*! 🙌
+Happy ~~note taking~~ *thinking*! 
+
+🙌
