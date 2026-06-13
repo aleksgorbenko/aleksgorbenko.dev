@@ -21,7 +21,7 @@ This time it was easy. I started to list one item after another, smiling and lau
 
 Then it struck me. "10 years"! We *knew each* other for 10 years. A *lot* of things happened. It is ironic oftentimes we are focused on our futures so much, we don't see our pasts being filled to the brim with stories. These stories are about us and people, our people, our friends.
 
-Some time has passed, I didn't know how much, perhaps an hour. 
+Some time has passed, I didn't know how much, perhaps an hour.
 
 The writing stopped.
 
@@ -31,7 +31,7 @@ I was about to call...but then...well... then I cried.
 
 You see...I am lucky. I am really, really *effing* lucky. That list I wrote was *long* and I found many unique things that I appreciated about my *friend*. The reason I feel I am lucky, the reason, I got sentimental in that moment, is because I considered such a person, with such an *admirable* character - *my friend*, who also considered me such in return.
 
-And this is just one person. I have a few people like that in my life[^1], and I am afraid I don't do a good job of letting you know how much I value you. 
+And this is just one person. I have a few people like that in my life[^1], and I am afraid I don't do a good job of letting you know how much I value you.
 
 We should cherish our friends more. Hell, we, *I* should cherish our *friendships* more and remind *ourselves* and *them* of this blissful, lucky happenstance that we have met, connected and as the time moves on - we got each other's backs.
 
@@ -40,4 +40,5 @@ To all my friends, wherever you are. I admire you (more than I know myself appar
 Thank you for being you.
 
 ### Notes
+
 [^1]: *Family too ofc, but hey, this post is about friends! :)*
