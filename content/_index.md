@@ -1,10 +1,4 @@
-+++
-title = "Home"
-menu = "main"
-weight = 1
-+++
-
-# 👋 Hello there, I'm Aleks!
+# 👋 Hello there, I'm Aleks
 
 I am a Software Engineer from Riga, Latvia.
 
@@ -14,13 +8,7 @@ I am a Software Engineer from Riga, Latvia.
 
 ---
 
-### _status
-
-To see what I am currently up to check out my [Now](https://aleksgorbenko.dev/now) page.
-
----
-
-### _links
+### links
 
 - ⚙️ [GitHub](https://github.com/aleksgorbenko)
 - 🧰 [LinkedIn](https://www.linkedin.com/in/aleks-gorbenko-software-engineer/)
