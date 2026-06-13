@@ -84,4 +84,4 @@ The sponsored ads are probably one of the most visible obstacles on a user's way
 
 Secondly, (I find it a little overwhelming sometimes) the amount of events that your friends are "interested in" or "attending", which tend to appear quite often in the news feed. I think they could do a better job at matching user's personal interests with the nature of the events and display these type of posts if they are relevant to that particular user only.
 
-This completes the first part of the Design assignment. [On to the 2nd part!](http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-2)
+This completes the first part of the Design assignment. [On to the 2nd part!](/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-2/)

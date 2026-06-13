@@ -37,4 +37,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 61.54
 
-[<< Week 7](/posts/firehose-project-week-7) === [Week 9 >>](/posts/firehose-project-week-9)
+[<< Week 6](/firehose-project-week-6) === [Week 9 >>](/firehose-project-week-9)

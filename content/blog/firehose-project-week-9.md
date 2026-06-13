@@ -90,4 +90,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 69.23%
 
-[<< Week 8](/posts/firehose-project-week-8) === [Week 10 >>](/posts/firehose-project-week-10)
+[<< Week 8](/firehose-project-week-8) === [Week 10 >>](/firehose-project-week-10)

@@ -77,7 +77,7 @@ To sum it up JSON is an object container that gets transferred from between ser
 
 ### AJAX
 
-As seen in the previous sentence - AJAX is helping to transfer data between the server and the browser. The beauty of it - the browser doesn't need to be refreshed to send and receive data, hence the name - **A**synchronous **J**avaScript **a**nd **X**ML.  AJAX requests, just like HTML have types - GET, POST, etc. [I have listed them all in my first article.](/posts/firehose-project-week-1/) The difference is each type would have a separate URL for AJAX. The syntax is very simple:
+As seen in the previous sentence - AJAX is helping to transfer data between the server and the browser. The beauty of it - the browser doesn't need to be refreshed to send and receive data, hence the name - **A**synchronous **J**avaScript **a**nd **X**ML.  AJAX requests, just like HTML have types - GET, POST, etc. [I have listed them all in my first article.](/firehose-project-week-1/) The difference is each type would have a separate URL for AJAX. The syntax is very simple:
 
 ```javascript
 $.post('https://www.here-goes-the-url.com/and-full-uri', arguments)
@@ -117,4 +117,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 38.46%
 
-[<< Week 4](/posts/firehose-project-week-4) === [Week 6 >>](/posts/firehose-project-week-6)
+[<< Week 4](/firehose-project-week-4) === [Week 6 >>](/firehose-project-week-6)

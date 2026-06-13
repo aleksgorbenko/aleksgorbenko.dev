@@ -6,7 +6,7 @@ description: "Continuing the teardown."
 tags: ["design"]
 ---
 
-[Tearing Down and Mocking UP Facebook: UX & Design Part 1](http://aleksgorbenko.com/vcs-prep-work-tearing-and-mocking-up-facebook-ux-and-design-part-1/)
+[Tearing Down and Mocking UP Facebook: UX & Design Part 1](/vcs-prep-work-tearing-down-and-mocking-up-facebook-ux-design-part-1/)
 
 The 2nd part involves analysing 5 different Facebook pages against a set of 8 questions. In case you want to read about the task in a bit more details - [check the assignment page](http://www.vikingcodeschool.com/web-design-basics/tearing-down-and-mocking-up-facebook).
 
