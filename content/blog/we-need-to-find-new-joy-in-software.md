@@ -5,20 +5,18 @@ date: "20 Jun 2026"
 tags: ["code", "career"]
 ---
 
-For the past few weeks, I've been starting my mornings with calisthenics at around 6:00 in the morning, followed by *cà phê phin* and music. For many years I felt that I did not spend enough time on something I love deeply - music. 
+For the past few weeks, I've been starting my mornings with calisthenics at around 6:00 in the morning, followed by *cà phê phin* and music.[^1]
 
-This week I have been exploring various artists releasing albums with *Irma Records*[^1].
+This morning routine gives me time to think while watching the streets of vibrant Sai Gon unhurriedly waking up.
 
-This morning routine gives me time to think while watching the streets of Sai Gon slowly waking up. 
-
-The message from a friend saying when talking about AI:
+Today, the below message from a friend (talking about AI and work in tech) triggered thoughts that eventually became this post:
 
 > [!QUOTE]
-> "I think a lot of people used to genuinely enjoy their work and got a sense of fulfillment from having skills [coding skills] they could put to use. Now it feels as though those skills have suddenly lost much of their value".
+> "I think a lot of people used to genuinely enjoy their work and got a sense of fulfilment from having [coding ]skills they could put to use. Now it feels as though those skills have suddenly lost much of their value".
 
-A thought I've been circling around this morning around this subject:
+My initial reaction was: "he is totally right", but then I reversed the perspective and tried to see if we as engineers bore some responsibility for where we are today?
 
-We engineers used to enjoy saying things like:
+We, [engineers] used to enjoy saying philosophical things like:
 
 > [!QUOTE]
 > "A programming language is just a tool."
@@ -51,7 +49,7 @@ or
 > [!QUOTE] Erlang
 > "Everything is a process!"
 
-Newer languages are more like expatriates, borrowing vocabulary from multiple worlds.
+Newer languages are more like expats, borrowing vocabulary from multiple worlds, feeling at ease with various perspectives on reality at the same time.
 
 > [!QUOTE] Go
 > "We can do processes, we can do objects"
@@ -84,6 +82,6 @@ Time to start looking for new ways to enjoy work (or change field entirely, as s
 🔍
 
 ### Notes
-[^1]: Italian record label founded in 1989 in Bologna. It specialises in funk, acid jazz, jazz house. I have been listening to LTJ Xperience for years, but only now uncovered wealth of music that this label has released over the decades.
+[^1]: For many years I felt that I did not spend enough time on something I love deeply - music. This week I have been exploring various artists releasing albums with *Irma Records*. This is an Italian record label founded in 1989 in Bologna. It specialises in funk, acid jazz, jazz house. I have been listening to LTJ Xperience for years, but only now uncovered wealth of music that this label has released over the decades.
 
 [^2]: Also known as linguistic relativity. You may know the concept as a central theme of the film "Arrival", directed by Denis Villeneuve, which is based on the novella "Story of Your Life" by Ted Chiang.
