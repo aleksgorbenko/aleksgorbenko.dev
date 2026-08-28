@@ -16,6 +16,13 @@ I am a Software Engineer from Riga, Latvia.
 
 ---
 
+### projects
+
+- 🎴 [WaniKani for Alfred](https://github.com/aleksgorbenko/alfred-workflow-wanikani) - browse lessons/reviews, level ETA, SRS stats, and dictionary search without leaving the keyboard
+- ✅ [2Do for Alfred](https://github.com/aleksgorbenko/alfred-workflow-2do) - browse and edit 2Do tasks from Alfred
+
+---
+
 ### links
 
 - ⚙️ [GitHub](https://github.com/aleksgorbenko)
