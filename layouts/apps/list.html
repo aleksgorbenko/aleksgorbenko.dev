@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ if .Params.icon }}
+  {{/* App landing page (branch bundle with icon) */}}
+  <div class="app-hero">
+    <img src="{{ .Params.icon | relURL }}" alt="{{ .Title }} icon">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="tagline"><i>{{ . }}</i></p>{{ end }}
+    {{ with .Params.links }}
+    <p class="links">
+      {{ range . }}{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}<span class="muted">{{ .name }}</span>{{ end }}{{ end }}
+    </p>
+    {{ end }}
+    {{ if or .Params.anchors .Pages }}
+    <p class="quicklinks">
+      {{ range .Params.anchors }}<a href="#{{ .id }}">{{ .name }}</a>{{ end }}
+      {{ range .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+    </p>
+    {{ end }}
+    {{ with .Params.requirement }}<p class="req">{{ . }}</p>{{ end }}
+  </div>
+  <content class="app-body">
+    {{ .Content }}
+  </content>
+{{ else }}
+  {{/* Apps index */}}
+  <content>
+    {{ .Content }}
+    <ul class="app-list">
+      {{ range where .Pages "Params.icon" "!=" nil }}
+      <li>
+        {{ with .Params.icon }}<img src="{{ . | relURL }}" alt="">{{ end }}
+        <span class="desc">
+          <a href="{{ .Permalink }}" class="name">{{ .Title }}</a>
+          {{ with .Params.tagline }}<span class="sub">{{ . }}</span>{{ end }}
+        </span>
+      </li>
+      {{ end }}
+      <li>
+        <img src="{{ "images/placeholder-app.svg" | relURL }}" alt="">
+        <span class="desc">
+          <span class="name">Mysterious New App</span>
+          <span class="sub">Researching my next native macOS app…</span>
+        </span>
+      </li>
+    </ul>
+  </content>
+{{ end }}
+{{ end }}

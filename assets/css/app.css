@@ -1,0 +1,57 @@
+/* ===== App pages — shared template styling for every app ===== */
+
+.muted { color: #888; }
+
+/* --- Hero (app landing) --- */
+.app-hero { text-align: center; margin: 3.5rem 0 4rem; }
+.app-hero img { width: 208px; height: 208px; border-radius: 22%; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); }
+.app-hero h1 { font-size: 3em; margin: 1.2rem 0 .3rem; letter-spacing: -.02em; }
+.app-hero .tagline { font-size: 1.4em; margin: .35rem 0 1.5rem; color: var(--text-color); }
+.app-hero .links { margin: 2.8rem 0 0; }
+.app-hero .links a, .app-hero .links span { margin: 0 .85rem; font-size: 1.05em; }
+.app-hero .quicklinks { margin: 2.4rem 0 0; font-size: .95em; }
+.app-hero .quicklinks a { margin: 0 .6rem; }
+.app-hero .req { color: #888; font-size: .85em; margin: 2.4rem 0 0; }
+
+/* --- App body (description, features, tips, FAQ) --- */
+.app-body { line-height: 1.75; }
+.app-body > p { margin: 1.2rem 0; }
+
+/* Section headings (## Tips, ## FAQ) */
+.app-body h2 { margin: 3.2rem 0 1.2rem; font-size: 1.5em; }
+
+/* Feature headings (### / #### Name) — big gap ABOVE, tight to its description below */
+.app-body h3, .app-body h4 { margin: 2.6rem 0 .2rem; font-size: 1.15em; }
+.app-body h3 + p, .app-body h4 + p { margin-top: 0; }
+
+/* Lists (tab-management sub-points, tips) */
+.app-body ul { margin: .6rem 0 1.4rem; padding-left: 1.4rem; }
+.app-body ul li { margin-bottom: .5rem; }
+.app-body ul li strong { color: var(--heading-color); }
+
+.app-body .footnote { color: #888; font-size: .85em; }
+
+/* Inline code / key chips (Bear's default has no background — unreadable) */
+.app-body :not(pre) > code {
+  background: rgba(128, 128, 128, .16);
+  border: 1px solid rgba(128, 128, 128, .22);
+  border-radius: 6px;
+  padding: .15em .5em;
+  font-size: 1em;
+}
+
+/* FAQ dropdowns (via {{< faq >}} shortcode) */
+.app-body details { border-bottom: 1px solid rgba(128, 128, 128, .25); }
+.app-body summary { cursor: pointer; padding: .9rem 0; font-weight: 600; color: var(--heading-color); list-style: none; }
+.app-body summary::-webkit-details-marker { display: none; }
+.app-body summary::after { content: "+"; float: right; color: #888; font-weight: 400; }
+.app-body details[open] summary::after { content: "\2013"; }
+.app-body details > p { margin: 0 0 1.1rem; color: var(--text-color); opacity: .82; }
+
+/* --- Apps index list --- */
+.app-list { list-style: none; padding: 0; margin: 2.5rem 0; }
+.app-list li { display: flex; align-items: center; gap: 22px; margin-bottom: 2.4rem; }
+.app-list li img { width: 72px; height: 72px; border-radius: 22%; flex: 0 0 72px; }
+.app-list li .desc { flex: 1; display: flex; flex-direction: column; gap: 3px; min-width: 0; }
+.app-list li .name { font-size: 1.4em; font-weight: 600; }
+.app-list li .sub { color: var(--text-color); opacity: .8; }

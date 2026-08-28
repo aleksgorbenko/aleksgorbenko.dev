@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ if .Params.icon }}
+<div class="app-hero">
+  <img src="{{ .Params.icon | relURL }}" alt="{{ .Title }} icon">
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.tagline }}<p class="tagline"><i>{{ . }}</i></p>{{ end }}
+  {{ with .Params.links }}
+  <p class="links">
+    {{ range . }}{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}<span class="muted">{{ .name }}</span>{{ end }}{{ end }}
+  </p>
+  {{ end }}
+</div>
+{{ else }}
+<h1>{{ .Title }}</h1>
+{{ end }}
+<content class="app-body">
+  {{ .Content }}
+</content>
+{{ end }}

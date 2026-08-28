@@ -3,6 +3,7 @@ _template/**
 
 # post management
 .obsidian/
+.obsidian.mobile/
 
 # hugo
 public/
