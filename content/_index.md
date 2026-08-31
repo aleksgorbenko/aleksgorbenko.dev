@@ -21,6 +21,8 @@ I am a Software Engineer from Riga, Latvia.
 - 🎴 [WaniKani for Alfred](https://github.com/aleksgorbenko/alfred-workflow-wanikani) - browse lessons/reviews, level ETA, SRS stats, and dictionary search without leaving the keyboard
 - ✅ [2Do for Alfred](https://github.com/aleksgorbenko/alfred-workflow-2do) - browse and edit 2Do tasks from Alfred
 - 📖 [BunPro for Alfred](https://github.com/aleksgorbenko/alfred-workflow-bunpro) - search BunPro grammar points from Alfred
+- 💿 [Discogs for Alfred](https://github.com/aleksgorbenko/alfred-workflow-discogs) - search releases/artists/labels, drill into tracklists
+- 🎵 [Bandcamp for Alfred](https://github.com/aleksgorbenko/alfred-workflow-bandcamp) - search bands/labels/albums/tracks, drill into tracklists
 
 ---
 
