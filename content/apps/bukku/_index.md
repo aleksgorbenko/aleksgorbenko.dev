@@ -1,12 +1,11 @@
 +++
 title = "Bukku"
-draft = true
+draft = false
 tagline = "Launcher for your browser tabs, bookmarks and history"
 icon = "images/bukku-icon.png"
 requirement = "Requires macOS 15 or later"
 links = [
-  { name = "Download", url = "" },
-  { name = "GitHub", url = "https://github.com/aleksgorbenko" },
+  { name = "Coming Soon", url = "" },
   { name = "Support", url = "mailto:support@aleksgorbenko.dev" },
 ]
 anchors = [

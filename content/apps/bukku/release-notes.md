@@ -1,6 +1,6 @@
 +++
 title = "Release Notes"
-draft = true
+draft = false
 weight = 1
 +++
 
