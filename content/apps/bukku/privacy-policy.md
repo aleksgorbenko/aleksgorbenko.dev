@@ -15,4 +15,6 @@ Bukku does not collect, transmit, or store any personal data off your device.
 Browser access is granted by you through macOS permissions and is used solely to
 provide search and tab-management inside the app.
 
+Questions about this policy: {{< support-email >}}.
+
 _Last updated: 2026-07-31._

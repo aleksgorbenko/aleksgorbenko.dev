@@ -27,6 +27,14 @@ blog = "/:slug/"
 tags = "/blog/:slug"
 
 [params]
+# GoatCounter site code (the part before ".goatcounter.com" once you create a
+# free site at https://www.goatcounter.com/signup). Leave empty to disable —
+# the script only renders when this is set.
+goatcounterCode = "gbko"
+
+# Support contact used across the apps/terms, privacy-policy, and app pages.
+supportEmail = "support@aleksgorbenko.dev"
+
 # The "description" of your website. This is used in the meta data of your generated html.
 description = "{a_G} | Meditations on Tech"
 

@@ -7,6 +7,7 @@ requirement = "Requires macOS 15 or later"
 links = [
   { name = "Download", url = "" },
   { name = "GitHub", url = "https://github.com/aleksgorbenko" },
+  { name = "Support", url = "mailto:support@aleksgorbenko.dev" },
 ]
 anchors = [
   { name = "Tips", id = "tips" },

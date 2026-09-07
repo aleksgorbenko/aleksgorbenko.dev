@@ -30,7 +30,8 @@ backups of anything important — I can't be responsible for data loss.
 ## Accessibility
 
 I want my apps to be usable by everyone, including people with disabilities. If
-you hit an accessibility barrier, get in touch and I'll do my best to fix it.
+you hit an accessibility barrier, email {{< support-email >}} and I'll do my
+best to fix it.
 
 ## Liability
 
@@ -45,9 +46,9 @@ your use of the apps or your breach of these terms.
 ## Refunds
 
 For App Store purchases, refunds are handled by Apple. I'm happy to help resolve
-any issue directly first — just reach out.
+any issue directly first — just email {{< support-email >}}.
 
 ## Support
 
-I aim to respond to support requests within a week, though occasionally it may
-take a little longer.
+Email {{< support-email >}}. I aim to respond within a week, though
+occasionally it may take a little longer.
