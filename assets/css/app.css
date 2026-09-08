@@ -16,7 +16,7 @@
 /* --- Demo GIF (below hero, above body) --- */
 /* aspect-ratio reserves the space before the (eager, non-lazy) GIF loads,
    so there's no blank-space collapse on slow connections */
-.app-demo { display: block; width: 100%; max-width: var(--width); aspect-ratio: 1200 / 752; margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); background: rgba(128, 128, 128, .08); }
+.app-demo { display: block; width: 100%; max-width: var(--width); aspect-ratio: 16 / 10; margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); background: rgba(128, 128, 128, .08); }
 
 /* --- App body (description, features, tips, FAQ) --- */
 .app-body { line-height: 1.75; }
