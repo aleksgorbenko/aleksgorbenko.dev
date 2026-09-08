@@ -2,12 +2,13 @@
 title = "Bukku"
 draft = false
 tagline = "Launcher for your browser tabs, bookmarks and history"
+description = "Bukku is a Spotlight-style launcher for your browser tabs, bookmarks, and history on macOS. Everything local — no account, no cloud, no telemetry."
+keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
 icon = "images/bukku-icon.png"
 demo_gif = "images/bukku-demo.gif"
 requirement = "Requires macOS 15 or later"
 links = [
   { name = "Coming Soon", url = "" },
-  { name = "Support", url = "mailto:support@aleksgorbenko.dev" },
 ]
 anchors = [
   { name = "Tips", id = "tips" },
@@ -88,7 +89,7 @@ SwiftUI + AppKit, Spotlight-native look and feel.
 
 ## Tips {#tips}
 
-- Set a global hotkey you can reach one-handed — see [my note on launcher ergonomics](https://aleksgorbenko.dev/). <!-- TODO: link real blog post -->
+- Set a global hotkey you can reach one-handed.
 - Type a slash (`/␣`) to open the command palette.
 - Bukku respects macOS sandboxing — grant browser access once in the permissions center.
 

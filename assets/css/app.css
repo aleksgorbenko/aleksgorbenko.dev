@@ -11,10 +11,12 @@
 .app-hero .links a, .app-hero .links span { margin: 0 .85rem; font-size: 1.05em; }
 .app-hero .quicklinks { margin: 2.4rem 0 0; font-size: .95em; }
 .app-hero .quicklinks a { margin: 0 .6rem; }
-.app-hero .req { color: #888; font-size: .85em; margin: 2.4rem 0 0; }
+.app-hero .req { color: var(--text-color); opacity: .75; font-size: .95em; margin: .6rem 0 0; }
 
 /* --- Demo GIF (below hero, above body) --- */
-.app-demo { display: block; width: 100%; max-width: var(--width); margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); }
+/* aspect-ratio reserves the space before the (eager, non-lazy) GIF loads,
+   so there's no blank-space collapse on slow connections */
+.app-demo { display: block; width: 100%; max-width: var(--width); aspect-ratio: 1200 / 752; margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); background: rgba(128, 128, 128, .08); }
 
 /* --- App body (description, features, tips, FAQ) --- */
 .app-body { line-height: 1.75; }

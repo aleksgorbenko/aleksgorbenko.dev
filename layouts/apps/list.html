@@ -5,6 +5,7 @@
     <img src="{{ .Params.icon | relURL }}" alt="{{ .Title }} icon">
     <h1>{{ .Title }}</h1>
     {{ with .Params.tagline }}<p class="tagline"><i>{{ . }}</i></p>{{ end }}
+    {{ with .Params.requirement }}<p class="req">{{ . }}</p>{{ end }}
     {{ with .Params.links }}
     <p class="links">
       {{ range . }}{{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}<span class="muted">{{ .name }}</span>{{ end }}{{ end }}
@@ -13,13 +14,14 @@
     {{ if or .Params.anchors .Pages }}
     <p class="quicklinks">
       {{ range .Params.anchors }}<a href="#{{ .id }}">{{ .name }}</a>{{ end }}
-      {{ range .Pages.ByWeight }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+      {{ with .GetPage "release-notes" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+      {{ with .Site.Params.supportEmail }}<a href="mailto:{{ . }}">Support</a>{{ end }}
+      {{ with .GetPage "privacy-policy" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
     </p>
     {{ end }}
-    {{ with .Params.requirement }}<p class="req">{{ . }}</p>{{ end }}
   </div>
   {{ with .Params.demo_gif }}
-  <img class="app-demo" src="{{ . | relURL }}" alt="{{ $.Title }} demo" loading="lazy">
+  <img class="app-demo" src="{{ . | relURL }}" alt="{{ $.Title }} demo">
   {{ end }}
   <content class="app-body">
     {{ .Content }}
