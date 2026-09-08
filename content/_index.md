@@ -23,6 +23,7 @@ I am a Software Engineer from Riga, Latvia.
 - 📖 [BunPro for Alfred](https://github.com/aleksgorbenko/alfred-workflow-bunpro) - search BunPro grammar points from Alfred
 - 💿 [Discogs for Alfred](https://github.com/aleksgorbenko/alfred-workflow-discogs) - search releases/artists/labels, drill into tracklists
 - 🎵 [Bandcamp for Alfred](https://github.com/aleksgorbenko/alfred-workflow-bandcamp) - search bands/labels/albums/tracks, drill into tracklists
+- 🚀 [Netlify for Alfred](https://github.com/aleksgorbenko/alfred-workflow-netlify) - browse sites, check build status, trigger/cancel deploys from Alfred
 
 ---
 
