@@ -13,6 +13,9 @@
 .app-hero .quicklinks a { margin: 0 .6rem; }
 .app-hero .req { color: #888; font-size: .85em; margin: 2.4rem 0 0; }
 
+/* --- Demo GIF (below hero, above body) --- */
+.app-demo { display: block; width: 100%; max-width: var(--width); margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); }
+
 /* --- App body (description, features, tips, FAQ) --- */
 .app-body { line-height: 1.75; }
 .app-body > p { margin: 1.2rem 0; }

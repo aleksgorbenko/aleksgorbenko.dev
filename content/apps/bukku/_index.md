@@ -3,6 +3,7 @@ title = "Bukku"
 draft = false
 tagline = "Launcher for your browser tabs, bookmarks and history"
 icon = "images/bukku-icon.png"
+demo_gif = "images/bukku-demo.gif"
 requirement = "Requires macOS 15 or later"
 links = [
   { name = "Coming Soon", url = "" },

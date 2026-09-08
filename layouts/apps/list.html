@@ -18,6 +18,9 @@
     {{ end }}
     {{ with .Params.requirement }}<p class="req">{{ . }}</p>{{ end }}
   </div>
+  {{ with .Params.demo_gif }}
+  <img class="app-demo" src="{{ . | relURL }}" alt="{{ $.Title }} demo" loading="lazy">
+  {{ end }}
   <content class="app-body">
     {{ .Content }}
   </content>
