@@ -2,21 +2,22 @@
 
 .muted { color: #888; }
 
-/* --- Hero (app landing) --- */
-.app-hero { text-align: center; margin: 3.5rem 0 4rem; }
-.app-hero img { width: 208px; height: 208px; border-radius: 22%; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); }
-.app-hero h1 { font-size: 3em; margin: 1.2rem 0 .3rem; letter-spacing: -.02em; }
-.app-hero .tagline { font-size: 1.4em; margin: .35rem 0 1.5rem; color: var(--text-color); }
-.app-hero .links { margin: 2.8rem 0 0; }
+/* --- Hero (app landing) — kept compact so hero+demo fit a 14" laptop
+   viewport without scrolling; don't let this creep back up */
+.app-hero { text-align: center; margin: 1.6rem 0 1.2rem; }
+.app-hero img { width: 110px; height: 110px; border-radius: 22%; box-shadow: 0 8px 24px rgba(0, 0, 0, .2); }
+.app-hero h1 { font-size: 1.9em; margin: .7rem 0 .15rem; letter-spacing: -.02em; }
+.app-hero .tagline { font-size: 1.1em; margin: .15rem 0 .5rem; color: var(--text-color); }
+.app-hero .links { margin: .8rem 0 0; }
 .app-hero .links a, .app-hero .links span { margin: 0 .85rem; font-size: 1.05em; }
-.app-hero .quicklinks { margin: 2.4rem 0 0; font-size: .95em; }
+.app-hero .quicklinks { margin: .8rem 0 0; font-size: .9em; }
 .app-hero .quicklinks a { margin: 0 .6rem; }
-.app-hero .req { color: var(--text-color); opacity: .75; font-size: .95em; margin: .6rem 0 0; }
+.app-hero .req { color: var(--text-color); opacity: .75; font-size: .85em; margin: .3rem 0 0; }
 
 /* --- Demo GIF (below hero, above body) --- */
 /* aspect-ratio reserves the space before the (eager, non-lazy) GIF loads,
    so there's no blank-space collapse on slow connections */
-.app-demo { display: block; width: 100%; max-width: var(--width); aspect-ratio: 16 / 10; margin: 0 auto 3rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); background: rgba(128, 128, 128, .08); }
+.app-demo { display: block; width: 100%; max-width: var(--width); aspect-ratio: 16 / 10; margin: 0 auto 1.5rem; border-radius: 10px; box-shadow: 0 12px 40px rgba(0, 0, 0, .2); background: rgba(128, 128, 128, .08); }
 
 /* --- App body (description, features, tips, FAQ) --- */
 .app-body { line-height: 1.75; }
