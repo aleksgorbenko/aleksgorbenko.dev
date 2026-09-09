@@ -17,6 +17,7 @@
       {{ with .GetPage "release-notes" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
       {{ with .Site.Params.supportEmail }}<a href="mailto:{{ . }}">Support</a>{{ end }}
       {{ with .GetPage "privacy-policy" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
+      {{ with .Site.GetPage "/apps/terms" }}<a href="{{ .Permalink }}">{{ .Title }}</a>{{ end }}
     </p>
     {{ end }}
   </div>
