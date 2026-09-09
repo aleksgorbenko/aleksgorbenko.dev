@@ -1,6 +1,6 @@
 +++
-title = "Apps — Terms of Use"
-draft = true
+title = "Apps - Terms of Use"
+draft = false
 +++
 
 By using any of my apps, you agree to these terms. I may update them from time
@@ -25,7 +25,7 @@ these terms.
 ## Software Integrity
 
 I aim to ship software that works flawlessly, but bugs happen. Keep regular
-backups of anything important — I can't be responsible for data loss.
+backups of anything important - I can't be responsible for data loss.
 
 ## Accessibility
 
