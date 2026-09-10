@@ -23,45 +23,47 @@ so you never dig through windows or menus to find that one tab again.
 Everything is read locally from the browsers already on your Mac. No account,
 no cloud sync, no telemetry.
 
-#### Unified Fuzzy Search
+## Features
+
+### Unified Fuzzy Search
 
 One search bar over tabs, bookmarks, and history. Sub-keystroke matching across thousands of entries.
 
-#### Scoped Search
+### Scoped Search
 
 Narrow the search scope with a one-letter prefix: `{prefix}␣{query}`
 
 Type `h␣` to search history only, `t␣` for tabs, `b␣` for bookmarks.
 
-#### Tab Management
+### Tab Management
 
 Jump to or close any open tab from anywhere, without leaving the keyboard.
 
 - **Activate** — jump straight to any open tab.
 - **Close** — close any tab without switching to it first.
 
-#### Copy Links
+### Copy Links
 
 Copy the URL of any tab, bookmark, or history item without opening the browser.<span class="footnote">*</span>
 
 <p class="footnote">*The browser must be open for tabs — history and bookmarks copy even when it's closed.</p>
 
-#### Browser Support
+### Browser Support
 
 Safari, Chrome, Brave, Edge, Vivaldi, Arc, and Opera are fully supported. Firefox is supported for search (history and bookmarks), but not tab automation — Mozilla doesn't implement AppleScript, so switching and closing Firefox tabs isn't possible.
 
-#### Built-In Commands
+### Built-In Commands
 
 A command palette for quick Bukku actions — type `/␣` to see all commands available.
 
-#### Apple Shortcuts Integration
+### Apple Shortcuts Integration
 
 Query Bukku from your own shortcuts, from Spotlight, or by voice. Both actions take an optional search query and result limit, and return each item with its title, URL, and source browser.
 
 - **Get Browser Tabs** — returns your currently open tabs across every supported browser.
 - **Get Browser Bookmarks** — returns your bookmarks across every supported browser.
 
-#### Command-Line Interface
+### Command-Line Interface
 
 Script Bukku from the terminal — search everything, or list tabs, bookmarks, and history.
 
@@ -83,7 +85,7 @@ bukku list history --limit 20
 bukku list bookmarks
 ```
 
-#### Native, Not Electron
+### Native, Not Electron
 
 SwiftUI + AppKit, Spotlight-native look and feel.
 
