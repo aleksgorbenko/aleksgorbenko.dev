@@ -6,6 +6,8 @@ draft = false
 By using any of my apps, you agree to these terms. I may update them from time
 to time without direct notice; the current version always lives on this page.
 
+My apps are published by SIA Gorbenko.
+
 ## Permitted Use
 
 You may use my apps freely for their intended purposes. Using them to harm
@@ -46,7 +48,7 @@ your use of the apps or your breach of these terms.
 ## Refunds
 
 For App Store purchases, refunds are handled by Apple. I'm happy to help resolve
-any issue directly first — just email {{< support-email >}}.
+any issue directly first - just email {{< support-email >}}.
 
 ## Support
 
