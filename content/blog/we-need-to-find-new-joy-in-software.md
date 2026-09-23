@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "We Need to Find New Joy In Software"
 description: "And accept the fact that maybe we won't code as much by hand in the future"
 date: "20 Jun 2026"

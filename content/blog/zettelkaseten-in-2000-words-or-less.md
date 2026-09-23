@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Zettelkasten in 2000 Words or Less"
 description: "Short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it."
 date: "2026-06-05"

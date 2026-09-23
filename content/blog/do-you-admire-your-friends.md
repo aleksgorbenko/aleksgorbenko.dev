@@ -1,4 +1,5 @@
 ---
+draft: false
 title: "Do You Admire Your Friends?"
 description: "How often do you tell them that?"
 date: "10 Jun 2026"

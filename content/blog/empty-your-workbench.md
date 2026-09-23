@@ -178,10 +178,10 @@ Everything else - is gone from the workbench.
 
 Alfred mode `List Filter` launcher looks like this:
 
-![[alfred-mode-launcher.png]]
+![alfred-mode](/images/alfred-mode.png)
 
 This is how it looks in *Alfred Workflow Builder*:
-![[alfred-mode-workflow.png]]
+![alfred-mode-workflow](/images/alfred-mode-workflow.png)
 
 All in all, simple: close apps, open the ones you need, optionally open specific workspaces in Obsidian or relevant tabs in Chrome.
 
@@ -212,7 +212,7 @@ Focus on your work.
 
 [^1]: You can read a short summary by Shortform here for free: <https://www.shortform.com/summary/deep-work-summary-cal-newport>
 
-[^2]: I wrote about it a couple of weeks ago: [[my-digital-media-consumption]]
+[^2]: I wrote about it a couple of weeks ago: [I Reviewed My Digital Consumption and Dropped Most of It](/i-reviewed-my-digital-consumption-and-dropped-most-of-it/)
 
 [^3]: I started to write on my iPhone in the early mornings too after workout, but as such these are mere drafts. Proper writing/publishing happened in the cafe only
 
