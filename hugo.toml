@@ -5,7 +5,6 @@ baseURL = "https://aleksgorbenko.dev/"
 # Basic metadata configuration for your blog.
 title = "Aleks Gorbenko"
 author = "Aleks Gorbenko"
-copyright = "Copyright © 2025, Aleks Gorbenko"
 locale = "en-US"
 
 # Generate a nice robots.txt for SEO

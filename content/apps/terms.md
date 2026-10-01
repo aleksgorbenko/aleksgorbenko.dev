@@ -6,7 +6,7 @@ draft = false
 By using any of my apps, you agree to these terms. I may update them from time
 to time without direct notice; the current version always lives on this page.
 
-My apps are published by SIA Gorbenko (VAT: LV40203498453), company registered in Latvia.
+My apps are published by Gorbenko SIA (VAT: LV40203498453), company registered in Latvia.
 
 ## Permitted Use
 

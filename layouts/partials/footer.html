@@ -1,1 +1,5 @@
-{{- /* Intentionally empty footer. */ -}}
+Copyright © {{ now.Format "2006" }} Gorbenko SIA
+&middot;
+<a href="{{ (.Site.GetPage "/apps/terms").Permalink }}">Terms of Use</a>
+&middot;
+<a href="{{ (.Site.GetPage "/privacy").Permalink }}">Privacy Policy</a>
