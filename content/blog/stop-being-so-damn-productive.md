@@ -11,7 +11,7 @@ tags: ["anti-productivity"]
 
 > Productivity compares the level of **input** with the **output**. The input may be labour, equipment, or money, and the output may be a good or service.
 
-Personal productivity is a bit trickier to define, tricky to measure. Yet...we live in the world of productivity tools, hacks and pundits who show how to you use 10 different tools to achieve exactly the same result, but with a slightly different UI and, sometimes wildly different price tag. 
+Personal productivity is a bit trickier to define, tricky to measure. Yet...we live in the world of productivity tools, hacks and pundits who show how to you use 10 different tools to achieve exactly the same result, but with a slightly different UI and, sometimes wildly different price tag.
 
 Moreover, we live in the world, which somehow perpetually attempting to *make us more productive* while simultaneously *making a lot of us feel guilty* when we are *not productive*.
 
@@ -28,9 +28,9 @@ If being productive means to produce, how did consumption got into this equation
 
 People who produce tangible physical things see the fruits of their productivity in buildings, freshly bakes croissants and banh mi in the morning. The output is measured, quantified.
 
-For knowledge workers things are far less defined, and far more ethereal. 
+For knowledge workers things are far less defined, and far more ethereal.
 
-We produce *knowledge* in various forms. If we produce more knowledge, does it mean we are more productive? Probably not. Looking at all the high-volume low-quality slop it is easy to see why. 
+We produce *knowledge* in various forms. If we produce more knowledge, does it mean we are more productive? Probably not. Looking at all the high-volume low-quality slop it is easy to see why.
 
 Does it mean then if we produce lower quantity of knowledge, but of a higher quality - are we productive? This sounds counterintuitive since we associate productivity with *more things, not less*. *Higher quality* is not *more*, these are two different axis. In which case aiming for being *more* productive is a fools errand, unless the goal is to produce more slop indeed.
 
@@ -38,6 +38,6 @@ That leaves **quality**. If we take that instead of quantity as something to str
 
 Consuming less, producing ~~more~~.
 
-Stop being so damn productive. Produce.
+So stop being so damn "productive".
 
 🏗️
