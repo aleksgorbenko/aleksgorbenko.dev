@@ -69,10 +69,12 @@ A command palette for quick Bukku actions - type `/` to see all commands availab
 
 ### Apple Shortcuts Integration
 
-Query Bukku from your own shortcuts, from Spotlight, or by voice. Both actions take an optional search query and result limit, and return each item with its title, URL, and source browser.
+Query Bukku from your own shortcuts, from Spotlight, or by voice. Every action takes an optional query and limit (all results by default) and returns each item with its type, browser, title and URL.
 
-- **Get Browser Tabs** - returns your currently open tabs across every supported browser.
-- **Get Browser Bookmarks** - returns your bookmarks across every supported browser.
+- **Get Browser Tabs** - open tabs across every supported browser.
+- **Get Browser Bookmarks** - bookmarks across every supported browser.
+- **Get Browser History** - history, most recent first.
+- **Search Browsers** - tabs, bookmarks and history in one search.
 
 ### Native, Not Electron
 
@@ -80,24 +82,16 @@ SwiftUI + AppKit, Spotlight-native look and feel.
 
 ### Command Line Interface†
 
-Script Bukku from the terminal - search everything, or list tabs, bookmarks, and history.
+Script Bukku from the terminal, with the same four operations as Shortcuts. JSON by default, `--output csv` for CSV.
 
 ```bash {linenos=false}
-# Search tabs, bookmarks, and history for "github"
+# Search tabs, bookmarks and history for "github"
 bukku search github
 
-# Scope the search to one source
-bukku search github --tabs
-bukku search docs --history
-
-# List open tabs
-bukku list tabs
-
-# List your 20 most recent history entries
-bukku list history --limit 20
-
-# List all bookmarks
-bukku list bookmarks
+# Open tabs, bookmarks or history, optionally filtered
+bukku tabs
+bukku bookmarks docs
+bukku history github --limit 20
 ```
 
 _†Not available in the App Store version: Apple doesn't allow sandboxed App Store apps to add a command-line tool._
