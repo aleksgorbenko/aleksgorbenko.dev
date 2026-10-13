@@ -65,7 +65,7 @@ Copy the URL of any tab, bookmark, or history item without opening the browser.<
 
 ### Built-in Commands
 
-A command palette for quick Bukku actions - type `/␣` to see all commands available.
+A command palette for quick Bukku actions - type `/` to see all commands available.
 
 ### Apple Shortcuts Integration
 
@@ -102,7 +102,7 @@ SwiftUI + AppKit, Spotlight-native look and feel.
 
 ## Tips {#tips}
 
-- Type a slash (`/␣`) to open the command palette.
+- Type a slash (`/`) to open the command palette.
 - Bukku respects macOS sandboxing - grant browser access once in the permissions center.
 
 ## FAQ {#faq}
