@@ -69,7 +69,7 @@ A command palette for quick Bukku actions - type `/` to see all commands availab
 
 ### Apple Shortcuts Integration
 
-Query Bukku from your own shortcuts, from Spotlight, or by voice. Every action takes an optional query and limit (all results by default) and returns each item with its type, browser, title and URL.
+Query Bukku from your own shortcuts, from Spotlight, or by voice. Each action takes a query (optional, except for Search Browsers) and an optional limit (all results by default), and returns each item with its type, browser, title and URL.
 
 - **Get Browser Tabs** - open tabs across every supported browser.
 - **Get Browser Bookmarks** - bookmarks across every supported browser.
