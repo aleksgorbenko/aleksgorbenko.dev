@@ -36,6 +36,8 @@
 .app-body ul li { margin-bottom: .5rem; }
 .app-body ul li strong { color: var(--heading-color); }
 
+.app-body h2 + p > em:only-child { color: var(--muted-color); font-size: .9em; }
+
 .app-body .footnote { color: var(--muted-color); font-size: .85em; }
 
 /* Inline code / key chips (Bear's default has no background — unreadable) */
