@@ -85,6 +85,10 @@ SwiftUI + AppKit, Spotlight-native look and feel.
 Script Bukku from the terminal, with the same four operations as Shortcuts. JSON by default, `--output csv` for CSV.
 
 ```bash {linenos=false}
+# Once: put `bukku` on your PATH
+sudo mkdir -p /usr/local/bin
+sudo ln -s /Applications/Bukku.app/Contents/MacOS/Bukku /usr/local/bin/bukku
+
 # Search tabs, bookmarks and history for "github"
 bukku search github
 
