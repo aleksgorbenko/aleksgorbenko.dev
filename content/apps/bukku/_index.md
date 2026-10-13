@@ -18,10 +18,11 @@ anchors = [
 
 Bukku is a Spotlight-style launcher for your browsers.
 
-One shortcut searches your tabs, bookmarks and history.\
-Jump to a tab, open a bookmark, close a tab - all from the keyboard.
+One shortcut searches your tabs, bookmarks and history across all browsers.
 
-Everything stays on your Mac.\
+Jump to an active tab, close a tab, open a bookmark, open a history item, copy any link - all from the keyboard.
+
+Works offline. Everything stays on your Mac.\
 No account. No cloud. No telemetry.
 
 ## Features
