@@ -16,9 +16,9 @@ anchors = [
 ]
 +++
 
-Bukku is a Spotlight-style launcher for your browsers.
+Bukku is a Spotlight-style launcher to control tabs, open bookmarks and history items across all your browsers.
 
-One shortcut searches your tabs, bookmarks and history across all browsers.
+Open it from anywhere with one global shortcut.
 
 Jump to an active tab, close a tab, open a bookmark, open a history item, copy any link - all from the keyboard.
 
