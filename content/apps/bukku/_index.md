@@ -74,7 +74,11 @@ Query Bukku from your own shortcuts, from Spotlight, or by voice. Both actions t
 - **Get Browser Tabs** - returns your currently open tabs across every supported browser.
 - **Get Browser Bookmarks** - returns your bookmarks across every supported browser.
 
-### Command Line Interface
+### Native, Not Electron
+
+SwiftUI + AppKit, Spotlight-native look and feel.
+
+### Command Line Interface†
 
 Script Bukku from the terminal - search everything, or list tabs, bookmarks, and history.
 
@@ -96,9 +100,7 @@ bukku list history --limit 20
 bukku list bookmarks
 ```
 
-### Native, Not Electron
-
-SwiftUI + AppKit, Spotlight-native look and feel.
+_†Not available in the App Store version: Apple doesn't allow sandboxed App Store apps to add a command-line tool._
 
 ## Tips {#tips}
 
