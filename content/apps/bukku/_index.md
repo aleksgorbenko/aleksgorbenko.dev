@@ -49,7 +49,14 @@ Copy the URL of any tab, bookmark, or history item without opening the browser.<
 
 ### Browser Support
 
-Safari, Chrome, Brave, Edge, Vivaldi, Arc, and Opera are fully supported. Firefox is supported for search (history and bookmarks), but not tab automation - Mozilla doesn't implement AppleScript, so switching and closing Firefox tabs isn't possible.
+- **Safari** - full support
+- **Chrome** - full support
+- **Brave** - full support
+- **Edge** - full support
+- **Vivaldi** - full support
+- **Arc** - full support
+- **Opera** - full support
+- **Firefox** - search history and bookmarks only; Firefox doesn't support AppleScript, so Bukku can't switch or close its tabs
 
 ### Built-in Commands
 
