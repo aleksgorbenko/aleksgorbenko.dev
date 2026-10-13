@@ -16,9 +16,13 @@ anchors = [
 ]
 +++
 
-Bukku is a native macOS launcher summoned by a global hotkey. It searches and acts on your browser tabs, bookmarks, and history from one Spotlight-style bar - so you never dig through windows or menus to find that one tab again.
+Bukku is a Spotlight-style launcher for your browsers.
 
-Everything is read locally from the browsers already on your Mac. No account, no cloud sync, no telemetry.
+One shortcut searches your tabs, bookmarks and history.\
+Jump to a tab, open a bookmark, close a tab - all from the keyboard.
+
+Everything stays on your Mac.\
+No account. No cloud. No telemetry.
 
 ## Features
 
