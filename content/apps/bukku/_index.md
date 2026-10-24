@@ -27,7 +27,7 @@ No account. No cloud. No telemetry.
 
 ## Features
 
-### Unified Fuzzy Search
+### Unified Search
 
 One search bar over tabs, bookmarks, and history. Sub-keystroke matching across thousands of entries.
 
@@ -63,11 +63,11 @@ Copy the URL of any tab, bookmark, or history item without opening the browser.<
 - **Opera** - full support
 - **Firefox** - search history and bookmarks only; Firefox doesn't support AppleScript, so Bukku can't switch or close its tabs
 
-### Built-in Commands
+### Privacy Focused
 
-A command palette for quick Bukku actions - type `/` to see all commands available.
+Everything is read locally from the browsers on your Mac. No account, no cloud, no telemetry.
 
-### Apple Shortcuts Integration
+### Shortcuts Integration
 
 Query Bukku from your own shortcuts, from Spotlight, or by voice. Each action takes a query (optional, except for Search Browsers) and an optional limit (all results by default), and returns each item with its type, browser, title and URL.
 
@@ -75,6 +75,10 @@ Query Bukku from your own shortcuts, from Spotlight, or by voice. Each action ta
 - **Get Browser Bookmarks** - bookmarks across every supported browser.
 - **Get Browser History** - history, most recent first.
 - **Search Browsers** - tabs, bookmarks and history in one search.
+
+### Built-in Commands
+
+A command palette for quick Bukku actions - type `/` to see all commands available.
 
 ### Native, Not Electron
 
