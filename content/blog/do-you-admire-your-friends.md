@@ -20,7 +20,7 @@ I seem to remember Marcus Aurelius did something similar in his *Meditations*.
 
 This time it was easy. I started to list one item after another, smiling and laughing along the way reminiscent of the good shared memories we had together.
 
-Then it struck me. "10 years"! We *knew each* other for 10 years. A *lot* of things happened. It is ironic oftentimes we are focused on our futures so much, we don't see our pasts being filled to the brim with stories. These stories are about us and people, our people, our friends.
+Then it struck me. "10 years"! We *knew each* other for 10 years. A *lot* of things happened. It is ironic how often we are focused on our futures so much, we don't see our pasts being filled to the brim with stories. These stories are about us and people, our people, our friends.
 
 Some time has passed, I didn't know how much, perhaps an hour.
 
@@ -42,6 +42,6 @@ Thank you for being you.
 
 🫂
 
-### Notes
+## Notes
 
 [^1]: *Family too ofc, but hey, this post is about friends! :)*

@@ -36,13 +36,13 @@ What I did consume:
 
 I wish I could say it was smooth sailing but no, there were a couple of relapses, one of which turned into an experiment.
 
-#### Relapse 1
+## Relapse 1
 
 One day I spent about 45 minutes catching up on one YouTube channel by a tech commentator who has interesting thoughts and cracks some good jokes. (no, it's not you Primeagen, I can't watch 30min reactions video about 7min videos made by others).
 
 I then read a few articles about AI...and privacy. None of them were pleasant. Both, videos and articles certainly caused an unnecessary spike in cortisol.
 
-#### Relapse 2
+## Relapse 2
 
 Another morning, I somehow got hooked on one post, then another, and the next thing I know I read 3 more articles, I had *no plan* on even seeing. I got drained before noon. Bad. Bu then, I thought to make an experiment out of it. Just keep doing the same until the rest of the day, noting down what I did and for how long.
 
@@ -54,7 +54,7 @@ At the end of the day, I looked at the list and it was abundantly clear that:
 
 I slept well, though. Luck, I guess.
 
-### What Changed
+## What Changed
 
 After living like this for over a month, there are interesting indicators I am starting to notice. Mostly pretty positive, I think:
 
@@ -65,7 +65,7 @@ After living like this for over a month, there are interesting indicators I am s
 5. **I haven't missed anything big**, on the contrary I had extra time to think about the important stuff, about life, e.g friendships![^2]
 6. **I wrote...prolifically mostly about my past and found fascinating connections in my biography that I never saw before**. Some of it led me to relax a bit more about things I was stressed in the past, and some led me to forgiving others and myself.
 7. **My sleep has improved**. It was a bit of rough patch in the past 6 months, but I am happy to admit to myself it is much better now
-8. **I now wake up around 05:30** and hitting the park for calisthenics workout.
+8. **I now wake up around 05:30** and hitting the park for callisthenics workout.
 9. **More energy**. Nuff said!
 10. **Most days feel more fulfilling**, and isn't life about that? *Enjoying the ride*?[^1]
 
@@ -75,7 +75,7 @@ But this time it *is* different. OK, it *feels* different. The surprising thing 
 
 Some silence in a world filled with static and noise can be a liberating experience. I am an avid hiker - I know that well, but turns out similar silence can be achieved in a city too - it takes work and effort.
 
-### Managing Media Consumption Habits
+## Managing Media Consumption Habits
 
 Roughly I see these steps that I took
 
@@ -86,7 +86,7 @@ Roughly I see these steps that I took
 
 This is habit and lifestyle change. Not an "information diet" or "digital detox", which are both temporary.
 
-### Closing Thoughts
+## Closing Thoughts
 
 Of course, it is important to know about things that may impact you directly and react in a timely fashion. Living "under a rock" is not always optimal. But that doesn't mean you need to chase news every day (unless it is your job).
 
@@ -100,7 +100,7 @@ I will keep listening to silence (under a rock).
 
 🤫
 
-### Notes
+## Notes
 
 [^1]: This refers to a quote by Bill Hicks 'Hey, don't worry. Don't be afraid, ever, because this is just a ride.' from his show in London in 1993.
 

@@ -40,7 +40,7 @@ This page also took me a day to complete. By the end of it, I definitely felt mo
 
 ## 3. Four Facebook Pages
 
-By far that was the most challenging task. Two full days spent on these. There were many more elements to be made here: forms, tables, buttons. It was a great stretch indeed. Also, to avoid any confusion, I did not use my own mockups to design these pages, instead, I used the ones from [here](http://www.vikingcodeschool.com/web-markup-and-coding/let-s-build-facebook).
+By far that was the most challenging task. Two full days spent on these. There were many more elements to be made here: forms, tables, buttons. It was a great stretch indeed. Also, to avoid any confusion, I did not use my own mockups to design these pages, instead, I used the ones from [Viking Code School](http://www.vikingcodeschool.com/web-markup-and-coding/let-s-build-facebook).
 
 ### Homepage
 
@@ -48,7 +48,7 @@ By far that was the most challenging task. Two full days spent on these. There w
 
 ### Newsfeed
 
-![facebook-neasfeed](/images/facebook-neasfeed.png)
+![facebook-newsfeed](/images/facebook-neasfeed.png)
 
 ### About
 

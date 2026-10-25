@@ -8,7 +8,7 @@ tags: []
 
 I am sure if you have ever been interested in learning how to program, you came across the metaphor about the algorithm, which is a core element of programming.
 
-Author: Algorithm is similar to a recipe of a dish. It is a sequence of instructions you have to fulfill to get the desired result.
+Author: Algorithm is similar to a recipe of a dish. It is a sequence of instructions you have to fulfil to get the desired result.
 
 I don't disagree with it, on the contrary -  I just want to take this metaphor one step further...
 
@@ -26,7 +26,7 @@ and it just happened that there were 6 of us on the course. Everybody were older
 
 Fast-forward 6 months. The course is done, the practical exam is passed (we had to cook 4-meal course for 4 people anonymously). I came 3rd. Was I satisfied? No. Did I feel like I am a good cook now? No, not really. I was just a small kid who knew how to make some [Mother Sauces](https://en.wikipedia.org/wiki/Category:Mother_sauces) and have learnt the names of the cooking _methods_.
 
-One thing that annoyed me was that I knew theoretically how to cook something, moreover - I knew practically how to cook various things, but I still didn't have this skill to put everything together on a plate! Or make the presentation look beautiful. Creating on my own a great combination of flavours, colors, aromas on a plate was a very very hard task for me. At some point, I thought "Is this creative flair absent in me or what?!"
+One thing that annoyed me was that I knew theoretically how to cook something, moreover - I knew practically how to cook various things, but I still didn't have this skill to put everything together on a plate! Or make the presentation look beautiful. Creating on my own a great combination of flavours, colours, aromas on a plate was a very very hard task for me. At some point, I thought "Is this creative flair absent in me or what?!"
 
 But well...I kept working, I had one internship, second, where I was exposed to a Michelin Star cuisine. I was good at following and replicating things that other chefs showed me, and I noticed that my...
 
@@ -68,7 +68,7 @@ Regional Cuisines: Sichuan(China), Napoli
 Equipment: Pans, Pots
 Local Specialty Products: Harissa
 
-Getting back to cooking...  I did work in the kitchen as a chef for a bit less than 2 years in total (and I include my 5-6 months on the culinary course here). I was still working for 2 more years in the hospitality industry after my kitchen endeavors and was exposed to 3* Michelin Star restaurants, which definitely helped to develop further the food creativity. It helped. I got there. I `skill_up`'ed my cooking skills quite nicely.
+Getting back to cooking...  I did work in the kitchen as a chef for a bit less than 2 years in total (and I include my 5-6 months on the culinary course here). I was still working for 2 more years in the hospitality industry after my kitchen endeavours and was exposed to 3* Michelin Star restaurants, which definitely helped to develop further the food creativity. It helped. I got there. I `skill_up`'ed my cooking skills quite nicely.
 
 Am I great cook today? Probably not. A _good_ one - I think so. And so does most of my friends or whoever tried something that I have cooked. Am I able to produce something that looks nice and tastes great without really thinking about it? Something nice out of "whatever is in the fridge"?  Yes - for both. And I know that now. But I wouldn't believe that when I started that one day it would be as effortlessly as it is today.
 

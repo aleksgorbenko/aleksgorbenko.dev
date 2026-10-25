@@ -72,7 +72,7 @@ gulp.task('serve', function () {
 gulp.task('default', ['build', 'serve', 'images']);
 ```
 
-I have taken this code from [here](https://nvbn.github.io/2015/06/19/jekyll-browsersync/), so check it out if you want to see more details on what exactly is happening in the code.
+I have taken this code from [this Jekyll and Browsersync post](https://nvbn.github.io/2015/06/19/jekyll-browsersync/), so check it out if you want to see more details on what exactly is happening in the code.
 
 ## Pair Programming Sessions
 
@@ -102,4 +102,4 @@ Happy Coding!
 
 My Journey at Firehose Project: 92.31%
 
-[<< Week 11](/firehose-project-week-11) 
+[<< Week 11](/firehose-project-week-11)

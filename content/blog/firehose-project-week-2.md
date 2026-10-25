@@ -85,7 +85,7 @@ If you are lucky to have a mentor based in the same location as you do - talk ab
 
 ## Summary
 
-Apart from the new aspects of RoR that I have learned this week, the two key take-aways are:
+Apart from the new aspects of RoR that I have learned this week, the two key takeaways are:
 
 - Don't make silly mistakes when migrating database
 - Be prepares and organised before each mentor session

@@ -5,7 +5,7 @@ description: "Why, why, JavaScript?"
 tags: ["bootcamp", "javascript"]
 ---
 
-As planned, this week I spent learning more of the JavaScript (nope, I still don't like it that much).  I have also watched some Plularsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.
+As planned, this week I spent learning more of the JavaScript (nope, I still don't like it that much).  I have also watched some Pluralsight.com courses, and spent time working on the group project, chatting with the team about the tasks we need to complete helping each other with ideas along the way.
 
 Two main areas I tried to concentrate on this week was the this keyword and the Prototypical Inheritance in JS. I know you can write class-like code in ES6 (which is a relief actually), but in any case to really understand how objects are created in JS and how they inherit methods and properties from each other one has to go through PI.
 

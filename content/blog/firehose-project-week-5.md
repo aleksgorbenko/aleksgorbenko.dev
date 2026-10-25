@@ -35,7 +35,7 @@ These were the three parts that left to be completed in the Firehose JS Deep Div
 
 The object literal notation is not the same as the **J**ava**S**cript **O**bject **N**otation ([JSON](https://developer.mozilla.org/en-US/docs/Glossary/JSON)). Although they look similar, there are differences between them:
 
-- JSON permits _only_ property definition using`"property": value` syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
+- JSON permits *only* property definition using`"property": value` syntax.  The property name must be double-quoted, and the definition cannot be a shorthand.
 - In JSON the values can only be strings, numbers, arrays, `true`, `false`, `null`, or another (JSON) object.
 - A function value (see "Methods" above) can not be assigned to a value in JSON.
 - Objects like `Date` will be a string after `JSON.parse()`.
@@ -71,7 +71,7 @@ var collection = {
   };
 ```
 
-_Note: I hope FFC will fix it soon - I have created the [issue](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/8955) on their GitHub, but so far I got no response. [Update] Seems like [it will be fixed soon](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/8955#issuecomment-223791434)._
+*Note: I hope FFC will fix it soon - I have created the [issue](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/8955) on their GitHub, but so far I got no response. [Update] Seems like [it will be fixed soon](https://github.com/FreeCodeCamp/FreeCodeCamp/issues/8955#issuecomment-223791434).*
 
 To sum it up JSON is an object container that gets transferred from between server and browser with the help of the AJAX request. JSON is a faster way to transfer data and easier than XML (which was previously used for these purposes). Both server and browser read JSON objects and converts to JS objects.
 
@@ -101,7 +101,7 @@ I will list here most of the notes that I have made from the first book. In the 
 6. Variable scope works strangely in JS. Every following function and method have access to all previous variables in the code but not the variables that are further down within the function. `ReferenceError` is thrown when you are trying to access such variable (out of scope).
 7. Apparently, it is common to call a function before declaring it and writing the code that it executes. By convention, it is the other way around in Ruby.
 8. There is so-called coercion in JS (sometimes called "evil coercion" - not without the reason, I tell you). It is a rule that gets applied when you are checking the equality of two objects (`==` or `===`). When you use `==` on objects that are of different types, both of them get converted to until they are both the same data type - only then the equality will be checked. This is the way such things came to existence: `[] == ![]` will return `true`. Try it yourself if you don't believe me. I think I have found out why it returns `true`, but this is probably a topic for a separate post.
-9. There is a process called "transpilling" - conversion of newer ECMA standards into the old ones. It is important to understand these concepts because as web developers we need to know how to support older browsers. Transpilling is the bridge that will help us connect avantgarde JavaScript with it's older counterparts. I haven't used on yet, but apparently, the most common transpiler now is [Babel](http://babeljs.io/).
+9. There is a process called "transpiling" - conversion of newer ECMA standards into the old ones. It is important to understand these concepts because as web developers we need to know how to support older browsers. Transpiling is the bridge that will help us connect avant-garde JavaScript with it's older counterparts. I haven't used on yet, but apparently, the most common transpiler now is [Babel](http://babeljs.io/).
 
 These were the parts that I found interesting, weird or entirely new for me. These are not all of course. If you touched upon JS before, you know about the closures. I haven't mentioned them - well because I don't understand them :) Yet...
 

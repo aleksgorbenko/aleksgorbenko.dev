@@ -5,7 +5,7 @@ description: "I understand jQuery! Or, hang on... what... how does this even wor
 tags: ["bootcamp", "javascript"]
 ---
 
-Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. [One on Pluralsight](https://www.pluralsight.com/courses/jquery-fundamentals) and another one [here](http://jqexercise.droppages.com) _(update: it is offline now, so try [this instead](http://try.jquery.com/))_. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.
+Finally, the jQuery actually makes more sense now. I have spent this week reading up on it and finished a couple of courses as well. [One on Pluralsight](https://www.pluralsight.com/courses/jquery-fundamentals) and [another one](http://jqexercise.droppages.com) _(update: it is offline now, so try [this instead](http://try.jquery.com/))_. The latter is very practical as it basically asks you to do something with jQuery and gives you 300 seconds to figure out how to do it. Each task makes you google, come back and try your solution, repeat if not working.
 
 ## The End is Close
 
@@ -57,7 +57,7 @@ end
 
 As I mentioned, all these properties will be shared between all types of pieces.
 
-**Back to The Front-End**
+## Back to The Front-End
 
 As in any team, we have tasks that are back-end and front-end. The aim of this group project is to get the taste of everything as much as you can. To start with I took some tickets on the front end and will carry on working on them for the next couple of weeks, moving to the back-end afterwards.
 

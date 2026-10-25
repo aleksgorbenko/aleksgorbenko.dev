@@ -25,7 +25,7 @@ for (var i=1; i<=5; i++) {
 }
 ```
 
-Author: The spirit of this code snippet is that we would normally expect for the behavior to be that the numbers "1", "2", .. "5" would be printed out, one at a time, one per second, respectively.
+Author: The spirit of this code snippet is that we would normally expect for the behaviour to be that the numbers "1", "2", .. "5" would be printed out, one at a time, one per second, respectively.
 
 In fact, if you run this code, you get "6" printed out 5 times, at the one-second intervals.
 
@@ -84,7 +84,7 @@ Another good thing is that our team is partially distributed - which will give e
 
 All in all, the start of the project was exciting and there is hell a lot of the work ahead for us!
 
-P.S this week has not gone without Sci-Fi, so two more books are read, both belong to the so-called [hard science fiction](https://en.wikipedia.org/wiki/Hard_science_fiction) genre (really technical): [Contact](https://www.amazon.com/Contact-Carl-Sagan/dp/0780778979/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1467130444&sr=8-8) by Carl Sagan and [The Martain](https://www.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_2?ie=UTF8&qid=1467130393&sr=8-2&keywords=martian) by Andy Weir. Both are totally awesome!
+P.S this week has not gone without Sci-Fi, so two more books are read, both belong to the so-called [hard science fiction](https://en.wikipedia.org/wiki/Hard_science_fiction) genre (really technical): [Contact](https://www.amazon.com/Contact-Carl-Sagan/dp/0780778979/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1467130444&sr=8-8) by Carl Sagan and [The Martian](https://www.amazon.com/Martian-Andy-Weir/dp/0553418025/ref=sr_1_2?ie=UTF8&qid=1467130393&sr=8-2&keywords=martian) by Andy Weir. Both are totally awesome!
 
 Happy Coding!
 
