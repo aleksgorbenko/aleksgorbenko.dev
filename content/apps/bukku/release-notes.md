@@ -6,6 +6,6 @@ weight = 1
 
 ## 1.0.0
 
-*Unreleased*
+*Unreleased.*
 
 Initial release.

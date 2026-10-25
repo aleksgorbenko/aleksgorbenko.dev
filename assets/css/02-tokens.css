@@ -1,0 +1,83 @@
+@layer tokens {
+  :root {
+    color-scheme: dark;
+
+    --colour-background: #000;
+    --colour-surface: #0c0c0e;
+    --colour-surface-raised: #161619;
+    --colour-surface-hover: #1f1f23;
+    --colour-border: rgb(255 255 255 / 9%);
+    --colour-border-strong: rgb(255 255 255 / 18%);
+    --colour-text: #f5f5f7;
+    --colour-text-secondary: #a1a1a6;
+    --colour-text-tertiary: #8e8e93;
+    --colour-accent: #2997ff;
+    --colour-accent-strong: #0071e3;
+    --colour-on-accent: #fff;
+    --colour-glow: rgb(41 151 255 / 22%);
+    --colour-glow-soft: rgb(41 151 255 / 0%);
+    --colour-header: rgb(0 0 0 / 72%);
+    --colour-code: #e6edf3;
+    --colour-shadow: rgb(0 0 0 / 60%);
+    --colour-key: #26262a;
+    --colour-key-border: rgb(255 255 255 / 14%);
+    --colour-key-shadow: rgb(0 0 0 / 80%);
+    --font-sans: -apple-system, blinkmacsystemfont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
+    --font-display: -apple-system, blinkmacsystemfont, "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+    --font-mono: ui-monospace, "SF Mono", menlo, consolas, monospace;
+    --text-key: 0.8em;
+    --text-xs: 0.8125rem;
+    --text-s: 0.9375rem;
+    --text-m: 1.0625rem;
+    --text-l: 1.25rem;
+    --text-xl: clamp(1.375rem, 1.2rem + 0.8vw, 1.75rem);
+    --text-2xl: clamp(1.75rem, 1.35rem + 2vw, 2.75rem);
+    --text-3xl: clamp(2.25rem, 1.5rem + 3.6vw, 4.25rem);
+    --leading-none: 1;
+    --leading-tight: 1.08;
+    --leading-snug: 1.3;
+    --leading-body: 1.65;
+    --weight-regular: 400;
+    --weight-medium: 500;
+    --weight-semibold: 600;
+    --weight-bold: 700;
+    --tracking-tight: -0.022em;
+    --tracking-wide: 0.08em;
+    --space-3xs: 0.125rem;
+    --space-2xs: 0.25rem;
+    --space-xs: 0.5rem;
+    --space-s: 0.75rem;
+    --space-m: 1rem;
+    --space-l: 1.5rem;
+    --space-xl: 2rem;
+    --space-2xl: 3rem;
+    --space-3xl: 4.5rem;
+    --space-4xl: clamp(4.5rem, 3rem + 6vw, 8rem);
+    --gutter: clamp(1rem, 0.6rem + 2.4vw, 2rem);
+    --radius-s: 6px;
+    --radius-m: 12px;
+    --radius-l: 20px;
+    --radius-icon: 22.5%;
+    --radius-full: 999px;
+    --border-hairline: 1px;
+    --border-focus: 2px;
+    --width-prose: 42rem;
+    --width-page: 72rem;
+    --width-feature-text: 30rem;
+    --height-header: 3.5rem;
+    --size-icon-s: 3.5rem;
+    --size-icon-m: 4.5rem;
+    --size-icon-l: clamp(5.5rem, 4.5rem + 4vw, 8rem);
+    --size-avatar: 2.5rem;
+    --shadow-icon: 0 1.5rem 3.5rem var(--colour-shadow);
+    --shadow-glow: 0 0 6rem var(--colour-glow);
+    --blur-header: 20px;
+    --transition: 160ms ease;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :root {
+      --transition: 0ms;
+    }
+  }
+}

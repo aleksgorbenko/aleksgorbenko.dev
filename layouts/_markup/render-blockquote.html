@@ -1,0 +1,8 @@
+{{ if eq .Type "alert" }}
+  <div class="callout callout-{{ .AlertType }}" role="note">
+    <p class="callout-title">{{ .AlertTitle | default (.AlertType | strings.FirstUpper) }}</p>
+    <div class="callout-body">{{ .Text }}</div>
+  </div>
+{{ else }}
+  <blockquote>{{ .Text }}</blockquote>
+{{ end }}

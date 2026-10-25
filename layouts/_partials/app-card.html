@@ -1,0 +1,10 @@
+<a class="card card-link app-card" href="{{ .RelPermalink }}">
+  {{ with .Resources.Get .Params.icon }}
+    {{ $icon := .Resize "112x webp q90" }}
+    <img src="{{ $icon.RelPermalink }}" width="{{ $icon.Width }}" height="{{ $icon.Height }}" alt="" />
+  {{ end }}
+  <span>
+    <span class="app-card-name">{{ .Title }}</span>
+    {{ with .Params.tagline }}<span class="app-card-tagline">{{ . }}</span>{{ end }}
+  </span>
+</a>

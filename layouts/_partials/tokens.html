@@ -1,0 +1,40 @@
+{{- $html := string . -}}
+{{- $names := dict
+  "⌘" "Command"
+  "⌥" "Option"
+  "⇧" "Shift"
+  "⌃" "Control"
+  "↩" "Return"
+  "⌫" "Delete"
+  "⎋" "Escape"
+  "↑" "Up Arrow"
+  "↓" "Down Arrow"
+-}}
+{{- range findRESubmatch `\[\[([^\]]+)\]\]` $html -}}
+  {{- $token := index . 0 -}}
+  {{- $inner := index . 1 -}}
+  {{- $replacement := "" -}}
+  {{- if strings.HasPrefix $inner "sf:" -}}
+    {{- $name := strings.TrimPrefix "sf:" $inner -}}
+    {{- with index (resources.Match (printf "symbols/%s_*.png" (replace $name "." "-"))) 0 -}}
+      {{- $replacement = printf `<img class="sf" src="%s" width="%d" height="%d" alt="">` .RelPermalink (div .Width 4) (div .Height 4) -}}
+    {{- else -}}
+      {{- errorf "symbol %s is not rendered into assets/symbols" $name -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $keys := slice -}}
+    {{- range split $inner " " -}}
+      {{- $name := index $names . -}}
+      {{- if $name -}}
+        {{- $keys = $keys | append (printf `<kbd><span aria-hidden="true">%s</span><span class="visually-hidden">%s</span></kbd>` . $name) -}}
+      {{- else if eq . "space" -}}
+        {{- $keys = $keys | append `<kbd class="key-wide">Space</kbd>` -}}
+      {{- else -}}
+        {{- $keys = $keys | append (printf `<kbd>%s</kbd>` (upper .)) -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $replacement = printf `<span class="keys">%s</span>` (delimit $keys "") -}}
+  {{- end -}}
+  {{- $html = replace $html $token $replacement -}}
+{{- end -}}
+{{- return ($html | safeHTML) -}}

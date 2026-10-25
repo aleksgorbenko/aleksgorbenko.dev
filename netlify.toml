@@ -2,8 +2,10 @@
 publish = "public"
 command = "hugo --gc --minify"
 
+[build.environment]
+HUGO_VERSION = "0.168.0"
+
 [context.production.environment]
-HUGO_VERSION = "0.162.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -11,20 +13,31 @@ HUGO_ENABLEGITINFO = "true"
 command = "hugo --gc --minify --enableGitInfo"
 
 [context.split1.environment]
-HUGO_VERSION = "0.162.1"
 HUGO_ENV = "production"
-
-[context.deploy-preview]
-command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
-
-[context.deploy-preview.environment]
-HUGO_VERSION = "0.162.1"
-
-[context.branch-deploy]
-command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[context.branch-deploy.environment]
-HUGO_VERSION = "0.162.1"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[context.deploy-preview]
+command = "hugo --gc --minify --environment staging --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy]
+command = "hugo --gc --minify --environment staging -b $DEPLOY_PRIME_URL"
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+Content-Security-Policy = "default-src 'none'; script-src 'self' https://gc.zgo.at; style-src 'self'; img-src 'self' https://gbko.goatcounter.com; connect-src 'self' https://gbko.goatcounter.com; font-src 'self'; manifest-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
+Strict-Transport-Security = "max-age=63072000; includeSubDomains; preload"
+X-Content-Type-Options = "nosniff"
+Referrer-Policy = "strict-origin-when-cross-origin"
+Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()"
+Cross-Origin-Opener-Policy = "same-origin"
+X-Frame-Options = "DENY"
+
+[[headers]]
+for = "/css/*"
+
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"

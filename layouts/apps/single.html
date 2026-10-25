@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <article class="container container-prose">
+    <header class="page-header">
+      {{ with .Parent }}
+        {{ if .Params.icon }}<a class="back-link" href="{{ .RelPermalink }}">← {{ .Title }}</a>{{ end }}
+      {{ end }}
+      <h1 class="page-title">{{ .Title }}</h1>
+    </header>
+    <div class="prose">
+      {{ .Content }}
+    </div>
+  </article>
+{{ end }}

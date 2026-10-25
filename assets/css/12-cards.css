@@ -1,0 +1,65 @@
+@layer components {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+    gap: var(--space-m);
+    padding: 0;
+    list-style: none;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+    padding: var(--space-l);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-l);
+    background: var(--colour-surface);
+  }
+
+  .card-link {
+    color: var(--colour-text);
+    transition:
+      background-color var(--transition),
+      border-color var(--transition);
+  }
+
+  .card-link:hover {
+    border-color: var(--colour-border-strong);
+    background: var(--colour-surface-hover);
+    text-decoration: none;
+  }
+
+  .app-card {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-m);
+  }
+
+  .app-card img {
+    flex: none;
+    width: var(--size-icon-s);
+    border-radius: var(--radius-icon);
+  }
+
+  .app-card-placeholder {
+    flex: none;
+    width: var(--size-icon-s);
+    aspect-ratio: 1;
+    border: var(--border-hairline) dashed var(--colour-border-strong);
+    border-radius: var(--radius-icon);
+  }
+
+  .app-card-name {
+    display: block;
+    color: var(--colour-text);
+    font-size: var(--text-l);
+    font-weight: var(--weight-semibold);
+  }
+
+  .app-card-tagline {
+    display: block;
+    color: var(--colour-text-secondary);
+    font-size: var(--text-s);
+  }
+}

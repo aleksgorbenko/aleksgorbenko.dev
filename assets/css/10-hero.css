@@ -1,0 +1,102 @@
+@layer components {
+  .hero {
+    position: relative;
+    padding-block: var(--space-3xl) var(--space-2xl);
+    text-align: center;
+    isolation: isolate;
+  }
+
+  .hero::before {
+    position: absolute;
+    inset: 0 0 auto;
+    z-index: -1;
+    height: 100%;
+    background: radial-gradient(ellipse 60% 50% at 50% 0%, var(--colour-glow), var(--colour-glow-soft));
+    content: "";
+  }
+
+  .hero-icon {
+    width: var(--size-icon-l);
+    margin-inline: auto;
+    border-radius: var(--radius-icon);
+    box-shadow: var(--shadow-icon);
+  }
+
+  .hero-title {
+    margin-top: var(--space-l);
+    font-size: var(--text-3xl);
+    line-height: var(--leading-tight);
+  }
+
+  .hero-tagline {
+    max-width: 36rem;
+    margin: var(--space-s) auto 0;
+    color: var(--colour-text-secondary);
+    font-size: var(--text-xl);
+    line-height: var(--leading-snug);
+  }
+
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-s) var(--space-l);
+    margin-top: var(--space-xl);
+  }
+
+  .hero-requirement {
+    margin-top: var(--space-s);
+    color: var(--colour-text-tertiary);
+    font-size: var(--text-xs);
+  }
+
+  .hero-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-xs) var(--space-l);
+    margin-top: var(--space-l);
+    padding: 0;
+    font-size: var(--text-s);
+    list-style: none;
+  }
+
+  .hero-media {
+    margin-top: var(--space-2xl);
+  }
+
+  .hero-media img {
+    width: 100%;
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-l);
+    box-shadow: var(--shadow-glow);
+  }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.75rem;
+    padding: var(--space-xs) var(--space-l);
+    border: var(--border-hairline) solid transparent;
+    border-radius: var(--radius-full);
+    background: var(--colour-accent-strong);
+    color: var(--colour-on-accent);
+    font-size: var(--text-m);
+    font-weight: var(--weight-medium);
+    transition: background-color var(--transition);
+  }
+
+  .button:hover {
+    background: var(--colour-accent);
+    text-decoration: none;
+  }
+
+  .button[aria-disabled="true"] {
+    border-color: var(--colour-border-strong);
+    background: transparent;
+    color: var(--colour-text-secondary);
+    cursor: default;
+  }
+}

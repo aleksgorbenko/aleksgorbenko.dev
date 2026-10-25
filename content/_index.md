@@ -1,6 +1,7 @@
-# 👋 Hello there, I'm Aleks
-
-I am a Software Engineer from Riga, Latvia.
++++
+heading = "Hello there, I'm Aleks"
+lead = "I am a Software Engineer from Riga, Latvia."
++++
 
 - 👤 [Who am I and My Professional Path](https://github.com/aleksgorbenko/whoami)
 - 👨🏻‍💻 [How I Work](https://github.com/aleksgorbenko/howiwork)

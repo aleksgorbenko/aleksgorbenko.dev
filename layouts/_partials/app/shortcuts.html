@@ -1,0 +1,13 @@
+{{ $page := . }}
+<section class="container container-prose section" id="shortcuts" aria-labelledby="shortcuts-title">
+  <h2 class="section-title" id="shortcuts-title">Keyboard Shortcuts</h2>
+  {{ range .Params.shortcuts }}
+    <h3 class="shortcut-group">{{ .group }}</h3>
+    <dl class="shortcut-list">
+      {{ range .keys }}
+        <dt>{{ partial "tokens.html" (printf "[[%s]]" .keys) }}</dt>
+        <dd>{{ partial "tokens.html" ($page.RenderString .action) }}</dd>
+      {{ end }}
+    </dl>
+  {{ end }}
+</section>

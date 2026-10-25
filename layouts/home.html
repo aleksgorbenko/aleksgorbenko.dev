@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <div class="container container-prose">
+    <section class="page-header intro" aria-label="Introduction">
+      {{ with site.Params.avatar }}
+        <img src="{{ . | relURL }}" width="40" height="40" alt="" />
+      {{ end }}
+      <div>
+        <h1 class="page-title">{{ .Params.heading | default site.Title }}</h1>
+        {{ with .Params.lead }}<p class="page-lead">{{ . }}</p>{{ end }}
+      </div>
+    </section>
+
+    {{ with site.GetPage "/apps" }}
+      <section class="section" aria-labelledby="apps-title">
+        <h2 class="section-title" id="apps-title">{{ .Title }}</h2>
+        <ul class="cards">
+          {{ range where .Pages "Params.icon" "!=" nil }}
+            <li>{{ partial "app-card.html" . }}</li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+
+    <div class="prose">
+      {{ .Content }}
+    </div>
+
+    {{ with site.GetPage "/blog" }}
+      <section class="section" aria-labelledby="writing-title">
+        <h2 class="section-title" id="writing-title">Latest writing</h2>
+        {{ partial "post-list.html" (first 5 .Pages) }}
+        <p class="page-meta"><a href="{{ .RelPermalink }}">All posts</a></p>
+      </section>
+    {{ end }}
+  </div>
+{{ end }}

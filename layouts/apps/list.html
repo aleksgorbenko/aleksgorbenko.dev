@@ -1,0 +1,56 @@
+{{ define "main" }}
+  {{ if .Params.icon }}
+    {{ partial "app/hero.html" . }}
+    {{ with .Params.intro }}
+      <div class="container container-prose prose intro-text">
+        {{ partial "tokens.html" ($.RenderString (dict "display" "block") .) }}
+      </div>
+    {{ end }}
+    <div class="container">
+      <div class="features">
+        {{ range $index, $feature := .Params.features }}
+          {{ partial "app/feature.html" (dict "page" $ "feature" $feature "number" (add $index 1)) }}
+        {{ end }}
+        {{ range .Params.more }}
+          {{ partial "app/feature.html" (dict "page" $ "feature" .) }}
+        {{ end }}
+      </div>
+    </div>
+    {{ with .Params.stats }}
+      <section class="container section" aria-labelledby="stats-title">
+        <h2 class="section-title" id="stats-title">{{ $.Params.statsTitle }}</h2>
+        <ul class="stats">
+          {{ range . }}
+            <li class="card">
+              <span class="stat-value">{{ .value }}</span>
+              <span class="stat-label">{{ .label }}</span>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+    {{ if .Params.shortcuts }}{{ partial "app/shortcuts.html" . }}{{ end }}
+    <div class="container container-prose faq prose">
+      {{ partial "tokens.html" .Content }}
+    </div>
+  {{ else }}
+    <div class="container container-prose">
+      <header class="page-header">
+        <h1 class="page-title">{{ .Title }}</h1>
+        {{ with .Content }}<div class="page-lead">{{ . }}</div>{{ end }}
+      </header>
+      <ul class="cards">
+        {{ range where .Pages "Params.icon" "!=" nil }}
+          <li>{{ partial "app-card.html" . }}</li>
+        {{ end }}
+        <li class="card app-card">
+          <span class="app-card-placeholder"></span>
+          <span>
+            <span class="app-card-name">Mysterious New App</span>
+            <span class="app-card-tagline">Researching my next native macOS app…</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}
