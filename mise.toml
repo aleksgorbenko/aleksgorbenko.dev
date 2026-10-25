@@ -1,0 +1,4 @@
+[tools]
+bun = "1.4.3"
+hugo-extended = "0.168.0"
+java = "25"

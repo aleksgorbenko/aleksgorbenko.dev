@@ -1,0 +1,33 @@
+{
+  "name": "aleksgorbenko-dev",
+  "private": true,
+  "type": "module",
+  "scripts": {},
+  "devDependencies": {
+    "@axe-core/playwright": "^4.14.0",
+    "@cspell/dict-en-gb": "^5.0.38",
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.64.1",
+    "@types/bun": "^1.4.4",
+    "cspell": "^10.4.0",
+    "eslint": "^10.13.0",
+    "html-validate": "^11.17.0",
+    "jiti": "^2.7.0",
+    "markdownlint-cli2": "^0.24.0",
+    "playwright": "^1.64.1",
+    "prettier": "^3.9.10",
+    "prettier-plugin-go-template": "^0.0.15",
+    "purgecss": "^8.0.0",
+    "stylelint": "^17.16.0",
+    "stylelint-config-standard": "^40.0.0",
+    "stylelint-declaration-strict-value": "^1.12.1",
+    "stylelint-no-unsupported-browser-features": "^8.1.2",
+    "svgo": "^4.1.0",
+    "typescript": "^6",
+    "typescript-eslint": "^8.72.0",
+    "vnu-jar": "^26.10.12"
+  },
+  "overrides": {
+    "katex": "^0.18.2"
+  }
+}
