@@ -1,0 +1,16 @@
+{{- $source := .Destination -}}
+{{- $file := path.Join "static" $source -}}
+{{- if and (strings.HasPrefix $source "/") (fileExists $file) -}}
+  {{- with imageConfig $file -}}
+    <img
+      src="{{ $source }}"
+      width="{{ .Width }}"
+      height="{{ .Height }}"
+      alt="{{ $.PlainText }}"
+      loading="lazy"
+      decoding="async"
+    />
+  {{- end -}}
+{{- else -}}
+  <img src="{{ $source }}" alt="{{ .PlainText }}" loading="lazy" decoding="async" />
+{{- end -}}

@@ -1,0 +1,105 @@
+@layer components {
+  .features {
+    display: grid;
+    gap: var(--space-3xl);
+    padding-block: var(--space-2xl);
+  }
+
+  .feature {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-l);
+    align-items: center;
+  }
+
+  .feature-text {
+    max-width: var(--width-feature-text);
+  }
+
+  .feature-title {
+    margin-top: var(--space-xs);
+    font-size: var(--text-2xl);
+    line-height: var(--leading-tight);
+  }
+
+  .feature-summary {
+    margin-top: var(--space-s);
+    color: var(--colour-text-secondary);
+    font-size: var(--text-l);
+    line-height: var(--leading-snug);
+  }
+
+  .feature-body {
+    margin-top: var(--space-m);
+    color: var(--colour-text-secondary);
+  }
+
+  .feature-body > * + * {
+    margin-top: var(--space-s);
+  }
+
+  .feature-body pre {
+    overflow-x: auto;
+    padding: var(--space-m);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-m);
+    font-size: var(--text-s);
+    line-height: var(--leading-snug);
+  }
+
+  .feature-summary code,
+  .shortcut-list code,
+  .feature-body p code,
+  .feature-body li code {
+    padding: var(--space-3xs) var(--space-2xs);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-s);
+    background: var(--colour-surface-raised);
+    color: var(--colour-text);
+    font-size: 0.9em;
+  }
+
+  .feature-body ul {
+    padding-left: var(--space-l);
+  }
+
+  .feature-body strong {
+    color: var(--colour-text);
+    font-weight: var(--weight-semibold);
+  }
+
+  .feature-media img {
+    width: 100%;
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-l);
+  }
+
+  @media (width < 56rem) {
+    .feature-media {
+      margin-inline: calc(var(--gutter) * -1);
+    }
+  }
+
+  @media (width >= 56rem) {
+    .feature {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+      gap: var(--space-3xl);
+    }
+
+    .feature:nth-child(even) {
+      grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    }
+
+    .feature:nth-child(even) .feature-text {
+      order: 2;
+    }
+
+    .feature.feature-text-only {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .feature.feature-text-only .feature-text {
+      max-width: var(--width-prose);
+    }
+  }
+}

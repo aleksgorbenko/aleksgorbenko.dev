@@ -16,7 +16,7 @@ The first time I read the book around 2018 or 2019. It got me pretty excited and
 
 Despite this realisation, the idea that physical environment plays a huge role in how well can one focus felt impactful and practical.
 
-So I made changes to my environments. My desks became empty with only a laptop and keyboard/mouse on it. No notebooks, no decorations, no cacti. 
+So I made changes to my environments. My desks became empty with only a laptop and keyboard/mouse on it. No notebooks, no decorations, no cacti.
 
 When at home, I stopped taking laptop to bedroom, since sometimes this would trigger me to work on my bed and potentially impact my sleep.
 
@@ -36,7 +36,7 @@ Currently, I have a handful of places in different parts of the city that I trea
 
 Perhaps, a week ago or so, I started to notice that my focus at these cafes is a bit different. This happened after I practically eliminating all forms of digital media consumption.[^2]
 
-In one cafe, which I frequent the most, there is open access to the street, one can see a semi-busy alleyway. People pass regularly and unless you face the entrance with your back (there is just one table like that), your peripheral vision always catches *something*. I wear headphones, so the sounds don't disturb me as much, but, a movement here, a bright color there, and my eyes are gravitating towards that with disturbing regularity!
+In one cafe, which I frequent the most, there is open access to the street, one can see a semi-busy alleyway. People pass regularly and unless you face the entrance with your back (there is just one table like that), your peripheral vision always catches *something*. I wear headphones, so the sounds don't disturb me as much, but, a movement here, a bright colour there, and my eyes are gravitating towards that with disturbing regularity!
 
 Compare that to another cafe that I found approximately 3 weeks ago. It is deeper inside of a less busy alleyway, on the 2nd floor of a residential building. I sit at the large table right near the entrance, but I only see people who come in and out and a handful of residents who happen to live on the same floor.
 
@@ -53,7 +53,7 @@ The above comparison made me think that one can control the physical environment
 1. desk in front of you
 2. place/space - physical surroundings
 
-The first was familiar and clear to me - I habitually had clean desks for years. 
+The first was familiar and clear to me - I habitually had clean desks for years.
 The second - I somehow completely ignored it when working from cafes.
 
 Removing things and movement from both, desk, and surroundings helps. But this is only half of the puzzle. The second part - is what I have on my screen, in other words, **my workbench**.
@@ -74,9 +74,9 @@ Earlier it felt completely fine because:
 
 1. My window management is fluid and habitual
 2. App switching is seamless, I had this setup for years and use a few ways:
-	 - hyper-keys (smart shortcuts) configured with *Keyboard Maestro* and *Karabiner*[^4]. The fastest.
-	 - type a name in Alfred. Average speed.
-	 - occasionally `cmd + tab`. Slowest speed
+   - hyper-keys (smart shortcuts) configured with *Keyboard Maestro* and *Karabiner*[^4]. The fastest.
+   - type a name in Alfred. Average speed.
+   - occasionally `cmd + tab`. Slowest speed
 
 But!
 
@@ -131,7 +131,7 @@ Here is a sample of a few modes I tend to operate lately ("mode: work" is omitte
 
 What became clear:
 
-1. A very small number of tools is needed for each "mode" 
+1. A very small number of tools is needed for each "mode"
 2. Main challenge was to manage apps that have multiple view (tabs) within them (marked in bold) since I need to isolate only the tabs I need for a specific task
 
 ### Managing Apps with Multiple Views
@@ -186,12 +186,15 @@ This is how it looks in *Alfred Workflow Builder*:
 All in all, simple: close apps, open the ones you need, optionally open specific workspaces in Obsidian or relevant tabs in Chrome.
 
 ### Preliminary Results
+
 This post was written in "mode: blog".
+
 - While writing this post I have not switched a single time to an app that is not related to the task
 - There are no browser tabs to trigger some thoughts even if I accidentally switch to Safari
 - No Task Manager to trigger thoughts about future tasks
 
 ### Bonus Mode: Shutdown
+
 In the book Cal Newport suggests to have a "shutdown ritual" to make a clear separation between work time/tasks and personal time (historically this is something that used to be terrible at. Ok, ok, I still am).
 
 I added such mode, so that when I finish for the day, this mode closes all apps except Obsidian. Not seeing terminal being on 100% of the time is new to me. I did use Claude Code less in the evenings for "just this little thing I want to finish", which is undoubtedly a good sign.

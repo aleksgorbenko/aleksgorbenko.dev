@@ -5,7 +5,7 @@ baseURL = "https://aleksgorbenko.dev/"
 # Basic metadata configuration for your blog.
 title = "Aleks Gorbenko"
 author = "Aleks Gorbenko"
-locale = "en-US"
+locale = "en-GB"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
@@ -41,6 +41,9 @@ description = "{a_G} | Meditations on Tech"
 # Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
 favicon = "images/favicon.png"
 
+# Round portrait shown on the home page.
+avatar = "images/aleks_gorbenko_memoji.png"
+
 # These "images" are used for the structured data templates. This will show up, when
 # services like Twitter or Slack want to generate a preview of a link to your site.
 # See https://gohugo.io/templates/internal#twitter-cards and
@@ -70,8 +73,8 @@ title = "Aleks Gorbenko"
 # Allow inline HTML (e.g. <br> in feature/FAQ lists) to render.
 unsafe = true
 [markup.highlight]
-style = 'friendly'
-lineNos = true
+noClasses = false
+lineNos = false
 lineNumbersInTable = false
 codeFences = true
 
@@ -87,9 +90,8 @@ name = "RSS"
 url = "/blog/index.xml"
 weight = 4
 
-# The name of this wonderful theme ;-).
-[module]
-[[module.imports]]
-path = "github.com/janraasch/hugo-bearblog"
-[[module.imports]]
-path = "github.com/KKKZOZ/hugo-admonitions"
+[minify.tdewolff.html]
+keepDocumentTags = true
+keepEndTags = true
+keepQuotes = true
+keepSpecialComments = false

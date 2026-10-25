@@ -34,20 +34,19 @@ Today, I have introduced several new rules and routines to my day:
 3. **Use different types of study materials during the day: coding, theory reading, videos, and note taking**
 4. **Not coding before the bedtime**
 
-For now, it is based on some replies by people on [forums](http://forums.studentdoctor.net/threads/tips-for-studying-for-long-periods-of-time.762218/), [question boards](http://productivity.stackexchange.com/questions/5113/how-to-study-long-hours-without-being-burnt-out-or-getting-bored), and other [blog posts](https://www.examtime.com/blog/study-hacks/). With these, I hope to avoid any possibility of having this "overloads" in the future. But I am planning to watch the [short course on productivity for developers](https://app.pluralsight.com/library/courses/productivity-tips-busy-tech-professional/table-of-contents) on PlularSight.com.
+For now, it is based on some replies by people on [forums](http://forums.studentdoctor.net/threads/tips-for-studying-for-long-periods-of-time.762218/), [question boards](http://productivity.stackexchange.com/questions/5113/how-to-study-long-hours-without-being-burnt-out-or-getting-bored), and other [blog posts](https://www.examtime.com/blog/study-hacks/). With these, I hope to avoid any possibility of having this "overloads" in the future. But I am planning to watch the [short course on productivity for developers](https://app.pluralsight.com/library/courses/productivity-tips-busy-tech-professional/table-of-contents) on Pluralsight.com.
 
-**Tip:** Follow [this guide](https://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html) to get a free 6-month subscription for PlularSight.com (Normally it would cost you $300 a year).
+**Tip:** Follow [this guide](https://absolute-sharepoint.com/2015/12/free-pluralsight-6-month-subscription.html) to get a free 6-month subscription for Pluralsight.com (Normally it would cost you $300 a year).
 
 ## Finishing The Nomster App
 
 Due to this headache I wasn't able to do as much as I planned to do, nonetheless, I have completed a good chunk of work. Firstly, I have finished the Nomster app and [it is live now](https://nomster-aleks-gorbenko.herokuapp.com). There 2 main features left for me to complete: ability to upload photos to the places and having an email notification system that shoots you the email every time somebody leaves the comment on the place that you have created.
 
-The most challenging one by far was the photo part. It was entirely a self-directed lesson. The only tip that was given is the Gem that could be used to complete the feature - [Carriewave](https://github.com/carrierwaveuploader/carrierwave). I spent an entire day doing this. If you follow the documentation of the Gem, the installation is pretty easy. The photos had to be uploaded to the Amazon Web Services, this part was guided so you are shown how to create a bucket where the photos will be eventually uploaded. The API keys for AWS should be stored a special file created by another Gem - Figaro (I talked about it last week). So far, so good, but here is where I have made another mistake. I have created DB migration and added two columns "Photo" and "Caption" to the "Places" table. To me it perfectly made sense - there is a place and the place will have photos, each photo will have a caption. All good. If you are familiar with main concepts of databases, you have probably noticed already where my thinking is wrong.
+The most challenging one by far was the photo part. It was entirely a self-directed lesson. The only tip that was given is the Gem that could be used to complete the feature - [CarrierWave](https://github.com/carrierwaveuploader/carrierwave). I spent an entire day doing this. If you follow the documentation of the Gem, the installation is pretty easy. The photos had to be uploaded to the Amazon Web Services, this part was guided so you are shown how to create a bucket where the photos will be eventually uploaded. The API keys for AWS should be stored a special file created by another Gem - Figaro (I talked about it last week). So far, so good, but here is where I have made another mistake. I have created DB migration and added two columns "Photo" and "Caption" to the "Places" table. To me it perfectly made sense - there is a place and the place will have photos, each photo will have a caption. All good. If you are familiar with main concepts of databases, you have probably noticed already where my thinking is wrong.
 
 Each cell in any table of the database should have **ONLY ONE** value. In my case, if I uploaded more than 1 photo and 1 caption, the database would be confused. So what I needed to do instead is to create a new Table, call it "Photos" and have "Picture", "Caption" and (the most important one) "Place ID" columns. "Place ID" in this case is something known as **FOREIGN KEY**.
 
 Each Place in the Places table would have it's unique ID, which is a ****PRIMARY KEY**** in this case. In my example, each Place has many Photos, so that creates a **"one-to-many" relationship**. So the "Place ID" in the Photos table is a **FOREIGN KEY**  refers to the **PRIMARY KEY** in Places table. Hence, each photo is associated with the correct place. Here is a simple illustration of how Primary Key and Foreign Key look like in the database:
-
 
 Even when I completed the photo uploading feature I did not quite understand why I had to create the new table. And only after watching [Foundations of Programming: Databases](http://www.lynda.com/Access-tutorials/Foundations-Programming-Databases/412845-2.html) I have finally realised why it had to be set up in such as way (screenshot above is taken from that course). As a side note - I highly recommend [Foundations of Programming series on Lynda.com](http://lynda.com). The courses helped me a lot to cement the programming concepts such as Databases, Data Structures, Big-O Notation and others.
 
@@ -64,7 +63,7 @@ This session I have predominantly dedicated to the understanding of the RoR app
 **environment** folder - runs depending on the environment the app is currently in production, development or test. For instance, when you push your app to Heroku, the following line is executed on the server:
 
 ```bash
-$ export RAILS_ENV=production
+export RAILS_ENV=production
 ```
 
 That makes the code in the environment/production.rb file to get executed.
@@ -73,7 +72,7 @@ That makes the code in the environment/production.rb file to get executed.
 
 **Active Record** - is an ORM, which stands for Object-Relational Mapping. It is a way how RoR is communicating with the Database. Instead of using SQL to communicate with the database you are using Ruby code, predefined by the Rails to read, edit and write data to the tables.
 
-**ActioView** - is responsible for generating the "View" (as in MVC) and sending it back to the Controller which will send it to the user browser.
+**ActionView** - is responsible for generating the "View" (as in MVC) and sending it back to the Controller which will send it to the user browser.
 
 **ActionMailer** - is responsible for all email sending features.
 

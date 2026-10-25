@@ -1,13 +1,23 @@
+---
 name: Scheduled Netlify Build
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Every day at 00:00 UTC
+    - cron: "0 0 * * *"  # Every day at 00:00 UTC
   workflow_dispatch:
+
+permissions: {}
+
+concurrency:
+  group: scheduled-netlify-build
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: Trigger build
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Netlify build
-        run: curl -s -X POST "${{ secrets.NETLIFY_BUILD_HOOK }}"
+        env:
+          NETLIFY_BUILD_HOOK: ${{ secrets.NETLIFY_BUILD_HOOK }}
+        run: curl -s -X POST "$NETLIFY_BUILD_HOOK"

@@ -1,0 +1,60 @@
+{
+  "extends": ["stylelint-config-standard"],
+  "plugins": ["stylelint-declaration-strict-value", "stylelint-no-unsupported-browser-features"],
+  "ignoreFiles": ["assets/css/15-code.css", "public/**", "node_modules/**"],
+  "reportDescriptionlessDisables": true,
+  "reportInvalidScopeDisables": true,
+  "reportNeedlessDisables": true,
+  "rules": {
+    "declaration-no-important": [
+      true,
+      {
+        "severity": "error"
+      }
+    ],
+    "scale-unlimited/declaration-strict-value": [
+      [
+        "/color$/",
+        "background",
+        "font-size",
+        "font-family",
+        "font-weight",
+        "letter-spacing",
+        "line-height",
+        "border-radius",
+        "box-shadow",
+        "gap",
+        "row-gap",
+        "column-gap",
+        "/^margin/",
+        "/^padding/"
+      ],
+      {
+        "ignoreValues": ["0", "auto", "none", "inherit", "transparent", "currentcolor", "0.9em"],
+        "expandShorthand": true,
+        "disableFix": true
+      }
+    ],
+    "plugin/no-unsupported-browser-features": [
+      true,
+      {
+        "browsers": [
+          "last 2 Safari major versions",
+          "last 2 iOS major versions",
+          "last 2 Chrome major versions",
+          "last 2 Firefox major versions"
+        ],
+        "severity": "error",
+        "ignore": ["text-decoration", "css-clip-path"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["assets/css/02-tokens.css"],
+      "rules": {
+        "scale-unlimited/declaration-strict-value": null
+      }
+    }
+  ]
+}

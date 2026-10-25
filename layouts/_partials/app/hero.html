@@ -1,0 +1,37 @@
+<section class="hero" aria-labelledby="hero-title">
+  <div class="container">
+    {{ with .Resources.Get .Params.icon }}
+      {{ $icon := .Resize "256x webp q90" }}
+      <img
+        class="hero-icon"
+        src="{{ $icon.RelPermalink }}"
+        width="{{ $icon.Width }}"
+        height="{{ $icon.Height }}"
+        alt=""
+        fetchpriority="high"
+      />
+    {{ end }}
+    <h1 class="hero-title" id="hero-title">{{ .Title }}</h1>
+    {{ with .Params.tagline }}<p class="hero-tagline">{{ . }}</p>{{ end }}
+    <div class="hero-actions">
+      {{ range .Params.links }}
+        {{ if .url }}
+          <a class="button" href="{{ .url }}">{{ .name }}</a>
+        {{ else }}
+          <span class="button" aria-disabled="true">{{ .name }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ with .Params.requirement }}<p class="hero-requirement">{{ . }}</p>{{ end }}
+    <ul class="hero-links">
+      {{ range .Params.anchors }}<li><a href="#{{ .id }}">{{ .name }}</a></li>{{ end }}
+      {{ with $.GetPage "release-notes" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+      {{ with $.GetPage "privacy-policy" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+    </ul>
+    {{ with .Resources.Get .Params.hero }}
+      <div class="hero-media">
+        {{ partial "picture.html" (dict "image" . "alt" $.Params.heroAlt "sizes" "(width >= 76rem) 72rem, calc(100vw - 2rem)" "widths" (slice 640 960 1280 1920 2400) "eager" true) }}
+      </div>
+    {{ end }}
+  </div>
+</section>

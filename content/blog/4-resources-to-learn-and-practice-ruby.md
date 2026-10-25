@@ -68,11 +68,11 @@ By the way, the copy I had the Ruby was version **1.8.6-26**
 
 Check!
 
-## 3. CodeCademy Ruby Track
+## 3. Codecademy Ruby Track
 
-If you have been poking around the Internet in the search for "learn to code" or alike, chances are you have seen [CodeCademy](https://www.codecademy.com/). While I think their [HTML & CSS Track](https://www.codecademy.com/learn/web) are OK, I have found [Ruby Track](https://www.codecademy.com/learn/ruby) to be increasingly confusing. Now don't get me wrong, while you are doing a particular module - most of the things make sense, BUT, when it comes to building a mental model in the users head of how everything works together - it does not give you that.
+If you have been poking around the Internet in the search for "learn to code" or alike, chances are you have seen [Codecademy](https://www.codecademy.com/). While I think their [HTML & CSS Track](https://www.codecademy.com/learn/web) are OK, I have found [Ruby Track](https://www.codecademy.com/learn/ruby) to be increasingly confusing. Now don't get me wrong, while you are doing a particular module - most of the things make sense, BUT, when it comes to building a mental model in the users head of how everything works together - it does not give you that.
 
-I did CodeCademy Ruby Track as a the very first step, and in retrospect, I wish I had not started from it. Don't repeat my mistake.By the time you went through the above resources - the first half of the track will be a breeze for you (and also a good refresher) while the second half probably make more sense after having seen it all in Erik's posts and Chris's book.
+I did Codecademy Ruby Track as a the very first step, and in retrospect, I wish I had not started from it. Don't repeat my mistake.By the time you went through the above resources - the first half of the track will be a breeze for you (and also a good refresher) while the second half probably make more sense after having seen it all in Erik's posts and Chris's book.
 
 By the time you went through the above resources 1 & 2 - the first half of the track will be a breeze for you (and also a good refresher) while the second half probably make more sense after having seen it all in Erik's posts and Chris's book.
 

@@ -51,7 +51,7 @@ After that, the process of narrowing down my choices became a bit easier.
 
 Learn-Verify was quickly eliminated after finding this [Reddit](https://www.reddit.com/r/learnprogramming/comments/3pnj9i/how_important_is_algorithms_when_choosing_a/) comment:
 
-Author: Nashville_bound I asked **Learn** about the algorithms and this was their resonse.... "The program is focused on web programming, but does have components that touch on traditional CS algorithms" I'm not sure how much is necessary or how much they offer but yes, you were correct. Believe it or not I have had numerous bootcamps tell me they do not cover it at all.
+Author: Nashville_bound I asked **Learn** about the algorithms and this was their response.... "The program is focused on web programming, but does have components that touch on traditional CS algorithms" I'm not sure how much is necessary or how much they offer but yes, you were correct. Believe it or not I have had numerous bootcamps tell me they do not cover it at all.
 
 "Touch on"? I don't think that sounds particularly re-assuring.
 
@@ -78,7 +78,7 @@ Besides of the reasons above the Firehose Project meets all 4 qualities of a sol
 
 ## Some Other Notes
 
-After talking with LA guys - I made the conclusion that at the moment their online program is a bit too young as it launched in December 2015/January 2016. Their in-person offer has actually some great reviews - check below. [Viking Code School Flex](https://www.youtube.com/watch?v=DmuBaQrGjn0) (self-paced program that I was going to enroll in) also appeared a bit too long (6-10 months) after comparing to other options(3-4 months). It is actually a good thing in itself - they have the most in-depth online curriculum on the market. It just won't fit everybody's schedule.
+After talking with LA guys - I made the conclusion that at the moment their online program is a bit too young as it launched in December 2015/January 2016. Their in-person offer has actually some great reviews - check below. [Viking Code School Flex](https://www.youtube.com/watch?v=DmuBaQrGjn0) (self-paced program that I was going to enrol in) also appeared a bit too long (6-10 months) after comparing to other options(3-4 months). It is actually a good thing in itself - they have the most in-depth online curriculum on the market. It just won't fit everybody's schedule.
 
 Overall I think, Viking Code School, Launch Academy (in-person) and Firehose Project are great choices on their own and will be a great fit for many potential boot campers.
 

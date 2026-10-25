@@ -4,106 +4,190 @@ draft = false
 tagline = "Launcher for your browser tabs, bookmarks and history"
 description = "Bukku is a Spotlight-style launcher for your browser tabs, bookmarks, and history on macOS. Everything local and private - no account, no cloud, no telemetry."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
-icon = "images/bukku-icon.png"
-demo_gif = "images/bukku-demo.gif"
+icon = "images/icon_1024x1024.png"
+hero = "images/website-hero_2400x1350.webp"
+heroAlt = "The Bukku launcher showing tabs, bookmarks and history results for one search"
 requirement = "Requires macOS 15 or later"
 links = [
   { name = "Coming Soon", url = "" },
 ]
 anchors = [
+  { name = "Features", id = "unified-search" },
+  { name = "Shortcuts", id = "shortcuts" },
   { name = "Tips", id = "tips" },
   { name = "FAQ", id = "faq" },
 ]
-+++
-
+intro = """
 Bukku is a Spotlight-style launcher to control tabs, open bookmarks and history items across all your browsers.
 
-Open it from anywhere with one global shortcut.
+Open it from anywhere with [[⌥ B]]. Jump to an open tab, close a tab, open a bookmark or a page from your history, or copy any link - all from the keyboard.
 
-Jump to an active tab, close a tab, open a bookmark, open a history item, copy any link - all from the keyboard.
+Works offline. Everything stays on your Mac. No account. No cloud. No telemetry.
+"""
+statsTitle = "Small, native, private"
 
-Works offline. Everything stays on your Mac.\
-No account. No cloud. No telemetry.
+[[features]]
+title = "Unified Search"
+summary = "Type once to search every open tab, bookmark and history entry in all your browsers."
+body = "Results appear as you type, even across thousands of entries."
+image = "images/website-unified-search_1440x1080.webp"
+alt = "One search showing open tabs, bookmarks and history together"
 
-## Features
+[[features]]
+title = "Scoped Search"
+summary = "Start with a letter and a space to search just one place."
+body = """
+- [[b space]] [[sf:bookmark]] Bookmarks only
+- [[t space]] [[sf:rectangle.stack]] Tabs only
+- [[h space]] [[sf:clock.arrow.circlepath]] History only
+- [[/]] [[sf:command]] Commands
 
-### Unified Fuzzy Search
+The icon in the search field always shows where you're searching. [[sf:magnifyingglass]] means everywhere. Press [[⌫]] in an empty field to go back to everywhere.
+"""
+image = "images/website-scoped-search_1440x1080.webp"
+alt = "A history-only search, shown by the clock icon in the search field"
 
-One search bar over tabs, bookmarks, and history. Sub-keystroke matching across thousands of entries.
+[[features]]
+title = "Tab Management"
+summary = "Switch to or close any open tab, in any browser, without leaving the keyboard."
+body = """
+- [[↩]] **Activate** - jump straight to the tab and bring its window forward.
+- [[⌘ ⌫]] **Close** - close the tab without switching to it first.
+"""
+image = "images/website-tab-management_1440x1080.webp"
+alt = "Bukku listing the same three tabs that are open in the Safari window behind it"
 
-### Scoped Search
+[[features]]
+title = "Copy Links"
+summary = "Copy the link of any tab, bookmark or history item without opening it."
+body = """
+Select a result and press [[⌘ C]].
 
-Narrow the search scope with a one-letter prefix: `{prefix}␣{query}`
+<span class="footnote">Tabs need their browser open. Bookmarks and history copy even when it's closed.</span>
+"""
+image = "images/website-copy-links_1440x1080.webp"
+alt = "Bookmarks with their folders, and the Copy shortcut in the footer"
 
-- `b␣` to search bookmarks only
-- `t␣` to search tabs only
-- `h␣` to search history only
+[[features]]
+title = "Browser Support"
+summary = "Works with the browsers you already use, all at once."
+body = "Firefox: history and bookmarks only. Firefox has no AppleScript support, so no app can switch or close its tabs."
+browsers = [
+  { id = "safari", name = "Safari" },
+  { id = "chrome", name = "Chrome" },
+  { id = "arc", name = "Arc" },
+  { id = "brave", name = "Brave" },
+  { id = "edge", name = "Edge" },
+  { id = "vivaldi", name = "Vivaldi" },
+  { id = "opera", name = "Opera" },
+  { id = "firefox", name = "Firefox" },
+]
 
-### Tab Management
+[[features]]
+title = "Privacy Focused"
+summary = "Bukku only reads the browsers you allow, and nothing ever leaves your Mac."
+body = """
+- **You choose.** Grant access one browser at a time, and take it back whenever you like in Settings.
+- **It stays local.** Bukku reads your browsers' own files on your Mac. No account, no cloud, no telemetry.
+- **It works offline.** Search keeps working with no internet connection.
+"""
+image = "images/website-privacy_1440x1080.webp"
+alt = "Browser access, granted one browser at a time"
 
-Jump to or close any open tab from anywhere, without leaving the keyboard.
-
-- **Activate** - jump straight to any open tab.
-- **Close** - close any tab without switching to it first.
-
-### Copy Links
-
-Copy the URL of any tab, bookmark, or history item without opening the browser.<span class="footnote">*</span>
-
-<p class="footnote">*The browser must be open for tabs - history and bookmarks copy even when it's closed.</p>
-
-### Browser Support
-
-- **Safari** - full support
-- **Chrome** - full support
-- **Brave** - full support
-- **Edge** - full support
-- **Vivaldi** - full support
-- **Arc** - full support
-- **Opera** - full support
-- **Firefox** - search history and bookmarks only; Firefox doesn't support AppleScript, so Bukku can't switch or close its tabs
-
-### Built-in Commands
-
-A command palette for quick Bukku actions - type `/` to see all commands available.
-
-### Apple Shortcuts Integration
-
-Query Bukku from your own shortcuts, from Spotlight, or by voice. Each action takes a query (optional, except for Search Browsers) and an optional limit (all results by default), and returns each item with its type, browser, title and URL.
+[[features]]
+title = "Shortcuts Integration"
+summary = "Use your tabs, bookmarks and history in your own shortcuts, from Spotlight, or by voice."
+body = """
+Each action takes an optional query (required for Search Browsers) and an optional limit, and returns each item with its type, browser, title and URL.
 
 - **Get Browser Tabs** - open tabs across every supported browser.
 - **Get Browser Bookmarks** - bookmarks across every supported browser.
 - **Get Browser History** - history, most recent first.
 - **Search Browsers** - tabs, bookmarks and history in one search.
+"""
 
-### Native, Not Electron
+[[more]]
+id = "commands"
+eyebrow = "Commands"
+title = "Built-in Commands"
+summary = "Type [[/]] in the launcher to run a command."
+image = "images/website-commands_1440x1080.webp"
+alt = "The command list, opened by typing a slash"
+commands = [
+  { token = "/settings", symbol = "gear", text = "Open Bukku Settings" },
+  { token = "/appearance", symbol = "paintpalette", text = "Open Appearance settings: theme and launcher position" },
+  { token = "/permissions", symbol = "lock.shield", text = "Open Permissions: grant or remove browser access" },
+  { token = "/about", symbol = "info.circle", text = "Show the version and links" },
+  { token = "/onboarding", symbol = "hand.wave", text = "Show the welcome tour again" },
+  { token = "/check-updates", symbol = "arrow.triangle.2.circlepath", text = "Check for updates (direct download version)" },
+  { token = "/quit", symbol = "power", text = "Quit Bukku" },
+]
 
-SwiftUI + AppKit, Spotlight-native look and feel.
-
-### Command Line Interface†
-
-Script Bukku from the terminal, with the same four operations as Shortcuts. JSON by default, `--output csv` for CSV.
+[[more]]
+id = "cli"
+eyebrow = "Command line"
+title = "Command Line Interface"
+summary = "Script Bukku from Terminal with the same four actions as Shortcuts. JSON by default, `--output csv` for CSV."
+body = """
+Turn on **Settings › General › Command-line tool**, then:
 
 ```bash {linenos=false}
-# Once: put `bukku` on your PATH
-sudo mkdir -p /usr/local/bin
-sudo ln -s /Applications/Bukku.app/Contents/MacOS/Bukku /usr/local/bin/bukku
-
-# Search tabs, bookmarks and history for "github"
+# Search tabs, bookmarks and history
 bukku search github
 
-# Open tabs, bookmarks or history, optionally filtered
+# Tabs, bookmarks or history, optionally filtered
 bukku tabs
 bukku bookmarks docs
 bukku history github --limit 20
 ```
+"""
+footnote = "Not in the App Store version. App Store apps run in a sandbox and can't add a command to your Terminal."
+image = "images/website-cli_1440x1080.webp"
+alt = "Bukku's command output in Terminal"
 
-_†Not available in the App Store version: Apple doesn't allow sandboxed App Store apps to add a command-line tool._
+[[stats]]
+value = "Under 10 MB"
+label = "One universal app for Apple silicon and Intel Macs"
+
+[[stats]]
+value = "SwiftUI + AppKit"
+label = "Native, not Electron. Looks and behaves like macOS."
+
+[[stats]]
+value = "0 accounts"
+label = "No sign-up, no cloud, no telemetry"
+
+[[shortcuts]]
+group = "Anywhere"
+keys = [
+  { keys = "⌥ B", action = "Open or close Bukku. Change it in Settings." },
+]
+
+[[shortcuts]]
+group = "In the launcher"
+keys = [
+  { keys = "↑ ↓", action = "Move through results. [[↑]] on the first result selects your search." },
+  { keys = "↩", action = "Open the selected tab, bookmark or page, or run the command" },
+  { keys = "⌘ C", action = "Copy the selected link" },
+  { keys = "⌘ ⌫", action = "Close the selected tab" },
+  { keys = "⌫", action = "In an empty field, go back to searching everywhere" },
+  { keys = "⎋", action = "Hide Bukku" },
+]
+
+[[shortcuts]]
+group = "Scopes"
+keys = [
+  { keys = "b space", action = "[[sf:bookmark]] Search bookmarks" },
+  { keys = "t space", action = "[[sf:rectangle.stack]] Search tabs" },
+  { keys = "h space", action = "[[sf:clock.arrow.circlepath]] Search history" },
+  { keys = "/", action = "[[sf:command]] Show commands" },
+]
++++
 
 ## Tips {#tips}
 
-- Type a slash (`/`) to open the command palette.
-- Bukku respects macOS sandboxing - grant browser access once in the permissions center.
+- Type a slash ([[/]]) to see every command.
+- Bukku respects macOS sandboxing - grant browser access once in Settings › Permissions.
 
 ## FAQ {#faq}
 
@@ -116,7 +200,7 @@ Firefox doesn't implement AppleScript, so no app can automate its tabs. Bukku st
 {{< /faq >}}
 
 {{< faq q="Does it show a Dock icon?" >}}
-No. Bukku is a lightweight menu-bar accessory app - no Dock icon, no heavy background service. It lives in the menu bar and is summoned by your global hotkey.
+Only while one of its windows, such as Settings, is open. The rest of the time Bukku lives in the menu bar and opens with your shortcut, with no heavy background service.
 {{< /faq >}}
 
 {{< faq q="Can I automate it?" >}}
@@ -124,5 +208,5 @@ Yes - via Apple Shortcuts (App Intents) and the command-line interface. AppleScr
 {{< /faq >}}
 
 {{< faq q="How do I change the hotkey?" >}}
-You can change it in the main Settings menu. Press `cmd+,` or type `/settings` to open Settings.
+You can change it in the main Settings menu. Press [[⌘ ,]] or type `/settings` to open Settings.
 {{< /faq >}}

@@ -1,0 +1,66 @@
+@layer components {
+  .faq details {
+    border-bottom: var(--border-hairline) solid var(--colour-border);
+  }
+
+  .faq summary {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-m);
+    padding-block: var(--space-m);
+    color: var(--colour-text);
+    font-weight: var(--weight-semibold);
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .faq summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .faq summary::after {
+    flex: none;
+    color: var(--colour-text-tertiary);
+    font-weight: var(--weight-regular);
+    content: "+";
+  }
+
+  .faq details[open] summary::after {
+    content: "\2212";
+  }
+
+  .faq details > div {
+    padding-bottom: var(--space-m);
+    color: var(--colour-text-secondary);
+  }
+
+  .callout {
+    padding: var(--space-m) var(--space-l);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-left: var(--border-focus) solid var(--colour-accent);
+    border-radius: var(--radius-m);
+    background: var(--colour-surface);
+  }
+
+  .callout-title {
+    color: var(--colour-text);
+    font-size: var(--text-s);
+    font-weight: var(--weight-semibold);
+  }
+
+  .callout-body > * + * {
+    margin-top: var(--space-xs);
+  }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-l);
+  }
+
+  .intro img {
+    width: var(--size-avatar);
+    border-radius: var(--radius-full);
+  }
+}

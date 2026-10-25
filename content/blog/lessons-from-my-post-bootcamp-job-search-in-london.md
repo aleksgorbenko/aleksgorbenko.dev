@@ -33,7 +33,7 @@ Instead, it is better to look for the offers on the job boards that are posted d
 
 At first, I thought I have to sell myself to the recruiters so when they asked me about my situation, I told the whole story how I moved from SEO to programming, finished the bootcamp, worked on a group project, etc. Here was my mistake no.1.
 
-Most of the recruiters that will call won't be able to differentiate between Java and JavsScript. They have no idea what is MVC, ruby gem, REST or Continuous Integration. They just have the names and acronyms on a screen in front of them and they need someone that has experience with these.
+Most of the recruiters that will call won't be able to differentiate between Java and JavaScript. They have no idea what is MVC, ruby gem, REST or Continuous Integration. They just have the names and acronyms on a screen in front of them and they need someone that has experience with these.
 
 All they want to know is whether you fit their criteria or not + some housekeeping questions.
 
@@ -113,7 +113,7 @@ Is it an agency, a product company, SaaS? Big, small, medium-sized? A startup, o
 
 #### Secondly
 
-List the industries that you like and start searching for companies that match your criteria from point 1. Google is your friend and here are a few tips on how to make your search much more effective. First, I suggest reading Google search operator guides [here](http://www.googleguide.com/advanced_operators_reference.html) and [here](http://libguides.mit.edu/c.php?g=176061&p=1159512). [Here is another place](https://supple.com.au/tools/google-advanced-search-operators/) to learn with more examples.
+List the industries that you like and start searching for companies that match your criteria from point 1. Google is your friend and here are a few tips on how to make your search much more effective. First, I suggest reading Google search operator guides: [the Google Guide operators reference](http://www.googleguide.com/advanced_operators_reference.html) and [this one](http://libguides.mit.edu/c.php?g=176061&p=1159512). [Here is another place](https://supple.com.au/tools/google-advanced-search-operators/) to learn with more examples.
 
 To give you an idea here are some queries that I used to narrow down my search:
 
@@ -151,7 +151,7 @@ Structure your Job Search/Study day and treat it like a full-time job. For exam
 
 Morning:
 
-- 1 hour of algorithms on [HackerRank](https://www.hackerrank.com), [Hackajob](http://hackajob.co/), and [CodeWars](https://www.codewars.com/). Check for more resources [here](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.yhzjwerg2) in Insight #3 section of the post.
+- 1 hour of algorithms on [HackerRank](https://www.hackerrank.com), [Hackajob](http://hackajob.co/), and [CodeWars](https://www.codewars.com/). Check for more resources in [this freeCodeCamp article](https://medium.freecodecamp.com/5-key-learnings-from-the-post-bootcamp-job-search-9a07468d2331#.yhzjwerg2) in Insight #3 section of the post.
 - Send 10 job applications.
 
 Afternoon:
@@ -170,7 +170,7 @@ Evening:
 
 - to eat.
 - to take breaks.
-- to drink lots of water. Aim for 2.5 - 3 liters per day.
+- to drink lots of water. Aim for 2.5 - 3 litres per day.
 - to exercise. Even 20-30 min per day in your living room would be just fine.
 
 _Full Disclosure: over the course of the bootcamp and after (7 months total) I have lost 8 kg of muscle that I have worked hard to gain a year before. I forgot to do pretty much all 4 things listed above because I was too much immersed in the programming. Don't make the same mistake. Keep the balance._
@@ -194,7 +194,7 @@ It helps me treat every obstacle as an opportunity:
 - Didn't progress to the next stage after spending spent 2 days writing the coding test for the company and didn't get a single piece of feedback? That's not bad, that's good - I have learned how to build a new tool and picked up few new tricks. I have also learned that such treatment of candidates discourages them and I will never do that to others in my future career.
 - Didn't get the offer after the final stage. That's not bad, that's good - it is time to reflect on the interview process and see what I could have done better. It is also a good time to kindly ask for some feedback from the interviewers.
 - Didn't pass that test on an interview and felt bad not knowing the answer? That's not bad, that's good - I just found a crack in my knowledge that I didn't know about so I came back home and studied the subject of that test. I made sure that next time I nailed it on an interview.
-- The interviewer was an asshole? That's not bad, that's good -  that is a valuable intel which shows that such behavior is accepted in the company's culture. I will think twice before moving forward with such company.
+- The interviewer was an asshole? That's not bad, that's good -  that is a valuable intel which shows that such behaviour is accepted in the company's culture. I will think twice before moving forward with such company.
 
 Make no mistake - this is not a _'look at the bright side of things'_ philosophy, this is _'I turn shit into gold with my sheer power of perception and move on'_ philosophy.
 

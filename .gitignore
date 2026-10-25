@@ -9,3 +9,9 @@ _template/**
 public/
 resources/
 .hugo_build.lock
+# tooling: node_modules is a symlink into ~/Library/Caches, outside iCloud
+node_modules*
+.check/
+.lighthouseci/
+test-results/
+.netlify/

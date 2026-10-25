@@ -6,28 +6,32 @@ date: "2026-06-05"
 tags:
   - "note-taking"
 ---
-Around 2020 I migrated to Zettelkasten (from Notion to Obsidian). I never looked back. 
+Around 2020 I migrated to Zettelkasten (from Notion to Obsidian). I never looked back.
 
 This is short, opinionated guide for anyone who still finds themselves confused about what Zettelkasten is and how to start using it.
 
 ## Why People Still Struggle with Zettelkasten
+
 1. Too much upfront terminology - most of it can be ignored in the beginning
 2. No idea where to start and what to capture
 3. Not using templates from the start
 4. Friction - no quick and easy way to add new notes/capture ideas
 
-## Before We Begin...
+## Before We Begin
+
 1. Don't set yourself any goals
 2. Don't question "what am I going to write notes about"
 
 If you are still reading this, you probably have a mild interest in understanding Zettelkasten. This is enough.
 
 I will be using Obsidian as an example, which I highly recommend you do too for following reasons:
+
 - Simple, minimal interface
 - Everything is a standard Markdown file
 - Works offline
 
 Structure of this guide:
+
 1. Core Ideas of Zettelkasten
 2. Notes and Templates
 3. Where to Start
@@ -36,7 +40,9 @@ Structure of this guide:
 6. Next Steps
 
 ## Bottoms Up and Backlinks
+
 The Zettelkasten system has two core ideas:
+
 1. **Bottoms Up approach** - you are not meant to "architect" your knowledge base from the start, instead begin by writing/capturing everything and anything that might interest you and then build connections using...
 2. **Backlinks** - every note is connected to some other note. The result is an ever-growing and ever-changing web or a graph that you can traverse and explore topics in. Ideally the moment when you create and fill a note, you also connect it to some other existing notes
 
@@ -45,6 +51,7 @@ Some call Zettelkasten a "Second Brain". I think the "brain" bit is a pretty acc
 To me, this is also the reason why different people's knowledge systems end up looking very differently. After all your Second Brain should ideally be easy to use and navigate for *your* brain.
 
 ## Note Template and Structure
+
 At the start you only need **ONE** template (let's call it `Base Note`), which will be literally a template for every new note you create.
 
 E.g this is how mine looks:
@@ -61,20 +68,23 @@ Date: {{date}} // (links to my journal)
 
 
 ### Related // links to other notes or resources (blog posts, vidoes, etc)
-- 
+-
 ```
 
 With time you will create as many as you need (I have 20+ now, but it took me years to reach this number).
 
 ### Adding templates
+
 1. Create `_template` folder in your vault
 2. Create template file `new_note.md`
 3. Add path `/_template` to `Settings -> Templates`
 
 ### Using templates
+
 Now you can trigger template by `cmd+p`, type `template`, choose `Templates: Insert template` and choose `new_note.md`. You should have a new notes pasted.
 
 ## How to Start, What to Capture
+
 Start from within. Create a note and call it `[[Name Surname]]` or simply `[[me]]`. Write a brief intro about yourself.
 
 Next, create `[[My Interests]]` and link to it from `[[me]]` note.
@@ -115,6 +125,7 @@ new_book.md // highlights from a book/pdf
 ```
 
 ## How to Capture
+
 A useful starting point - a note called `Inbox` (similar idea to GDT). Here, dump whatever you happen to capture in the moment. Decide on a lightweight format how you will capture things to distinguish them easily. E.g:
 
 ```markdown
@@ -152,6 +163,7 @@ Cyberpunk Music.md
 ```
 
 ## How to Link
+
 There are two ways
 
 1. You already know what to link to and you do it manually. Just type `[[Note Name|you can also use aliases]]` (think of alias as a `<a href="URL">alias</a>` tag in HTML)
@@ -161,15 +173,17 @@ Link lavishly, don't worry if you link too much. The more interconnected your we
 
 Yes, for the nerds out there - you are building an undirected graph.
 
-#### Optional Daily Notes
+### Optional Daily Notes
+
 Obsidian has a native `Daily Notes` functionality which is a good starting point for journaling/thinking in writing. **Writing *is* thinking**.
 
 Journaling doesn't have to be formal, it can be:
+
 - An overview of main events for the day
 - Perhaps a new thing you learned at work
 - An interaction with another person
 
-It also doesn't have to be every day. Do when you feel like it or skip this entirely if this it not your cup of tea. The point of Zettelkasten is to organise your knowledge, yes, but also to have fun exploring and expanding it over time. 
+It also doesn't have to be every day. Do when you feel like it or skip this entirely if this it not your cup of tea. The point of Zettelkasten is to organise your knowledge, yes, but also to have fun exploring and expanding it over time.
 
 Let's configure it in Obsidian.
 
@@ -177,6 +191,7 @@ Go to `Settings -> Core Plugins -> Daily Notes`, enabled it.
 
 Configure how the note is named, it's template and where is placed.
 Or leave defaults:
+
 - format: `2020-05-25.md`
 - location: root of your vault
 - template: I would suggest adding something minimal (see example below)
@@ -219,6 +234,7 @@ Cyberpunk Music.md
 ```
 
 ## Things to be Aware of
+
 - Folder structure - apart from `_template`, don't create more. Use linking instead. Add folders if needed after your system matured.
 - `Collector's Fallacy` - I think inevitably we all end up there when it comes to note taking. It is a good concept to be aware of so you can stop in time and re-evaluate whether you really need to capture that note or not?
 - Ignore advanced features/plugins (databases, kanban boards, calendars, todo lists, all interlinking between all these components). You will end up in the "architect my system" trap instead of what is important - taking notes.
@@ -227,11 +243,13 @@ Cyberpunk Music.md
 - AI - for privacy reasons to start with. Do not create notes using AI, if you are learning something - retention drops significantly. Write them by hand to build habit and intuition, you can always decide to AI in some capacity later
 
 ## Next Steps
-Do this type of note taking for some weeks, don't go crazy with dozens of templates on a first day. 
 
-**Get used to the process.** 
+Do this type of note taking for some weeks, don't go crazy with dozens of templates on a first day.
+
+**Get used to the process.**
 
 ### Focus on
+
 1. Using 1-2 templates (`Base Note` and `Daily Note`) and linking all of them
 2. Making the whole process frictionless and fast. If you need to do too many things manually, like typing dates every time - you will eventually stop. Learn and customise `Settings -> Hokeys` to make note management seamless.
 
@@ -240,16 +258,17 @@ Do this type of note taking for some weeks, don't go crazy with dozens of templa
 **Experiment.**
 
 Later, when you feel ready to build more structure into your knowledge base, here are more things to explore in Zettelkasten:
+
 - MOC (map of content) - index notes that act as a way to link many notes of the same subjects
 - Types of notes: Evergreen Notes, Fleeting Notes, Literature Notes
-	- You don't have to follow this! I tried, it didn't work for me, but I found my own way that works for me :)
+  - You don't have to follow this! I tried, it didn't work for me, but I found my own way that works for me :)
 - **Dewey Index System** - some people like to structure their interests following it. I just kept a few category of names
 - **Obsidian Web Clipper** - saving articles/highlights
 - Advanced Templating - Use other tools to make it even easier and frictionless to capture thing you care about: **Apple Shortcuts** (great on iOS), **Keyboard Maestro**, **Alfred** (I use all)
 - Explore the idea of *appending to a file*. E.g instead of creating notes, you can quickly append smaller information chunks. I use it to capture new entries in `[[My Questions]]` or `[[My Theories]]` and a bunch of others
 - Plugins...well if you insist :)
-	- `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
+  - `Templater` plugin is popular, I am using Obsidian since waaay before the plugin was born, so I manage templates with tools I mentioned above from *outside* of Obsidian (which means I can migrate to any other tool preserving all my automations). Perhaps a post for another time...
 
-Happy ~~note taking~~ *thinking*! 
+Happy ~~note taking~~ *thinking*!
 
 🙌

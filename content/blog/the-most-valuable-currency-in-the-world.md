@@ -23,7 +23,7 @@ You can only "save your time in your future", by not wasting it today.
 
 "Saving the time" could be many things at the same time, so let's start with a couple of examples:
 
-You can invest time into learning a new skill. That skill can allow you to fulfill a particular job. You can get that job and you can get paid for doing it. So you turn your time investment into money. Mind you, ROI is not the money here. By getting your paycheck - you just getting a tool to get your [time] ROI.
+You can invest time into learning a new skill. That skill can allow you to fulfil a particular job. You can get that job and you can get paid for doing it. So you turn your time investment into money. Mind you, ROI is not the money here. By getting your pay cheque - you just getting a tool to get your [time] ROI.
 
 Presume, before getting this new job, you had to clean your flat/house yourself. Now you can afford to pay for a cleaner - you save 2 hours per week now. You can now perhaps spend some more on food and order it online - that saves you 1-2 hours per week on shopping. Let's say you get to save 3 hours per week now. Simple math - that's 156 hours or 6.5 full days of time saved per year. All now at your disposal. This is your ultimate ROI. How you are going to invest this time - is up to you now.
 
@@ -44,7 +44,7 @@ To save your time you just need two things, two lists actually:
 
 ### Priority List
 
-Sounds self-explanatory, but this is an important detail. A story about Warren Buffet's private airplane pilot will illustrate it.
+Sounds self-explanatory, but this is an important detail. A story about Warren Buffet's private aeroplane pilot will illustrate it.
 
 One day Warren asked his pilot, let's call him Luke: "List your 25 goals for your life on a paper". Luke did that. Then Warren asked him to choose 5 top-priority goals very carefully and circle these. After some careful consideration, Luke turned back with his top 5. "So why do you think I have asked you to choose the top 5, Luke?"
 
@@ -70,7 +70,7 @@ A few years ago I had a conversation with one of the teachers in my institute an
 - News sites
 - TV
 
-All make great candidates for the list. They all are in mine. My life is much easier with such list and I don't get frustrated at the end of the day: "Oh I didn't complete anything today" You can't ignore these things? Fine - put your phone on silent, airplane, do not disturb, turn it off and put in the drawer in your bedroom. Same with your iPad. You will get used to silence over time and trust me, you will start enjoying it. You will feel that your time _investment_ is more valuable now, besides you get more shit done.
+All make great candidates for the list. They all are in mine. My life is much easier with such list and I don't get frustrated at the end of the day: "Oh I didn't complete anything today" You can't ignore these things? Fine - put your phone on silent, aeroplane mode, do not disturb, turn it off and put in the drawer in your bedroom. Same with your iPad. You will get used to silence over time and trust me, you will start enjoying it. You will feel that your time _investment_ is more valuable now, besides you get more shit done.
 
 You can make the Priority List once and revisit it to amend if needed, but your Ignore List should become your new partner in whatever you are doing. Have you own version of Ignore List for your job, for when you are hanging out with friends (does anyone like that guy who is always on the phone, while you all sit at the table and talking?), on a date, or anywhere else..
 

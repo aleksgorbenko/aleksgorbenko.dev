@@ -1,5 +1,6 @@
 ---
 title: "[VCS Prep-Work] Tearing Down and Mocking UP Facebook: UX & Design Part 2"
+linkTitle: "[VCS Prep-Work] Facebook UX & Design Part 2"
 date: "2016-03-08"
 coverImage: "UX-banner-blog.jpg"
 description: "Continuing the teardown."
@@ -26,7 +27,7 @@ I will insert the mock-ups in this post for each individual page.
 
 If you want to get PDF / PNG / BMPR (Balsamiq file format) files - [they are available in a repo on GitHub.](https://github.com/kucher12/viking_prep_work) If you are new to GitHub, the easiest way would be to download the ZIP file:
 
-![download the repo files via the "zip download" fucntion](/images/github-download-zip.png)
+![download the repo files via the "zip download" function](/images/github-download-zip.png)
 
 ## Facebook Home Page
 
@@ -192,7 +193,7 @@ Please see questions 3 and 4.
 
 1. What would you improve to achieve a better hierarchy or flow?
 
-Nothing. So far it the cleanest and non-distractive page of all that achieves the goal really good.
+Nothing. So far it the cleanest and distraction-free page of all that achieves the goal really good.
 
 ## Facebook Photos Page
 

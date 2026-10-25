@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="container">
+    <p>Copyright © {{ now.Format "2006" }} Gorbenko SIA</p>
+    <nav aria-label="Legal">
+      <ul>
+        {{ with site.GetPage "/apps/terms" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+        {{ with site.GetPage "/privacy" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
+        {{ with site.Params.supportEmail }}<li><a href="mailto:{{ . }}">Support</a></li>{{ end }}
+      </ul>
+    </nav>
+  </div>
+</footer>

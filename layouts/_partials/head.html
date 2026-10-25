@@ -1,0 +1,23 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="color-scheme" content="dark" />
+<meta name="theme-color" content="#000000" />
+{{ $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+{{ if gt (len $title) 70 }}{{ $title = .LinkTitle }}{{ end }}
+<title>{{ $title }}</title>
+{{ partial "seo.html" . }}
+{{ with site.Params.favicon }}
+  <link rel="icon" href="{{ . | relURL }}" type="image/png" />
+{{ end }}
+{{ with .OutputFormats.Get "rss" }}
+  <link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ site.Title }}" />
+{{ end }}
+{{ with resources.Match "css/*.css" }}
+  {{ $css := . | resources.Concat "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" />
+{{ end }}
+{{ if hugo.IsProduction }}
+  {{ with site.Params.goatcounterCode }}
+    <script data-goatcounter="https://{{ . }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+  {{ end }}
+{{ end }}

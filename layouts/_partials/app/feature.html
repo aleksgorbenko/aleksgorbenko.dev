@@ -1,0 +1,44 @@
+{{ $page := .page }}
+{{ $feature := .feature }}
+{{ $image := $page.Resources.Get ($feature.image | default "") }}
+{{ $id := $feature.id | default ($feature.title | urlize) }}
+{{ $class := cond (not $image) "feature feature-text-only" "feature" }}
+<section class="{{ $class }}" id="{{ $id }}" aria-labelledby="{{ $id }}-title">
+  <div class="feature-text">
+    <p class="eyebrow">{{ with .number }}{{ printf "%02d" . }}{{ else }}{{ $feature.eyebrow }}{{ end }}</p>
+    <h2 class="feature-title" id="{{ $id }}-title">
+      {{ $feature.title }}{{ with $feature.footnote }}<sup>†</sup>{{ end }}
+    </h2>
+    <p class="feature-summary">{{ partial "tokens.html" ($page.RenderString $feature.summary) }}</p>
+    {{ with $feature.body }}
+      <div class="feature-body">{{ partial "tokens.html" ($page.RenderString (dict "display" "block") .) }}</div>
+    {{ end }}
+    {{ with $feature.commands }}
+      <dl class="shortcut-list">
+        {{ range . }}
+          <dt>{{ partial "tokens.html" (printf "[[sf:%s]] <code>%s</code>" .symbol .token) }}</dt>
+          <dd>{{ partial "tokens.html" ($page.RenderString .text) }}</dd>
+        {{ end }}
+      </dl>
+    {{ end }}
+    {{ with $feature.browsers }}
+      <ul class="browsers">
+        {{ range . }}
+          <li>
+            {{ with resources.Get (printf "browsers/%s_256x256.png" .id) }}
+              {{ $icon := .Resize "112x webp q90" }}
+              <img src="{{ $icon.RelPermalink }}" width="{{ $icon.Width }}" height="{{ $icon.Height }}" alt="" />
+            {{ end }}
+            <span>{{ .name }}</span>
+          </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    {{ with $feature.footnote }}<p class="footnote">† {{ . }}</p>{{ end }}
+  </div>
+  {{ with $image }}
+    <div class="feature-media">
+      {{ partial "picture.html" (dict "image" . "alt" $feature.alt "sizes" "(width >= 56rem) 42rem, 100vw" "widths" (slice 480 720 960 1440)) }}
+    </div>
+  {{ end }}
+</section>

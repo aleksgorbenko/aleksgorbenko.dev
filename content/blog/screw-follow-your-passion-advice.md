@@ -66,7 +66,7 @@ James: 5 x 4 = 20
 
 Amos: 5 x 3 = 15
 
-**James > Amos**
+**James > Amos.**
 
 This is to illustrate that no matter how Amos is passionate about basketball it will be close to impossible to reach the same level of success as James has. If we take 1 point away from James's passion, he still wins:
 
@@ -74,7 +74,7 @@ James: 4 x 4 = 16
 
 Amos: 5 x 3 = 15
 
-**James > Amos**
+**James > Amos.**
 
 Sorry Amos :(
 

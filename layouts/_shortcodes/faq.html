@@ -1,0 +1,4 @@
+<details>
+  <summary>{{ .Get "q" }}</summary>
+  <div>{{ trim .Inner "\n" | .Page.RenderString (dict "display" "block") }}</div>
+</details>

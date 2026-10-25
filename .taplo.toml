@@ -1,0 +1,5 @@
+include = ["hugo.toml", "netlify.toml", ".taplo.toml"]
+
+[formatting]
+align_entries = false
+array_auto_collapse = false
