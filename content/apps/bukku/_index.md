@@ -2,7 +2,7 @@
 title = "Bukku"
 draft = false
 tagline = "Launcher for your browser tabs, bookmarks and history"
-description = "Bukku is a Spotlight-style launcher for your browser tabs, bookmarks, and history on macOS. Everything local and private - no account, no cloud, no telemetry."
+description = "Bukku is a keyboard launcher for your browser tabs, bookmarks and history on macOS. Everything stays on your Mac - no account, no cloud, no telemetry."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
@@ -17,14 +17,21 @@ anchors = [
   { name = "Tips", id = "tips" },
   { name = "FAQ", id = "faq" },
 ]
-intro = """
-Bukku is a Spotlight-style launcher to control tabs, open bookmarks and history items across all your browsers.
+[open]
+title = "Single search for tabs, bookmarks and history"
+body = '''
+Bukku runs in the background and indexes all tabs, bookmarks and history from your browsers.\
+Summon it from anywhere.
 
-Open it from anywhere with [[⌥ B]]. Jump to an open tab, close a tab, open a bookmark or a page from your history, or copy any link - all from the keyboard.
+Jump directly to a tab, close it, open a bookmark or any page you visited in the past, copy any link, all from the keyboard.
 
-Works offline. Everything stays on your Mac. No account. No cloud. No telemetry.
-"""
-statsTitle = "Small, native, private"
+Local, no account, no cloud, no telemetry.
+'''
+label = "Keyboard shortcut: Option B"
+keys = [
+  { glyph = "⌥", name = "option" },
+  { glyph = "B" },
+]
 
 [[features]]
 title = "Unified Search"
@@ -121,6 +128,7 @@ commands = [
   { token = "/onboarding", symbol = "hand.wave", text = "Show the welcome tour again" },
   { token = "/check-updates", symbol = "arrow.triangle.2.circlepath", text = "Check for updates (direct download version)" },
   { token = "/quit", symbol = "power", text = "Quit Bukku" },
+  { token = "/review", symbol = "star.bubble", text = "Write a review on the App Store (App Store version)" },
 ]
 
 [[more]]
@@ -145,17 +153,40 @@ footnote = "Not in the App Store version. App Store apps run in a sandbox and ca
 image = "images/website-cli_1440x1080.webp"
 alt = "Bukku's command output in Terminal"
 
-[[stats]]
-value = "Under 10 MB"
-label = "One universal app for Apple silicon and Intel Macs"
+[stats]
+title = "Small, native, private"
 
-[[stats]]
-value = "SwiftUI + AppKit"
-label = "Native, not Electron. Looks and behaves like macOS."
+[stats.lead]
+symbol = "arrow.down.circle"
+value = "5"
+unit = "MB"
+label = "download"
+text = "Small enough to download in seconds. Bukku lives in the menu bar until you need it."
 
-[[stats]]
-value = "0 accounts"
-label = "No sign-up, no cloud, no telemetry"
+[stats.side]
+image = "images/swift_218x196.png"
+title = "Built native in Swift"
+note = "No Electron"
+
+[[stats.items]]
+symbol = "internaldrive"
+value = "10"
+unit = "MB"
+label = "on disk"
+note = "Installed size"
+
+[[stats.items]]
+symbol = "cpu"
+value = "Universal"
+label = "app"
+note = "Apple silicon and Intel"
+
+[[stats.items]]
+symbol = "checkmark.shield"
+value = "100"
+unit = "%"
+label = "local"
+note = "No account, no telemetry"
 
 [[shortcuts]]
 group = "Anywhere"
@@ -191,6 +222,15 @@ keys = [
 
 ## FAQ {#faq}
 
+{{< faq q="How does Bukku read browser data?" >}}
+
+- **Tabs.** Bukku asks each open browser for its tabs through AppleScript, the automation built into macOS. macOS asks your permission once per browser. Tabs are kept in memory only.
+- **Bookmarks.** Bukku reads each browser's bookmarks file and keeps the bookmarks in memory only.
+- **History.** Bukku copies each browser's history into its own folder on your Mac and builds a search index from it, so results stay fast across years of browsing.
+
+Bukku only reads. It never changes your browsers' files, and nothing leaves your Mac.
+{{< /faq >}}
+
 {{< faq q="Does Bukku send my browsing data anywhere?" >}}
 No. Everything is read locally on your Mac. No account, no cloud, no telemetry.
 {{< /faq >}}
@@ -204,7 +244,7 @@ Only while one of its windows, such as Settings, is open. The rest of the time B
 {{< /faq >}}
 
 {{< faq q="Can I automate it?" >}}
-Yes - via Apple Shortcuts (App Intents) and the command-line interface. AppleScript support is in progress.
+Yes - via Apple Shortcuts (App Intents) and the command-line interface.
 {{< /faq >}}
 
 {{< faq q="How do I change the hotkey?" >}}

@@ -1,0 +1,11 @@
+{{- $page := .page -}}
+{{- $image := $page.Resources.Get .path -}}
+{{- $light := $page.Resources.Get (replaceRE `_(\d+x\d+)\.` "-light_$1." .path) -}}
+{{- if $light -}}
+  <span class="shots">
+    {{ partial "picture.html" (dict "image" $image "alt" .alt "sizes" .sizes "widths" .widths "eager" .eager "class" "shot-dark") }}
+    {{ partial "picture.html" (dict "image" $light "alt" .alt "sizes" .sizes "widths" .widths "eager" .eager "class" "shot-light") }}
+  </span>
+{{- else -}}
+  {{ partial "picture.html" (dict "image" $image "alt" .alt "sizes" .sizes "widths" .widths "eager" .eager) }}
+{{- end -}}

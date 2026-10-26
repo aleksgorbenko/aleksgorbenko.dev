@@ -11,6 +11,7 @@
   {{- $fallback = $resized -}}
 {{- end -}}
 <img
+  {{ with .class }}class="{{ . }}"{{ end }}
   src="{{ $fallback.RelPermalink }}"
   srcset="{{ delimit $sources ", " }}"
   sizes="{{ .sizes }}"

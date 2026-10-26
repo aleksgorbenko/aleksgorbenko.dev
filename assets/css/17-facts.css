@@ -1,0 +1,196 @@
+@layer components {
+  .keycaps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-m);
+    padding-block: var(--space-xl);
+  }
+
+  .keycap {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 6rem;
+    height: 6rem;
+    padding: var(--space-s) var(--space-m);
+    border: var(--border-hairline) solid var(--colour-key-border);
+    border-radius: var(--radius-l);
+    background: var(--colour-surface-raised);
+    box-shadow: var(--shadow-key);
+    color: var(--colour-text);
+    line-height: var(--leading-none);
+  }
+
+  .keycap-glyph {
+    align-self: flex-end;
+    color: var(--colour-text-secondary);
+    font-size: var(--text-xl);
+  }
+
+  .keycap-name {
+    font-size: var(--text-m);
+  }
+
+  .keycap:not(:has(.keycap-name)) {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .keycap:not(:has(.keycap-name)) .keycap-glyph {
+    align-self: center;
+    color: var(--colour-text);
+    font-size: var(--text-2xl);
+  }
+
+  .keycap-plus {
+    color: var(--colour-text-tertiary);
+    font-size: var(--text-xl);
+  }
+
+  .facts {
+    display: grid;
+    gap: var(--space-2xl);
+  }
+
+  .fact-lead-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-l);
+  }
+
+  .fact-icon {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 2.75rem;
+    aspect-ratio: 1;
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-m);
+    background: var(--colour-surface-raised);
+  }
+
+  .fact-icon .sf {
+    height: 1.25rem;
+  }
+
+  .fact-lead .fact-icon,
+  .fact-icon-large {
+    width: var(--size-icon-m);
+    border-radius: var(--radius-l);
+  }
+
+  .fact-lead .fact-icon .sf {
+    height: 1.75rem;
+  }
+
+  .fact-icon-large img {
+    width: 2.25rem;
+    height: auto;
+  }
+
+  .fact-big {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-xs);
+    color: var(--colour-text);
+  }
+
+  .fact-big-value {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-semibold);
+    line-height: var(--leading-none);
+    letter-spacing: var(--tracking-tight);
+  }
+
+  .fact-big-unit {
+    color: var(--colour-text-secondary);
+    font-size: var(--text-xl);
+    font-weight: var(--weight-semibold);
+  }
+
+  .fact-big-label {
+    margin-left: var(--space-xs);
+    font-size: var(--text-l);
+  }
+
+  .fact-text {
+    max-width: var(--width-feature-text);
+    margin-top: var(--space-l);
+    color: var(--colour-text-secondary);
+  }
+
+  .fact-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-xs);
+    text-align: center;
+  }
+
+  .fact-side .fact-icon {
+    margin-bottom: var(--space-s);
+  }
+
+  .fact-side-title {
+    color: var(--colour-text);
+    font-weight: var(--weight-medium);
+  }
+
+  .fact-note {
+    display: block;
+    margin-top: var(--space-2xs);
+    color: var(--colour-text-tertiary);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    letter-spacing: var(--tracking-wide);
+    text-transform: uppercase;
+  }
+
+  .fact-items {
+    display: grid;
+    gap: var(--space-xl);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .fact-items li {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--space-m);
+  }
+
+  .fact-value {
+    color: var(--colour-text);
+    font-size: var(--text-xl);
+    font-weight: var(--weight-semibold);
+    line-height: var(--leading-snug);
+  }
+
+  .fact-unit {
+    margin-left: var(--space-2xs);
+    color: var(--colour-text-secondary);
+    font-size: var(--text-s);
+  }
+
+  .fact-label {
+    margin-left: var(--space-xs);
+    color: var(--colour-text);
+  }
+
+  @media (width >= 48rem) {
+    .facts {
+      grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr);
+    }
+
+    .fact-items {
+      grid-column: 1 / -1;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+}

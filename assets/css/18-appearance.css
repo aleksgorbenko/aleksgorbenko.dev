@@ -1,0 +1,93 @@
+@layer components {
+  .open {
+    text-align: center;
+  }
+
+  .open .prose {
+    color: var(--colour-text-secondary);
+  }
+
+  .site-nav {
+    margin-inline-start: auto;
+  }
+
+  .appearance {
+    flex: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .appearance-options {
+    display: inline-flex;
+    gap: var(--space-2xs);
+    padding: var(--space-2xs);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-radius: var(--radius-full);
+    background: var(--colour-surface);
+  }
+
+  .appearance-option {
+    position: relative;
+    display: inline-flex;
+  }
+
+  .appearance input {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .appearance label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 1.75rem;
+    border-radius: var(--radius-full);
+    color: var(--colour-text-secondary);
+    cursor: pointer;
+    transition: background-color var(--transition);
+  }
+
+  .appearance input:checked + label {
+    background: var(--colour-surface-hover);
+  }
+
+  .appearance input:focus-visible + label {
+    outline: var(--border-focus) solid var(--colour-accent);
+  }
+
+  .appearance .sf {
+    height: 1rem;
+  }
+
+  .appearance input:not(:checked) + label .sf {
+    opacity: 0.5;
+  }
+
+  .shots {
+    display: grid;
+  }
+
+  .shots > img {
+    grid-area: 1 / 1;
+    transition:
+      opacity var(--transition),
+      visibility var(--transition);
+  }
+
+  .shot-light,
+  :root:has(#appearance-light:checked) .shot-dark {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  :root:has(#appearance-light:checked) .shot-light {
+    visibility: visible;
+    opacity: 1;
+  }
+}
