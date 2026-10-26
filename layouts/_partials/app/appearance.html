@@ -1,0 +1,19 @@
+{{ if and .IsSection (.Resources.Match "images/*-light_*") }}
+  <fieldset class="appearance">
+    <legend class="visually-hidden">Screenshot appearance</legend>
+    <div class="appearance-options">
+      <span class="appearance-option">
+        <input type="radio" name="appearance" id="appearance-dark" checked />
+        <label for="appearance-dark" title="Dark">
+          {{ partial "tokens.html" "[[sf:moon.fill]]" }}<span class="visually-hidden">Dark</span>
+        </label>
+      </span>
+      <span class="appearance-option">
+        <input type="radio" name="appearance" id="appearance-light" />
+        <label for="appearance-light" title="Light">
+          {{ partial "tokens.html" "[[sf:sun.max.fill]]" }}<span class="visually-hidden">Light</span>
+        </label>
+      </span>
+    </div>
+  </fieldset>
+{{ end }}

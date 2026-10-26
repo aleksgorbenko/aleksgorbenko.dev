@@ -38,7 +38,7 @@
   </div>
   {{ with $image }}
     <div class="feature-media">
-      {{ partial "picture.html" (dict "image" . "alt" $feature.alt "sizes" "(width >= 56rem) 42rem, 100vw" "widths" (slice 480 720 960 1440)) }}
+      {{ partial "shot.html" (dict "page" $page "path" $feature.image "alt" $feature.alt "sizes" "(width >= 56rem) 42rem, 100vw" "widths" (slice 480 720 960 1440)) }}
     </div>
   {{ end }}
 </section>

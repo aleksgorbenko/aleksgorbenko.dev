@@ -1,0 +1,7 @@
+{{- with index (resources.Match (printf "symbols/%s_*.png" (replace . "." "-"))) 0 -}}
+  <span class="fact-icon"
+    ><img class="sf" src="{{ .RelPermalink }}" width="{{ div .Width 4 }}" height="{{ div .Height 4 }}" alt=""
+  /></span>
+{{- else -}}
+  {{- errorf "symbol %s is not rendered into assets/symbols" . -}}
+{{- end -}}

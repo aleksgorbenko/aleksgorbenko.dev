@@ -1,11 +1,7 @@
 {{ define "main" }}
   {{ if .Params.icon }}
     {{ partial "app/hero.html" . }}
-    {{ with .Params.intro }}
-      <div class="container container-prose prose intro-text">
-        {{ partial "tokens.html" ($.RenderString (dict "display" "block") .) }}
-      </div>
-    {{ end }}
+    {{ partial "app/open.html" . }}
     <div class="container">
       <div class="features">
         {{ range $index, $feature := .Params.features }}
@@ -16,19 +12,7 @@
         {{ end }}
       </div>
     </div>
-    {{ with .Params.stats }}
-      <section class="container section" aria-labelledby="stats-title">
-        <h2 class="section-title" id="stats-title">{{ $.Params.statsTitle }}</h2>
-        <ul class="stats">
-          {{ range . }}
-            <li class="card">
-              <span class="stat-value">{{ .value }}</span>
-              <span class="stat-label">{{ .label }}</span>
-            </li>
-          {{ end }}
-        </ul>
-      </section>
-    {{ end }}
+    {{ partial "app/stats.html" . }}
     {{ if .Params.shortcuts }}{{ partial "app/shortcuts.html" . }}{{ end }}
     <div class="container container-prose faq prose">
       {{ partial "tokens.html" .Content }}

@@ -28,9 +28,9 @@
       {{ with $.GetPage "release-notes" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
       {{ with $.GetPage "privacy-policy" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
     </ul>
-    {{ with .Resources.Get .Params.hero }}
+    {{ with .Params.hero }}
       <div class="hero-media">
-        {{ partial "picture.html" (dict "image" . "alt" $.Params.heroAlt "sizes" "(width >= 76rem) 72rem, calc(100vw - 2rem)" "widths" (slice 640 960 1280 1920 2400) "eager" true) }}
+        {{ partial "shot.html" (dict "page" $ "path" . "alt" $.Params.heroAlt "sizes" "(width >= 76rem) 72rem, calc(100vw - 2rem)" "widths" (slice 640 960 1280 1920 2400) "eager" true) }}
       </div>
     {{ end }}
   </div>

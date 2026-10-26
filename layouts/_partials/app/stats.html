@@ -1,0 +1,50 @@
+{{ with .Params.stats }}
+  <section class="container section" aria-labelledby="stats-title">
+    <h2 class="section-title" id="stats-title">{{ .title }}</h2>
+    <div class="facts">
+      {{ with .lead }}
+        <div class="fact-lead">
+          <div class="fact-lead-row">
+            {{ partial "app/symbol.html" .symbol }}
+            <p class="fact-big">
+              <span class="fact-big-value">{{ .value }}</span><span class="fact-big-unit">{{ .unit }}</span>
+              <span class="fact-big-label">{{ .label }}</span>
+            </p>
+          </div>
+          <p class="fact-text">{{ .text }}</p>
+        </div>
+      {{ end }}
+      {{ with .side }}
+        <div class="fact-side">
+          {{ with resources.Get .image }}
+            {{ $image := .Resize "112x webp q90" }}
+            <span class="fact-icon fact-icon-large">
+              <img
+                src="{{ $image.RelPermalink }}"
+                width="{{ div $image.Width 2 }}"
+                height="{{ div $image.Height 2 }}"
+                alt=""
+              />
+            </span>
+          {{ end }}
+          <p class="fact-side-title">{{ .title }}</p>
+          <p class="fact-note">{{ .note }}</p>
+        </div>
+      {{ end }}
+      <ul class="fact-items">
+        {{ range .items }}
+          <li>
+            {{ partial "app/symbol.html" .symbol }}
+            <span>
+              <span class="fact-value">{{ .value }}</span>{{ with .unit }}
+                <span class="fact-unit">{{ . }}</span>
+              {{ end }}
+              <span class="fact-label">{{ .label }}</span>
+              <span class="fact-note">{{ .note }}</span>
+            </span>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  </section>
+{{ end }}

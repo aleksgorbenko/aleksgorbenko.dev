@@ -79,7 +79,7 @@ for (const path of PAGES) {
               !image.hasAttribute("alt") ||
               !image.hasAttribute("width") ||
               !image.hasAttribute("height") ||
-              image.naturalWidth === 0,
+              (image.checkVisibility() && image.naturalWidth === 0),
           )
           .map((image) => image.currentSrc || image.src),
       );
@@ -93,3 +93,47 @@ for (const path of PAGES) {
     });
   });
 }
+
+test.describe("appearance toggle", () => {
+  test("starts dark with both appearances already loaded", async ({ page }) => {
+    await open(page, "/apps/bukku/");
+    await expect(page.getByRole("radio", { name: "Dark" })).toBeChecked();
+    await expect(page.locator(".hero-media img.shot-dark")).toBeVisible();
+    await expect(page.locator(".hero-media img.shot-light")).toHaveJSProperty("complete", true);
+    const unloaded = await page.$$eval(
+      "img.shot-light",
+      (images) => images.filter((image) => (image as HTMLImageElement).naturalWidth === 0).length,
+    );
+    expect(unloaded).toBe(0);
+  });
+
+  test("keeps the scroll position when switching", async ({ page }) => {
+    await open(page, "/apps/bukku/");
+    await page.evaluate(() => {
+      window.scrollTo(0, 1500);
+    });
+    for (const id of ["#appearance-light", "#appearance-dark"]) {
+      const box = await page.locator(id).boundingBox();
+      expect(box).not.toBeNull();
+      if (box !== null) {
+        await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+      }
+    }
+    await expect(page.getByRole("radio", { name: "Dark" })).toBeChecked();
+    expect(await page.evaluate(() => window.scrollY)).toBe(1500);
+  });
+
+  test("switches every screenshot to light", async ({ page }) => {
+    await open(page, "/apps/bukku/");
+    await page.getByRole("radio", { name: "Light" }).click();
+    await expect(page.getByRole("radio", { name: "Light" })).toBeChecked();
+    await expect(page.locator(".hero-media img.shot-light")).toBeVisible();
+    await expect(page.locator(".hero-media img.shot-dark")).toBeHidden();
+    await expect(page.locator(".hero-media img.shot-light")).toHaveJSProperty("complete", true);
+    const visibleDark = await page.$$eval(
+      "img.shot-dark",
+      (images) => images.filter((image) => image.checkVisibility({ visibilityProperty: true })).length,
+    );
+    expect(visibleDark).toBe(0);
+  });
+});

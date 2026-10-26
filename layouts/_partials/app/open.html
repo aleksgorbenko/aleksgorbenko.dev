@@ -1,0 +1,15 @@
+{{ with .Params.open }}
+  <section class="container section open" aria-labelledby="open-title">
+    <h2 class="section-title" id="open-title">{{ .title }}</h2>
+    <div class="prose">{{ partial "tokens.html" ($.RenderString (dict "display" "block") .body) }}</div>
+    <div class="keycaps" role="img" aria-label="{{ .label }}">
+      {{ range $index, $key := .keys }}
+        {{ if $index }}<span class="keycap-plus">+</span>{{ end }}
+        <span class="keycap">
+          <span class="keycap-glyph">{{ $key.glyph }}</span>
+          {{ with $key.name }}<span class="keycap-name">{{ . }}</span>{{ end }}
+        </span>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
