@@ -81,8 +81,10 @@ summary = "Works with the browsers you already use, all at once."
 body = "Firefox: history and bookmarks only. Firefox has no AppleScript support, so no app can switch or close its tabs."
 browsers = [
   { id = "safari", name = "Safari" },
+  { id = "safari-technology-preview", name = "Safari TP" },
   { id = "chrome", name = "Chrome" },
-  { id = "arc", name = "Arc" },
+  { id = "chrome-canary", name = "Chrome Canary" },
+  { id = "dia", name = "Dia" },
   { id = "brave", name = "Brave" },
   { id = "edge", name = "Edge" },
   { id = "vivaldi", name = "Vivaldi" },
