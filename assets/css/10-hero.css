@@ -93,6 +93,16 @@
     text-decoration: none;
   }
 
+  .button-secondary {
+    border-color: var(--colour-border-strong);
+    background: transparent;
+    color: var(--colour-text);
+  }
+
+  .button-secondary:hover {
+    background: var(--colour-border);
+  }
+
   .button[aria-disabled="true"] {
     border-color: var(--colour-border-strong);
     background: transparent;

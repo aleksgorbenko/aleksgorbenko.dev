@@ -1,0 +1,29 @@
+{{ $description := .Description | default (cond .IsPage .Summary site.Params.description) | plainify | strings.TrimSpace }}
+{{ $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+{{ $slug := .RelPermalink | strings.TrimPrefix "/" | strings.TrimSuffix "/" | replaceRE "/" "_" | default "home" }}
+{{ $image := printf "og/%s.png" $slug }}
+{{ if not (fileExists (path.Join "static" $image)) }}
+  {{ $image = "og/home.png" }}
+{{ end }}
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:site_name" content="{{ site.Title }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta property="og:locale" content="{{ site.Language.Locale | replaceRE "-" "_" }}" />
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}" />
+{{ if .IsPage }}
+  {{ with .PublishDate }}
+    <meta property="article:published_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}" />
+  {{ end }}
+  {{ with .Lastmod }}
+    <meta property="article:modified_time" content="{{ .Format "2006-01-02T15:04:05-07:00" }}" />
+  {{ end }}
+{{ end }}
+<meta property="og:image" content="{{ $image | absURL }}" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="{{ $title }}" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ $title }}" />
+<meta name="twitter:description" content="{{ $description }}" />
+<meta name="twitter:image" content="{{ $image | absURL }}" />

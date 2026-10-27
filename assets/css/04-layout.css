@@ -105,6 +105,10 @@
     padding-block: var(--space-3xl);
   }
 
+  .page-header + .section {
+    padding-top: var(--space-l);
+  }
+
   .section-title {
     margin-bottom: var(--space-xl);
     font-size: var(--text-2xl);

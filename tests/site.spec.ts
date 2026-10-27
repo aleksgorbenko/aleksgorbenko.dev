@@ -86,6 +86,21 @@ for (const path of PAGES) {
       expect(broken).toEqual([]);
     });
 
+    test("shares its own 1200x630 thumbnail", async ({ page, request }) => {
+      test.skip(path === MISSING, "the 404 page is not shared");
+      await open(page, path);
+      const slug = path.replace(/^\/|\/$/g, "").replaceAll("/", "_") || "home";
+      const image = await page.locator('meta[property="og:image"]').getAttribute("content");
+      expect(image).toMatch(new RegExp(`/og/${slug}\\.png$`));
+      await expect(page.locator('meta[property="og:image:width"]')).toHaveAttribute("content", "1200");
+      await expect(page.locator('meta[property="og:image:height"]')).toHaveAttribute("content", "630");
+      await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute("content", "summary_large_image");
+      const response = await request.get(new URL(image ?? "", page.url()).pathname);
+      expect(response.status()).toBe(200);
+      const header = (await response.body()).subarray(16, 24);
+      expect([header.readUInt32BE(0), header.readUInt32BE(4)]).toEqual([1200, 630]);
+    });
+
     test("matches the approved screenshot", async ({ page }) => {
       await open(page, path);
       const name = `${path.replaceAll("/", "-").replace(/^-|-$/g, "") || "home"}.png`;

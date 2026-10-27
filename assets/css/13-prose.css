@@ -24,6 +24,10 @@
     font-size: var(--text-xl);
   }
 
+  .section + .prose > h2:first-child {
+    margin-top: 0;
+  }
+
   .prose h3,
   .prose h4 {
     margin-top: var(--space-xl);
