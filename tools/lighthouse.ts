@@ -1,6 +1,7 @@
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { chromium } from "playwright";
 import { serve } from "./serve.ts";
 
 interface Report {
@@ -27,7 +28,11 @@ try {
     ];
     let exitCode = 1;
     for (let attempt = 0; attempt < ATTEMPTS && exitCode !== 0; attempt += 1) {
-      exitCode = await Bun.spawn(command, { stdout: "ignore", stderr: "ignore" }).exited;
+      exitCode = await Bun.spawn(command, {
+        env: { ...process.env, CHROME_PATH: chromium.executablePath() },
+        stdout: "ignore",
+        stderr: "ignore",
+      }).exited;
     }
     if (exitCode !== 0) {
       failures.push(`${page}: lighthouse exited with ${String(exitCode)}`);
