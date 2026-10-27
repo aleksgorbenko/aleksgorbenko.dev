@@ -112,6 +112,8 @@ Each action takes an optional query (required for Search Browsers) and an option
 - **Get Browser History** - history, most recent first.
 - **Search Browsers** - tabs, bookmarks and history in one search.
 """
+image = "images/website-shortcuts_1440x1080.webp"
+alt = "A shortcut in the Shortcuts app that searches browsers for swift and shows the first result"
 
 [[more]]
 id = "commands"
