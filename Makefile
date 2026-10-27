@@ -132,6 +132,10 @@ test-lighthouse: build
 links-external: build-staging
 	lychee --no-progress --max-concurrency 16 --timeout 20 --root-dir "$(CURDIR)/public" public
 
+.PHONY: og
+og: build
+	bun tools/og.ts
+
 .PHONY: screenshots
 screenshots: build-staging
 	$(PLAYWRIGHT) test --grep screenshot --update-snapshots
