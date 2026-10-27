@@ -130,13 +130,14 @@ commands = [
   { token = "/permissions", symbol = "lock.shield", text = "Open Permissions: grant or remove browser access" },
   { token = "/about", symbol = "info.circle", text = "Show the version and links" },
   { token = "/onboarding", symbol = "hand.wave", text = "Show the welcome tour again" },
-  { token = "/check-updates", symbol = "arrow.triangle.2.circlepath", text = "Check for updates (direct download version)" },
+  { token = "/check-updates", symbol = "arrow.triangle.2.circlepath", text = "Check for updates (direct download version)", direct = true },
   { token = "/quit", symbol = "power", text = "Quit Bukku" },
   { token = "/review", symbol = "star.bubble", text = "Write a review on the App Store (App Store version)" },
 ]
 
 [[more]]
 id = "cli"
+direct = true
 eyebrow = "Command line"
 title = "Command Line Interface"
 summary = "Script Bukku from Terminal with the same four actions as Shortcuts. JSON by default, `--output csv` for CSV."
