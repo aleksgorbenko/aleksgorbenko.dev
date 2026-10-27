@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="container container-prose">
-    <section class="page-header" aria-label="Introduction">
+    <section class="page-header intro" aria-label="Introduction">
       <h1 class="page-title">{{ .Params.heading | default site.Title }}</h1>
       {{ with .Params.lead }}<p class="page-lead">{{ . }}</p>{{ end }}
       {{ with .Params.profile }}
