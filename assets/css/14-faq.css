@@ -52,15 +52,12 @@
     margin-top: var(--space-xs);
   }
 
-  .intro {
+  .intro-links {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    gap: var(--space-l);
-  }
-
-  .intro img {
-    width: var(--size-avatar);
-    border-radius: var(--radius-full);
+    gap: var(--space-s);
+    margin-top: var(--space-l);
+    padding: 0;
+    list-style: none;
   }
 }
