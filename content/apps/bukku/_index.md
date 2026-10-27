@@ -44,10 +44,10 @@ alt = "One search showing open tabs, bookmarks and history together"
 title = "Scoped Search"
 summary = "Start with a letter and a space to search just one place."
 body = """
-- [[b space]] [[sf:bookmark]] Bookmarks only
-- [[t space]] [[sf:rectangle.stack]] Tabs only
-- [[h space]] [[sf:clock.arrow.circlepath]] History only
-- [[/]] [[sf:command]] Commands
+- [[sf:bookmark]] [[b space]] Bookmarks only
+- [[sf:rectangle.stack]] [[t space]] Tabs only
+- [[sf:clock.arrow.circlepath]] [[h space]] History only
+- [[sf:command]] [[/]] Commands
 
 The icon in the search field always shows where you're searching. [[sf:magnifyingglass]] means everywhere. Press [[⌫]] in an empty field to go back to everywhere.
 """
@@ -112,6 +112,8 @@ Each action takes an optional query (required for Search Browsers) and an option
 - **Get Browser History** - history, most recent first.
 - **Search Browsers** - tabs, bookmarks and history in one search.
 """
+image = "images/website-shortcuts_1440x1080.webp"
+alt = "A shortcut in the Shortcuts app that searches browsers for swift and shows the first result"
 
 [[more]]
 id = "commands"
@@ -161,7 +163,6 @@ symbol = "arrow.down.circle"
 value = "5"
 unit = "MB"
 label = "download"
-text = "Small enough to download in seconds. Bukku lives in the menu bar until you need it."
 
 [stats.side]
 image = "images/swift_218x196.png"

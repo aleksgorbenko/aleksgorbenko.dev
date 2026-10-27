@@ -55,9 +55,11 @@
 
   .fact-lead-row {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    gap: var(--space-l);
+    justify-content: center;
+    gap: var(--space-s);
+    height: 100%;
   }
 
   .fact-icon {
@@ -115,12 +117,6 @@
   .fact-big-label {
     margin-left: var(--space-xs);
     font-size: var(--text-l);
-  }
-
-  .fact-text {
-    max-width: var(--width-feature-text);
-    margin-top: var(--space-l);
-    color: var(--colour-text-secondary);
   }
 
   .fact-side {
@@ -185,7 +181,7 @@
 
   @media (width >= 48rem) {
     .facts {
-      grid-template-columns: minmax(0, 2.6fr) minmax(0, 1fr);
+      grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
     .fact-items {
