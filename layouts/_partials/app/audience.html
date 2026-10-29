@@ -1,0 +1,14 @@
+{{ with .Params.audience }}
+  <section class="container section audience" aria-labelledby="audience-title">
+    <h2 class="section-title" id="audience-title">{{ .title }}</h2>
+    <ul class="audience-items">
+      {{ range .items }}
+        <li class="fact-side">
+          {{ partial "app/symbol.html" .symbol }}
+          <p class="fact-side-title">{{ .title }}</p>
+          <p class="fact-note">{{ .note }}</p>
+        </li>
+      {{ end }}
+    </ul>
+  </section>
+{{ end }}

@@ -79,6 +79,7 @@
   }
 
   .fact-lead .fact-icon,
+  .audience .fact-icon,
   .fact-icon-large {
     width: var(--size-icon-m);
     border-radius: var(--radius-l);

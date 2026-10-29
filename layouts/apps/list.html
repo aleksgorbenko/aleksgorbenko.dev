@@ -2,6 +2,7 @@
   {{ if .Params.icon }}
     {{ partial "app/hero.html" . }}
     {{ partial "app/open.html" . }}
+    {{ partial "app/audience.html" . }}
     <div class="container">
       <div class="features">
         {{ range $index, $feature := .Params.features }}
