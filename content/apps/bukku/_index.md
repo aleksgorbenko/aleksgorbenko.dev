@@ -1,8 +1,8 @@
 +++
 title = "Bukku"
 draft = false
-tagline = "Launcher for your browser tabs, bookmarks and history"
-description = "Bukku is a keyboard launcher for your browser tabs, bookmarks and history on macOS. Everything stays on your Mac - no account, no cloud, no telemetry."
+tagline = "Instant search for your browser tabs, bookmarks and history"
+description = "Find any open tab, bookmark or page from your history the moment you start typing. No plugins to install. Everything stays on your Mac."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
@@ -18,7 +18,7 @@ anchors = [
   { name = "FAQ", id = "faq" },
 ]
 [open]
-title = "Single search for tabs, bookmarks and history"
+title = "Instant search for tabs, bookmarks and history"
 body = '''
 Bukku runs in the background and indexes all tabs, bookmarks and history from your browsers.\
 Summon it from anywhere.
@@ -33,10 +33,19 @@ keys = [
   { glyph = "B" },
 ]
 
+[audience]
+title = "Made for How You Browse"
+items = [
+  { symbol = "rectangle.stack", title = "One browser, too many tabs", note = "Type to find any tab" },
+  { symbol = "interface.window.on.rectangle", title = "Many windows", note = "No clicking through each one" },
+  { symbol = "globe", title = "Multiple browsers", note = "One search across all of them" },
+  { symbol = "keyboard", title = "Keyboard", note = "Never reach for the mouse" },
+]
+
 [[features]]
 title = "Unified Search"
 summary = "Type once to search every open tab, bookmark and history entry in all your browsers."
-body = "Results appear as you type, even across thousands of entries."
+body = "Results appear instantly as you type, even across thousands of entries."
 image = "images/website-unified-search_1440x1080.webp"
 alt = "One search showing open tabs, bookmarks and history together"
 
@@ -233,6 +242,10 @@ keys = [
 - **History.** Bukku copies each browser's history into its own folder on your Mac and builds a search index from it, so results stay fast across years of browsing.
 
 Bukku only reads. It never changes your browsers' files, and nothing leaves your Mac.
+{{< /faq >}}
+
+{{< faq q="Do I need to install a browser extension or plugin?" >}}
+No. Bukku reads your browsers directly, so there's nothing to add to them. Grant access once per browser in Settings.
 {{< /faq >}}
 
 {{< faq q="Does Bukku send my browsing data anywhere?" >}}
