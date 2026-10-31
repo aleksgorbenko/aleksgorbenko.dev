@@ -1,0 +1,17 @@
+<div class="container container-prose faq prose">
+  {{ with .Params.tips }}
+    <h2 id="tips">Tips</h2>
+    <ul>
+      {{ range . }}<li>{{ partial "tokens.html" (. | $.RenderString) }}</li>{{ end }}
+    </ul>
+  {{ end }}
+  {{ with .Params.faq }}
+    <h2 id="faq">FAQ</h2>
+    {{ range . }}
+      <details>
+        <summary>{{ .question }}</summary>
+        <div>{{ partial "tokens.html" (.answer | $.RenderString (dict "display" "block")) }}</div>
+      </details>
+    {{ end }}
+  {{ end }}
+</div>

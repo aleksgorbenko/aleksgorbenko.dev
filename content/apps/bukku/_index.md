@@ -17,6 +17,11 @@ anchors = [
   { name = "Tips", id = "tips" },
   { name = "FAQ", id = "faq" },
 ]
+tips = [
+  "Type a slash ([[/]]) to see every command.",
+  "Bukku respects macOS sandboxing - grant browser access once in Settings › Permissions.",
+]
+
 [open]
 title = "Instant search for tabs, bookmarks and history"
 body = '''
@@ -226,44 +231,38 @@ keys = [
   { keys = "h space", action = "[[sf:clock.arrow.circlepath]] Search history" },
   { keys = "/", action = "[[sf:command]] Show commands" },
 ]
-+++
 
-## Tips {#tips}
-
-- Type a slash ([[/]]) to see every command.
-- Bukku respects macOS sandboxing - grant browser access once in Settings › Permissions.
-
-## FAQ {#faq}
-
-{{< faq q="How does Bukku read browser data?" >}}
-
+[[faq]]
+question = "How does Bukku read browser data?"
+answer = '''
 - **Tabs.** Bukku asks each open browser for its tabs through AppleScript, the automation built into macOS. macOS asks your permission once per browser. Tabs are kept in memory only.
 - **Bookmarks.** Bukku reads each browser's bookmarks file and keeps the bookmarks in memory only.
 - **History.** Bukku copies each browser's history into its own folder on your Mac and builds a search index from it, so results stay fast across years of browsing.
 
 Bukku only reads. It never changes your browsers' files, and nothing leaves your Mac.
-{{< /faq >}}
+'''
 
-{{< faq q="Do I need to install a browser extension or plugin?" >}}
-No. Bukku reads your browsers directly, so there's nothing to add to them. Grant access once per browser in Settings.
-{{< /faq >}}
+[[faq]]
+question = "Do I need to install a browser extension or plugin?"
+answer = "No. Bukku reads your browsers directly, so there's nothing to add to them. Grant access once per browser in Settings."
 
-{{< faq q="Does Bukku send my browsing data anywhere?" >}}
-No. Everything is read locally on your Mac. No account, no cloud, no telemetry.
-{{< /faq >}}
+[[faq]]
+question = "Does Bukku send my browsing data anywhere?"
+answer = "No. Everything is read locally on your Mac. No account, no cloud, no telemetry."
 
-{{< faq q="Why can't I switch or close Firefox tabs?" >}}
-Firefox doesn't implement AppleScript, so no app can automate its tabs. Bukku still searches your Firefox history and bookmarks.
-{{< /faq >}}
+[[faq]]
+question = "Why can't I switch or close Firefox tabs?"
+answer = "Firefox doesn't implement AppleScript, so no app can automate its tabs. Bukku still searches your Firefox history and bookmarks."
 
-{{< faq q="Does it show a Dock icon?" >}}
-Only while one of its windows, such as Settings, is open. The rest of the time Bukku lives in the menu bar and opens with your shortcut, with no heavy background service.
-{{< /faq >}}
+[[faq]]
+question = "Does it show a Dock icon?"
+answer = "Only while one of its windows, such as Settings, is open. The rest of the time Bukku lives in the menu bar and opens with your shortcut, with no heavy background service."
 
-{{< faq q="Can I automate it?" >}}
-Yes - via Apple Shortcuts (App Intents) and the command-line interface.
-{{< /faq >}}
+[[faq]]
+question = "Can I automate it?"
+answer = "Yes - via Apple Shortcuts (App Intents) and the command-line interface."
 
-{{< faq q="How do I change the hotkey?" >}}
-You can change it in the main Settings menu. Press [[⌘ ,]] or type `/settings` to open Settings.
-{{< /faq >}}
+[[faq]]
+question = "How do I change the keyboard shortcut?"
+answer = "You can change it in the main Settings menu. Press [[⌘ ,]] or type `/settings` to open Settings."
++++

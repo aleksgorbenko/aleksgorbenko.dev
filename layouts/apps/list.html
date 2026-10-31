@@ -15,9 +15,7 @@
     </div>
     {{ partial "app/stats.html" . }}
     {{ if .Params.shortcuts }}{{ partial "app/shortcuts.html" . }}{{ end }}
-    <div class="container container-prose faq prose">
-      {{ partial "tokens.html" .Content }}
-    </div>
+    {{ partial "app/faq.html" . }}
   {{ else }}
     <div class="container container-prose">
       <header class="page-header">
