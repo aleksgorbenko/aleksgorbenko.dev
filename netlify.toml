@@ -41,3 +41,15 @@ for = "/css/*"
 
 [headers.values]
 Cache-Control = "public, max-age=31536000, immutable"
+
+[[redirects]]
+from = "/apps/bukku/appcast.xml"
+to = "https://raw.githubusercontent.com/aleksgorbenko/bukku-releases/main/appcast.xml"
+status = 200
+force = true
+
+[[redirects]]
+from = "/apps/bukku/download/*"
+to = "https://github.com/aleksgorbenko/bukku-releases/releases/download/:splat"
+status = 302
+force = true
