@@ -34,24 +34,6 @@
     color: var(--colour-text-secondary);
   }
 
-  .callout {
-    padding: var(--space-m) var(--space-l);
-    border: var(--border-hairline) solid var(--colour-border);
-    border-left: var(--border-focus) solid var(--colour-accent);
-    border-radius: var(--radius-m);
-    background: var(--colour-surface);
-  }
-
-  .callout-title {
-    color: var(--colour-text);
-    font-size: var(--text-s);
-    font-weight: var(--weight-semibold);
-  }
-
-  .callout-body > * + * {
-    margin-top: var(--space-xs);
-  }
-
   .intro {
     text-align: center;
   }

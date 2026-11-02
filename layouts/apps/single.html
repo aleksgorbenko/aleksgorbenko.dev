@@ -7,7 +7,7 @@
       <h1 class="page-title">{{ .Title }}</h1>
     </header>
     <div class="prose">
-      {{ .Content }}
+      {{ partial "tokens.html" .Content }}
     </div>
   </article>
 {{ end }}

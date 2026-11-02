@@ -18,7 +18,7 @@ anchors = [
   { name = "FAQ", id = "faq" },
 ]
 tips = [
-  "Type a slash ([[/]]) to see every command.",
+  "Give each bookmark a short folder path, like `dev go`, and a few keystrokes find it. [Organise your bookmarks](/apps/bukku/organise-bookmarks/) with an AI agent in about 15 minutes.",
   "Bukku respects macOS sandboxing - grant browser access once in Settings › Permissions.",
 ]
 
@@ -50,7 +50,12 @@ items = [
 [[features]]
 title = "Unified Search"
 summary = "Type once to search every open tab, bookmark and history entry in all your browsers."
-body = "Results appear instantly as you type, even across thousands of entries."
+body = """
+Results appear instantly as you type, even across thousands of entries.
+
+> [!TIP]
+> Messy bookmarks? [Organise them](/apps/bukku/organise-bookmarks/) into short folder paths and search finds them in a few keystrokes.
+"""
 image = "images/website-unified-search_1440x1080.webp"
 alt = "One search showing open tabs, bookmarks and history together"
 

@@ -13,6 +13,10 @@
     --colour-text-tertiary: #8e8e93;
     --colour-accent: #2997ff;
     --colour-accent-strong: #0071e3;
+    --colour-note: #2997ff;
+    --colour-tip: #30d158;
+    --colour-important: #bf5af2;
+    --colour-warning: #ff9f0a;
     --colour-on-accent: #fff;
     --colour-glow: rgb(41 151 255 / 22%);
     --colour-glow-soft: rgb(41 151 255 / 0%);

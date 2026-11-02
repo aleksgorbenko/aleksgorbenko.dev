@@ -1,0 +1,42 @@
+@layer components {
+  .callout {
+    --callout-accent: var(--colour-accent);
+    --callout-title: var(--colour-text);
+
+    padding: var(--space-m) var(--space-l);
+    border: var(--border-hairline) solid var(--colour-border);
+    border-left: var(--border-focus) solid var(--callout-accent);
+    border-radius: var(--radius-m);
+    background: var(--colour-surface);
+  }
+
+  .callout-note {
+    --callout-accent: var(--colour-note);
+    --callout-title: var(--colour-note);
+  }
+
+  .callout-tip {
+    --callout-accent: var(--colour-tip);
+    --callout-title: var(--colour-tip);
+  }
+
+  .callout-important {
+    --callout-accent: var(--colour-important);
+    --callout-title: var(--colour-important);
+  }
+
+  .callout-warning {
+    --callout-accent: var(--colour-warning);
+    --callout-title: var(--colour-warning);
+  }
+
+  .callout-title {
+    color: var(--callout-title);
+    font-size: var(--text-s);
+    font-weight: var(--weight-semibold);
+  }
+
+  .callout-body > * + * {
+    margin-top: var(--space-xs);
+  }
+}
