@@ -71,8 +71,20 @@ checksum = "sha256:787f100057328824f38c6ad7c87ff10d6451ae0a7bc39cedaad0dd2bcde17
 url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz"
 url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728583"
 
+[tools.hugo-extended."platforms.linux-x64-baseline"]
+checksum = "sha256:787f100057328824f38c6ad7c87ff10d6451ae0a7bc39cedaad0dd2bcde17e53"
+checksum_source = "mise-versions"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728583"
+
 [tools.hugo-extended."platforms.linux-x64-musl"]
 checksum = "sha256:787f100057328824f38c6ad7c87ff10d6451ae0a7bc39cedaad0dd2bcde17e53"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728583"
+
+[tools.hugo-extended."platforms.linux-x64-musl-baseline"]
+checksum = "sha256:787f100057328824f38c6ad7c87ff10d6451ae0a7bc39cedaad0dd2bcde17e53"
+checksum_source = "mise-versions"
 url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz"
 url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728583"
 
@@ -86,8 +98,20 @@ checksum = "sha256:6e8c6a1e6db996bb9e71c8728461f372c78f12eb18135b709837227debf84
 url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_darwin-universal.pkg"
 url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728694"
 
+[tools.hugo-extended."platforms.macos-x64-baseline"]
+checksum = "sha256:6e8c6a1e6db996bb9e71c8728461f372c78f12eb18135b709837227debf84940"
+checksum_source = "mise-versions"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_darwin-universal.pkg"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728694"
+
 [tools.hugo-extended."platforms.windows-x64"]
 checksum = "sha256:c4a2e38043b3273ae5eb16c81159cffc346d2ddf3de7819c99826d26775d7da0"
+url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_windows-amd64.zip"
+url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728763"
+
+[tools.hugo-extended."platforms.windows-x64-baseline"]
+checksum = "sha256:c4a2e38043b3273ae5eb16c81159cffc346d2ddf3de7819c99826d26775d7da0"
+checksum_source = "mise-versions"
 url = "https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_windows-amd64.zip"
 url_api = "https://api.github.com/repos/gohugoio/hugo/releases/assets/637728763"
 
@@ -103,11 +127,23 @@ shorthand_vendor = "temurin"
 checksum = "sha256:bb5b2ded252f21c6090cf780b0a408ad0d83bbb557e702955643557f13231880"
 url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_linux_hotspot_25.0.5_8.tar.gz"
 
+[tools.java."platforms.linux-arm64-musl"]
+checksum = "sha256:d02eadc0a0f93faba4be38c8657eb8eef842103a4c7c2400f5827dbd90fc21c9"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_aarch64_alpine-linux_hotspot_25.0.5_8.tar.gz"
+
 [tools.java."platforms.linux-x64"]
 checksum = "sha256:68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb"
 url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz"
 
+[tools.java."platforms.linux-x64-baseline"]
+checksum = "sha256:68982529869257d0ee6b824ec5aa270ff8b118bb438670da0b97ebdab178d7fb"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_linux_hotspot_25.0.5_8.tar.gz"
+
 [tools.java."platforms.linux-x64-musl"]
+checksum = "sha256:efc86581260b73c340c313e7577c4c85d6a8a899edc3748d78bee5238fe44a4e"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5_8.tar.gz"
+
+[tools.java."platforms.linux-x64-musl-baseline"]
 checksum = "sha256:efc86581260b73c340c313e7577c4c85d6a8a899edc3748d78bee5238fe44a4e"
 url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_alpine-linux_hotspot_25.0.5_8.tar.gz"
 
@@ -118,3 +154,15 @@ url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0
 [tools.java."platforms.macos-x64"]
 checksum = "sha256:32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
 url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz"
+
+[tools.java."platforms.macos-x64-baseline"]
+checksum = "sha256:32cd4d2151c91aa00d0fc911edfd05245ed40fa6b1aa894d5f35c928cd67a59d"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_mac_hotspot_25.0.5_8.tar.gz"
+
+[tools.java."platforms.windows-x64"]
+checksum = "sha256:636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip"
+
+[tools.java."platforms.windows-x64-baseline"]
+checksum = "sha256:636bdc13dc649ddc7d5921c5c7d23cca6e44fd19d662b45cc9c02135a6c96c42"
+url = "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.5%2B8/OpenJDK25U-jdk_x64_windows_hotspot_25.0.5_8.zip"
