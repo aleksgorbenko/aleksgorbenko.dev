@@ -1,0 +1,9 @@
+{{ if and .offer_price .offer_ends (time.Now.Before (time.AsTime .offer_ends)) }}
+  <p class="buy-offer">
+    <strong class="buy-offer-discount"
+      >{{ math.Round (mul (sub 1 (div .offer_price .price)) 100) }}% off until
+      {{ (time.AsTime .offer_ends).Format "2 January" }}</strong
+    >
+    {{ with .devices }}<span>{{ . }} Macs included</span>{{ end }}
+  </p>
+{{ end }}

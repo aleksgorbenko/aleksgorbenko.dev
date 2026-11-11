@@ -8,9 +8,6 @@ icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
 heroAlt = "The Bukku launcher showing tabs, bookmarks and history results for one search"
 requirement = "Requires macOS 15 or later"
-links = [
-  { name = "Coming Soon", url = "" },
-]
 anchors = [
   { name = "Features", id = "unified-search" },
   { name = "Shortcuts", id = "shortcuts" },
@@ -21,6 +18,17 @@ tips = [
   "Give each bookmark a short folder path, like `dev go`, and a few keystrokes find it. [Organise your bookmarks](/apps/bukku/organise-bookmarks/) with an AI agent in about 15 minutes.",
   "Bukku respects macOS sandboxing - grant browser access once in Settings › Permissions.",
 ]
+
+[buy]
+checkout = "https://aleksgorbenko.lemonsqueezy.com/checkout/buy/b4ef8348-5e5c-42e3-8329-13b3230e2fc4"
+download = "https://aleksgorbenko.dev/apps/bukku/download/v1.0.0/Bukku-1.0.0.dmg"
+app_store = "https://apps.apple.com/app/id6821875606"
+trial_days = 14
+price = 6.99
+offer_price = 3.99
+offer_ends = 2026-12-01
+devices = 3
+brew = { command = "brew install --cask bukku", show = false }
 
 [open]
 title = "Instant search for tabs, bookmarks and history"

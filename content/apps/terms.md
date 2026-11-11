@@ -24,6 +24,13 @@ otherwise exploiting them requires my explicit permission.
 For apps downloaded from the App Store, Apple's standard EULA applies alongside
 these terms.
 
+## Direct Purchases
+
+Licences bought outside the App Store are sold by Lemon Squeezy, my reseller and
+merchant of record. Lemon Squeezy processes the payment, charges any sales tax
+and sends the receipt. Its [buyer terms](https://www.lemonsqueezy.com/buyer-terms)
+apply alongside these terms.
+
 ## Software Integrity
 
 I aim to ship software that works flawlessly, but bugs happen. Keep regular
@@ -47,8 +54,9 @@ your use of the apps or your breach of these terms.
 
 ## Refunds
 
-For App Store purchases, refunds are handled by Apple. I'm happy to help resolve
-any issue directly first - just email {{< support-email >}}.
+For App Store purchases, refunds are handled by Apple. For direct purchases,
+email {{< support-email >}} with your order number. I'm happy to help resolve
+any issue directly first.
 
 ## Support
 

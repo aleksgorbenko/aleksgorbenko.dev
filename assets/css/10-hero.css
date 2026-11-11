@@ -58,7 +58,7 @@
     gap: var(--space-xs) var(--space-l);
     margin-top: var(--space-l);
     padding: 0;
-    font-size: var(--text-s);
+    font-size: var(--text-m);
     list-style: none;
   }
 

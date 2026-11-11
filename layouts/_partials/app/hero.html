@@ -13,16 +13,22 @@
     {{ end }}
     <h1 class="hero-title" id="hero-title">{{ .Title }}</h1>
     {{ with .Params.tagline }}<p class="hero-tagline">{{ . }}</p>{{ end }}
-    <div class="hero-actions">
-      {{ range .Params.links }}
-        {{ if .url }}
-          <a class="button" href="{{ .url }}">{{ .name }}</a>
-        {{ else }}
-          <span class="button" aria-disabled="true">{{ .name }}</span>
+    {{ if .Params.buy }}
+      {{ partial "app/buy.html" . }}
+    {{ else }}
+      <div class="hero-actions">
+        {{ range .Params.links }}
+          {{ if .url }}
+            <a class="button" href="{{ .url }}">{{ .name }}</a>
+          {{ else }}
+            <span class="button" aria-disabled="true">{{ .name }}</span>
+          {{ end }}
         {{ end }}
-      {{ end }}
-    </div>
-    {{ with .Params.requirement }}<p class="hero-requirement">{{ . }}</p>{{ end }}
+      </div>
+    {{ end }}
+    {{ if not .Params.buy }}
+      {{ with .Params.requirement }}<p class="hero-requirement">{{ . }}</p>{{ end }}
+    {{ end }}
     <ul class="hero-links">
       {{ range .Params.anchors }}<li><a href="#{{ .id }}">{{ .name }}</a></li>{{ end }}
       {{ with $.GetPage "release-notes" }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}
