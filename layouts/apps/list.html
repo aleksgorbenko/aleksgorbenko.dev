@@ -23,16 +23,9 @@
         {{ with .Content }}<div class="page-lead">{{ . }}</div>{{ end }}
       </header>
       <ul class="cards">
-        {{ range where .Pages "Params.icon" "!=" nil }}
+        {{ range where .Pages "Params.status" "!=" nil }}
           <li>{{ partial "app-card.html" . }}</li>
         {{ end }}
-        <li class="card app-card">
-          <span class="app-card-placeholder"></span>
-          <span>
-            <span class="app-card-name">Mysterious New App</span>
-            <span class="app-card-tagline">Researching my next native macOS app…</span>
-          </span>
-        </li>
       </ul>
     </div>
   {{ end }}

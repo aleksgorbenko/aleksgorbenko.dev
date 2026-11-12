@@ -28,7 +28,7 @@ To learn more about me:
 ```sh
 make setup          # tools, dependencies, browsers
 make serve          # live preview
-make sync-assets    # copy Bukku images from the brand assets kit
+make sync-assets APP=<slug>    # copy an app's website images from its marketing/output/website (default bukku)
 make check          # every lint, test and audit
 make screenshots    # approve new screenshot baselines
 make links-external # report broken external links

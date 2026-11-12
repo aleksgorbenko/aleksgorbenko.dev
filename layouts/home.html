@@ -16,7 +16,7 @@
       <section class="section" aria-labelledby="apps-title">
         <h2 class="section-title" id="apps-title">{{ $.Params.appsHeading | default .Title }}</h2>
         <ul class="cards">
-          {{ range where .Pages "Params.icon" "!=" nil }}
+          {{ range where .Pages "Params.status" "!=" nil }}
             <li>{{ partial "app-card.html" . }}</li>
           {{ end }}
         </ul>
