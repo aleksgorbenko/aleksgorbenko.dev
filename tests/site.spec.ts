@@ -104,7 +104,7 @@ for (const path of PAGES) {
     test("matches the approved screenshot", async ({ page }) => {
       await open(page, path);
       const name = `${path.replaceAll("/", "-").replace(/^-|-$/g, "") || "home"}.png`;
-      await expect(page).toHaveScreenshot(name);
+      await expect(page).toHaveScreenshot(name, { mask: [page.locator("[data-countdown]")] });
     });
   });
 }

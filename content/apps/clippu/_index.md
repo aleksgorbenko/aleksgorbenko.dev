@@ -4,7 +4,7 @@ draft = false
 weight = 2
 status = "building"
 category = "Clipboard manager"
-tagline = "Find anything you copied. Privately."
+tagline = "Find anything you copied. Privately, offline."
 description = "Clippu keeps the text, links, images and files you copy on your Mac and finds any of them as you type. No network, no account."
 keywords = ["macOS", "clipboard", "clipboard manager", "clipboard history", "paste", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
@@ -49,11 +49,18 @@ image = "images/website-paste-messages_1440x1080.webp"
 alt = "A Messages conversation with the Clippu bar open and a photo card ready to paste"
 [[features]]
 title = "Search Everything"
-summary = "Start typing to search every item, including the text inside images."
-body = "Text in images is recognised on your Mac, so a screenshot of an error message turns up when you search for it."
+summary = "Start typing to search every item you copied."
+body = "Results update with every key you press, and the best match is ready to paste."
 
 image = "images/website-paste-browser_1440x1080.webp"
 alt = "A support form in Safari with the order number field selected and a search for order in the Clippu bar"
+[[features]]
+title = "Text in Screenshots"
+summary = "Search finds words inside your screenshots and copied images."
+body = "Clippu reads the text in every image on your Mac, so a screenshot of an error turns up when you search for the error. Nothing is sent anywhere to do it."
+image = "images/website-ocr_1440x1080.webp"
+alt = "A search for declined finding a screenshot of a payment error, with the matching words highlighted"
+
 [[features]]
 title = "Search Scopes"
 summary = "Narrow the search to one kind, one file type or one app."
@@ -148,6 +155,10 @@ answer = "No. Password managers mark the passwords you copy as confidential, and
 [[faq]]
 question = "How long does Clippu keep my history?"
 answer = "Until it reaches the limits you set in Settings: a maximum age and a maximum storage size. The oldest items go first."
+
+[[faq]]
+question = "Can I change how it looks?"
+answer = "Yes. In Settings › Appearance choose Light, Dark or Auto, and put the bar at the bottom or the top of the screen."
 
 [[faq]]
 question = "Does it show a Dock icon?"
