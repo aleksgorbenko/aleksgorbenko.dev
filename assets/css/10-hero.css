@@ -28,6 +28,15 @@
     line-height: var(--leading-tight);
   }
 
+  .hero-status {
+    margin-top: var(--space-m);
+  }
+
+  .hero-status .app-card-status {
+    margin-top: 0;
+    font-size: var(--text-s);
+  }
+
   .hero-tagline {
     max-width: 36rem;
     margin: var(--space-s) auto 0;

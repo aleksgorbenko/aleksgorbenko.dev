@@ -4,16 +4,13 @@ draft = false
 weight = 2
 status = "building"
 category = "Clipboard manager"
-tagline = "Your clipboard history, one keystroke away"
-description = "Clippu keeps the text, links, images and files you copy, and pastes any of them back from the keyboard. Offline, with no account."
+tagline = "Find anything you copied. Privately."
+description = "Clippu keeps the text, links, images and files you copy on your Mac and finds any of them as you type. No network, no account."
 keywords = ["macOS", "clipboard", "clipboard manager", "clipboard history", "paste", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
 heroAlt = "Writing an email in Mail with the Clippu bar open below it and a link card ready to paste"
-requirement = "In development. Requires macOS 26 or later"
-links = [
-  { name = "Coming soon" },
-]
+requirement = "Requires macOS 26 or later"
 anchors = [
   { name = "Features", id = "every-kind-of-copy" },
   { name = "Shortcuts", id = "shortcuts" },

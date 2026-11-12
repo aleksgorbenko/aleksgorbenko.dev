@@ -40,7 +40,9 @@ function pages(folder: string): Page[] {
 const force = process.env["FORCE"] === "1";
 const previous = existsSync(MANIFEST) ? (JSON.parse(readFileSync(MANIFEST, "utf8")) as Record<string, string>) : {};
 const all = pages(PUBLIC).sort((a, b) => a.slug.localeCompare(b.slug));
-const changed = all.filter((page) => force || previous[page.slug] !== page.hash || !existsSync(join(OUT, `${page.slug}.png`)));
+const changed = all.filter(
+  (page) => force || previous[page.slug] !== page.hash || !existsSync(join(OUT, `${page.slug}.png`)),
+);
 mkdirSync(OUT, { recursive: true });
 const keep = new Set(all.map((page) => `${page.slug}.png`));
 for (const file of readdirSync(OUT).filter((entry) => !keep.has(entry))) {

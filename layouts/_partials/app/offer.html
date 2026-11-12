@@ -4,6 +4,15 @@
       >{{ math.Round (mul (sub 1 (div .offer_price .price)) 100) }}% off until
       {{ (time.AsTime .offer_ends).Format "2 January" }}</strong
     >
+    <span class="buy-countdown"
+      ><span class="buy-countdown-dot" aria-hidden="true"></span
+      ><span data-countdown="{{ (time.AsTime .offer_ends).Format "2006-01-02T15:04:05Z07:00" }}"
+        >Ends {{ (time.AsTime .offer_ends).Format "2 January" }}</span
+      ></span
+    >
     {{ with .devices }}<span>{{ . }} Macs included</span>{{ end }}
   </p>
+{{ end }}
+{{ with resources.Get "js/countdown.ts" | js.Build (dict "minify" true) | fingerprint }}
+  <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
 {{ end }}
