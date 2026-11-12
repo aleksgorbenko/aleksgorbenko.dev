@@ -63,13 +63,12 @@ summary = "Narrow the search to one kind, one file type or one app."
 body = """
 Type a scope word, then your search:
 
-- `txt`, `url`, `code`, `colour`, `img` or `file` for one kind
-- a file extension, such as `png` or `pdf`
-- an app name, such as `safari`
+- **Kind:** `txt`, `url`, `code`, `colour`, `img`, `file`
+- **File type:** `png`, `jpeg`, `pdf`
+- **App:** `safari`, `notes`, `mail`
 
 The scope shows as a capsule in the search field.
 """
-
 image = "images/website-scopes_1440x1080.webp"
 alt = "The Safari scope shown as a capsule in the search field, with Safari items only"
 [[features]]
@@ -103,8 +102,15 @@ body = """
 image = "images/website-privacy_1440x1080.webp"
 alt = "The Privacy tab in Settings listing ignored applications"
 [[features]]
-title = "Shortcuts Integration"
-summary = "Paste an item, delete an item or clear your history from your own shortcuts."
+title = "History Limits"
+summary = "Choose how long Clippu keeps your history and how much space it can use."
+body = """
+- **Keep history for** a day, a week, a month, a year or forever.
+- **Storage limit** from 1 GB to 100 GB. The oldest items go first.
+- **Clear History** removes everything, and [[⌘ Z]] brings it back.
+"""
+image = "images/website-history_1440x1080.webp"
+alt = "The History section of Clippu Settings with the keep history and storage limit sliders"
 
 [[shortcuts]]
 group = "Anywhere"
@@ -149,6 +155,10 @@ answer = "Until it reaches the limits you set in Settings: a maximum age and a m
 [[faq]]
 question = "Does it show a Dock icon?"
 answer = "No. Clippu works in the background and opens with your shortcut. A menu bar icon is optional."
+
+[[faq]]
+question = "Can I automate it?"
+answer = "Yes. Apple Shortcuts can paste an item, delete an item or clear your history."
 
 [[faq]]
 question = "When can I get it?"
