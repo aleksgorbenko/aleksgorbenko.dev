@@ -9,7 +9,7 @@ description = "Clippu keeps the text, links, images and files you copy, and past
 keywords = ["macOS", "clipboard", "clipboard manager", "clipboard history", "paste", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
-heroAlt = "The Clippu clipboard bar along the bottom of the screen, with text, colour, code, image and file cards"
+heroAlt = "Writing an email in Mail with the Clippu bar open below it and a link card ready to paste"
 requirement = "In development. Requires macOS 26 or later"
 links = [
   { name = "Coming soon" },
@@ -28,10 +28,10 @@ Press the shortcut and your history opens along the bottom of the screen.
 
 Find an item, press Return, and Clippu pastes it into the app you were using.
 '''
-label = "Keyboard shortcut: Shift Command V"
+label = "Keyboard shortcut: Command Shift V"
 keys = [
-  { glyph = "⇧", name = "shift" },
   { glyph = "⌘", name = "command" },
+  { glyph = "⇧", name = "shift" },
   { glyph = "V" },
 ]
 
@@ -44,17 +44,19 @@ body = """
 - **Images** show a preview.
 - **Files and folders** show their Finder icon and name.
 - **Links** show the title the app copied with them. Clippu never loads the page.
+
+Image, file and code cards show their file type or language in the corner.
 """
 
-image = "images/website-kinds_1440x1080.webp"
-alt = "A colour swatch, highlighted code and an image, each on its own card"
+image = "images/website-paste-messages_1440x1080.webp"
+alt = "A Messages conversation with the Clippu bar open and a photo card ready to paste"
 [[features]]
 title = "Search Everything"
 summary = "Start typing to search every item, including the text inside images."
 body = "Text in images is recognised on your Mac, so a screenshot of an error message turns up when you search for it."
 
-image = "images/website-search_1440x1080.webp"
-alt = "A search for report finding a PDF, an email snippet and a folder"
+image = "images/website-paste-browser_1440x1080.webp"
+alt = "A support form in Safari with the order number field selected and a search for order in the Clippu bar"
 [[features]]
 title = "Search Scopes"
 summary = "Narrow the search to one kind, one file type or one app."
@@ -76,12 +78,14 @@ summary = "Pick several cards and paste them in the order you picked them."
 body = """
 - [[⇧ ←]] [[⇧ →]] select a range
 - [[space]] add or remove any card
-- [[↩]] paste
-- [[⇧ ↩]] paste as plain text
+- [[↩]] paste them all
+- [[⇧ ↩]] paste them all as plain text
+
+Each selected card shows its number, so you see the order before you paste.
 """
 
-image = "images/website-paste-in-order_1440x1080.webp"
-alt = "Three selected cards with the paste as plain text hint under each"
+image = "images/website-paste-notes_1440x1080.webp"
+alt = "A note in Notes with three cards selected in the Clippu bar, numbered in the order they will paste"
 [[features]]
 title = "Undo Any Change"
 summary = "Delete, edit, rename, move or clear, then press [[⌘ Z]] to take it back."
@@ -105,7 +109,7 @@ summary = "Paste an item, delete an item or clear your history from your own sho
 [[shortcuts]]
 group = "Anywhere"
 keys = [
-  { keys = "⇧ ⌘ V", action = "Open the clipboard bar. Change it in Settings." },
+  { keys = "⌘ ⇧ V", action = "Open the clipboard bar. Change it in Settings." },
 ]
 
 [[shortcuts]]
@@ -124,7 +128,7 @@ keys = [
   { keys = "↩", action = "Paste the selection" },
   { keys = "⇧ ↩", action = "Paste as plain text" },
   { keys = "⌘ ⌫", action = "Delete the selection" },
-  { keys = "⌥ ⌘ ← ⌥ ⌘ →", action = "Move the selection" },
+  { keys = "⌘ ⌥ ← ⌘ ⌥ →", action = "Move the selection" },
   { keys = "⌘ E", action = "Edit the text of a text or link card" },
   { keys = "⌘ Z", action = "Undo" },
   { keys = "⌘ /", action = "Show every keyboard shortcut" },
