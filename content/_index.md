@@ -14,8 +14,9 @@ url = "https://github.com/aleksgorbenko/howiwork"
 
 ## now
 
-- 🏗️ Polishing my first macOS app - Bukku
-- 🔬 Researching the second app for macOS...
+- 🚀 Released my first macOS app - [Bukku](/apps/bukku/), instant search for browser tabs, bookmarks and history
+- 🏗️ Building [Clippu](/apps/clippu/), a clipboard manager for macOS
+- 🔬 Researching Kioku, a learning tool
 - 💬 Learning Japanese with [WaniKani](https://www.wanikani.com), [BunPro](https://bunpro.jp) and ChatGPT
 - 💭 Open to opportunities with Japanese companies ([Fundamental Information Technology Engineer Examination](https://itpec.org/) certified, eligible for Japan work visa)
 
