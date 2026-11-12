@@ -22,13 +22,63 @@
     content: "·";
   }
 
-  .buy-app-store {
-    margin-top: var(--space-s);
-    font-size: var(--text-m);
+  .buy-was {
+    margin-inline-end: var(--space-2xs);
+    opacity: 0.6;
+    font-weight: var(--weight-regular);
+    text-decoration-thickness: 2px;
   }
 
-  .buy-app-store a {
-    text-decoration: underline;
+  .buy-countdown {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    color: var(--colour-warning);
+    font-variant-numeric: tabular-nums;
+    font-weight: var(--weight-semibold);
+  }
+
+  .buy-countdown-dot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: var(--radius-full);
+    background: var(--colour-warning);
+    animation: buy-pulse 1.4s ease-in-out infinite;
+  }
+
+  @keyframes buy-pulse {
+    0%,
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    50% {
+      opacity: 0.35;
+      transform: scale(0.7);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .buy-countdown-dot {
+      animation: none;
+    }
+  }
+
+  .buy-app-store {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-xs);
+    margin-top: var(--space-l);
+    color: var(--colour-text-secondary);
+    font-size: var(--text-s);
+  }
+
+  .buy-app-store img {
+    display: block;
+    height: 2.75rem;
+    width: auto;
   }
 
   .buy-requirement {

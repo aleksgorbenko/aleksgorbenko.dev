@@ -16,6 +16,9 @@
     {{ if .Params.buy }}
       {{ partial "app/buy.html" . }}
     {{ else }}
+      {{ with .Params.status }}
+        <p class="hero-status"><span class="app-card-status app-card-status-{{ . }}">{{ . | humanize }}</span></p>
+      {{ end }}
       <div class="hero-actions">
         {{ range .Params.links }}
           {{ if .url }}

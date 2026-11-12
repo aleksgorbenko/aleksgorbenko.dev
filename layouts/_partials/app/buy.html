@@ -1,8 +1,15 @@
 {{ with .Params.buy }}
   <div class="hero-actions buy-actions">
     {{ with .checkout }}
+      {{ $buy := $.Params.buy }}
+      {{ $offer := and $buy.offer_price $buy.offer_ends (time.Now.Before (time.AsTime $buy.offer_ends)) }}
       <a class="button" href="{{ . }}"
-        >Buy for €{{ lang.FormatNumber 2 ($.Params.buy.offer_price | default $.Params.buy.price) }}</a
+        >Buy for
+        {{ if $offer }}
+          <s class="buy-was">€{{ lang.FormatNumber 2 $buy.price }}</s> €{{ lang.FormatNumber 2 $buy.offer_price }}
+        {{ else }}
+          €{{ lang.FormatNumber 2 $buy.price }}
+        {{ end }}</a
       >
     {{ end }}
     {{ with .download }}
@@ -10,7 +17,16 @@
     {{ end }}
   </div>
   {{ partial "app/offer.html" . }}
-  {{ with .app_store }}<p class="buy-app-store"><a href="{{ . }}">Buy in App Store</a></p>{{ end }}
+  {{ with .app_store }}
+    <div class="buy-app-store">
+      <p>Prefer the App Store version?</p>
+      {{ with resources.Get "images/app-store-badge-black.svg" }}
+        <a href="{{ $.Params.buy.app_store }}"
+          ><img src="{{ .RelPermalink }}" width="120" height="40" alt="Download on the App Store"
+        /></a>
+      {{ end }}
+    </div>
+  {{ end }}
   {{ with $.Params.requirement }}<p class="buy-requirement">{{ . }}</p>{{ end }}
   {{ partial "app/brew.html" .brew }}
 {{ end }}

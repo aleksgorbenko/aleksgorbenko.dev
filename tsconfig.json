@@ -24,5 +24,5 @@
     "allowUnreachableCode": false,
     "allowUnusedLabels": false
   },
-  "include": ["tools", "tests", "eslint.config.ts", "playwright.config.ts", "global.d.ts"]
+  "include": ["assets/js", "tools", "tests", "eslint.config.ts", "playwright.config.ts", "global.d.ts"]
 }
