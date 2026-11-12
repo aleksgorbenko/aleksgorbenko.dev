@@ -4,6 +4,7 @@ export const PAGES = [
   "/apps/bukku/",
   "/apps/bukku/privacy-policy/",
   "/apps/bukku/release-notes/",
+  "/apps/clippu/",
   "/apps/terms/",
   "/privacy/",
   "/blog/",

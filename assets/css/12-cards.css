@@ -57,6 +57,28 @@
     font-weight: var(--weight-semibold);
   }
 
+  .app-card-status {
+    display: inline-block;
+    margin-top: var(--space-2xs);
+    padding: var(--space-3xs) var(--space-xs);
+    border: var(--border-hairline) solid currentcolor;
+    border-radius: var(--radius-full);
+    font-size: var(--text-xs);
+    font-weight: var(--weight-medium);
+  }
+
+  .app-card-status-published {
+    color: var(--colour-tip);
+  }
+
+  .app-card-status-building {
+    color: var(--colour-warning);
+  }
+
+  .app-card-status-researching {
+    color: var(--colour-note);
+  }
+
   .app-card-tagline {
     display: block;
     color: var(--colour-text-secondary);

@@ -1,0 +1,11 @@
+{{ with .Resources.Get (.Params.icon | default "") }}
+  {{ $icon := .Resize "112x webp q90" }}
+  <img src="{{ $icon.RelPermalink }}" width="{{ $icon.Width }}" height="{{ $icon.Height }}" alt="" />
+{{ else }}
+  <span class="app-card-placeholder"></span>
+{{ end }}
+<span>
+  <span class="app-card-name">{{ .Title }}</span>
+  {{ with .Params.category | default .Params.tagline }}<span class="app-card-tagline">{{ . }}</span>{{ end }}
+  {{ with .Params.status }}<span class="app-card-status app-card-status-{{ . }}">{{ . | humanize }}</span>{{ end }}
+</span>

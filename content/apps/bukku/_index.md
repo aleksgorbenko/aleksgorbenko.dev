@@ -1,6 +1,8 @@
 +++
 title = "Bukku"
 draft = false
+weight = 1
+status = "published"
 tagline = "Instant search for your browser tabs, bookmarks and history"
 description = "Find any open tab, bookmark or page from your history the moment you start typing. No plugins to install. Everything stays on your Mac."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
