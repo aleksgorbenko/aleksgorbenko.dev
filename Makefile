@@ -2,8 +2,9 @@ HUGO := mise exec -- hugo
 JAVA := mise exec -- java
 PLAYWRIGHT := node node_modules/@playwright/test/cli.js
 MODULES_CACHE := $(HOME)/Library/Caches/aleksgorbenko.dev/node_modules
-KIT_WEBSITE ?= $(HOME)/src/proj/bukku/marketing/output/website
-BUKKU_IMAGES := content/apps/bukku/images
+APP ?= bukku
+KIT_WEBSITE ?= $(HOME)/src/proj/$(APP)/marketing/output/website
+APP_IMAGES := content/apps/$(APP)/images
 LIGHTHOUSE_PAGES := / /apps/bukku/ /blog/ /we-need-to-find-new-joy-in-software/
 LIGHTHOUSE_PORT := 4399
 CSS := assets/css/*.css
@@ -44,7 +45,7 @@ serve:
 
 .PHONY: sync-assets
 sync-assets:
-	cp $(KIT_WEBSITE)/website-*_1440x1080.webp $(KIT_WEBSITE)/website-hero*_2400x1350.webp $(BUKKU_IMAGES)/
+	cp $(KIT_WEBSITE)/website-*_1440x1080.webp $(KIT_WEBSITE)/website-hero*_2400x1350.webp $(APP_IMAGES)/
 
 .PHONY: chroma
 chroma:
