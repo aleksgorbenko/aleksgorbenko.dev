@@ -5,6 +5,7 @@ weight = 1
 status = "published"
 tagline = "Instant search for your browser tabs, bookmarks and history"
 description = "Find any open tab, bookmark or page from your history the moment you start typing. No plugins to install. Everything stays on your Mac."
+promotional_text = "Early-bird price: 43% off until 1 December. Find any open tab, bookmark or page from your history the moment you start typing."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
