@@ -4,12 +4,14 @@
       {{ $buy := $.Params.buy }}
       {{ $offer := and $buy.offer_price $buy.offer_ends (time.Now.Before (time.AsTime $buy.offer_ends)) }}
       <a class="button" href="{{ . }}"
-        >Buy for
-        {{ if $offer }}
-          <s class="buy-was">€{{ lang.FormatNumber 2 $buy.price }}</s> €{{ lang.FormatNumber 2 $buy.offer_price }}
-        {{ else }}
-          €{{ lang.FormatNumber 2 $buy.price }}
-        {{ end }}</a
+        ><span
+          >Buy for
+          {{ if $offer }}
+            <s class="buy-was">€{{ lang.FormatNumber 2 $buy.price }}</s> €{{ lang.FormatNumber 2 $buy.offer_price }}
+          {{ else }}
+            €{{ lang.FormatNumber 2 $buy.price }}
+          {{ end }}</span
+        ></a
       >
     {{ end }}
     {{ with .download }}
