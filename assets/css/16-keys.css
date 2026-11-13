@@ -23,6 +23,13 @@
     line-height: var(--leading-none);
   }
 
+  .keys-or {
+    align-self: center;
+    margin-inline: var(--space-3xs);
+    color: var(--colour-text-secondary);
+    line-height: var(--leading-none);
+  }
+
   .key-wide {
     min-width: 3.5em;
   }

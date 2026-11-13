@@ -9,6 +9,9 @@
   "⎋" "Escape"
   "↑" "Up Arrow"
   "↓" "Down Arrow"
+  "←" "Left Arrow"
+  "→" "Right Arrow"
+  "⇥" "Tab"
 -}}
 {{- range findRESubmatch `\[\[([^\]]+)\]\]` $html -}}
   {{- $token := index . 0 -}}
@@ -23,14 +26,18 @@
     {{- end -}}
   {{- else -}}
     {{- $keys := slice -}}
-    {{- range split $inner " " -}}
-      {{- $name := index $names . -}}
-      {{- if $name -}}
-        {{- $keys = $keys | append (printf `<kbd><span aria-hidden="true">%s</span><span class="visually-hidden">%s</span></kbd>` . $name) -}}
-      {{- else if eq . "space" -}}
+    {{- $parts := split $inner " " -}}
+    {{- $last := sub (len $parts) 1 -}}
+    {{- range $i, $part := $parts -}}
+      {{- $name := index $names $part -}}
+      {{- if and (eq $part "/") (gt $i 0) (lt $i $last) -}}
+        {{- $keys = $keys | append `<span class="keys-or"><span aria-hidden="true">/</span><span class="visually-hidden">or</span></span>` -}}
+      {{- else if $name -}}
+        {{- $keys = $keys | append (printf `<kbd><span aria-hidden="true">%s</span><span class="visually-hidden">%s</span></kbd>` $part $name) -}}
+      {{- else if eq $part "space" -}}
         {{- $keys = $keys | append `<kbd class="key-wide">Space</kbd>` -}}
       {{- else -}}
-        {{- $keys = $keys | append (printf `<kbd>%s</kbd>` (upper .)) -}}
+        {{- $keys = $keys | append (printf `<kbd>%s</kbd>` (upper $part)) -}}
       {{- end -}}
     {{- end -}}
     {{- $replacement = printf `<span class="keys">%s</span>` (delimit $keys "") -}}

@@ -79,7 +79,7 @@ alt = "The Safari scope shown as a capsule in the search field, with Safari item
 title = "Paste in Order"
 summary = "Pick several cards and paste them in the order you picked them."
 body = """
-- [[⇧ ←]] [[⇧ →]] select a range
+- [[⇧ ← / ⇧ →]] select a range
 - [[space]] add or remove any card
 - [[↩]] paste them all
 - [[⇧ ↩]] paste them all as plain text
@@ -125,20 +125,20 @@ keys = [
 [[shortcuts]]
 group = "Search"
 keys = [
-  { keys = "↓ ⇥", action = "Go from the search field to the first card" },
-  { keys = "↑ ⇧ ⇥", action = "Go back to the search field" },
+  { keys = "↓ / ⇥", action = "Go from the search field to the first card" },
+  { keys = "↑ / ⇧ ⇥", action = "Go back to the search field" },
 ]
 
 [[shortcuts]]
 group = "Cards"
 keys = [
-  { keys = "← →", action = "Move between cards" },
-  { keys = "⇧ ← ⇧ →", action = "Select a range" },
+  { keys = "← / →", action = "Move between cards" },
+  { keys = "⇧ ← / ⇧ →", action = "Select a range" },
   { keys = "space", action = "Add the card to the selection or remove it" },
   { keys = "↩", action = "Paste the selection" },
   { keys = "⇧ ↩", action = "Paste as plain text" },
   { keys = "⌘ ⌫", action = "Delete the selection" },
-  { keys = "⌘ ⌥ ← ⌘ ⌥ →", action = "Move the selection" },
+  { keys = "⌥ ← / ⌥ →", action = "Move the selection" },
   { keys = "⌘ E", action = "Edit the text of a text or link card" },
   { keys = "⌘ Z", action = "Undo" },
   { keys = "⌘ /", action = "Show every keyboard shortcut" },
