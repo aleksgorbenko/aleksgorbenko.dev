@@ -31,7 +31,7 @@ price = 6.99
 offer_price = 3.99
 offer_ends = 2026-12-01
 devices = 3
-brew = { command = "brew install --cask bukku", show = false }
+brew = { command = "brew install --cask aleksgorbenko/tap/bukku", show = true }
 
 [open]
 title = "Instant search for tabs, bookmarks and history"
