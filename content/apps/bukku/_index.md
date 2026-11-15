@@ -24,7 +24,7 @@ tips = [
 
 [buy]
 checkout = "https://aleksgorbenko.lemonsqueezy.com/checkout/buy/b4ef8348-5e5c-42e3-8329-13b3230e2fc4"
-download = "https://aleksgorbenko.dev/apps/bukku/download/v1.0.0/Bukku-1.0.0.dmg"
+download = "https://aleksgorbenko.dev/apps/bukku/download/v1.1.0/Bukku-1.1.0.dmg"
 app_store = "https://apps.apple.com/app/id6821875606"
 trial_days = 14
 price = 6.99
