@@ -16,6 +16,14 @@
     {{ partial "app/stats.html" . }}
     {{ if .Params.shortcuts }}{{ partial "app/shortcuts.html" . }}{{ end }}
     {{ partial "app/faq.html" . }}
+    {{ partial "app/purchase.html" . }}
+    {{ if .Params.buy.checkout }}
+      {{ with try (resources.GetRemote "https://assets.lemonsqueezy.com/lemon.js") }}
+        {{ with .Value | fingerprint }}
+          <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+        {{ end }}
+      {{ end }}
+    {{ end }}
   {{ else }}
     <div class="container container-prose">
       <header class="page-header">

@@ -31,6 +31,7 @@ price = 6.99
 offer_price = 3.99
 offer_ends = 2026-12-01
 devices = 3
+macos = "15"
 brew = { command = "brew install --cask aleksgorbenko/tap/bukku", show = true }
 
 [open]

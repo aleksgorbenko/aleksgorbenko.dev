@@ -14,7 +14,7 @@
     <h1 class="hero-title" id="hero-title">{{ .Title }}</h1>
     {{ with .Params.tagline }}<p class="hero-tagline">{{ . }}</p>{{ end }}
     {{ if .Params.buy }}
-      {{ partial "app/buy.html" . }}
+      {{ partial "app/buy.html" (dict "buy" .Params.buy "brew" false) }}
     {{ else }}
       {{ with .Params.status }}
         <p class="hero-status"><span class="app-card-status app-card-status-{{ . }}">{{ . | humanize }}</span></p>

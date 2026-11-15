@@ -1,122 +1,143 @@
 @layer components {
   .buy-offer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: baseline;
-    gap: var(--space-2xs) var(--space-s);
-    margin-top: var(--space-m);
-    color: var(--colour-text-secondary);
-    font-size: var(--text-s);
-  }
-
-  .buy-offer-discount {
-    color: var(--colour-tip);
-    font-size: var(--text-m);
+    margin-top: var(--space-xs);
+    color: var(--colour-warning);
+    font-size: var(--text-xs);
     font-weight: var(--weight-semibold);
   }
 
-  .buy-offer > * + *::before {
+  .buy-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2xs) var(--space-s);
+    margin-top: var(--space-m);
+    color: var(--colour-text-secondary);
+    font-size: var(--text-xs);
+  }
+
+  .buy-meta > * + *::before {
     margin-inline-end: var(--space-s);
     color: var(--colour-text-tertiary);
     content: "·";
   }
 
+  .buy-apple {
+    width: 1em;
+    height: 1em;
+    margin-inline-end: var(--space-xs);
+    fill: currentcolor;
+  }
+
+  .purchase {
+    padding-block: var(--space-2xl);
+    border-top: var(--border-hairline) solid var(--colour-border);
+    text-align: center;
+  }
+
+  .purchase-icon {
+    margin-inline: auto;
+  }
+
+  .purchase-title {
+    margin-top: var(--space-s);
+    font-size: var(--text-xl);
+    font-weight: var(--weight-semibold);
+  }
+
   .buy-was {
-    margin-inline-end: var(--space-2xs);
+    margin-inline-start: var(--space-2xs);
     opacity: 0.6;
     font-weight: var(--weight-regular);
     text-decoration-thickness: 2px;
   }
 
-  .buy-countdown {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--space-xs);
-    color: var(--colour-warning);
-    font-variant-numeric: tabular-nums;
-    font-weight: var(--weight-semibold);
-  }
-
-  .buy-countdown-dot {
-    width: 0.5rem;
-    height: 0.5rem;
-    border-radius: var(--radius-full);
-    background: var(--colour-warning);
-    animation: buy-pulse 1.4s ease-in-out infinite;
-  }
-
-  @keyframes buy-pulse {
-    0%,
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-
-    50% {
-      opacity: 0.35;
-      transform: scale(0.7);
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .buy-countdown-dot {
-      animation: none;
-    }
-  }
-
-  .buy-app-store {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--space-xs);
-    margin-top: var(--space-l);
-    color: var(--colour-text-secondary);
-    font-size: var(--text-s);
-  }
-
-  .buy-app-store img {
-    display: block;
-    height: 2.75rem;
-    width: auto;
-  }
-
-  .buy-requirement {
-    margin-top: var(--space-s);
-    color: var(--colour-text-tertiary);
-    font-size: var(--text-xs);
-  }
-
   .buy-brew {
     margin-top: var(--space-l);
-    color: var(--colour-text-tertiary);
+    color: var(--colour-text-secondary);
     font-size: var(--text-xs);
   }
 
-  .buy-brew code {
-    display: inline-block;
-    margin-top: var(--space-2xs);
-    padding: var(--space-2xs) var(--space-s);
+  .buy-brew-command {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-s);
+    margin-top: var(--space-xs);
+    padding: var(--space-xs) var(--space-xs) var(--space-xs) var(--space-m);
     border: var(--border-hairline) solid var(--colour-border);
     border-radius: var(--radius-m);
     background: var(--colour-surface-raised);
+  }
+
+  .buy-brew code {
     color: var(--colour-text);
     font-family: var(--font-mono);
+    font-size: var(--text-s);
     user-select: all;
+  }
+
+  .buy-brew-prompt {
+    color: var(--colour-text-tertiary);
+    user-select: none;
+  }
+
+  .buy-brew-copy {
+    display: inline-grid;
+    place-items: center;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    border-radius: var(--radius-s);
+    background: transparent;
+    color: var(--colour-text-secondary);
+    cursor: pointer;
+    transition: color var(--transition), background-color var(--transition);
+  }
+
+  .buy-brew-copy:hover {
+    background: var(--colour-border);
+    color: var(--colour-text);
+  }
+
+  .buy-brew-icon {
+    grid-area: 1 / 1;
+    width: 1.125rem;
+    height: 1.125rem;
+    fill: none;
+    stroke: currentcolor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 1.75;
+  }
+
+  .buy-brew-icon-done,
+  .buy-brew-copy[data-copied] .buy-brew-icon-copy {
+    visibility: hidden;
+  }
+
+  .buy-brew-copy[data-copied] .buy-brew-icon-done {
+    visibility: visible;
+    color: var(--colour-tip);
   }
 
   .buy-actions .button {
     min-width: 14rem;
   }
 
+  .button-small {
+    min-height: 2rem;
+    margin-top: var(--space-s);
+    padding: var(--space-2xs) var(--space-m);
+    font-size: var(--text-s);
+  }
+
   @media (width < 36rem) {
-    .buy-offer {
-      flex-direction: column;
-      align-items: center;
+    .buy-meta {
+      gap: var(--space-2xs) var(--space-xs);
     }
 
-    .buy-offer > * + *::before {
-      content: none;
+    .buy-meta > * + *::before {
+      margin-inline-end: var(--space-xs);
     }
   }
 }

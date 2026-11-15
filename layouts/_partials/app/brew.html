@@ -1,6 +1,20 @@
 {{ if and . .show }}
   <div class="buy-brew">
     <p>Or install with Homebrew</p>
-    <code>{{ .command }}</code>
+    <div class="buy-brew-command">
+      <code><span class="buy-brew-prompt" aria-hidden="true">$ </span>{{ .command }}</code>
+      <button class="buy-brew-copy" type="button" data-copy="{{ .command }}" aria-label="Copy command">
+        <svg class="buy-brew-icon buy-brew-icon-copy" viewBox="0 0 24 24" aria-hidden="true">
+          <rect x="8" y="8" width="12" height="12" rx="2.5" />
+          <path d="M16 8V6.5A2.5 2.5 0 0 0 13.5 4h-7A2.5 2.5 0 0 0 4 6.5v7A2.5 2.5 0 0 0 6.5 16H8" />
+        </svg>
+        <svg class="buy-brew-icon buy-brew-icon-done" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 12.5l4.5 4.5L19 7.5" />
+        </svg>
+      </button>
+    </div>
   </div>
+  {{ with resources.Get "js/copy.ts" | js.Build (dict "minify" true) | fingerprint }}
+    <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
+  {{ end }}
 {{ end }}

@@ -1,0 +1,12 @@
+{{ with .Params.buy }}
+  <section class="purchase" aria-label="Buy {{ $.Title }}">
+    <div class="container">
+      {{ with $.Resources.Get $.Params.icon }}
+        {{ $icon := .Resize "160x webp q90" }}
+        <img class="purchase-icon" src="{{ $icon.RelPermalink }}" width="80" height="80" alt="" loading="lazy" />
+      {{ end }}
+      <h2 class="purchase-title">{{ $.Title }}</h2>
+      {{ partial "app/buy.html" (dict "buy" . "brew" true) }}
+    </div>
+  </section>
+{{ end }}
