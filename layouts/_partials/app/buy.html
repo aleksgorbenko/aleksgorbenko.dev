@@ -14,7 +14,7 @@
   {{ end }}
 </p>
 {{ with $buy.checkout }}
-  <a class="button button-secondary button-small lemonsqueezy-button" href="{{ . }}?embed=1&amp;logo=0&amp;desc=0"
+  <a class="button button-secondary button-small" href="{{ . }}" data-creem-checkout
     >Buy
     {{ if $offer }}
       €{{ lang.FormatNumber 2 $buy.offer_price }}<s class="buy-was">€{{ lang.FormatNumber 2 $buy.price }}</s>

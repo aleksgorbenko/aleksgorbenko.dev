@@ -26,9 +26,9 @@ these terms.
 
 ## Direct Purchases
 
-Licences bought outside the App Store are sold by Lemon Squeezy, my reseller and
-merchant of record. Lemon Squeezy processes the payment, charges any sales tax
-and sends the receipt. Its [buyer terms](https://www.lemonsqueezy.com/buyer-terms)
+Licences bought outside the App Store are sold by Creem, my reseller and
+merchant of record. Creem processes the payment, charges any sales tax
+and sends the receipt. Its [terms](https://www.creem.io/terms)
 apply alongside these terms.
 
 ## Software Integrity

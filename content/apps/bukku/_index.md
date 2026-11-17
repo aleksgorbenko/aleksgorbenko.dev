@@ -5,7 +5,7 @@ weight = 1
 status = "published"
 tagline = "Instant search for your browser tabs, bookmarks and history"
 description = "Find any open tab, bookmark or page from your history the moment you start typing. No plugins to install. Everything stays on your Mac."
-promotional_text = "Early-bird price: 43% off until 1 December. Find any open tab, bookmark or page from your history the moment you start typing."
+promotional_text = "EARLY-BIRD PRICE: 43% OFF UNTIL 1 DECEMBER.\nFind any open tab, bookmark or page from your history the moment you start typing."
 keywords = ["macOS", "launcher", "browser", "bookmarks", "tabs", "history", "productivity", "swift"]
 icon = "images/icon_1024x1024.png"
 hero = "images/website-hero_2400x1350.webp"
@@ -23,7 +23,7 @@ tips = [
 ]
 
 [buy]
-checkout = "https://aleksgorbenko.lemonsqueezy.com/checkout/buy/b4ef8348-5e5c-42e3-8329-13b3230e2fc4"
+checkout = "https://www.creem.io/payment/prod_1qj0M4ytXkkMSUEEzn8I2m"
 download = "https://aleksgorbenko.dev/apps/bukku/download/v1.1.0/Bukku-1.1.0.dmg"
 app_store = "https://apps.apple.com/app/id6821875606"
 trial_days = 14
@@ -38,11 +38,11 @@ brew = { command = "brew install --cask aleksgorbenko/tap/bukku", show = true }
 title = "Instant search for tabs, bookmarks and history"
 body = '''
 Bukku runs in the background and indexes all tabs, bookmarks and history from your browsers.\
-Summon it from anywhere.
+Summon it from anywhere on your Mac.
 
 Jump directly to a tab, close it, open a bookmark or any page you visited in the past, copy any link, all from the keyboard.
 
-Local, no account, no cloud, no telemetry.
+Local. No Account. No Cloud. No Telemetry.
 '''
 label = "Keyboard shortcut: Option B"
 keys = [
