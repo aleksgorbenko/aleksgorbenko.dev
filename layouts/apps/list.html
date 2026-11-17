@@ -18,7 +18,7 @@
     {{ partial "app/faq.html" . }}
     {{ partial "app/purchase.html" . }}
     {{ if .Params.buy.checkout }}
-      {{ with try (resources.GetRemote "https://assets.lemonsqueezy.com/lemon.js") }}
+      {{ with try (resources.GetRemote "https://www.creem.io/embed.js") }}
         {{ with .Value | fingerprint }}
           <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>
         {{ end }}
