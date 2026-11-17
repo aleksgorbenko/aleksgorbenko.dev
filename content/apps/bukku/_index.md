@@ -24,7 +24,7 @@ tips = [
 
 [buy]
 checkout = "https://www.creem.io/payment/prod_1qj0M4ytXkkMSUEEzn8I2m"
-download = "https://aleksgorbenko.dev/apps/bukku/download/v1.1.0/Bukku-1.1.0.dmg"
+download = "https://aleksgorbenko.dev/apps/bukku/download/latest"
 app_store = "https://apps.apple.com/app/id6821875606"
 trial_days = 14
 price = 6.99

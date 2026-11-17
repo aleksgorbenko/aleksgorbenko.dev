@@ -49,6 +49,12 @@ status = 200
 force = true
 
 [[redirects]]
+from = "/apps/bukku/download/latest"
+to = "https://github.com/aleksgorbenko/bukku-releases/releases/latest/download/Bukku.dmg"
+status = 302
+force = true
+
+[[redirects]]
 from = "/apps/bukku/download/*"
 to = "https://github.com/aleksgorbenko/bukku-releases/releases/download/:splat"
 status = 302
