@@ -40,4 +40,4 @@ url = "https://github.com/aleksgorbenko/howiwork"
 - 🧰 [LinkedIn](https://www.linkedin.com/in/aleks-gorbenko-software-engineer/)
 - 📸 [Instagram](https://www.instagram.com/aleksgbko/) - architecture | street | urban photography
 - 🎧 [Spotify](https://open.spotify.com/user/113548529?si=6f278b7b62b548b2)
-- 🏃 [Strava](https://www.strava.com/athletes/142821511)
+- 🏃 [Strava](https://www.strava.com/athletes/aleksgorbenko)
