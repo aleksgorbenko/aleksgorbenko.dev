@@ -19,7 +19,6 @@ setup: setup-tools setup-node
 
 .PHONY: setup-tools
 setup-tools:
-	brew bundle
 	mise install
 
 .PHONY: setup-node
@@ -52,7 +51,7 @@ chroma:
 	{ echo "@layer components {"; $(HUGO) gen chromastyles --style=github-dark | sed 's/^/  /'; echo "}"; } > assets/css/15-code.css
 
 .PHONY: lint
-lint: lint-makefile lint-css lint-templates lint-html lint-markdown lint-prose lint-spelling lint-toml lint-yaml lint-workflows lint-ts
+lint: lint-makefile lint-css lint-templates lint-html lint-markdown lint-prose lint-toml lint-yaml lint-workflows lint-ts
 
 .PHONY: lint-makefile
 lint-makefile:
@@ -76,12 +75,9 @@ lint-markdown:
 
 .PHONY: lint-prose
 lint-prose:
-	vale content/apps README.md
+	vale content README.md layouts
 
-.PHONY: lint-spelling
-lint-spelling:
-	bunx cspell --no-progress
-
+.PHONY:
 .PHONY: lint-toml
 lint-toml:
 	taplo lint

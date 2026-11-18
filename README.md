@@ -21,7 +21,7 @@ To learn more about me:
 | Styles, one file per component, tokens first | `assets/css/` |
 | App page features and images | `content/apps/<app>/_index.md`, `content/apps/<app>/images/` |
 | Security headers | `netlify.toml` |
-| Tool versions | `mise.toml`, `Brewfile`, `package.json` |
+| Tool versions | `mise.toml`, `package.json` |
 
 ## Development
 
@@ -42,7 +42,7 @@ make deploy-draft   # private Netlify draft URL
 | HTML output | `html-validate`, Nu HTML Checker, axe WCAG 2.2 AA, Lighthouse 100 |
 | Templates | Hugo warnings fail the build, Prettier |
 | CSS | Stylelint with token-only values and browser support, unused selectors |
-| Markdown | markdownlint, Vale, cspell (en-GB) |
+| Markdown | markdownlint, Vale (British spelling, dashes) |
 | TypeScript | ESLint strict type-checked, `tsc` strict |
 | TOML, YAML, workflows | Taplo, yamllint, actionlint, zizmor |
 | Security | CSP and headers tested in browsers, gitleaks, image metadata, SVG scripts, `bun audit` |

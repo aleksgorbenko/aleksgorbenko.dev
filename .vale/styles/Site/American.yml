@@ -1,0 +1,50 @@
+extends: existence
+message: "Use British English instead of '%s'."
+level: error
+ignorecase: true
+tokens:
+  - color
+  - colors
+  - colored
+  - center
+  - centers
+  - centered
+  - favor
+  - favorite
+  - favorites
+  - behavior
+  - behaviors
+  - honor
+  - labor
+  - neighbor
+  - gray
+  - analyze
+  - analyzed
+  - organize
+  - organized
+  - organization
+  - realize
+  - realized
+  - recognize
+  - prioritize
+  - optimize
+  - license
+  - traveled
+  - traveling
+  - canceled
+  - catalog
+  - defense
+  - practicing
+  - modeling
+  - labeled
+  - fulfill
+  - enroll
+  - judgment
+  - liter
+  - liters
+  - meter
+  - meters
+  - anymore
+  - airplane
+  - paycheck
+  - calisthenics

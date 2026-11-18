@@ -1,0 +1,5 @@
+extends: spelling
+message: "'%s' is not British English or is misspelt."
+level: error
+dictionaries:
+  - en_GB
