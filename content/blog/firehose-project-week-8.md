@@ -13,7 +13,7 @@ I have also mentioned a couple of weeks ago that I have quite a lot of algorithm
 
 I did not solve as many of them as I used to in the first weeks of the bootcamp, so this week it was my main focus to fix that. One of the things that Firehose Project founders Ken and Marco stress is the knowledge of Data Structures and Algorithms, so the course is packed with pretty challenging tasks. Each is exposing you to a new DS and a new way of thinking about the problem. For instance, I had 2 algorithms to solve that involved [Linked Lists](https://en.wikipedia.org/wiki/Linked_list) and a [Stack](https://en.wikipedia.org/wiki/Stack_(abstract_data_type)). Ruby as a language doesn't even have these types of data built-in, but it is relatively easy to implement them manually... But hell! How hard it was to reverse a Linked List, first with the use of the Stack and then without - my mind melted probably 3 times before I got it. :)
 
-By the way, one of the Firehosers (student) wrote an article on LLs [to demystify the concept.](https://medium.com/@charlie.b.ohara/what-is-a-linked-list-44a10d63cbae#.cjt4wu2z5)
+By the way, one of the Firehosers (student) wrote an article on linked lists [to demystify the concept.](https://medium.com/@charlie.b.ohara/what-is-a-linked-list-44a10d63cbae#.cjt4wu2z5)
 
 Their complexity was far more advanced than the ones that I used to solve on my 3rd and 4th weeks and each took several hours to solve. It was discouraging really, it felt like if I get one on a coding interview, I would just fail it.
 

@@ -51,7 +51,7 @@ After the book I started with the online video courses - this week I have finish
 
 Next week I aim to go for some jQuery and get my head around the Prototypical Inheritance as well as `this` keyword.
 
-Oh yeah...if you wondered how to make the code from the book work, after 2 more convoluted examples of how would you need to make a closure function around the setTimeout and make IIFE (Immediately Invoked Function Expression), author finally shows the right way (_note: that works with ES6 only_):
+Oh yeah...if you wondered how to make the code from the book work, after 2 more convoluted examples of how would you need to make a closure function around the `setTimeout` and make IIFE (Immediately Invoked Function Expression), author finally shows the right way (_note: that works with ES6 only_):
 
 ```javascript
 for (let i=1; i<=5; i++) { // change "var" for "let"

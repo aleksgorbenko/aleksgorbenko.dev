@@ -37,7 +37,7 @@ But mainly we will only use half of them while building applications. And these 
 - **GET = READ** - request a page from the server
 - **POST = CREATE** - post some content, fill in the form and send it to the server
 - **DELETE = DESTROY** - self-explanatory
-- **PATCH = UPDATE** - update the existing record and send it to the server. Eg: changing your username in the profile settings. Effectively you are changing the data in the database on the server.
+- **PATCH = UPDATE** - update the existing record and send it to the server. E.g. changing your username in the profile settings. Effectively you are changing the data in the database on the server.
 
 [Learn more about HTTP request types here.](http://www.tutorialspoint.com/http/http_requests.htm)
 

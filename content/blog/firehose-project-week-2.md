@@ -7,7 +7,7 @@ tags: ["bootcamp"]
 
 This week passed even faster than the previous one. I studied pretty much every day and learn new concept as well. The very basics of the application building were laid in the first week, now it was time to practice them and build upon more foundation.
 
-I started off this week with building the 2nd application called Nomster - a review site. As students of Firehose Project, we are free to choose which type of places we want to review. It had to be a physical place as part fo the project is to use Google Maps API. As I am based in London and I am Russian, born in Latvia - I decided to make a review site Russian and Eastern European restaurants and food shops in London.
+I started off this week with building the 2nd application called Nomster - a review site. As students of Firehose Project, we are free to choose which type of places we want to review. It had to be a physical place as part of the project is to use Google Maps API. As I am based in London and I am Russian, born in Latvia - I decided to make a review site Russian and Eastern European restaurants and food shops in London.
 
 The app is much bigger than the first one that [I have built in my first week](/firehose-project-week-1/). It has more features, such as registration, authentication, pagination, commenting, photo upload and email notifications. On top of that, there are now "Self-Directed" sections which I am supposed to figure out on my own and which were the best learning experiences this week. So far I have managed to finish the foundation of the app, play more with Bootstrap 3 and implement 4 features on top of the basic one which is to create a place:
 
@@ -31,13 +31,13 @@ Author: Nick Ginanto, StackOverFlowDuring your development in Rails, there will 
 
 These developments which you might need (user authentication, message system, asset handlers, geolocation, pagination system, linking to exterior services such as Amazon AWS, and last but not least Rails itself) are called Ruby Gems. These are ruby software packages, not necessarily relating to Rails, but since Rails is based on Ruby, 98% of the gems can be made available to your Rails webapp code.
 
-Great! Another thing that was confusing - how dow does come to use the gem correctly, do you have to know anything in advance? In short - no. Each gem is almost 100% to have documentation on GitHub, which will outline every step from installation to usage and customisation. Some gems have continuous support, some are updates not so frequently, but as a general rule keeping all the gems updated is a good practice, **except for the cases** where you are 100% sure that there is a conflict with other Gems/Rails/Ruby versions.
+Great! Another thing that was confusing - how does one come to use the gem correctly, do you have to know anything in advance? In short - no. Each gem is almost 100% to have documentation on GitHub, which will outline every step from installation to usage and customisation. Some gems have continuous support, some are updates not so frequently, but as a general rule keeping all the gems updated is a good practice, **except for the cases** where you are 100% sure that there is a conflict with other Gems/Rails/Ruby versions.
 
 Here is the list of gems that I worked with so far and found them extremely helpful:
 
 - [Figaro](https://github.com/laserlemon/figaro) - to manage your ENV (environmental) variables, such as API keys, or AWS access keys and other sensitive information that you don't want to accidentally upload to GitHub.
 - [Geocoder](https://github.com/alexreisner/geocoder) - gem that helps you to convert the address to the latitude and longitude coordinates.
-- [Simple_form](https://github.com/plataformatec/simple_form) - em...gem that makes form creations really simple...
+- [`simple_form`](https://github.com/plataformatec/simple_form) - em...gem that makes form creations really simple...
 - [Devise](https://github.com/plataformatec/devise) - a very useful gem to create the whole registration/authentication part of your app
 
 ## The First "Big" Bug
@@ -50,11 +50,13 @@ Problem was...I did 2 migrations by this time and thought that `rake db:rollback
 
 So all I had to do - run 2-step rollback command then create a new migration file and type in the new column name as per [ActiveRecord Migrations documentation](http://guides.rubyonrails.org/active_record_migrations.html#using-the-change-method):
 
+```ruby
 class FixColumnName < ActiveRecord::Migration
   def change
       rename_column :table_name, :old_column_name, :new_column_name
   end
 end
+```
 
 Restart the server - and yes, I forget to do that sometimes too :)
 

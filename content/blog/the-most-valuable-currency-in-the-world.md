@@ -25,7 +25,7 @@ You can only "save your time in your future", by not wasting it today.
 
 You can invest time into learning a new skill. That skill can allow you to fulfil a particular job. You can get that job and you can get paid for doing it. So you turn your time investment into money. Mind you, ROI is not the money here. By getting your pay cheque - you just getting a tool to get your [time] ROI.
 
-Presume, before getting this new job, you had to clean your flat/house yourself. Now you can afford to pay for a cleaner - you save 2 hours per week now. You can now perhaps spend some more on food and order it online - that saves you 1-2 hours per week on shopping. Let's say you get to save 3 hours per week now. Simple math - that's 156 hours or 6.5 full days of time saved per year. All now at your disposal. This is your ultimate ROI. How you are going to invest this time - is up to you now.
+Presume, before getting this new job, you had to clean your flat/house yourself. Now you can afford to pay for a cleaner - you save 2 hours per week now. You can now perhaps spend some more on food and order it online - that saves you 1-2 hours per week on shopping. Let's say you get to save 3 hours per week now. Simple maths - that's 156 hours or 6.5 full days of time saved per year. All now at your disposal. This is your ultimate ROI. How you are going to invest this time - is up to you now.
 
 By the way "How do I invest my time?" - is a wrong question to ask. Because let's be frank - you know the answer. You know that you should finish that online course, learn how to submit a tax return if you are self-employed (that's on my list hehe), read finally that book that you still didn't cross off your list since 2 years ago, go to the gym because your "love handles" are growing into "love wings" that flap around your body. You know that. You do.
 
@@ -66,7 +66,7 @@ A few years ago I had a conversation with one of the teachers in my institute an
 
 - Facebook
 - All messengers
-- Youtube
+- YouTube
 - News sites
 - TV
 

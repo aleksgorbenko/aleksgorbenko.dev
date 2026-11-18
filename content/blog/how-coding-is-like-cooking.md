@@ -66,7 +66,7 @@ Special constructs: Procs (Ruby)
 National Cuisines: Russian, French
 Regional Cuisines: Sichuan(China), Napoli
 Equipment: Pans, Pots
-Local Specialty Products: Harissa
+Local Speciality Products: Harissa
 
 Getting back to cooking...  I did work in the kitchen as a chef for a bit less than 2 years in total (and I include my 5-6 months on the culinary course here). I was still working for 2 more years in the hospitality industry after my kitchen endeavours and was exposed to 3* Michelin Star restaurants, which definitely helped to develop further the food creativity. It helped. I got there. I `skill_up`'ed my cooking skills quite nicely.
 

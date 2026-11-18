@@ -12,7 +12,7 @@ The last couple of weeks I have spent researching the boot camps without actuall
 
 I wasn't even looking around until I came across the blog [LearnCodeWith.Me](http://learntocodewith.me/) targeted at the beginner programmers. I signed up for it and had a quick email conversation with Laurence (founder of the blog).
 
-After mentioning that I am about to sign up with VCS, she jus casually let me know about one other boot camp that she helped develop the curriculum. Well, I had a look....which led me to check the market once again.
+After mentioning that I am about to sign up with VCS, she just casually let me know about one other boot camp that she helped develop the curriculum. Well, I had a look....which led me to check the market once again.
 
 Surprisingly, I have found several new players out there with their online offers, which naturally made me re-think my choice carefully.
 

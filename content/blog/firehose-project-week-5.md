@@ -87,7 +87,7 @@ Whatever is being contained in the arguments gets posted to the URL which would 
 
 ## You Don't Know JavaScript Book Series
 
-Or short - YDKJS. All 6 books from the series [are available for free on Github.](https://github.com/getify/You-Dont-Know-JS) This week I have finished the 1st of the series - [Up & Going.](https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going) The first part "Into Programming" can be skipped, but if you JS is new to you - I would suggest to read it through, yes some bits will be very easy to grasp if you programmed before, nonetheless there will be good snippets that help you realise just how different JavaScript already is from other languages.
+Or short - YDKJS. All 6 books from the series [are available for free on GitHub.](https://github.com/getify/You-Dont-Know-JS) This week I have finished the 1st of the series - [Up & Going.](https://github.com/getify/You-Dont-Know-JS/tree/master/up%20%26%20going) The first part "Into Programming" can be skipped, but if you JS is new to you - I would suggest to read it through, yes some bits will be very easy to grasp if you programmed before, nonetheless there will be good snippets that help you realise just how different JavaScript already is from other languages.
 
 I will list here most of the notes that I have made from the first book. In the coming weeks of the course, I hope to finish a few more and will be posting some more notes as I progress.
 
@@ -107,7 +107,7 @@ These were the parts that I found interesting, weird or entirely new for me. The
 
 ## Summary
 
-It does get easier. A little. It feels that right now I am quite comfortable with Rails and some of the gems that I have used. With the basic knowledge of Javascript, I can understand now quite a bit in an application. That is not to say that I can build one easily. I think I can - but it will require a substantial effort (Googling) at this stage.
+It does get easier. A little. It feels that right now I am quite comfortable with Rails and some of the gems that I have used. With the basic knowledge of JavaScript, I can understand now quite a bit in an application. That is not to say that I can build one easily. I think I can - but it will require a substantial effort (Googling) at this stage.
 
 I think the basics now seem to be hammered in my head and with the further stages of Flixter, the complexity will increase once again and take me out of the comfort zone. Oh and well - of course, there are algorithm challenges to be solved...CodeWars and FFC Intermediate Algorithms await me.
 

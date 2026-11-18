@@ -33,15 +33,15 @@ So to call the variables you also write them with the `$` sign. This is the onl
 
 ## A Few Good Mistakes I Have Learned From This Week
 
-### The Sequence of Gem Installation Matters: a Case of devise and simple_form
+### The Sequence of Gem Installation Matters: a Case of `devise` and `simple_form`
 
-Some gems integrate with one another, some are dependent on one another. While that sounds logical on its own, whether they **WILL** integrate with one another depends if you install them in a right sequence. While building Flixter I installed devise gem before the `simple_form`. `Devise` is responsible for user registration and logins, it creates lots of files during installation, sets the routes for you in the `routes.`rb file and...yes - creates the forms. **BUT** if it sees that the simple_form is absent, it will just fallback on default form styles. Even if you install simple_form **AFTER** - it won't work, the forms still will be broken. The solution is very simple, though - re-run the `devise` installation **AFTER** you have installed the `simple_form`. Just run:
+Some gems integrate with one another, some are dependent on one another. While that sounds logical on its own, whether they **WILL** integrate with one another depends if you install them in a right sequence. While building Flixter I installed devise gem before the `simple_form`. `Devise` is responsible for user registration and logins, it creates lots of files during installation, sets the routes for you in the `routes.`rb file and...yes - creates the forms. **BUT** if it sees that the `simple_form` is absent, it will just fallback on default form styles. Even if you install `simple_form` **AFTER** - it won't work, the forms still will be broken. The solution is very simple, though - re-run the `devise` installation **AFTER** you have installed the `simple_form`. Just run:
 
 `$ rails generate devise:views`
 
 _Note: run the command without `$`. The `$`_ symbol _just indicates a command line prompt that is ready for the input._
 
-If asked about the file conflicts - press `Y` and agree to overwrite them. That's all. If you run into more issues, check this [official simple_form post on GitHub](https://github.com/plataformatec/simple_form/wiki/Simple-Form-with-Devise).
+If asked about the file conflicts - press `Y` and agree to overwrite them. That's all. If you run into more issues, check this [official `simple_form` post on GitHub](https://github.com/plataformatec/simple_form/wiki/Simple-Form-with-Devise).
 
 ### Be Careful With Authentications in ApplicationController
 
@@ -93,7 +93,7 @@ class ChangeDataTypeMigrationName < ActiveRecord::Migration
 end
 ```
 
-## Using helper_methods and Memoization in Controllers
+## Using `helper_methods` and Memoization in Controllers
 
 Helper methods - are quite simple and incredibly useful. In your controller you declare `helper_methods :method_name`. By convention, you should declare that either right before writing the actual method or right after. I guess it depends on the style standard each company follows. I find it easier if they are before. After the declaration, this method becomes available for you to use directly in your view files.
 
@@ -106,7 +106,7 @@ Helper methods often work in tandem with something called Memoization. It is a w
   end
 ```
 
-In the example above we have a conditional assignment - `||=`. This means that if the @current_user variable has a value the new value WILL NOT be assigned, but if the variable is not assigned - the new value will be assigned. Hence, if we receive the request that should get us the same User multiple times, the query won't be executed as the instance variable already has the value. And as it is a helper_method - we can call it directly in our view. For instance:
+In the example above we have a conditional assignment - `||=`. This means that if the @current_user variable has a value the new value WILL NOT be assigned, but if the variable is not assigned - the new value will be assigned. Hence, if we receive the request that should get us the same User multiple times, the query won't be executed as the instance variable already has the value. And as it is a `helper_method` - we can call it directly in our view. For instance:
 
 ```ruby
 <p class="text-center">Hello <%= current_user.first_name %>! Welcome back!</p>

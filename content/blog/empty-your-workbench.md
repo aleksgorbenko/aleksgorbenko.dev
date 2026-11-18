@@ -80,7 +80,7 @@ Earlier it felt completely fine because:
 
 But!
 
-Every time I saw the `cmd+tab` switcher, I would see all the apps. I would *think* something about some of them, or even perform a quick action. "Oh I didn't close Xcode, let me do that" or "Oh, I completely forgot to send that message to my mom in Telegram, let me quickly do that". I would also need to find with my eyes the app I want to make active...then finally press enough `tabs`.
+Every time I saw the `cmd+tab` switcher, I would see all the apps. I would *think* something about some of them, or even perform a quick action. "Oh I didn't close Xcode, let me do that" or "Oh, I completely forgot to send that message to my mum in Telegram, let me quickly do that". I would also need to find with my eyes the app I want to make active...then finally press enough `tabs`.
 
 I found Task Manager to be a huge drain. All tasks are organised, but seeing them again and again in front me, is distracting. Now I keep it off and refer to it only when I need to mark task completed or pick up the new task.
 

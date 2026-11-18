@@ -60,7 +60,7 @@ Presume we have this formula:
 
 Strength x Passion = Amount of Success
 
-Let's say **Strength** and **Passion** would have a maximum value of 5. Which makes the maximum **Success** to equal 25. Now let's take at two guys, who are equally passionate about basketball and give them both 5 for their **Passion**. Our first guy James is 2.05m high, which gives him quite a bit of **Strength**, let it be 4. Our second guy Amos is 1.75m high...that's let's say 3. Now let's look at the math:
+Let's say **Strength** and **Passion** would have a maximum value of 5. Which makes the maximum **Success** to equal 25. Now let's take at two guys, who are equally passionate about basketball and give them both 5 for their **Passion**. Our first guy James is 2.05m high, which gives him quite a bit of **Strength**, let it be 4. Our second guy Amos is 1.75m high...that's let's say 3. Now let's look at the maths:
 
 James: 5 x 4 = 20
 

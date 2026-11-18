@@ -14,7 +14,7 @@ This week I mainly was jumping around between three learning resources for JS: F
 
 FFC is based mostly on JavaScript in general so I thought it would be a great start to go through everything that is there. They have a track which is said to take about 10 hours, but actually, you can complete it in half of that time. I then went on to complete the Firehose JS Deep Dive. I did not go through it all this week. There are a few more lessons left that are covering AJAX requests and how to make these. Luckily FFC also has a special section on it so I will complete them side by side later. Finally, SoloLearn - it's an app for iOS and Android, it has short intro courses on quite a few languages such as Python, Swift, PHP and...JS of course. I think it provided a useful exercise while I was commuting this week, but not more. Actually, it made some of the things a bit confusing. For instance, it teaches you that a Method and a Function are two different things in JS. Yes, while there is a slight difference between then, programmers are using these terms interchangeably, but the app explicitly explains it:
 
-"A Javascript function is a block of code designed to perform a particular task". Ok here it is - a function that just pops an alert in the browser:
+"A JavaScript function is a block of code designed to perform a particular task". Ok here it is - a function that just pops an alert in the browser:
 
 ```javascript
 function hello(name) {
@@ -74,7 +74,7 @@ class CommentsController < ApplicationController
 end
 ```
 
-I marked a line that has the merge command with `###`. Here is how it works. We are going to create an object `Comment` and store it in the database. Before creating it we need to validate it - comment_params method. It makes sure that the two values of Message and Rating parameters are not empty. These values will be the ones to be saved in the database. But before saving them we need to attach a `current_user` to it so we know who left the comment. This is where the merge command comes in. Effectively, it pushes one more parameter into the `comment_params`.
+I marked a line that has the merge command with `###`. Here is how it works. We are going to create an object `Comment` and store it in the database. Before creating it we need to validate it - `comment_params` method. It makes sure that the two values of Message and Rating parameters are not empty. These values will be the ones to be saved in the database. But before saving them we need to attach a `current_user` to it so we know who left the comment. This is where the merge command comes in. Effectively, it pushes one more parameter into the `comment_params`.
 
 If we would send the command to the database without the merge, it would look like this:
 

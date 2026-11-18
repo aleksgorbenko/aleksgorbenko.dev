@@ -13,7 +13,7 @@ First of all - I did _online_ bootcamp [The Firehose Project](https://www.thefir
 - 'graduation day' where employers are coming to the campus and pick the graduates for Junior positions.
 - A dedicated careers department that helps to place students in their first roles.
 
-I did receive training and support from my mentor who was also based in London and from the founders of The Firehose Project. But as you can imagine, things that work in US, might not work in UK. So here it goes, my top 6 things I have learned on my 3-month job hunting rolla costa.
+I did receive training and support from my mentor who was also based in London and from the founders of The Firehose Project. But as you can imagine, things that work in US, might not work in UK. So here it goes, my top 6 things I have learned on my 3-month job hunting roller coaster.
 
 ## A Little Boost To Get You Going
 
@@ -76,7 +76,7 @@ Go to events. Lots of them. It will pay off in offers, connections, and other un
 
 ## #4. Diversify Your Tech Skill Set
 
-Here are two options depending on the market you are in, what you are looking for and the type of bootcamp you have attended. If your bootcamp is full-stack Javascript and you are only looking for JS jobs and there are plenty in your city - keep writing JS and studying it more.
+Here are two options depending on the market you are in, what you are looking for and the type of bootcamp you have attended. If your bootcamp is full-stack JavaScript and you are only looking for JS jobs and there are plenty in your city - keep writing JS and studying it more.
 
 My bootcamp was Ruby/Rails + some JavaScript. Naturally, I have been mostly considering Ruby/Rails jobs. As it turned out there are very few Junior roles and lots of mid and senior available in London. Hence, I chose to diversify and it worked.
 
@@ -99,8 +99,8 @@ If you are close to finishing the bootcamp , here is how I would approach the jo
 ### **Research and Study**
 
 1. Look at the job boards and see if there is enough demand for the tech that you know.
-2. Make a list of tech that you lack and need to study or brush up on, based on the job specs. [Here is the 'Awesome list of Awesome Lists' on Github](https://github.com/sindresorhus/awesome) to get you started.
-3. Research, make a list of blog posts, Youtube tutorials, online courses on each subject from point 2.
+2. Make a list of tech that you lack and need to study or brush up on, based on the job specs. [Here is the 'Awesome list of Awesome Lists' on GitHub](https://github.com/sindresorhus/awesome) to get you started.
+3. Research, make a list of blog posts, YouTube tutorials, online courses on each subject from point 2.
 4. Prioritise the topics from point 2 and start studying. Every day at least a bit.
 
 ### **Job Search The SEO Way**
@@ -137,7 +137,7 @@ For the cover letter - **ALWAYS** include at least one personalised paragraph at
 
 Author: Good Afternoon,
 
-My name is Jar Jar Binks and I would like to be considered as a candidate for the ROLE at COMPANY NAME. Having looked at your company’s website I think it is a really amazing thing that you do – making SOME TASK easier and faster.
+My name is Jar Jar Binks and I would like to be considered as a candidate for the ROLE at COMPANY NAME. Having looked at your company’s website I think it is a really amazing thing that you do - making SOME TASK easier and faster.
 
 My main aim for the role that I am looking for is to be part of a project that actually matters and makes certain part/task of human life better/easier. The way I see it, the bottom line is that when people SOMETHING they can meet this need via your platform much faster. On top of everything else, I have a keen interest in RELATED FIELD TO WHAT THE COMPANY DOES and I would like to be part of COMPANY NAME cause and your mission.
 

@@ -44,7 +44,7 @@ I then read a few articles about AI...and privacy. None of them were pleasant. B
 
 ## Relapse 2
 
-Another morning, I somehow got hooked on one post, then another, and the next thing I know I read 3 more articles, I had *no plan* on even seeing. I got drained before noon. Bad. Bu then, I thought to make an experiment out of it. Just keep doing the same until the rest of the day, noting down what I did and for how long.
+Another morning, I somehow got hooked on one post, then another, and the next thing I know I read 3 more articles, I had *no plan* on even seeing. I got drained before noon. Bad. But then, I thought to make an experiment out of it. Just keep doing the same until the rest of the day, noting down what I did and for how long.
 
 At the end of the day, I looked at the list and it was abundantly clear that:
 
